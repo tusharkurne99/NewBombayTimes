@@ -1,0 +1,219 @@
+{
+  "id": "2026-08-08-midi",
+  "date": "2026-08-08",
+  "puzzle_type": "midi",
+  "size": {
+    "rows": 9,
+    "cols": 9
+  },
+  "grid": [
+    "#DQS##SDS",
+    "SOUS#WOE#",
+    "SPITBALLS",
+    "SEZ#AQUA#",
+    "S#SHIFT#M",
+    "#KHAN#IGO",
+    "CROSSWORD",
+    "#OWS#ONEI",
+    "PCS##NSW#"
+  ],
+  "numbering": {
+    "0,1": 1,
+    "0,2": 2,
+    "0,3": 3,
+    "0,6": 4,
+    "0,7": 5,
+    "1,0": 6,
+    "1,5": 7,
+    "2,0": 8,
+    "2,4": 9,
+    "3,0": 10,
+    "3,4": 11,
+    "4,2": 12,
+    "4,3": 13,
+    "4,8": 14,
+    "5,1": 15,
+    "5,6": 16,
+    "5,7": 17,
+    "6,0": 18,
+    "6,5": 19,
+    "7,1": 20,
+    "7,5": 21,
+    "8,0": 22,
+    "8,5": 23
+  },
+  "clues": {
+    "across": {
+      "1": {
+        "answer": "DQS",
+        "clue": "Six-letter prefix for a number system",
+        "length": 3,
+        "topical": false
+      },
+      "4": {
+        "answer": "SDS",
+        "clue": "Material safety testing standard organization's initials",
+        "length": 3,
+        "topical": false
+      },
+      "6": {
+        "answer": "SOUS",
+        "clue": "French cooking technique involving a pastry crust",
+        "length": 4,
+        "topical": false
+      },
+      "7": {
+        "answer": "WOE",
+        "clue": "Heartbreak's common refrain in a lament",
+        "length": 3,
+        "topical": false
+      },
+      "8": {
+        "answer": "SPITBALLS",
+        "clue": "Small, round projectiles of saliva and air",
+        "length": 9,
+        "topical": false
+      },
+      "10": {
+        "answer": "SEZ",
+        "clue": "Area of growth for small businesses overseas typically",
+        "length": 3,
+        "topical": false
+      },
+      "11": {
+        "answer": "AQUA",
+        "clue": "Color of calm ocean waters at dawn or dusk sometimes",
+        "length": 4,
+        "topical": false
+      },
+      "12": {
+        "answer": "SHIFT",
+        "clue": "Change in position or direction of work",
+        "length": 5,
+        "topical": false
+      },
+      "15": {
+        "answer": "KHAN",
+        "clue": "Cricket bowler's name mentioned as potential Test replacement",
+        "length": 4,
+        "topical": true
+      },
+      "16": {
+        "answer": "IGO",
+        "clue": "Japanese company once owned by IBM",
+        "length": 3,
+        "topical": false
+      },
+      "18": {
+        "answer": "CROSSWORD",
+        "clue": "Puzzle format often found in newspapers daily",
+        "length": 9,
+        "topical": false
+      },
+      "20": {
+        "answer": "OWS",
+        "clue": "Frustration's common response to a painful fall",
+        "length": 3,
+        "topical": false
+      },
+      "21": {
+        "answer": "ONEI",
+        "clue": "Greek mythological figure of a single eye",
+        "length": 4,
+        "topical": false
+      },
+      "22": {
+        "answer": "PCS",
+        "clue": "Military move that brings a home closer to you",
+        "length": 3,
+        "topical": false
+      },
+      "23": {
+        "answer": "NSW",
+        "clue": "Australian state often associated with kangaroos and beaches.",
+        "length": 3,
+        "topical": false
+      }
+    },
+    "down": {
+      "6": {
+        "answer": "SSSS",
+        "clue": "Snake venom's deadly signature sound effect",
+        "length": 4,
+        "topical": false
+      },
+      "1": {
+        "answer": "DOPE",
+        "clue": "Cannabis user's reputation, often unfortunately earned",
+        "length": 4,
+        "topical": false
+      },
+      "15": {
+        "answer": "KROC",
+        "clue": "Fast food mogul with a distinctive mustache style",
+        "length": 4,
+        "topical": false
+      },
+      "2": {
+        "answer": "QUIZSHOWS",
+        "clue": "Testers of general knowledge on TV or stage shows",
+        "length": 9,
+        "topical": false
+      },
+      "3": {
+        "answer": "SST",
+        "clue": "Cold layer above warm tropical clouds",
+        "length": 3,
+        "topical": false
+      },
+      "13": {
+        "answer": "HASS",
+        "clue": "Person who's always complaining about something",
+        "length": 4,
+        "topical": false
+      },
+      "9": {
+        "answer": "BAINS",
+        "clue": "French method to clean your whites",
+        "length": 5,
+        "topical": false
+      },
+      "7": {
+        "answer": "WAQF",
+        "clue": "Indian charity trust's disputed funding source",
+        "length": 4,
+        "topical": true
+      },
+      "19": {
+        "answer": "WON",
+        "clue": "Victory achieved through skill and strategy sometimes",
+        "length": 3,
+        "topical": false
+      },
+      "4": {
+        "answer": "SOLUTIONS",
+        "clue": "Answer to life's puzzles often lies within them",
+        "length": 9,
+        "topical": false
+      },
+      "5": {
+        "answer": "DELA",
+        "clue": "Fragrant flower often associated with perfumes and aromas.",
+        "length": 4,
+        "topical": false
+      },
+      "17": {
+        "answer": "GREW",
+        "clue": "Like a plant after watering sessions",
+        "length": 4,
+        "topical": false
+      },
+      "14": {
+        "answer": "MODI",
+        "clue": "Opponent gains common ground with former foe from Punjab.",
+        "length": 4,
+        "topical": true
+      }
+    }
+  }
+}

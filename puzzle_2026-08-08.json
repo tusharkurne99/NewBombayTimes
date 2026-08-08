@@ -6,86 +6,85 @@
     "cols": 5
   },
   "grid": [
-    "DIES#",
-    "URDU#",
-    "BAGEL",
-    "#NADU",
-    "#GREG"
+    "##CAB",
+    "##ABS",
+    "YSRCP",
+    "IRA##",
+    "NIT##"
   ],
   "numbering": {
-    "0,0": 1,
-    "0,1": 2,
-    "0,2": 3,
-    "0,3": 4,
-    "1,0": 5,
-    "2,0": 6,
-    "2,4": 7,
-    "3,1": 8,
-    "4,1": 9
+    "0,2": 1,
+    "0,3": 2,
+    "0,4": 3,
+    "1,2": 4,
+    "2,0": 5,
+    "2,1": 6,
+    "3,0": 7,
+    "4,0": 8
   },
   "clues": {
     "across": {
       "1": {
-        "answer": "DIES",
-        "clue": "Fever treatment gone terribly awry, in Odisha, perhaps.",
-        "length": 4,
-        "topical": true
-      },
-      "5": {
-        "answer": "URDU",
-        "clue": "Language spoken by Bollywood stars and Mughal emperors",
-        "length": 4,
-        "topical": false
-      },
-      "6": {
-        "answer": "BAGEL",
-        "clue": "Ring-shaped breakfast treat with a hole lot of charm.",
-        "length": 5,
-        "topical": false
-      },
-      "8": {
-        "answer": "NADU",
-        "clue": "Indian film star's home state",
-        "length": 4,
-        "topical": true
-      },
-      "9": {
-        "answer": "GREG",
-        "clue": "California governor's initial to sign off on proposals",
-        "length": 4,
-        "topical": true
-      }
-    },
-    "down": {
-      "1": {
-        "answer": "DUB",
-        "clue": "Faux voice on a phone call or vinyl record",
+        "answer": "CAB",
+        "clue": "Ferry vessel often used for short trips downtown",
         "length": 3,
-        "topical": false
-      },
-      "2": {
-        "answer": "IRANG",
-        "clue": "River in northeastern India's lush Manipur hills",
-        "length": 5,
-        "topical": true
-      },
-      "3": {
-        "answer": "EDGAR",
-        "clue": "Author of detective novels and a trusty hat",
-        "length": 5,
         "topical": false
       },
       "4": {
-        "answer": "SUEDE",
-        "clue": "Material often used in high-end shoes and handbags",
+        "answer": "ABS",
+        "clue": "Gym equipment often found on a six-pack figure",
+        "length": 3,
+        "topical": false
+      },
+      "5": {
+        "answer": "YSRCP",
+        "clue": "Andhra Pradesh's ruling party founder",
+        "length": 5,
+        "topical": true
+      },
+      "7": {
+        "answer": "IRA",
+        "clue": "Retirement savings plan under Reagan's tax cut",
+        "length": 3,
+        "topical": false
+      },
+      "8": {
+        "answer": "NIT",
+        "clue": "Tiny insect with a stinger that's often annoying.",
+        "length": 3,
+        "topical": false
+      }
+    },
+    "down": {
+      "5": {
+        "answer": "YIN",
+        "clue": "Chinese symbol of opposites and harmony",
+        "length": 3,
+        "topical": false
+      },
+      "6": {
+        "answer": "SRI",
+        "clue": "Cricket board seeks replacement for injured batsman's number",
+        "length": 3,
+        "topical": true
+      },
+      "1": {
+        "answer": "CARAT",
+        "clue": "Flawless gemstone unit of weight measurement",
         "length": 5,
         "topical": false
       },
-      "7": {
-        "answer": "LUG",
-        "clue": "Item moved by a muscle or beast",
+      "2": {
+        "answer": "ABC",
+        "clue": "Three letters that stand for 'A to B",
         "length": 3,
         "topical": false
+      },
+      "3": {
+        "answer": "BSP",
+        "clue": "Party with a colourful past and present leader.",
+        "length": 3,
+        "topical": true
       }
     }
   }

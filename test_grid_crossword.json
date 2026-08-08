@@ -1,0 +1,345 @@
+{
+  "size": {
+    "rows": 15,
+    "cols": 15
+  },
+  "grid": [
+    "PEEWEE#PCTS#S#U",
+    "#A#CAMERA##ROAD",
+    "CROSSEXAMINED#F",
+    "##R#T#PYARELAL#",
+    "SCARE#ATRAS#WOT",
+    "#J#ARETOO##EAP#",
+    "OPENERS#SALUTES",
+    "R#LAGS##BEDE#Z",
+    "DREDGES#MENORCA",
+    "#OPE##TARTAR#E#",
+    "USH#ALEPH#HATCH",
+    "#EASTERLY#O#I##",
+    "R#NAMBOODIRIPAD",
+    "ROTI##IMEANT#O#",
+    "B#A#IMDB#FEEBLE"
+  ],
+  "numbering": {
+    "0,0": 1,
+    "0,1": 2,
+    "0,3": 3,
+    "0,4": 4,
+    "0,5": 5,
+    "0,7": 6,
+    "0,8": 7,
+    "0,12": 8,
+    "0,14": 9,
+    "1,3": 10,
+    "1,6": 11,
+    "1,11": 12,
+    "2,0": 13,
+    "2,2": 14,
+    "2,9": 15,
+    "2,10": 16,
+    "3,6": 17,
+    "3,13": 18,
+    "4,0": 19,
+    "4,1": 20,
+    "4,3": 21,
+    "4,6": 22,
+    "4,12": 23,
+    "5,3": 24,
+    "5,5": 25,
+    "5,11": 26,
+    "6,0": 27,
+    "6,2": 28,
+    "6,8": 29,
+    "6,9": 30,
+    "6,10": 31,
+    "6,14": 32,
+    "7,2": 33,
+    "7,9": 34,
+    "8,0": 35,
+    "8,1": 36,
+    "8,6": 37,
+    "8,8": 38,
+    "8,13": 39,
+    "9,1": 40,
+    "9,6": 41,
+    "9,7": 42,
+    "10,0": 43,
+    "10,4": 44,
+    "10,5": 45,
+    "10,10": 46,
+    "10,12": 47,
+    "11,1": 48,
+    "11,3": 49,
+    "12,0": 50,
+    "12,2": 51,
+    "12,9": 52,
+    "12,11": 53,
+    "12,13": 54,
+    "13,0": 55,
+    "13,6": 56,
+    "14,4": 57,
+    "14,9": 58
+  },
+  "words": {
+    "across": {
+      "1": {
+        "answer": "PEEWEE",
+        "length": 6
+      },
+      "6": {
+        "answer": "PCTS",
+        "length": 4
+      },
+      "10": {
+        "answer": "CAMERA",
+        "length": 6
+      },
+      "12": {
+        "answer": "ROAD",
+        "length": 4
+      },
+      "13": {
+        "answer": "CROSSEXAMINED",
+        "length": 13
+      },
+      "17": {
+        "answer": "PYARELAL",
+        "length": 8
+      },
+      "19": {
+        "answer": "SCARE",
+        "length": 5
+      },
+      "22": {
+        "answer": "ATRAS",
+        "length": 5
+      },
+      "23": {
+        "answer": "WOT",
+        "length": 3
+      },
+      "24": {
+        "answer": "ARETOO",
+        "length": 6
+      },
+      "26": {
+        "answer": "EAP",
+        "length": 3
+      },
+      "27": {
+        "answer": "OPENERS",
+        "length": 7
+      },
+      "29": {
+        "answer": "SALUTES",
+        "length": 7
+      },
+      "33": {
+        "answer": "LAGS",
+        "length": 4
+      },
+      "34": {
+        "answer": "BEDE",
+        "length": 4
+      },
+      "35": {
+        "answer": "DREDGES",
+        "length": 7
+      },
+      "38": {
+        "answer": "MENORCA",
+        "length": 7
+      },
+      "40": {
+        "answer": "OPE",
+        "length": 3
+      },
+      "41": {
+        "answer": "TARTAR",
+        "length": 6
+      },
+      "43": {
+        "answer": "USH",
+        "length": 3
+      },
+      "44": {
+        "answer": "ALEPH",
+        "length": 5
+      },
+      "46": {
+        "answer": "HATCH",
+        "length": 5
+      },
+      "48": {
+        "answer": "EASTERLY",
+        "length": 8
+      },
+      "51": {
+        "answer": "NAMBOODIRIPAD",
+        "length": 13
+      },
+      "55": {
+        "answer": "ROTI",
+        "length": 4
+      },
+      "56": {
+        "answer": "IMEANT",
+        "length": 6
+      },
+      "57": {
+        "answer": "IMDB",
+        "length": 4
+      },
+      "58": {
+        "answer": "FEEBLE",
+        "length": 6
+      }
+    },
+    "down": {
+      "27": {
+        "answer": "ORD",
+        "length": 3
+      },
+      "50": {
+        "answer": "RRB",
+        "length": 3
+      },
+      "2": {
+        "answer": "EAR",
+        "length": 3
+      },
+      "20": {
+        "answer": "CJP",
+        "length": 3
+      },
+      "36": {
+        "answer": "ROSE",
+        "length": 4
+      },
+      "14": {
+        "answer": "ORA",
+        "length": 3
+      },
+      "28": {
+        "answer": "ELEPHANTA",
+        "length": 9
+      },
+      "3": {
+        "answer": "WCS",
+        "length": 3
+      },
+      "21": {
+        "answer": "RANADE",
+        "length": 6
+      },
+      "49": {
+        "answer": "SAI",
+        "length": 3
+      },
+      "4": {
+        "answer": "EASTEREGG",
+        "length": 9
+      },
+      "44": {
+        "answer": "ATM",
+        "length": 3
+      },
+      "5": {
+        "answer": "EME",
+        "length": 3
+      },
+      "25": {
+        "answer": "ERSE",
+        "length": 4
+      },
+      "45": {
+        "answer": "LEB",
+        "length": 3
+      },
+      "11": {
+        "answer": "EXPATS",
+        "length": 6
+      },
+      "37": {
+        "answer": "STEROID",
+        "length": 7
+      },
+      "6": {
+        "answer": "PRAYTO",
+        "length": 6
+      },
+      "42": {
+        "answer": "APLOMB",
+        "length": 6
+      },
+      "7": {
+        "answer": "CAMAROS",
+        "length": 7
+      },
+      "38": {
+        "answer": "MRHYDE",
+        "length": 6
+      },
+      "15": {
+        "answer": "IRA",
+        "length": 3
+      },
+      "30": {
+        "answer": "ABET",
+        "length": 4
+      },
+      "52": {
+        "answer": "IAF",
+        "length": 3
+      },
+      "16": {
+        "answer": "NES",
+        "length": 3
+      },
+      "31": {
+        "answer": "LENAHORNE",
+        "length": 9
+      },
+      "12": {
+        "answer": "REL",
+        "length": 3
+      },
+      "26": {
+        "answer": "EUDORA",
+        "length": 6
+      },
+      "53": {
+        "answer": "ITE",
+        "length": 3
+      },
+      "8": {
+        "answer": "SODAWATER",
+        "length": 9
+      },
+      "47": {
+        "answer": "TIP",
+        "length": 3
+      },
+      "18": {
+        "answer": "LOPE",
+        "length": 4
+      },
+      "39": {
+        "answer": "CEC",
+        "length": 3
+      },
+      "54": {
+        "answer": "AOL",
+        "length": 3
+      },
+      "9": {
+        "answer": "UDF",
+        "length": 3
+      },
+      "32": {
+        "answer": "SZA",
+        "length": 3
+      }
+    }
+  }
+}

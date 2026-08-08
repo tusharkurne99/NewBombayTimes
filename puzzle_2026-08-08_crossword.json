@@ -1,0 +1,476 @@
+{
+  "id": "2026-08-08-crossword",
+  "date": "2026-08-08",
+  "puzzle_type": "crossword",
+  "size": {
+    "rows": 15,
+    "cols": 15
+  },
+  "grid": [
+    "PEEWEE#PCTS#S#U",
+    "#A#CAMERA##ROAD",
+    "CROSSEXAMINED#F",
+    "##R#T#PYARELAL#",
+    "SCARE#ATRAS#WOT",
+    "#J#ARETOO##EAP#",
+    "OPENERS#SALUTES",
+    "R#LAGS##BEDE#Z",
+    "DREDGES#MENORCA",
+    "#OPE##TARTAR#E#",
+    "USH#ALEPH#HATCH",
+    "#EASTERLY#O#I##",
+    "R#NAMBOODIRIPAD",
+    "ROTI##IMEANT#O#",
+    "B#A#IMDB#FEEBLE"
+  ],
+  "numbering": {
+    "0,0": 1,
+    "0,1": 2,
+    "0,3": 3,
+    "0,4": 4,
+    "0,5": 5,
+    "0,7": 6,
+    "0,8": 7,
+    "0,12": 8,
+    "0,14": 9,
+    "1,3": 10,
+    "1,6": 11,
+    "1,11": 12,
+    "2,0": 13,
+    "2,2": 14,
+    "2,9": 15,
+    "2,10": 16,
+    "3,6": 17,
+    "3,13": 18,
+    "4,0": 19,
+    "4,1": 20,
+    "4,3": 21,
+    "4,6": 22,
+    "4,12": 23,
+    "5,3": 24,
+    "5,5": 25,
+    "5,11": 26,
+    "6,0": 27,
+    "6,2": 28,
+    "6,8": 29,
+    "6,9": 30,
+    "6,10": 31,
+    "6,14": 32,
+    "7,2": 33,
+    "7,9": 34,
+    "8,0": 35,
+    "8,1": 36,
+    "8,6": 37,
+    "8,8": 38,
+    "8,13": 39,
+    "9,1": 40,
+    "9,6": 41,
+    "9,7": 42,
+    "10,0": 43,
+    "10,4": 44,
+    "10,5": 45,
+    "10,10": 46,
+    "10,12": 47,
+    "11,1": 48,
+    "11,3": 49,
+    "12,0": 50,
+    "12,2": 51,
+    "12,9": 52,
+    "12,11": 53,
+    "12,13": 54,
+    "13,0": 55,
+    "13,6": 56,
+    "14,4": 57,
+    "14,9": 58
+  },
+  "clues": {
+    "across": {
+      "1": {
+        "answer": "PEEWEE",
+        "clue": "Child actor from a 1985 film franchise",
+        "length": 6,
+        "topical": false
+      },
+      "6": {
+        "answer": "PCTS",
+        "clue": "Fibers found in many types of plant material",
+        "length": 4,
+        "topical": false
+      },
+      "10": {
+        "answer": "CAMERA",
+        "clue": "Snap shot of the moment in time always.",
+        "length": 6,
+        "topical": false
+      },
+      "12": {
+        "answer": "ROAD",
+        "clue": "Path taken by devotees to Mantralayam from Tirupati",
+        "length": 4,
+        "topical": true
+      },
+      "13": {
+        "answer": "CROSSEXAMINED",
+        "clue": "Answer to a different angle is often scrutinized closely.",
+        "length": 13,
+        "topical": false
+      },
+      "17": {
+        "answer": "PYARELAL",
+        "clue": "Brothers jailed for India's infamous Delhi gang rape case.",
+        "length": 8,
+        "topical": true
+      },
+      "19": {
+        "answer": "SCARE",
+        "clue": "Frightening something or someone into a panic state",
+        "length": 5,
+        "topical": false
+      },
+      "22": {
+        "answer": "ATRAS",
+        "clue": "Roman province that's a bit of a drag",
+        "length": 5,
+        "topical": false
+      },
+      "23": {
+        "answer": "WOT",
+        "clue": "Short British slang term for a lot or much",
+        "length": 3,
+        "topical": false
+      },
+      "24": {
+        "answer": "ARETOO",
+        "clue": "Flower that's also a Hawaiian surname",
+        "length": 6,
+        "topical": false
+      },
+      "26": {
+        "answer": "EAP",
+        "clue": "Employee Assistance Program's acronym form",
+        "length": 3,
+        "topical": false
+      },
+      "27": {
+        "answer": "OPENERS",
+        "clue": "First impressions that set the tone always matter most.",
+        "length": 7,
+        "topical": false
+      },
+      "29": {
+        "answer": "SALUTES",
+        "clue": "Greeting military officers with a raised hand",
+        "length": 7,
+        "topical": false
+      },
+      "33": {
+        "answer": "LAGS",
+        "clue": "Delays behind a runner in a marathon race.",
+        "length": 4,
+        "topical": false
+      },
+      "34": {
+        "answer": "BEDE",
+        "clue": "Anglo-Saxon king whose fate was sealed at a monastery.",
+        "length": 4,
+        "topical": false
+      },
+      "35": {
+        "answer": "DREDGES",
+        "clue": "River equipment used to find treasure slowly.",
+        "length": 7,
+        "topical": false
+      },
+      "38": {
+        "answer": "MENORCA",
+        "clue": "Island off Sardinia's western shore?",
+        "length": 7,
+        "topical": false
+      },
+      "40": {
+        "answer": "OPE",
+        "clue": "Garden tool used to avoid a fallen tree",
+        "length": 3,
+        "topical": false
+      },
+      "41": {
+        "answer": "TARTAR",
+        "clue": "Filling on teeth often found in a salad",
+        "length": 6,
+        "topical": false
+      },
+      "43": {
+        "answer": "USH",
+        "clue": "Symbol of Japanese royalty and samurai honor",
+        "length": 3,
+        "topical": false
+      },
+      "44": {
+        "answer": "ALEPH",
+        "clue": "Hebrew letter that's first in sequence.",
+        "length": 5,
+        "topical": false
+      },
+      "46": {
+        "answer": "HATCH",
+        "clue": "New life emerges from an eggcase",
+        "length": 5,
+        "topical": false
+      },
+      "48": {
+        "answer": "EASTERLY",
+        "clue": "Direction from which spring arrives slowly",
+        "length": 8,
+        "topical": false
+      },
+      "51": {
+        "answer": "NAMBOODIRIPAD",
+        "clue": "First Communist CM of Kerala after partition",
+        "length": 13,
+        "topical": true
+      },
+      "55": {
+        "answer": "ROTI",
+        "clue": "Flatbread staple of Indian and Southeast Asian cuisine daily.",
+        "length": 4,
+        "topical": true
+      },
+      "56": {
+        "answer": "IMEANT",
+        "clue": "Formerly spoken words that didn't quite land well",
+        "length": 6,
+        "topical": false
+      },
+      "57": {
+        "answer": "IMDB",
+        "clue": "Online database of movies and TV shows' ratings",
+        "length": 4,
+        "topical": false
+      },
+      "58": {
+        "answer": "FEEBLE",
+        "clue": "Weakling of a more robust persuasion",
+        "length": 6,
+        "topical": false
+      }
+    },
+    "down": {
+      "27": {
+        "answer": "ORD",
+        "clue": "US military rank or airline code letter",
+        "length": 3,
+        "topical": false
+      },
+      "50": {
+        "answer": "RRB",
+        "clue": "Examination special trains connecting southern Hindu pilgrim sites",
+        "length": 3,
+        "topical": true
+      },
+      "2": {
+        "answer": "EAR",
+        "clue": "Achilles' vulnerable spot is located here.",
+        "length": 3,
+        "topical": false
+      },
+      "20": {
+        "answer": "CJP",
+        "clue": "Youth movement leader in Punjab, known for pests",
+        "length": 3,
+        "topical": true
+      },
+      "36": {
+        "answer": "ROSE",
+        "clue": "Flower often given to a lover on Valentine's Day",
+        "length": 4,
+        "topical": false
+      },
+      "14": {
+        "answer": "ORA",
+        "clue": "Ancient Greek sign of warning or triumph",
+        "length": 3,
+        "topical": false
+      },
+      "28": {
+        "answer": "ELEPHANTA",
+        "clue": "Mumbai's mystical island gem for Shiva devotees.",
+        "length": 9,
+        "topical": true
+      },
+      "3": {
+        "answer": "WCS",
+        "clue": "Wildlife sanctuary located on Long Island's North Shore",
+        "length": 3,
+        "topical": false
+      },
+      "21": {
+        "answer": "RANADE",
+        "clue": "Indian jurist known as Nyayamurti for his judicial reforms.",
+        "length": 6,
+        "topical": true
+      },
+      "49": {
+        "answer": "SAI",
+        "clue": "Indian cricket board's new face",
+        "length": 3,
+        "topical": true
+      },
+      "4": {
+        "answer": "EASTEREGG",
+        "clue": "Hidden message in a chocolate treat often",
+        "length": 9,
+        "topical": false
+      },
+      "44": {
+        "answer": "ATM",
+        "clue": "Device where cash is dispensed quickly outside banks",
+        "length": 3,
+        "topical": false
+      },
+      "5": {
+        "answer": "EME",
+        "clue": "French term for a group of African soldiers",
+        "length": 3,
+        "topical": false
+      },
+      "25": {
+        "answer": "ERSE",
+        "clue": "Flaw in a well-crafted argument or poem",
+        "length": 4,
+        "topical": false
+      },
+      "45": {
+        "answer": "LEB",
+        "clue": "French symbol of good luck often seen on hats",
+        "length": 3,
+        "topical": false
+      },
+      "11": {
+        "answer": "EXPATS",
+        "clue": "People living abroad by choice or fate sometimes.",
+        "length": 6,
+        "topical": false
+      },
+      "37": {
+        "answer": "STEROID",
+        "clue": "Chemical compound found in some athletic enhancements",
+        "length": 7,
+        "topical": false
+      },
+      "6": {
+        "answer": "PRAYTO",
+        "clue": "Frequent caller to a higher power, perhaps daily?",
+        "length": 6,
+        "topical": false
+      },
+      "42": {
+        "answer": "APLOMB",
+        "clue": "Ego's exaggerated display of pride and arrogance often",
+        "length": 6,
+        "topical": false
+      },
+      "7": {
+        "answer": "CAMAROS",
+        "clue": "Chevy's popular muscle car variant",
+        "length": 7,
+        "topical": false
+      },
+      "38": {
+        "answer": "MRHYDE",
+        "clue": "Poet of a mysterious demise",
+        "length": 6,
+        "topical": false
+      },
+      "15": {
+        "answer": "IRA",
+        "clue": "Retirement savings plan popular in Ireland initially",
+        "length": 3,
+        "topical": false
+      },
+      "30": {
+        "answer": "ABET",
+        "clue": "Support a student's questionable academic pursuits sometimes",
+        "length": 4,
+        "topical": false
+      },
+      "52": {
+        "answer": "IAF",
+        "clue": "Indian air force officer caught in a honey trap.",
+        "length": 3,
+        "topical": true
+      },
+      "16": {
+        "answer": "NES",
+        "clue": "Video game console of the past's initials",
+        "length": 3,
+        "topical": false
+      },
+      "31": {
+        "answer": "LENAHORNE",
+        "clue": "Flower of the American West, also a girl's name",
+        "length": 9,
+        "topical": false
+      },
+      "12": {
+        "answer": "REL",
+        "clue": "Symbol used to express strong feelings or opinions always",
+        "length": 3,
+        "topical": false
+      },
+      "26": {
+        "answer": "EUDORA",
+        "clue": "Writer of The Handmaid's Tale and The Bell Jar",
+        "length": 6,
+        "topical": false
+      },
+      "53": {
+        "answer": "ITE",
+        "clue": "Global network hub on many devices always",
+        "length": 3,
+        "topical": false
+      },
+      "8": {
+        "answer": "SODAWATER",
+        "clue": "Fizzy drink often served at outdoor events.",
+        "length": 9,
+        "topical": false
+      },
+      "47": {
+        "answer": "TIP",
+        "clue": "Ambient suggestion made to improve an experience",
+        "length": 3,
+        "topical": false
+      },
+      "18": {
+        "answer": "LOPE",
+        "clue": "Gait of a creature that's quite slow and gentle usually",
+        "length": 4,
+        "topical": false
+      },
+      "39": {
+        "answer": "CEC",
+        "clue": "Body that oversees election process in India is key player",
+        "length": 3,
+        "topical": true
+      },
+      "54": {
+        "answer": "AOL",
+        "clue": "Internet service provider from '90s nostalgia days.",
+        "length": 3,
+        "topical": false
+      },
+      "9": {
+        "answer": "UDF",
+        "clue": "Party that went silent on environmental bill in Kerala.",
+        "length": 3,
+        "topical": true
+      },
+      "32": {
+        "answer": "SZA",
+        "clue": "Rapper and singer with 'Love Your Self' hit single",
+        "length": 3,
+        "topical": false
+      }
+    }
+  }
+}

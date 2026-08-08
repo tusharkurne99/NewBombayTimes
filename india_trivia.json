@@ -56,6 +56,13 @@
     "pageviews_3mo": 154587
   },
   {
+    "word": "PANDYA",
+    "topic": "cricket",
+    "source_title": "Hardik Pandya",
+    "snippet": "Hardik Himanshu Pandya (born 11 October 1993) is an Indian international cricketer who plays for the Indian cricket team. He is an all-rounder who is a right-handed middle-order batsman and right arm fast-medium bowler.",
+    "pageviews_3mo": 139084
+  },
+  {
     "word": "JAISWAL",
     "topic": "cricket",
     "source_title": "Yashasvi Jaiswal",
@@ -182,18 +189,25 @@
     "pageviews_3mo": 81736
   },
   {
-    "word": "CHAUDHARY",
+    "word": "PANT",
     "topic": "cricket",
-    "source_title": "Nikhil Chaudhary (cricketer)",
-    "snippet": "Nikhil Chaudhary (born 4 May 1996) is an India-born Australian cricketer who plays for Tasmania, Hobart Hurricanes and the Washington Freedom. In June 2026, he earned his maiden call-up to the Australia national cricket team and made his international debut during the T20I series in Bangladesh.",
-    "pageviews_3mo": 75210
+    "source_title": "Rishabh Pant",
+    "snippet": "Rishabh Rajendra Pant (Hindi: [\u027e\u026a\u02c8\u0282\u028cb\u02b0 \u027ea\u02d0'd\u0292e\u02d0d\u032a\u027e\u0259 p\u028cnt\u032a]; born 4 October 1997) is an Indian international cricketer who plays for the Indian national team as a wicket-keeper batter. He plays for the Delhi Capitals in the Indian Premier League and Delhi in domestic cricket.",
+    "pageviews_3mo": 80150
   },
   {
-    "word": "GAIKWAD",
-    "topic": "cricket",
-    "source_title": "Ruturaj Gaikwad",
-    "snippet": "Ruturaj Dashrat Gaikwad (born 31 January 1997) is an Indian cricketer who plays for the India national cricket team. He is a right-handed top order batter.",
-    "pageviews_3mo": 74317
+    "word": "FISH",
+    "topic": "culture",
+    "source_title": "Fish and chips",
+    "snippet": "Fish and chips is a hot dish consisting of battered and fried fish, served with chips. Often considered the national dish of the United Kingdom, fish and chips originated in England in the 19th century.",
+    "pageviews_3mo": 79008
+  },
+  {
+    "word": "AND",
+    "topic": "culture",
+    "source_title": "Fish and chips",
+    "snippet": "Fish and chips is a hot dish consisting of battered and fried fish, served with chips. Often considered the national dish of the United Kingdom, fish and chips originated in England in the 19th century.",
+    "pageviews_3mo": 79008
   },
   {
     "word": "AJANTA",
@@ -320,6 +334,20 @@
     "source_title": "French toast",
     "snippet": "French toast is a dish of sliced bread soaked in beaten eggs and often milk or cream, then pan-fried. Alternative names and variants include eggy bread, Bombay toast, gypsy toast, and poor knights (of Windsor).",
     "pageviews_3mo": 49369
+  },
+  {
+    "word": "GARAM",
+    "topic": "culture",
+    "source_title": "Garam masala",
+    "snippet": "Garam masala (Hindustani: garam mas\u0101l\u0101, lit.\u2009'hot or warm spices') is a blend of ground spices originating in the Indian Subcontinent. It is common in Indian, Pakistani, Nepalese, Bangladeshi,  and Caribbean cuisines.",
+    "pageviews_3mo": 47803
+  },
+  {
+    "word": "SAGO",
+    "topic": "culture",
+    "source_title": "Sago",
+    "snippet": "Sago ()  is a starch extracted from the soft, spongy core tissue of several tropical palm species, especially Metroxylon sagu. For centuries, it has been an important traditional staple food among many indigenous communities across the islands of Southeast Asia and the Melanesian region, including Malaysia, Indonesia, and Papua New Guinea.",
+    "pageviews_3mo": 45633
   },
   {
     "word": "JAGGERY",
@@ -476,6 +504,20 @@
     "pageviews_3mo": 32498
   },
   {
+    "word": "GLUTINOUS",
+    "topic": "culture",
+    "source_title": "Glutinous rice",
+    "snippet": "Glutinous rice (Oryza sativa var. glutinosa; also called sticky rice, sweet rice or waxy rice) is a type of rice grown mainly in Southeast Asia and the northeastern regions of South Asia, which has opaque grains and very low amylose content and is especially sticky when cooked.",
+    "pageviews_3mo": 32440
+  },
+  {
+    "word": "RICE",
+    "topic": "culture",
+    "source_title": "Glutinous rice",
+    "snippet": "Glutinous rice (Oryza sativa var. glutinosa; also called sticky rice, sweet rice or waxy rice) is a type of rice grown mainly in Southeast Asia and the northeastern regions of South Asia, which has opaque grains and very low amylose content and is especially sticky when cooked.",
+    "pageviews_3mo": 32440
+  },
+  {
     "word": "SANCHI",
     "topic": "geography",
     "source_title": "Sanchi Stupa",
@@ -518,13 +560,6 @@
     "pageviews_3mo": 27988
   },
   {
-    "word": "TANDOORI",
-    "topic": "culture",
-    "source_title": "Tandoori chicken",
-    "snippet": "Tandoori chicken is a dish made from chicken marinated in yogurt and spices and roasted in a tandoor, a cylindrical clay oven. The dish is now popular worldwide.",
-    "pageviews_3mo": 27242
-  },
-  {
     "word": "RAMALINGAIAH",
     "topic": "history",
     "source_title": "Allu Ramalingaiah",
@@ -537,27 +572,6 @@
     "source_title": "Siju Sunny",
     "snippet": "Siju Sunny is an Indian actor and writer who primarily works in the Malayalam film industry. He is best known for his roles in Guruvayoor Ambalanadayil, Romancham and Vaazha \u2013 Biopic of a Billion Boys.",
     "pageviews_3mo": 25256
-  },
-  {
-    "word": "IDLI",
-    "topic": "culture",
-    "source_title": "Idli",
-    "snippet": "Idli (; plural: idlis) or idly is a South Indian and Sri Lankan rice cake popular as a breakfast food. The cakes are made by steaming a batter consisting of fermented hulled black lentils and rice.",
-    "pageviews_3mo": 25058
-  },
-  {
-    "word": "TANDOOR",
-    "topic": "culture",
-    "source_title": "Tandoor",
-    "snippet": "A tandoor ( or , Hindi: [t\u032a\u0259n\u032ad\u032au\u02d0\u027e]) is a large vase-shaped oven, usually made of clay. Since antiquity, tandoors have been used to bake unleavened flatbreads, such as roti and traditional lavash, as well as leavened ones, such as naan and tandoor bread or matnakash.",
-    "pageviews_3mo": 22123
-  },
-  {
-    "word": "CHAAT",
-    "topic": "culture",
-    "source_title": "Chaat",
-    "snippet": "Chaat, or ch\u0101t (IAST: c\u0101\u1e6d, IPA: [t\u0283a\u02d0\u0288], lit.\u2009'lick, tasting, delicacy') is a family of fried dough snacks that originated in India, typically served as an hors d'oeuvre or at roadside carts from stalls or food carts across South Asia. With its origins in Uttar Pradesh, chaat has become popular in the rest of South Asia.",
-    "pageviews_3mo": 21572
   },
   {
     "word": "HUME",
@@ -623,6 +637,20 @@
     "pageviews_3mo": 11434
   },
   {
+    "word": "PILLAI",
+    "topic": "history",
+    "source_title": "V. O. Chidambaram Pillai",
+    "snippet": "Valliappan Olaganathan Chidambaram Pillai  (5 September 1872 - 18 November 1936) was an Indian freedom fighter, lawyer, businessman, Tamil scholar, and politician. He founded the Swadeshi Steam Navigation Company in 1906 to compete against the monopoly of the British India Steam Navigation Company (BISNC).",
+    "pageviews_3mo": 11064
+  },
+  {
+    "word": "KAPOOR",
+    "topic": "culture",
+    "source_title": "Mahendra Kapoor",
+    "snippet": "Mahendra Kapoor (9 January 1934 \u2013 27 September 2008) was an Indian playback singer. In a long career spanning decades, his repertoire included popular songs such as Chalo ekbaar phir se Ajnabi ban jayen hum dono (Gumrah) and Neele Gagan ke tale (Hamraaz).",
+    "pageviews_3mo": 10998
+  },
+  {
     "word": "SINGH",
     "topic": "history",
     "source_title": "Kunwar Singh",
@@ -642,13 +670,6 @@
     "source_title": "Badruddin Tyabji",
     "snippet": "Badruddin Tyabji (10 October 1844 \u2013 19 August 1906) was an Indian lawyer, activist, and politician during the British Raj. Tyabji was the first Indian to practice as a barrister of the High Court of Bombay.",
     "pageviews_3mo": 8979
-  },
-  {
-    "word": "KOIRALA",
-    "topic": "history",
-    "source_title": "B. P. Koirala",
-    "snippet": "Bishweshwar Prasad Koirala (8 September 1914 \u2013 21 July 1982), was a Nepalese revolutionary, statesman, politician, novelist, and one of the founding leaders of the Nepali Congress. He was the first democratically elected Prime Minister of Nepal, serving from 1959 to 1960, until the royal coup of 1960 led by King Mahendra.",
-    "pageviews_3mo": 8889
   },
   {
     "word": "THIYAGARAJAH",
@@ -833,6 +854,13 @@
     "pageviews_3mo": 1469
   },
   {
+    "word": "KAK",
+    "topic": "cinema",
+    "source_title": "Mushtaq Kak",
+    "snippet": "Mushtaq Kak (1961 \u2013 19 November 2023) was an Indian theatre and television director, theatre activist and actor, known for his work on plays such as Andha Yug, Malika, and Pratibimb. Through his career, he directed around 100 plays, acted in two dozen Hindi film, and directed 30 drama series for Doordarshan.",
+    "pageviews_3mo": 1338
+  },
+  {
     "word": "KHATRI",
     "topic": "cinema",
     "source_title": "Raman Khatri",
@@ -1001,6 +1029,13 @@
     "pageviews_3mo": 23
   },
   {
+    "word": "LIENYU",
+    "topic": "geography",
+    "source_title": "Lienyu",
+    "snippet": "Lienyu, also known as Leen and Lin is one of the largest and a right bank tributary of Langnyu river with a confluence just below Noklak town. This river flows between the villages of Tsh\u00fcvau, Lingnyu and Noklak town, draining one of the largest age-old landslides called Kiamong s\u00fctaih.",
+    "pageviews_3mo": 22
+  },
+  {
     "word": "MEDIEVAL",
     "topic": "history",
     "source_title": "Medieval Meitei",
@@ -1022,24 +1057,10 @@
     "pageviews_3mo": 0
   },
   {
-    "word": "LIENYU",
-    "topic": "geography",
-    "source_title": "Lienyu",
-    "snippet": "Lienyu, also known as Leen and Lin is one of the largest and a right bank tributary of Langnyu river with a confluence just below Noklak town. This river flows between the villages of Tsh\u00fcvau, Lingnyu and Noklak town, draining one of the largest age-old landslides called Kiamong s\u00fctaih.",
-    "pageviews_3mo": 0
-  },
-  {
     "word": "PENINSULAR",
     "topic": "geography",
     "source_title": "Peninsular River System",
     "snippet": "The Peninsular River System is an Indian River System. It is one of two types of Indian River System, along with the Himalayan River System.",
-    "pageviews_3mo": 0
-  },
-  {
-    "word": "KAK",
-    "topic": "cinema",
-    "source_title": "Mushtaq Kak",
-    "snippet": "Mushtaq Kak (1961 \u2013 19 November 2023) was an Indian theatre and television director, theatre activist and actor, known for his work on plays such as Andha Yug, Malika, and Pratibimb. Through his career, he directed around 100 plays, acted in two dozen Hindi film, and directed 30 drama series for Doordarshan.",
     "pageviews_3mo": 0
   }
 ]

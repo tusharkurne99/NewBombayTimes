@@ -1,0 +1,92 @@
+{
+  "id": "2026-08-08-mini",
+  "date": "2026-08-08",
+  "puzzle_type": "mini",
+  "size": {
+    "rows": 5,
+    "cols": 5
+  },
+  "grid": [
+    "##ADO",
+    "##GEN",
+    "URINE",
+    "DAL##",
+    "FOE##"
+  ],
+  "numbering": {
+    "0,2": 1,
+    "0,3": 2,
+    "0,4": 3,
+    "1,2": 4,
+    "2,0": 5,
+    "2,1": 6,
+    "3,0": 7,
+    "4,0": 8
+  },
+  "clues": {
+    "across": {
+      "1": {
+        "answer": "ADO",
+        "clue": "Roman numeral for four or a certain bird sound",
+        "length": 3,
+        "topical": false
+      },
+      "4": {
+        "answer": "GEN",
+        "clue": "Military leader receives last salute from troops",
+        "length": 3,
+        "topical": true
+      },
+      "5": {
+        "answer": "URINE",
+        "clue": "Liquid byproduct of human digestion and exercise routines.",
+        "length": 5,
+        "topical": false
+      },
+      "7": {
+        "answer": "DAL",
+        "clue": "Begun to simmer under PM's watchful eye",
+        "length": 3,
+        "topical": true
+      },
+      "8": {
+        "answer": "FOE",
+        "clue": "Arch-nemesis of a knight in shining armor",
+        "length": 3,
+        "topical": false
+      }
+    },
+    "down": {
+      "5": {
+        "answer": "UDF",
+        "clue": "Kerala's erstwhile ruling party of communist leanings.",
+        "length": 3,
+        "topical": true
+      },
+      "6": {
+        "answer": "RAO",
+        "clue": "Birthday fete honors Karnataka's first CM of independent India",
+        "length": 3,
+        "topical": true
+      },
+      "1": {
+        "answer": "AGILE",
+        "clue": "Software development method that's nimble and fast",
+        "length": 5,
+        "topical": false
+      },
+      "2": {
+        "answer": "DEN",
+        "clue": "Inexorable winter retreat for grizzly bears sometimes.",
+        "length": 3,
+        "topical": false
+      },
+      "3": {
+        "answer": "ONE",
+        "clue": "Single digit number preceding all others always.",
+        "length": 3,
+        "topical": false
+      }
+    }
+  }
+}

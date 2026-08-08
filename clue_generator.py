@@ -121,11 +121,18 @@ def generate_clue(word, context):
 
 
 def main():
+    size_arg = sys.argv[1] if len(sys.argv) > 1 else "mini"
+    if size_arg not in ("mini", "midi", "crossword"):
+        print(f"Unknown size '{size_arg}' -- use mini, midi, or crossword")
+        sys.exit(1)
+
+    grid_path = f"test_grid_{size_arg}.json"
     try:
-        with open("test_grid.json") as f:
+        with open(grid_path) as f:
             grid = json.load(f)
     except FileNotFoundError:
-        print("test_grid.json not found -- run grid_generator.py first.")
+        print(f"{grid_path} not found -- run 'python grid_generator.py "
+              f"{size_arg}' first.")
         sys.exit(1)
 
     word_context = {}
@@ -165,15 +172,16 @@ def main():
             }
 
     puzzle = {
-        "id": f"{date.today().isoformat()}-mini",
+        "id": f"{date.today().isoformat()}-{size_arg}",
         "date": date.today().isoformat(),
+        "puzzle_type": size_arg,
         "size": grid["size"],
         "grid": grid["grid"],
         "numbering": grid["numbering"],
         "clues": clues,
     }
 
-    out_path = f"puzzle_{date.today().isoformat()}.json"
+    out_path = f"puzzle_{date.today().isoformat()}_{size_arg}.json"
     with open(out_path, "w") as f:
         json.dump(puzzle, f, indent=2)
 

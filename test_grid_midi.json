@@ -1,0 +1,160 @@
+{
+  "size": {
+    "rows": 9,
+    "cols": 9
+  },
+  "grid": [
+    "#DQS##SDS",
+    "SOUS#WOE#",
+    "SPITBALLS",
+    "SEZ#AQUA#",
+    "S#SHIFT#M",
+    "#KHAN#IGO",
+    "CROSSWORD",
+    "#OWS#ONEI",
+    "PCS##NSW#"
+  ],
+  "numbering": {
+    "0,1": 1,
+    "0,2": 2,
+    "0,3": 3,
+    "0,6": 4,
+    "0,7": 5,
+    "1,0": 6,
+    "1,5": 7,
+    "2,0": 8,
+    "2,4": 9,
+    "3,0": 10,
+    "3,4": 11,
+    "4,2": 12,
+    "4,3": 13,
+    "4,8": 14,
+    "5,1": 15,
+    "5,6": 16,
+    "5,7": 17,
+    "6,0": 18,
+    "6,5": 19,
+    "7,1": 20,
+    "7,5": 21,
+    "8,0": 22,
+    "8,5": 23
+  },
+  "words": {
+    "across": {
+      "1": {
+        "answer": "DQS",
+        "length": 3
+      },
+      "4": {
+        "answer": "SDS",
+        "length": 3
+      },
+      "6": {
+        "answer": "SOUS",
+        "length": 4
+      },
+      "7": {
+        "answer": "WOE",
+        "length": 3
+      },
+      "8": {
+        "answer": "SPITBALLS",
+        "length": 9
+      },
+      "10": {
+        "answer": "SEZ",
+        "length": 3
+      },
+      "11": {
+        "answer": "AQUA",
+        "length": 4
+      },
+      "12": {
+        "answer": "SHIFT",
+        "length": 5
+      },
+      "15": {
+        "answer": "KHAN",
+        "length": 4
+      },
+      "16": {
+        "answer": "IGO",
+        "length": 3
+      },
+      "18": {
+        "answer": "CROSSWORD",
+        "length": 9
+      },
+      "20": {
+        "answer": "OWS",
+        "length": 3
+      },
+      "21": {
+        "answer": "ONEI",
+        "length": 4
+      },
+      "22": {
+        "answer": "PCS",
+        "length": 3
+      },
+      "23": {
+        "answer": "NSW",
+        "length": 3
+      }
+    },
+    "down": {
+      "6": {
+        "answer": "SSSS",
+        "length": 4
+      },
+      "1": {
+        "answer": "DOPE",
+        "length": 4
+      },
+      "15": {
+        "answer": "KROC",
+        "length": 4
+      },
+      "2": {
+        "answer": "QUIZSHOWS",
+        "length": 9
+      },
+      "3": {
+        "answer": "SST",
+        "length": 3
+      },
+      "13": {
+        "answer": "HASS",
+        "length": 4
+      },
+      "9": {
+        "answer": "BAINS",
+        "length": 5
+      },
+      "7": {
+        "answer": "WAQF",
+        "length": 4
+      },
+      "19": {
+        "answer": "WON",
+        "length": 3
+      },
+      "4": {
+        "answer": "SOLUTIONS",
+        "length": 9
+      },
+      "5": {
+        "answer": "DELA",
+        "length": 4
+      },
+      "17": {
+        "answer": "GREW",
+        "length": 4
+      },
+      "14": {
+        "answer": "MODI",
+        "length": 4
+      }
+    }
+  }
+}

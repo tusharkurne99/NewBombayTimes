@@ -1,7 +1,27 @@
 """
 merge_sources.py
-Combines the three word sources into one pool for grid_generator.py, and
-builds a word -> clue-context map for the (upcoming) clue_generator.py.
+Combines the word sources into pools for grid_generator.py, and builds a
+word -> clue-context map for clue_generator.py.
+
+Two output pools now, not one -- Mini vs. Midi/Crossword need different
+vocabulary:
+  merged_word_bank.txt        -- Mini (5x5): word_bank.txt + trivia/news
+  midi_crossword_word_bank.txt -- Midi/Crossword: crossword_quality_words.txt
+                                   (a real crossword-community SCORED word
+                                   list, not just a valid-word list) +
+                                   trivia/news. Testing showed this is the
+                                   difference between Midi/Crossword grids
+                                   solving in under a minute at realistic
+                                   (16-20%) black-square density vs. not
+                                   solving at all with a generic dictionary
+                                   -- see build_crossword_quality_wordlist.py
+                                   and the project log for why.
+
+Also computes an "interlock_score" for every topical (news/trivia) word:
+how well-attested it is in the curated crossword-quality list (0 if it
+isn't in that list at all, meaning it's untested for how well it plays
+with other crossword words -- still fine for Mini via word_bank.txt-style
+filtering, but riskier to lean on for Midi/Crossword).
 
 Priority when a word appears in multiple sources (news is freshest/most
 specific, trivia is evergreen-but-still-specific, plain word bank has no
@@ -10,13 +30,11 @@ context at all):
 
 Run: python merge_sources.py
 Produces:
-  merged_word_bank.txt  -- full word pool for grid_generator.py
-  word_context.json     -- word -> {source, snippet, topic/score} for clues
-  priority_words.txt    -- words WITH context (news+trivia); grid_generator
-                           tries these first so real puzzles actually
-                           contain today's news / India trivia, rather than
-                           picking them only by chance against ~6000 filler
-                           words
+  merged_word_bank.txt          -- Mini word pool
+  midi_crossword_word_bank.txt  -- Midi/Crossword word pool
+  word_context.json             -- word -> {source, snippet, topic/score,
+                                     interlock_score} for clues + grid tuning
+  priority_words.txt            -- words WITH context (news+trivia)
 """
 
 import json
@@ -29,6 +47,34 @@ def load_word_bank(path):
         return set()
     with open(path) as f:
         return {w.strip().upper() for w in f if w.strip()}
+
+
+def load_quality_word_bank(path, min_score=40):
+    """
+    Returns (word_set, score_dict) from crossword_quality_words.txt
+    (WORD<tab>score per line). word_set is filtered to >= min_score for
+    use as Midi/Crossword filler; score_dict has EVERY word's score
+    (unfiltered), used separately to compute interlock_score for topical
+    words regardless of whether they clear the filler threshold.
+    """
+    if not os.path.exists(path):
+        print(f"  (skipping {path} -- not found; run "
+              f"build_crossword_quality_wordlist.py for Midi/Crossword support)")
+        return set(), {}
+
+    word_set = set()
+    score_dict = {}
+    with open(path) as f:
+        for line in f:
+            line = line.strip()
+            if not line or "\t" not in line:
+                continue
+            word, score_str = line.split("\t")
+            score = int(score_str)
+            score_dict[word] = score
+            if score >= min_score:
+                word_set.add(word)
+    return word_set, score_dict
 
 
 def load_news_candidates(path):
@@ -75,11 +121,13 @@ def main():
     print("Loading sources...")
     general = load_word_bank("word_bank.txt")
     india_generic = load_word_bank("india_word_bank.txt")
+    quality_words, quality_scores = load_quality_word_bank("crossword_quality_words.txt")
     news_ctx = load_news_candidates("candidates.json")
     trivia_ctx = load_trivia("india_trivia.json")
 
     print(f"  general word bank: {len(general)} words")
     print(f"  india word bank (no context): {len(india_generic)} words")
+    print(f"  crossword-quality word bank (score>=40): {len(quality_words)} words")
     print(f"  news candidates (with context): {len(news_ctx)} words")
     print(f"  trivia words (with context): {len(trivia_ctx)} words")
 
@@ -92,19 +140,40 @@ def main():
     for word, ctx in news_ctx.items():
         word_context[word] = ctx  # news overwrites trivia if both present
 
-    # Full pool for the grid solver = everything, deduped.
-    full_pool = general | india_generic | set(news_ctx) | set(trivia_ctx)
+    # Interlock score: how well-attested is this topical word in the
+    # curated crossword-quality list? 0 = not in that list at all (still
+    # usable, just untested for how well it interlocks -- fine for Mini,
+    # a real risk factor for Midi/Crossword where the grid is much less
+    # forgiving of an isolated/incompatible word).
+    for word, ctx in word_context.items():
+        ctx["interlock_score"] = quality_scores.get(word, 0)
 
-    print(f"\nMerged pool: {len(full_pool)} unique words")
+    # Mini pool: word_bank.txt-based, as before.
+    mini_pool = general | india_generic | set(news_ctx) | set(trivia_ctx)
+
+    # Midi/Crossword pool: crossword-quality words + all topical words
+    # (even ones with interlock_score 0 -- they're still worth TRYING to
+    # seed, since seed_priority_words() already handles a seed attempt
+    # failing gracefully; the interlock_score is there for grid_generator
+    # or a future constructor-review step to make an informed choice, not
+    # to hard-block low-scoring topical words).
+    midi_crossword_pool = quality_words | set(news_ctx) | set(trivia_ctx)
+
+    print(f"\nMini pool: {len(mini_pool)} unique words")
+    print(f"Midi/Crossword pool: {len(midi_crossword_pool)} unique words")
     print(f"Words with clue context (priority words): {len(word_context)}")
 
     with open("merged_word_bank.txt", "w") as f:
-        f.write("\n".join(sorted(full_pool)))
+        f.write("\n".join(sorted(mini_pool)))
     print("Wrote merged_word_bank.txt")
+
+    with open("midi_crossword_word_bank.txt", "w") as f:
+        f.write("\n".join(sorted(midi_crossword_pool)))
+    print("Wrote midi_crossword_word_bank.txt")
 
     with open("word_context.json", "w") as f:
         json.dump(word_context, f, indent=2)
-    print("Wrote word_context.json")
+    print("Wrote word_context.json (now includes interlock_score per word)")
 
     with open("priority_words.txt", "w") as f:
         f.write("\n".join(sorted(word_context.keys())))

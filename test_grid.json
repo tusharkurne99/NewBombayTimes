@@ -1,0 +1,70 @@
+{
+  "size": {
+    "rows": 5,
+    "cols": 5
+  },
+  "grid": [
+    "DIES#",
+    "URDU#",
+    "BAGEL",
+    "#NADU",
+    "#GREG"
+  ],
+  "numbering": {
+    "0,0": 1,
+    "0,1": 2,
+    "0,2": 3,
+    "0,3": 4,
+    "1,0": 5,
+    "2,0": 6,
+    "2,4": 7,
+    "3,1": 8,
+    "4,1": 9
+  },
+  "words": {
+    "across": {
+      "1": {
+        "answer": "DIES",
+        "length": 4
+      },
+      "5": {
+        "answer": "URDU",
+        "length": 4
+      },
+      "6": {
+        "answer": "BAGEL",
+        "length": 5
+      },
+      "8": {
+        "answer": "NADU",
+        "length": 4
+      },
+      "9": {
+        "answer": "GREG",
+        "length": 4
+      }
+    },
+    "down": {
+      "1": {
+        "answer": "DUB",
+        "length": 3
+      },
+      "2": {
+        "answer": "IRANG",
+        "length": 5
+      },
+      "3": {
+        "answer": "EDGAR",
+        "length": 5
+      },
+      "4": {
+        "answer": "SUEDE",
+        "length": 5
+      },
+      "7": {
+        "answer": "LUG",
+        "length": 3
+      }
+    }
+  }
+}

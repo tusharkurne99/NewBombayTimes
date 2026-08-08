@@ -1,0 +1,92 @@
+{
+  "id": "2026-08-08-mini",
+  "date": "2026-08-08",
+  "size": {
+    "rows": 5,
+    "cols": 5
+  },
+  "grid": [
+    "DIES#",
+    "URDU#",
+    "BAGEL",
+    "#NADU",
+    "#GREG"
+  ],
+  "numbering": {
+    "0,0": 1,
+    "0,1": 2,
+    "0,2": 3,
+    "0,3": 4,
+    "1,0": 5,
+    "2,0": 6,
+    "2,4": 7,
+    "3,1": 8,
+    "4,1": 9
+  },
+  "clues": {
+    "across": {
+      "1": {
+        "answer": "DIES",
+        "clue": "Fever treatment gone terribly awry, in Odisha, perhaps.",
+        "length": 4,
+        "topical": true
+      },
+      "5": {
+        "answer": "URDU",
+        "clue": "Language spoken by Bollywood stars and Mughal emperors",
+        "length": 4,
+        "topical": false
+      },
+      "6": {
+        "answer": "BAGEL",
+        "clue": "Ring-shaped breakfast treat with a hole lot of charm.",
+        "length": 5,
+        "topical": false
+      },
+      "8": {
+        "answer": "NADU",
+        "clue": "Indian film star's home state",
+        "length": 4,
+        "topical": true
+      },
+      "9": {
+        "answer": "GREG",
+        "clue": "California governor's initial to sign off on proposals",
+        "length": 4,
+        "topical": true
+      }
+    },
+    "down": {
+      "1": {
+        "answer": "DUB",
+        "clue": "Faux voice on a phone call or vinyl record",
+        "length": 3,
+        "topical": false
+      },
+      "2": {
+        "answer": "IRANG",
+        "clue": "River in northeastern India's lush Manipur hills",
+        "length": 5,
+        "topical": true
+      },
+      "3": {
+        "answer": "EDGAR",
+        "clue": "Author of detective novels and a trusty hat",
+        "length": 5,
+        "topical": false
+      },
+      "4": {
+        "answer": "SUEDE",
+        "clue": "Material often used in high-end shoes and handbags",
+        "length": 5,
+        "topical": false
+      },
+      "7": {
+        "answer": "LUG",
+        "clue": "Item moved by a muscle or beast",
+        "length": 3,
+        "topical": false
+      }
+    }
+  }
+}

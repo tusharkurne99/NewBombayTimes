@@ -1,4 +1,7 @@
 {
+  "id": "2026-08-09-mini",
+  "date": "2026-08-09",
+  "puzzle_type": "mini",
   "size": {
     "rows": 5,
     "cols": 5
@@ -21,48 +24,48 @@
     "3,1": 8,
     "4,2": 9
   },
-  "words": {
+  "clues": {
     "across": {
       "1": {
-        "answer": "NGT",
+        "clue": "Indian environmental regulator's report requirement",
         "length": 3
       },
       "4": {
-        "answer": "YARN",
+        "clue": "Fib that's hard to weave into something new.",
         "length": 4
       },
       "6": {
-        "answer": "CLEAR",
+        "clue": "Sunlight through the trees",
         "length": 5
       },
       "8": {
-        "answer": "ENDS",
+        "clue": "Fulfilling obligation to complete project",
         "length": 4
       },
       "9": {
-        "answer": "DAS",
+        "clue": "In Hindu tradition, this honorific prefix is often used to introduce a name.",
         "length": 3
       }
     },
     "down": {
       "1": {
-        "answer": "NYC",
+        "clue": "US city where an Indian politician serves as mayor",
         "length": 3
       },
       "2": {
-        "answer": "GALE",
+        "clue": "Strong wind blows from the north.",
         "length": 4
       },
       "3": {
-        "answer": "TREND",
+        "clue": "Indian economy's up-and-comer",
         "length": 5
       },
       "5": {
-        "answer": "NADA",
+        "clue": "Zero result in a test score",
         "length": 4
       },
       "7": {
-        "answer": "RSS",
+        "clue": "Kerala's UDF govt. accused of following this ideology",
         "length": 3
       }
     }

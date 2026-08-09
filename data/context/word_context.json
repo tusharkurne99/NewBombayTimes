@@ -17,7 +17,7 @@
     "article_link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "TAJ": {
@@ -38,7 +38,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/marathon-hit-shubman-gill-bats-for-over-an-hour-in-ncc-nets/articleshow/133063248.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "BRAR": {
@@ -62,14 +62,13 @@
     "interlock_score": 15
   },
   "KUMAR": {
-    "source": "news",
-    "snippet": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
-    "score": 3,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/basant-kumar-meghwal-creates-history-with-silver-medal-at-world-athletics-u20-championships/articleshow/133061896.cms",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "source": "trivia",
+    "snippet": "Bhuvneshwar Kumar Singh (born 5 February 1990) is an Indian cricketer who has played for the Indian cricket team in all three formats of the game. He plays for Royal Challengers Bengaluru in the Indian Premier League and Uttar Pradesh in domestic cricket.",
+    "topic": "cricket",
+    "score": 154587,
+    "wikipedia_title": "Bhuvneshwar Kumar",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bhuvneshwar_Kumar",
+    "pageviews_3mo": 154587,
     "interlock_score": 44
   },
   "PANDYA": {
@@ -104,13 +103,13 @@
   },
   "INDIA": {
     "source": "news",
-    "snippet": "Freedom fighters\u2019 patriotism inspires generations: Fadnavis on \u2018Quit India\u2019 Movement anniversary",
-    "score": 8.25,
+    "snippet": "India hands over another consignment of Bailey bridges to Sri Lanka",
+    "score": 9.25,
     "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
-    "mentions": 25,
+    "article_link": "https://www.thehindu.com/news/national/india-hands-over-another-consignment-of-bailey-bridges-to-sri-lanka/article71324530.ece",
+    "mentions": 29,
     "num_sources": 4,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "KAMBOJ": {
@@ -201,7 +200,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/i-would-have-banned-sourav-ganguly-javagal-srinath-on-steve-waughs-wait-during-2001-eden-test-toss/articleshow/133062092.cms",
     "mentions": 3,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "PARAG": {
@@ -312,7 +311,7 @@
     "article_link": "https://www.ndtv.com/world-news/yemens-houthis-claim-attack-on-aramco-refinery-on-red-sea-coast-11885963#publisher=newsstand",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "QUTB": {
@@ -353,7 +352,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/marathon-hit-shubman-gill-bats-for-over-an-hour-in-ncc-nets/articleshow/133063248.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "GHEE": {
@@ -394,7 +393,7 @@
     "article_link": "https://www.thehindu.com/news/national/west-bengal/abhishek-banerjees-personal-assistant-grilled-for-10-hours-by-bengal-police/article71322577.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "PANEER": {
@@ -635,7 +634,7 @@
     "article_link": "https://www.thehindu.com/news/national/those-who-participated-in-quit-india-movement-remain-inspiration-for-every-indian-pm-modi/article71324276.ece",
     "mentions": 4,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "NAAN": {
@@ -1319,14 +1318,13 @@
     "interlock_score": 0
   },
   "PRADHAN": {
-    "source": "news",
-    "snippet": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
-    "score": 5,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/india/gen-z-is-a-force-that-cant-be-ignored-dharmendra-pradhan/articleshow/133061131.cms",
-    "mentions": 3,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "source": "trivia",
+    "snippet": "Adrian Pradhan  (born 18 August) is a Nepalese  vocalist, composer and songwriter. He was born and raised in Kalimpong, West Bengal, India.",
+    "topic": "culture",
+    "score": 756,
+    "wikipedia_title": "Adrian Pradhan",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Adrian_Pradhan",
+    "pageviews_3mo": 756,
     "interlock_score": 0
   },
   "SAHA": {
@@ -1509,17 +1507,6 @@
     "pageviews_3mo": 17,
     "interlock_score": 0
   },
-  "HORMUZ": {
-    "source": "news",
-    "snippet": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
-    "score": 14,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
-    "mentions": 6,
-    "num_sources": 4,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 24
-  },
   "WEST": {
     "source": "news",
     "snippet": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
@@ -1528,19 +1515,19 @@
     "article_link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
     "mentions": 6,
     "num_sources": 3,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
-  "WORLD": {
+  "HORMUZ": {
     "source": "news",
-    "snippet": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
-    "score": 10,
+    "snippet": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
+    "score": 11,
     "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
-    "mentions": 6,
-    "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 50
+    "article_link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
+    "mentions": 5,
+    "num_sources": 3,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 24
   },
   "CANADA": {
     "source": "news",
@@ -1550,7 +1537,7 @@
     "article_link": "https://www.thehindu.com/news/international/man-arrested-7-months-after-indian-womans-murder-in-canada/article71324231.ece",
     "mentions": 4,
     "num_sources": 3,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "DELHI": {
@@ -1561,7 +1548,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Delhi/delhi-crosses-august-rainfall-average-in-first-eight-days/article71324193.ece",
     "mentions": 6,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "SHANGHAI": {
@@ -1572,30 +1559,19 @@
     "article_link": "https://www.thehindu.com/news/international/shanghai-flight-cancels-as-china-prepares-for-typhoon-dolphin/article71324067.ece",
     "mentions": 4,
     "num_sources": 3,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 46
   },
-  "MESSI": {
+  "WORLD": {
     "source": "news",
-    "snippet": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
-    "score": 10,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
-    "mentions": 6,
-    "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 44
-  },
-  "KERALA": {
-    "source": "news",
-    "snippet": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
+    "snippet": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
     "score": 9,
     "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/national/indian-navy-joins-search-for-three-fishermen-missing-after-boat-mishaps-in-kerala/article71324425.ece",
+    "article_link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
     "mentions": 5,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 30
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
   },
   "YEMEN": {
     "source": "news",
@@ -1605,7 +1581,7 @@
     "article_link": "https://www.thehindu.com/news/international/fire-extinguished-at-aramco-facility-in-jizan-says-saudi-arabia/article71324246.ece",
     "mentions": 5,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "BARAMATI": {
@@ -1616,7 +1592,7 @@
     "article_link": "https://www.thehindu.com/news/national/maharashtra/baramati-trainer-aircraft-crash-updates-august-9-2026/article71324357.ece",
     "mentions": 3,
     "num_sources": 3,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "CENTRE": {
@@ -1627,8 +1603,19 @@
     "article_link": "https://www.thehindu.com/news/cities/Madurai/farmers-association-welcomes-tamil-nadu-cm-vijays-move-on-linking-godavari-cauvery-gundar-rivers/article71324121.ece",
     "mentions": 5,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 36
+  },
+  "QUIT": {
+    "source": "news",
+    "snippet": "Congress calls for defence of Constitution and democracy in spirit of Quit India movement",
+    "score": 8,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/national/telangana/congress-calls-for-defence-of-constitution-and-democracy-in-spirit-of-quit-india-movement/article71324493.ece",
+    "mentions": 6,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
   },
   "MAHARASHTRA": {
     "source": "news",
@@ -1638,8 +1625,19 @@
     "article_link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
     "mentions": 4,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 32
+  },
+  "KERALA": {
+    "source": "news",
+    "snippet": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
+    "score": 8,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/national/indian-navy-joins-search-for-three-fishermen-missing-after-boat-mishaps-in-kerala/article71324425.ece",
+    "mentions": 4,
+    "num_sources": 2,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 30
   },
   "VIJAY": {
     "source": "news",
@@ -1649,19 +1647,8 @@
     "article_link": "https://www.thehindu.com/news/cities/Madurai/farmers-association-welcomes-tamil-nadu-cm-vijays-move-on-linking-godavari-cauvery-gundar-rivers/article71324121.ece",
     "mentions": 4,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 31
-  },
-  "JAPAN": {
-    "source": "news",
-    "snippet": "Woman tries Japan\u2019s \u2018rent-a-dad\u2019 service and finds goodbye unexpectedly hard",
-    "score": 8,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/life-style/travel/news/woman-tries-rent-a-dad-in-japan-for-the-first-time-i-kind-of-felt-like-a-daughter-and-saying-goodbye-was-harder-than-i-expected/articleshow/133064973.cms",
-    "mentions": 4,
-    "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 50
   },
   "LEE": {
     "source": "news",
@@ -1671,7 +1658,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
     "mentions": 6,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "IRELAND": {
@@ -1682,7 +1669,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
     "mentions": 4,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 49
   },
   "UMAR": {
@@ -1693,7 +1680,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
     "mentions": 3,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 30
   },
   "KHALID": {
@@ -1704,7 +1691,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
     "mentions": 3,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "ISRAEL": {
@@ -1715,7 +1702,7 @@
     "article_link": "https://www.thehindu.com/news/national/andhra-pradesh/seafarers-hold-silent-protest-in-visakhapatnam-against-killings-in-war-zones/article71324314.ece",
     "mentions": 3,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "SHAH": {
@@ -1726,7 +1713,7 @@
     "article_link": "https://www.thehindu.com/news/cities/puducherry/new-criminal-laws-introduced-to-provide-speedy-justice-to-citizens-union-home-minister-amit-shah/article71324260.ece",
     "mentions": 3,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "STEVE": {
@@ -1737,7 +1724,7 @@
     "article_link": "https://www.thehindu.com/news/international/pentagon-pushes-defence-companies-to-boost-weapons-production-after-concerns-of-depleted-stocks/article71324197.ece",
     "mentions": 3,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "PRAKHAR": {
@@ -1748,7 +1735,7 @@
     "article_link": "https://timesofindia.indiatimes.com/city/lucknow/married-25-women-using-fake-ids-bjp-mla-alleges-he-was-duped-into-marrying-his-daughter-to-conman/articleshow/133061517.cms",
     "mentions": 3,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "KASHMIR": {
@@ -1759,8 +1746,19 @@
     "article_link": "https://www.ndtv.com/india-news/after-recent-terror-attacks-cops-raid-26-locations-in-jammu-and-kashmirs-sopore-11885392#publisher=newsstand",
     "mentions": 3,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 44
+  },
+  "BANERJEE": {
+    "source": "news",
+    "snippet": "Mamata visits residence of Trinamool worker who died in police custody, faces protests",
+    "score": 6,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/national/west-bengal/mamata-visits-residence-of-trinamool-worker-who-died-in-police-custody-faces-protests/article71324471.ece",
+    "mentions": 4,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
   },
   "JNU": {
     "source": "news",
@@ -1770,30 +1768,19 @@
     "article_link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
     "mentions": 2,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
-  "QUIT": {
+  "GAUTAM": {
     "source": "news",
-    "snippet": "Freedom fighters\u2019 patriotism inspires generations: Fadnavis on \u2018Quit India\u2019 Movement anniversary",
+    "snippet": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
     "score": 6,
     "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
-    "mentions": 4,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 50
-  },
-  "GEN": {
-    "source": "news",
-    "snippet": "Be aware of external forces trying to mislead you through social media: Odisha CM to Gen Z",
-    "score": 6,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/national/odisha/be-aware-of-external-forces-trying-to-mislead-you-through-social-media-odisha-cm-to-gen-z/article71324382.ece",
+    "article_link": "https://www.thehindu.com/news/national/indian-navy-joins-search-for-three-fishermen-missing-after-boat-mishaps-in-kerala/article71324425.ece",
     "mentions": 2,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 50
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
   },
   "RSS": {
     "source": "news",
@@ -1803,7 +1790,7 @@
     "article_link": "https://www.thehindu.com/news/national/kerala/vande-mataram-row-keralas-udf-govt-again-faces-allegations-of-toeing-the-rss-line/article71324212.ece",
     "mentions": 2,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 46
   },
   "JAMMU": {
@@ -1814,7 +1801,7 @@
     "article_link": "https://www.thehindu.com/news/national/jammu-and-kashmir/man-killed-after-being-hit-by-vehicle-in-deputy-cms-cavalcade-in-jammu/article71324273.ece",
     "mentions": 2,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 24
   },
   "BIHAR": {
@@ -1825,7 +1812,7 @@
     "article_link": "https://www.thehindu.com/news/national/jammu-and-kashmir/man-killed-after-being-hit-by-vehicle-in-deputy-cms-cavalcade-in-jammu/article71324273.ece",
     "mentions": 2,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 23
   },
   "PENTAGON": {
@@ -1836,7 +1823,7 @@
     "article_link": "https://www.thehindu.com/news/international/pentagon-pushes-defence-companies-to-boost-weapons-production-after-concerns-of-depleted-stocks/article71324197.ece",
     "mentions": 2,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 42
   },
   "VANCE": {
@@ -1847,7 +1834,7 @@
     "article_link": "https://www.thehindu.com/news/national/jd-vance-dials-pm-modi/article71322798.ece",
     "mentions": 2,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 42
   },
   "RAHUL": {
@@ -1858,7 +1845,7 @@
     "article_link": "https://www.thehindu.com/news/national/uttar-pradesh/youth-indias-biggest-strength-its-potential-unmatched-rahul-gandhi-in-prayagraj/article71322354.ece",
     "mentions": 2,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "MLA": {
@@ -1869,7 +1856,7 @@
     "article_link": "https://timesofindia.indiatimes.com/city/lucknow/married-25-women-using-fake-ids-bjp-mla-alleges-he-was-duped-into-marrying-his-daughter-to-conman/articleshow/133061517.cms",
     "mentions": 2,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 29
   },
   "RAGHUVANSHI": {
@@ -1880,8 +1867,19 @@
     "article_link": "https://timesofindia.indiatimes.com/city/indore/raja-raghuvanshis-brothers-booked-for-serving-liquor-without-licence-at-familys-dhaba-in-indore/articleshow/133058721.cms",
     "mentions": 4,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
+  },
+  "MESSI": {
+    "source": "news",
+    "snippet": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
+    "score": 6,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
+    "mentions": 4,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 44
   },
   "AUSTRALIA": {
     "source": "news",
@@ -1891,7 +1889,7 @@
     "article_link": "https://www.ndtv.com/world-news/crew-member-injured-in-near-collision-at-sydney-airport-probe-on-11885926#publisher=newsstand",
     "mentions": 2,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 47
   },
   "UNION": {
@@ -1902,18 +1900,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
     "mentions": 3,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 50
-  },
-  "IRAN": {
-    "source": "news",
-    "snippet": "Seafarers hold silent protest in Visakhapatnam against killings in war zones",
-    "score": 5.0,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/national/andhra-pradesh/seafarers-hold-silent-protest-in-visakhapatnam-against-killings-in-war-zones/article71324314.ece",
-    "mentions": 12,
-    "num_sources": 4,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "UNITED": {
@@ -1924,7 +1911,7 @@
     "article_link": "https://www.thehindu.com/news/national/andhra-pradesh/seafarers-hold-silent-protest-in-visakhapatnam-against-killings-in-war-zones/article71324314.ece",
     "mentions": 3,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "TIRUPATI": {
@@ -1935,18 +1922,7 @@
     "article_link": "https://www.thehindu.com/news/national/andhra-pradesh/government-to-transform-amaravati-vizag-tirupati-into-mega-cities-says-minister/article71321885.ece",
     "mentions": 3,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
-  },
-  "BENGALURU": {
-    "source": "news",
-    "snippet": "Two killed, 25 injured as Kerala SRTC bus crashes into signboard on Bengaluru-Mysuru Highway",
-    "score": 5,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/cities/bangalore/two-killed-25-injured-as-kerala-srtc-bus-crashes-into-signboard-on-bengaluru-mysuru-highway/article71321257.ece",
-    "mentions": 3,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "KSRTC": {
@@ -1957,18 +1933,7 @@
     "article_link": "https://www.thehindu.com/news/national/kerala/host-of-issues-cited-as-reasons-for-road-accidents-involving-ksrtc-buses/article71321779.ece",
     "mentions": 3,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
-  },
-  "BANERJEE": {
-    "source": "news",
-    "snippet": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
-    "score": 5,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/national/west-bengal/abhishek-banerjees-personal-assistant-grilled-for-10-hours-by-bengal-police/article71322577.ece",
-    "mentions": 3,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "ROHIT": {
@@ -1979,7 +1944,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/you-cant-go-series-by-series-ajinkya-rahane-demands-clarity-over-rohit-sharmas-world-cup-spot/articleshow/133065057.cms",
     "mentions": 3,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "NIKE": {
@@ -1990,7 +1955,7 @@
     "article_link": "https://timesofindia.indiatimes.com/technology/tech-news/in-1997-after-returning-to-apple-11-years-after-he-was-fired-from-the-company-he-founded-steve-jobs-at-staff-townhall-nike-sells-shoes-and-yet-/articleshow/133063854.cms",
     "mentions": 3,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "CURRY": {
@@ -2001,7 +1966,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/nba/top-stories/stephen-curry-and-ayesha-curry-mark-a-major-100-million-milestone-as-their-foundation-continues-changing-lives/articleshow/133059172.cms",
     "mentions": 3,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 42
   },
   "MAHOMES": {
@@ -2012,7 +1977,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/nfl/news/patrick-mahomes-million-dollar-collection-i-try-to-invest-in-stuff-that-i-truly-believe-in-from-luxury-cars-and-watches-to-mansions-and-his-biggest-investments/articleshow/133054669.cms",
     "mentions": 3,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "BRETT": {
@@ -2023,7 +1988,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
     "mentions": 3,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "KALLIS": {
@@ -2034,7 +1999,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
     "mentions": 3,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "TRIVEDI": {
@@ -2045,8 +2010,19 @@
     "article_link": "https://timesofindia.indiatimes.com/city/lucknow/married-25-women-using-fake-ids-bjp-mla-alleges-he-was-duped-into-marrying-his-daughter-to-conman/articleshow/133061517.cms",
     "mentions": 3,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
+  },
+  "IRAN": {
+    "source": "news",
+    "snippet": "Seafarers hold silent protest in Visakhapatnam against killings in war zones",
+    "score": 4.75,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/national/andhra-pradesh/seafarers-hold-silent-protest-in-visakhapatnam-against-killings-in-war-zones/article71324314.ece",
+    "mentions": 11,
+    "num_sources": 4,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
   },
   "CHINA": {
     "source": "news",
@@ -2056,40 +2032,29 @@
     "article_link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
     "mentions": 10,
     "num_sources": 4,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
-  "DAY": {
+  "BAILEY": {
     "source": "news",
-    "snippet": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+    "snippet": "India hands over another consignment of Bailey bridges to Sri Lanka",
     "score": 4,
     "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
+    "article_link": "https://www.thehindu.com/news/national/india-hands-over-another-consignment-of-bailey-bridges-to-sri-lanka/article71324530.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 50
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 45
   },
-  "BJP": {
+  "MAMATA": {
     "source": "news",
-    "snippet": "BJP, JD(S) launch padayatra against Bidadi township project",
+    "snippet": "Mamata visits residence of Trinamool worker who died in police custody, faces protests",
     "score": 4,
     "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/cities/bangalore/bjp-jds-launch-padayatra-against-bidadi-township-project/article71324362.ece",
+    "article_link": "https://www.thehindu.com/news/national/west-bengal/mamata-visits-residence-of-trinamool-worker-who-died-in-police-custody-faces-protests/article71324471.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
-  },
-  "BIDADI": {
-    "source": "news",
-    "snippet": "BJP, JD(S) launch padayatra against Bidadi township project",
-    "score": 4,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/cities/bangalore/bjp-jds-launch-padayatra-against-bidadi-township-project/article71324362.ece",
-    "mentions": 2,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SABHA": {
@@ -2100,7 +2065,40 @@
     "article_link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "DAY": {
+    "source": "news",
+    "snippet": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+    "score": 4,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
+    "mentions": 2,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
+  },
+  "BJP": {
+    "source": "news",
+    "snippet": "BJP, JD(S) launch padayatra against Bidadi township project",
+    "score": 4,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/cities/bangalore/bjp-jds-launch-padayatra-against-bidadi-township-project/article71324362.ece",
+    "mentions": 2,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "BIDADI": {
+    "source": "news",
+    "snippet": "BJP, JD(S) launch padayatra against Bidadi township project",
+    "score": 4,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/cities/bangalore/bjp-jds-launch-padayatra-against-bidadi-township-project/article71324362.ece",
+    "mentions": 2,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "ANBUMANI": {
@@ -2111,7 +2109,7 @@
     "article_link": "https://www.thehindu.com/news/national/tamil-nadu/fund-allocation-for-education-in-tamil-nadu-falls-to-one-third-in-25-years-pmk-mp-anbumani-ramadoss/article71321743.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "FFSC": {
@@ -2122,7 +2120,7 @@
     "article_link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SPACE": {
@@ -2133,7 +2131,7 @@
     "article_link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "TEHRAN": {
@@ -2144,7 +2142,7 @@
     "article_link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "ODISHA": {
@@ -2155,7 +2153,7 @@
     "article_link": "https://www.thehindu.com/news/national/odisha/be-aware-of-external-forces-trying-to-mislead-you-through-social-media-odisha-cm-to-gen-z/article71324382.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "VANDE": {
@@ -2166,7 +2164,7 @@
     "article_link": "https://www.thehindu.com/news/national/kerala/vande-mataram-row-keralas-udf-govt-again-faces-allegations-of-toeing-the-rss-line/article71324212.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "MATARAM": {
@@ -2177,7 +2175,7 @@
     "article_link": "https://www.thehindu.com/news/national/kerala/vande-mataram-row-keralas-udf-govt-again-faces-allegations-of-toeing-the-rss-line/article71324212.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "RAMESH": {
@@ -2188,7 +2186,7 @@
     "article_link": "https://www.thehindu.com/news/national/kerala/vande-mataram-row-keralas-udf-govt-again-faces-allegations-of-toeing-the-rss-line/article71324212.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "IMD": {
@@ -2199,7 +2197,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Delhi/delhi-crosses-august-rainfall-average-in-first-eight-days/article71324193.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "TAMIL": {
@@ -2210,7 +2208,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Madurai/farmers-association-welcomes-tamil-nadu-cm-vijays-move-on-linking-godavari-cauvery-gundar-rivers/article71324121.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "JAMAAT": {
@@ -2221,7 +2219,7 @@
     "article_link": "https://www.thehindu.com/news/national/jammu-and-kashmir/jk-police-searches-sopore-uapa-probe-jamaat-e-islami/article71324085.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "ISLAMI": {
@@ -2232,19 +2230,8 @@
     "article_link": "https://www.thehindu.com/news/national/jammu-and-kashmir/jk-police-searches-sopore-uapa-probe-jamaat-e-islami/article71324085.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
-  },
-  "MADRAS": {
-    "source": "news",
-    "snippet": "Madras Day 2026: the humble typewriter keeps clacking despite the digital takeover",
-    "score": 4,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/cities/chennai/the-humble-typewriter-keeps-clacking-despite-the-digital-takeover/article71321515.ece",
-    "mentions": 2,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 43
   },
   "ABHISHEK": {
     "source": "news",
@@ -2254,7 +2241,7 @@
     "article_link": "https://www.thehindu.com/news/national/west-bengal/abhishek-banerjees-personal-assistant-grilled-for-10-hours-by-bengal-police/article71322577.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "CEG": {
@@ -2265,7 +2252,7 @@
     "article_link": "https://www.thehindu.com/news/national/tamil-nadu/ceg-alumni-warn-about-possible-damage-to-heritage-cupolas-during-widening-of-sardar-patel-road/article71321483.ece",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "MALAYSIA": {
@@ -2276,7 +2263,7 @@
     "article_link": "https://timesofindia.indiatimes.com/city/kolkata/laser-beam-disorients-pilot-malaysia-airlines-flight-circles-before-safe-landing-in-kolkata/articleshow/133065054.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 37
   },
   "KOLKATA": {
@@ -2287,7 +2274,7 @@
     "article_link": "https://timesofindia.indiatimes.com/city/kolkata/laser-beam-disorients-pilot-malaysia-airlines-flight-circles-before-safe-landing-in-kolkata/articleshow/133065054.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 38
   },
   "RAHANE": {
@@ -2298,7 +2285,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/you-cant-go-series-by-series-ajinkya-rahane-demands-clarity-over-rohit-sharmas-world-cup-spot/articleshow/133065057.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SHARMA": {
@@ -2309,30 +2296,41 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/you-cant-go-series-by-series-ajinkya-rahane-demands-clarity-over-rohit-sharmas-world-cup-spot/articleshow/133065057.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 24
   },
-  "DELL": {
+  "KARTIK": {
     "source": "news",
-    "snippet": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
+    "snippet": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
     "score": 4,
     "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
+    "article_link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 50
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 14
   },
-  "BASE": {
+  "AARYAN": {
     "source": "news",
-    "snippet": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
+    "snippet": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
     "score": 4,
     "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
+    "article_link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 50
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "TINIAN": {
+    "source": "news",
+    "snippet": "USS Colorado took 22 hits in the 1944 battle but stayed in action",
+    "score": 4,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/defence/international/in-1944-japanese-shore-guns-hit-uss-colorado-22-times-off-tinian-killing-43-and-wounding-198-the-battleship-stayed-in-action-and-fired-back/articleshow/133032978.cms",
+    "mentions": 2,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 24
   },
   "JOBS": {
     "source": "news",
@@ -2342,41 +2340,8 @@
     "article_link": "https://timesofindia.indiatimes.com/technology/tech-news/in-1997-after-returning-to-apple-11-years-after-he-was-fired-from-the-company-he-founded-steve-jobs-at-staff-townhall-nike-sells-shoes-and-yet-/articleshow/133063854.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
-  },
-  "JANA": {
-    "source": "news",
-    "snippet": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
-    "score": 4,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
-    "mentions": 2,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 40
-  },
-  "NAYAGAN": {
-    "source": "news",
-    "snippet": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
-    "score": 4,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
-    "mentions": 2,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
-  },
-  "MODI": {
-    "source": "news",
-    "snippet": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
-    "score": 4,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/india/youll-have-to-answer-for-this-crime-rahul-slams-pm-modi-hm-shah-over-police-action-on-students/articleshow/133065103.cms",
-    "mentions": 2,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 31
   },
   "STEPHEN": {
     "source": "news",
@@ -2386,7 +2351,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/nba/top-stories/stephen-curry-and-ayesha-curry-mark-a-major-100-million-milestone-as-their-foundation-continues-changing-lives/articleshow/133059172.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 46
   },
   "AYESHA": {
@@ -2397,7 +2362,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/nba/top-stories/stephen-curry-and-ayesha-curry-mark-a-major-100-million-milestone-as-their-foundation-continues-changing-lives/articleshow/133059172.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 34
   },
   "PATRICK": {
@@ -2408,8 +2373,52 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/nfl/news/patrick-mahomes-million-dollar-collection-i-try-to-invest-in-stuff-that-i-truly-believe-in-from-luxury-cars-and-watches-to-mansions-and-his-biggest-investments/articleshow/133054669.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 32
+  },
+  "DELL": {
+    "source": "news",
+    "snippet": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
+    "score": 4,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
+    "mentions": 2,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
+  },
+  "BASE": {
+    "source": "news",
+    "snippet": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
+    "score": 4,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
+    "mentions": 2,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
+  },
+  "JANA": {
+    "source": "news",
+    "snippet": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
+    "score": 4,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
+    "mentions": 2,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 40
+  },
+  "NAYAGAN": {
+    "source": "news",
+    "snippet": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
+    "score": 4,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
+    "mentions": 2,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
   },
   "SACHIN": {
     "source": "news",
@@ -2419,7 +2428,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 30
   },
   "ARUNACHAL": {
@@ -2430,7 +2439,7 @@
     "article_link": "https://timesofindia.indiatimes.com/city/guwahati/latest-arunachal-map-shows-3-places-illegally-held-by-china/articleshow/133057126.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "AFGHANISTAN": {
@@ -2441,7 +2450,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 45
   },
   "ZIMBABWE": {
@@ -2452,7 +2461,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 39
   },
   "SHUBMAN": {
@@ -2463,7 +2472,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/marathon-hit-shubman-gill-bats-for-over-an-hour-in-ncc-nets/articleshow/133063248.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "PHUKET": {
@@ -2474,7 +2483,7 @@
     "article_link": "https://timesofindia.indiatimes.com/india/captain-of-turbulence-hit-phuket-delhi-flight-may-have-failed-dope-test/articleshow/133059271.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "VAIBHAV": {
@@ -2485,7 +2494,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/i-dont-care-how-old-he-is-brett-lees-big-warning-for-vaibhav-sooryavanshi/articleshow/133062739.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SOORYAVANSHI": {
@@ -2496,7 +2505,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/i-dont-care-how-old-he-is-brett-lees-big-warning-for-vaibhav-sooryavanshi/articleshow/133062739.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "RAJA": {
@@ -2507,7 +2516,7 @@
     "article_link": "https://timesofindia.indiatimes.com/city/indore/raja-raghuvanshis-brothers-booked-for-serving-liquor-without-licence-at-familys-dhaba-in-indore/articleshow/133058721.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "NADAL": {
@@ -2518,7 +2527,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "JORGE": {
@@ -2529,41 +2538,8 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 35
-  },
-  "DHARMENDRA": {
-    "source": "news",
-    "snippet": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
-    "score": 4,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/india/gen-z-is-a-force-that-cant-be-ignored-dharmendra-pradhan/articleshow/133061131.cms",
-    "mentions": 2,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
-  },
-  "BASANT": {
-    "source": "news",
-    "snippet": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
-    "score": 4,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/basant-kumar-meghwal-creates-history-with-silver-medal-at-world-athletics-u20-championships/articleshow/133061896.cms",
-    "mentions": 2,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
-  },
-  "MEGHWAL": {
-    "source": "news",
-    "snippet": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
-    "score": 4,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/basant-kumar-meghwal-creates-history-with-silver-medal-at-world-athletics-u20-championships/articleshow/133061896.cms",
-    "mentions": 2,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
   },
   "SYDNEY": {
     "source": "news",
@@ -2573,7 +2549,7 @@
     "article_link": "https://www.ndtv.com/world-news/crew-member-injured-in-near-collision-at-sydney-airport-probe-on-11885926#publisher=newsstand",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "BROMO": {
@@ -2584,7 +2560,7 @@
     "article_link": "https://www.ndtv.com/world-news/indonesia-wildfire-indonesia-closes-national-park-as-wildfire-burns-435-acres-11885512#publisher=newsstand",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 39
   },
   "MOJTABA": {
@@ -2595,7 +2571,7 @@
     "article_link": "https://www.ndtv.com/world-news/us-iran-war-tehran-releases-new-video-of-mojtaba-khamenei-amid-health-rumours-after-donald-trumps-claim-11885370#publisher=newsstand",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "KHAMENEI": {
@@ -2606,7 +2582,7 @@
     "article_link": "https://www.ndtv.com/world-news/us-iran-war-tehran-releases-new-video-of-mojtaba-khamenei-amid-health-rumours-after-donald-trumps-claim-11885370#publisher=newsstand",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 27
   },
   "FIFA": {
@@ -2617,7 +2593,7 @@
     "article_link": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 43
   },
   "INFANTINO": {
@@ -2628,7 +2604,7 @@
     "article_link": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "ITALY": {
@@ -2639,18 +2615,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 50
-  },
-  "CLARKE": {
-    "source": "news",
-    "snippet": "NBA forward Clarke's death due to effects of drugs",
-    "score": 4,
-    "news_outlet": "bbc_world",
-    "article_link": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
-    "mentions": 2,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "KOSOVO": {
@@ -2661,129 +2626,74 @@
     "article_link": "https://www.bbc.co.uk/news/videos/cvg8je12xxeo?at_medium=RSS&at_campaign=rss",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 41
   },
-  "JNUSU": {
+  "GOODWORKS": {
     "source": "news",
-    "snippet": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+    "snippet": "KDEM enters MoU with Goodworks Group to attract fresh investment of \u20b95,000 crore in new GCCs; create over 62,000 new jobs",
     "score": 3,
     "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
+    "article_link": "https://www.thehindu.com/news/national/karnataka/kdem-enters-mou-with-goodworks-group-to-attract-fresh-investment-of-5000-crore-in-new-gccs-create-over-62000-new-jobs/article71322590.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 31
+  },
+  "SRIRANGAM": {
+    "source": "news",
+    "snippet": "Srirangam temple\u2019s eastern gopuram reopened after three years post repairs, renovation",
+    "score": 3,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/national/tamil-nadu/srirangam-temples-eastern-gopuram-reopened-after-three-years-post-repairs-renovation/article71324353.ece",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
-  "INDIGENOUS": {
+  "SRI": {
     "source": "news",
-    "snippet": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+    "snippet": "India hands over another consignment of Bailey bridges to Sri Lanka",
     "score": 3,
     "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
+    "article_link": "https://www.thehindu.com/news/national/india-hands-over-another-consignment-of-bailey-bridges-to-sri-lanka/article71324530.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 36
-  },
-  "PEOPLES": {
-    "source": "news",
-    "snippet": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
-    "score": 3,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
-  "DEVENDRA": {
+  "LANKA": {
     "source": "news",
-    "snippet": "Freedom fighters\u2019 patriotism inspires generations: Fadnavis on \u2018Quit India\u2019 Movement anniversary",
+    "snippet": "India hands over another consignment of Bailey bridges to Sri Lanka",
     "score": 3,
     "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
+    "article_link": "https://www.thehindu.com/news/national/india-hands-over-another-consignment-of-bailey-bridges-to-sri-lanka/article71324530.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 43
+  },
+  "TPCC": {
+    "source": "news",
+    "snippet": "Congress calls for defence of Constitution and democracy in spirit of Quit India movement",
+    "score": 3,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/national/telangana/congress-calls-for-defence-of-constitution-and-democracy-in-spirit-of-quit-india-movement/article71324493.ece",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
-  "FADNAVIS": {
+  "MAHESH": {
     "source": "news",
-    "snippet": "Freedom fighters\u2019 patriotism inspires generations: Fadnavis on \u2018Quit India\u2019 Movement anniversary",
+    "snippet": "Congress calls for defence of Constitution and democracy in spirit of Quit India movement",
     "score": 3,
     "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
+    "article_link": "https://www.thehindu.com/news/national/telangana/congress-calls-for-defence-of-constitution-and-democracy-in-spirit-of-quit-india-movement/article71324493.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
-  },
-  "COASTAL": {
-    "source": "news",
-    "snippet": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
-    "score": 3,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/national/indian-navy-joins-search-for-three-fishermen-missing-after-boat-mishaps-in-kerala/article71324425.ece",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 50
-  },
-  "GAUTAM": {
-    "source": "news",
-    "snippet": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
-    "score": 3,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/national/indian-navy-joins-search-for-three-fishermen-missing-after-boat-mishaps-in-kerala/article71324425.ece",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
-  },
-  "KRISHNA": {
-    "source": "news",
-    "snippet": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
-    "score": 3,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/national/indian-navy-joins-search-for-three-fishermen-missing-after-boat-mishaps-in-kerala/article71324425.ece",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 46
-  },
-  "NEENDAKARA": {
-    "source": "news",
-    "snippet": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
-    "score": 3,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/national/indian-navy-joins-search-for-three-fishermen-missing-after-boat-mishaps-in-kerala/article71324425.ece",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
-  },
-  "JDS": {
-    "source": "news",
-    "snippet": "BJP, JD(S) launch padayatra against Bidadi township project",
-    "score": 3,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/cities/bangalore/bjp-jds-launch-padayatra-against-bidadi-township-project/article71324362.ece",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 38
-  },
-  "KARNATAKA": {
-    "source": "news",
-    "snippet": "BJP, JD(S) launch padayatra against Bidadi township project",
-    "score": 3,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/cities/bangalore/bjp-jds-launch-padayatra-against-bidadi-township-project/article71324362.ece",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 24
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 30
   },
   "JHARKHAND": {
     "source": "news",
@@ -2793,7 +2703,7 @@
     "article_link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 22
   },
   "RAVINDRA": {
@@ -2804,7 +2714,7 @@
     "article_link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "PASWAN": {
@@ -2815,7 +2725,7 @@
     "article_link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "VIDHAN": {
@@ -2826,7 +2736,7 @@
     "article_link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "GHERAO": {
@@ -2837,8 +2747,118 @@
     "article_link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
+  },
+  "JNUSU": {
+    "source": "news",
+    "snippet": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+    "score": 3,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "INDIGENOUS": {
+    "source": "news",
+    "snippet": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+    "score": 3,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 36
+  },
+  "PEOPLES": {
+    "source": "news",
+    "snippet": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+    "score": 3,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
+  },
+  "DEVENDRA": {
+    "source": "news",
+    "snippet": "Freedom fighters\u2019 patriotism inspires generations: Fadnavis on \u2018Quit India\u2019 Movement anniversary",
+    "score": 3,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "FADNAVIS": {
+    "source": "news",
+    "snippet": "Freedom fighters\u2019 patriotism inspires generations: Fadnavis on \u2018Quit India\u2019 Movement anniversary",
+    "score": 3,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "COASTAL": {
+    "source": "news",
+    "snippet": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
+    "score": 3,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/national/indian-navy-joins-search-for-three-fishermen-missing-after-boat-mishaps-in-kerala/article71324425.ece",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
+  },
+  "KRISHNA": {
+    "source": "news",
+    "snippet": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
+    "score": 3,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/national/indian-navy-joins-search-for-three-fishermen-missing-after-boat-mishaps-in-kerala/article71324425.ece",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 46
+  },
+  "NEENDAKARA": {
+    "source": "news",
+    "snippet": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
+    "score": 3,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/national/indian-navy-joins-search-for-three-fishermen-missing-after-boat-mishaps-in-kerala/article71324425.ece",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "JDS": {
+    "source": "news",
+    "snippet": "BJP, JD(S) launch padayatra against Bidadi township project",
+    "score": 3,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/cities/bangalore/bjp-jds-launch-padayatra-against-bidadi-township-project/article71324362.ece",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 38
+  },
+  "KARNATAKA": {
+    "source": "news",
+    "snippet": "BJP, JD(S) launch padayatra against Bidadi township project",
+    "score": 3,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/cities/bangalore/bjp-jds-launch-padayatra-against-bidadi-township-project/article71324362.ece",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 24
   },
   "RAMADOSS": {
     "source": "news",
@@ -2848,7 +2868,7 @@
     "article_link": "https://www.thehindu.com/news/national/tamil-nadu/fund-allocation-for-education-in-tamil-nadu-falls-to-one-third-in-25-years-pmk-mp-anbumani-ramadoss/article71321743.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "HOUTHIS": {
@@ -2859,7 +2879,7 @@
     "article_link": "https://www.thehindu.com/news/international/fire-extinguished-at-aramco-facility-in-jizan-says-saudi-arabia/article71324246.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "STOKE": {
@@ -2870,7 +2890,7 @@
     "article_link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "LAND": {
@@ -2881,7 +2901,7 @@
     "article_link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "NAGASAKI": {
@@ -2892,7 +2912,7 @@
     "article_link": "https://www.thehindu.com/news/international/nagasaki-marks-81st-atomic-bomb-anniversary/article71324359.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 42
   },
   "SANAE": {
@@ -2903,7 +2923,7 @@
     "article_link": "https://www.thehindu.com/news/international/nagasaki-marks-81st-atomic-bomb-anniversary/article71324359.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "TAKAICHI": {
@@ -2914,7 +2934,7 @@
     "article_link": "https://www.thehindu.com/news/international/nagasaki-marks-81st-atomic-bomb-anniversary/article71324359.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "BUNDER": {
@@ -2925,7 +2945,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Mangalore/railways-to-convert-old-goods-shed-in-bunder-as-a-ballast-yard/article71324329.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "PANDESHWAR": {
@@ -2936,7 +2956,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Mangalore/railways-to-convert-old-goods-shed-in-bunder-as-a-ballast-yard/article71324329.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "HOIGE": {
@@ -2947,7 +2967,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Mangalore/railways-to-convert-old-goods-shed-in-bunder-as-a-ballast-yard/article71324329.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "MURUGAN": {
@@ -2958,7 +2978,7 @@
     "article_link": "https://www.thehindu.com/news/national/tamil-nadu/quit-india-movement-day-participants-will-forever-inspire-generations-of-indians-says-l-murugan/article71324293.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "WAYANAD": {
@@ -2969,7 +2989,7 @@
     "article_link": "https://www.thehindu.com/news/national/kerala/2024-wayanad-landslides-study-reveals-the-interplay-of-climate-and-geology/article71324236.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "PAWAN": {
@@ -2980,7 +3000,7 @@
     "article_link": "https://www.thehindu.com/news/national/andhra-pradesh/tribal-communities-are-guardians-of-nature-and-ancient-wisdom-says-pawan-kalyan/article71324322.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "KALYAN": {
@@ -2991,7 +3011,7 @@
     "article_link": "https://www.thehindu.com/news/national/andhra-pradesh/tribal-communities-are-guardians-of-nature-and-ancient-wisdom-says-pawan-kalyan/article71324322.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "ASIA": {
@@ -3002,7 +3022,7 @@
     "article_link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "SUPREME": {
@@ -3013,7 +3033,7 @@
     "article_link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 46
   },
   "ABDUL": {
@@ -3024,7 +3044,7 @@
     "article_link": "https://www.thehindu.com/news/international/man-arrested-7-months-after-indian-womans-murder-in-canada/article71324231.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "GHAFOORI": {
@@ -3035,7 +3055,7 @@
     "article_link": "https://www.thehindu.com/news/international/man-arrested-7-months-after-indian-womans-murder-in-canada/article71324231.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "TORONTO": {
@@ -3046,7 +3066,7 @@
     "article_link": "https://www.thehindu.com/news/international/man-arrested-7-months-after-indian-womans-murder-in-canada/article71324231.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "MAHATMA": {
@@ -3057,7 +3077,7 @@
     "article_link": "https://www.thehindu.com/news/national/those-who-participated-in-quit-india-movement-remain-inspiration-for-every-indian-pm-modi/article71324276.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 44
   },
   "MOHAMMAD": {
@@ -3068,7 +3088,7 @@
     "article_link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 35
   },
   "BAGHER": {
@@ -3079,7 +3099,7 @@
     "article_link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "ZOLGHADR": {
@@ -3090,7 +3110,7 @@
     "article_link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "LEBANON": {
@@ -3101,7 +3121,7 @@
     "article_link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "PALESTINE": {
@@ -3112,7 +3132,7 @@
     "article_link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 44
   },
   "IRAQ": {
@@ -3123,7 +3143,7 @@
     "article_link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "AMIT": {
@@ -3134,7 +3154,7 @@
     "article_link": "https://www.thehindu.com/news/cities/puducherry/new-criminal-laws-introduced-to-provide-speedy-justice-to-citizens-union-home-minister-amit-shah/article71324260.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "KANNADA": {
@@ -3145,7 +3165,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Mangalore/book-on-andaman-history-brings-out-aspects-left-out-by-conventional-history-kannada-varsity-professor/article71324244.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 25
   },
   "TAMBANDA": {
@@ -3156,7 +3176,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Mangalore/book-on-andaman-history-brings-out-aspects-left-out-by-conventional-history-kannada-varsity-professor/article71324244.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "RAJALAKSHMI": {
@@ -3167,7 +3187,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Mangalore/book-on-andaman-history-brings-out-aspects-left-out-by-conventional-history-kannada-varsity-professor/article71324244.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "DUDIDA": {
@@ -3178,7 +3198,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Mangalore/book-on-andaman-history-brings-out-aspects-left-out-by-conventional-history-kannada-varsity-professor/article71324244.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "KAIGALU": {
@@ -3189,7 +3209,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Mangalore/book-on-andaman-history-brings-out-aspects-left-out-by-conventional-history-kannada-varsity-professor/article71324244.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "MIDIDA": {
@@ -3200,8 +3220,19 @@
     "article_link": "https://www.thehindu.com/news/cities/Mangalore/book-on-andaman-history-brings-out-aspects-left-out-by-conventional-history-kannada-varsity-professor/article71324244.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
+  },
+  "GEN": {
+    "source": "news",
+    "snippet": "Be aware of external forces trying to mislead you through social media: Odisha CM to Gen Z",
+    "score": 3,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/national/odisha/be-aware-of-external-forces-trying-to-mislead-you-through-social-media-odisha-cm-to-gen-z/article71324382.ece",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
   },
   "MOHAN": {
     "source": "news",
@@ -3211,7 +3242,7 @@
     "article_link": "https://www.thehindu.com/news/national/odisha/be-aware-of-external-forces-trying-to-mislead-you-through-social-media-odisha-cm-to-gen-z/article71324382.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "CHARAN": {
@@ -3222,7 +3253,7 @@
     "article_link": "https://www.thehindu.com/news/national/odisha/be-aware-of-external-forces-trying-to-mislead-you-through-social-media-odisha-cm-to-gen-z/article71324382.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "MAJHI": {
@@ -3233,19 +3264,8 @@
     "article_link": "https://www.thehindu.com/news/national/odisha/be-aware-of-external-forces-trying-to-mislead-you-through-social-media-odisha-cm-to-gen-z/article71324382.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
-  },
-  "GOODWORKS": {
-    "source": "news",
-    "snippet": "KDEM enters MoU with Goodworks Group to attract fresh investment of \u20b95,000 crore in new GCCs; create over 62,000 new jobs",
-    "score": 3,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/national/karnataka/kdem-enters-mou-with-goodworks-group-to-attract-fresh-investment-of-5000-crore-in-new-gccs-create-over-62000-new-jobs/article71322590.ece",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 31
   },
   "UDF": {
     "source": "news",
@@ -3255,7 +3275,7 @@
     "article_link": "https://www.thehindu.com/news/national/kerala/vande-mataram-row-keralas-udf-govt-again-faces-allegations-of-toeing-the-rss-line/article71324212.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "CHENNITHALA": {
@@ -3266,7 +3286,7 @@
     "article_link": "https://www.thehindu.com/news/national/kerala/vande-mataram-row-keralas-udf-govt-again-faces-allegations-of-toeing-the-rss-line/article71324212.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "MANIPUR": {
@@ -3277,7 +3297,7 @@
     "article_link": "https://www.thehindu.com/news/national/manipur/four-militants-involved-in-extortion-cadre-recruitment-arrested-in-manipur/article71324175.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 19
   },
   "KANGLEI": {
@@ -3288,7 +3308,7 @@
     "article_link": "https://www.thehindu.com/news/national/manipur/four-militants-involved-in-extortion-cadre-recruitment-arrested-in-manipur/article71324175.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "YAWOL": {
@@ -3299,7 +3319,7 @@
     "article_link": "https://www.thehindu.com/news/national/manipur/four-militants-involved-in-extortion-cadre-recruitment-arrested-in-manipur/article71324175.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "KANNA": {
@@ -3310,7 +3330,7 @@
     "article_link": "https://www.thehindu.com/news/national/manipur/four-militants-involved-in-extortion-cadre-recruitment-arrested-in-manipur/article71324175.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "LUP": {
@@ -3321,7 +3341,7 @@
     "article_link": "https://www.thehindu.com/news/national/manipur/four-militants-involved-in-extortion-cadre-recruitment-arrested-in-manipur/article71324175.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "THAMNAPOKPI": {
@@ -3332,7 +3352,7 @@
     "article_link": "https://www.thehindu.com/news/national/manipur/four-militants-involved-in-extortion-cadre-recruitment-arrested-in-manipur/article71324175.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "MAKHA": {
@@ -3343,7 +3363,7 @@
     "article_link": "https://www.thehindu.com/news/national/manipur/four-militants-involved-in-extortion-cadre-recruitment-arrested-in-manipur/article71324175.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "BISHNUPUR": {
@@ -3354,7 +3374,7 @@
     "article_link": "https://www.thehindu.com/news/national/manipur/four-militants-involved-in-extortion-cadre-recruitment-arrested-in-manipur/article71324175.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "BHARAT": {
@@ -3365,7 +3385,7 @@
     "article_link": "https://www.thehindu.com/news/national/jammu-and-kashmir/man-killed-after-being-hit-by-vehicle-in-deputy-cms-cavalcade-in-jammu/article71324273.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 28
   },
   "GANGYAL": {
@@ -3376,7 +3396,7 @@
     "article_link": "https://www.thehindu.com/news/national/jammu-and-kashmir/man-killed-after-being-hit-by-vehicle-in-deputy-cms-cavalcade-in-jammu/article71324273.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "FEINBERG": {
@@ -3387,7 +3407,7 @@
     "article_link": "https://www.thehindu.com/news/international/pentagon-pushes-defence-companies-to-boost-weapons-production-after-concerns-of-depleted-stocks/article71324197.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "WASHINGTON": {
@@ -3398,7 +3418,7 @@
     "article_link": "https://www.thehindu.com/news/international/pentagon-pushes-defence-companies-to-boost-weapons-production-after-concerns-of-depleted-stocks/article71324197.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 48
   },
   "POST": {
@@ -3409,7 +3429,7 @@
     "article_link": "https://www.thehindu.com/news/international/pentagon-pushes-defence-companies-to-boost-weapons-production-after-concerns-of-depleted-stocks/article71324197.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "NAGERCOIL": {
@@ -3420,7 +3440,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Thiruvananthapuram/two-sisters-killed-after-being-hit-by-bike-in-thiruvananthapuram/article71324190.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "UPI": {
@@ -3431,7 +3451,7 @@
     "article_link": "https://www.thehindu.com/business/Economy/upi-stays-free-for-users-vast-majority-of-transactions-to-remain-free-for-merchants-as-well-says-government/article71323950.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "MDR": {
@@ -3442,7 +3462,7 @@
     "article_link": "https://www.thehindu.com/business/Economy/upi-stays-free-for-users-vast-majority-of-transactions-to-remain-free-for-merchants-as-well-says-government/article71323950.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "GODAVARI": {
@@ -3453,7 +3473,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Madurai/farmers-association-welcomes-tamil-nadu-cm-vijays-move-on-linking-godavari-cauvery-gundar-rivers/article71324121.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "CAUVERY": {
@@ -3464,7 +3484,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Madurai/farmers-association-welcomes-tamil-nadu-cm-vijays-move-on-linking-godavari-cauvery-gundar-rivers/article71324121.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "GUNDAR": {
@@ -3475,7 +3495,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Madurai/farmers-association-welcomes-tamil-nadu-cm-vijays-move-on-linking-godavari-cauvery-gundar-rivers/article71324121.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "FARMERS": {
@@ -3486,7 +3506,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Madurai/farmers-association-welcomes-tamil-nadu-cm-vijays-move-on-linking-godavari-cauvery-gundar-rivers/article71324121.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 44
   },
   "NGT": {
@@ -3497,7 +3517,7 @@
     "article_link": "https://www.thehindu.com/news/national/nicobar-project-approvals-review-ngt-panel-report-public-congress/article71324112.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "NICOBAR": {
@@ -3508,7 +3528,7 @@
     "article_link": "https://www.thehindu.com/news/national/nicobar-project-approvals-review-ngt-panel-report-public-congress/article71324112.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 24
   },
   "JAIRAM": {
@@ -3519,7 +3539,7 @@
     "article_link": "https://www.thehindu.com/news/national/nicobar-project-approvals-review-ngt-panel-report-public-congress/article71324112.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SOPORE": {
@@ -3530,7 +3550,7 @@
     "article_link": "https://www.thehindu.com/news/national/jammu-and-kashmir/jk-police-searches-sopore-uapa-probe-jamaat-e-islami/article71324085.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "BSP": {
@@ -3541,7 +3561,7 @@
     "article_link": "https://www.thehindu.com/news/national/uttar-pradesh/bsp-leader-alleges-assault-vehicle-vandalism-in-amethi/article71324136.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "AMETHI": {
@@ -3552,7 +3572,7 @@
     "article_link": "https://www.thehindu.com/news/national/uttar-pradesh/bsp-leader-alleges-assault-vehicle-vandalism-in-amethi/article71324136.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "GAURIGANJ": {
@@ -3563,7 +3583,7 @@
     "article_link": "https://www.thehindu.com/news/national/uttar-pradesh/bsp-leader-alleges-assault-vehicle-vandalism-in-amethi/article71324136.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "JAMO": {
@@ -3574,7 +3594,7 @@
     "article_link": "https://www.thehindu.com/news/national/uttar-pradesh/bsp-leader-alleges-assault-vehicle-vandalism-in-amethi/article71324136.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SHASHIKANT": {
@@ -3585,7 +3605,7 @@
     "article_link": "https://www.thehindu.com/news/national/uttar-pradesh/bsp-leader-alleges-assault-vehicle-vandalism-in-amethi/article71324136.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "NALSAR": {
@@ -3596,7 +3616,7 @@
     "article_link": "https://www.thehindu.com/news/national/telangana/outgoing-nalsar-students-do-not-want-cji-surya-kant-at-convocation-ceremony/article71322218.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SURYA": {
@@ -3607,7 +3627,7 @@
     "article_link": "https://www.thehindu.com/news/national/telangana/outgoing-nalsar-students-do-not-want-cji-surya-kant-at-convocation-ceremony/article71322218.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 27
   },
   "KANT": {
@@ -3618,7 +3638,7 @@
     "article_link": "https://www.thehindu.com/news/national/telangana/outgoing-nalsar-students-do-not-want-cji-surya-kant-at-convocation-ceremony/article71322218.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "KAVALAPPARA": {
@@ -3629,7 +3649,7 @@
     "article_link": "https://www.thehindu.com/news/national/kerala/seven-years-on-kavalappara-hill-still-holds-its-dead/article71321881.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "HONGQIAO": {
@@ -3640,7 +3660,7 @@
     "article_link": "https://www.thehindu.com/news/international/shanghai-flight-cancels-as-china-prepares-for-typhoon-dolphin/article71324067.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "PUDONG": {
@@ -3651,7 +3671,7 @@
     "article_link": "https://www.thehindu.com/news/international/shanghai-flight-cancels-as-china-prepares-for-typhoon-dolphin/article71324067.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "AMARAVATI": {
@@ -3662,7 +3682,7 @@
     "article_link": "https://www.thehindu.com/news/national/andhra-pradesh/government-to-transform-amaravati-vizag-tirupati-into-mega-cities-says-minister/article71321885.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "VIZAG": {
@@ -3673,7 +3693,7 @@
     "article_link": "https://www.thehindu.com/news/national/andhra-pradesh/government-to-transform-amaravati-vizag-tirupati-into-mega-cities-says-minister/article71321885.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "PONGURU": {
@@ -3684,7 +3704,7 @@
     "article_link": "https://www.thehindu.com/news/national/andhra-pradesh/government-to-transform-amaravati-vizag-tirupati-into-mega-cities-says-minister/article71321885.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "NARAYANA": {
@@ -3695,7 +3715,7 @@
     "article_link": "https://www.thehindu.com/news/national/andhra-pradesh/government-to-transform-amaravati-vizag-tirupati-into-mega-cities-says-minister/article71321885.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SRTC": {
@@ -3706,7 +3726,18 @@
     "article_link": "https://www.thehindu.com/news/cities/bangalore/two-killed-25-injured-as-kerala-srtc-bus-crashes-into-signboard-on-bengaluru-mysuru-highway/article71321257.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "BENGALURU": {
+    "source": "news",
+    "snippet": "Two killed, 25 injured as Kerala SRTC bus crashes into signboard on Bengaluru-Mysuru Highway",
+    "score": 3,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/cities/bangalore/two-killed-25-injured-as-kerala-srtc-bus-crashes-into-signboard-on-bengaluru-mysuru-highway/article71321257.ece",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "MYSURU": {
@@ -3717,7 +3748,7 @@
     "article_link": "https://www.thehindu.com/news/cities/bangalore/two-killed-25-injured-as-kerala-srtc-bus-crashes-into-signboard-on-bengaluru-mysuru-highway/article71321257.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "CIAL": {
@@ -3728,7 +3759,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Kochi/cial-posts-record-502-crore-net-profit/article71322311.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "NASHIK": {
@@ -3739,8 +3770,19 @@
     "article_link": "https://www.thehindu.com/news/national/maharashtra/mild-earthquake-tremors-in-maharashtras-nashik-cracks-reported-in-houses/article71324020.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
+  },
+  "MADRAS": {
+    "source": "news",
+    "snippet": "Madras Day 2026: the humble typewriter keeps clacking despite the digital takeover",
+    "score": 3,
+    "news_outlet": "the_hindu",
+    "article_link": "https://www.thehindu.com/news/cities/chennai/the-humble-typewriter-keeps-clacking-despite-the-digital-takeover/article71321515.ece",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 43
   },
   "CHENNAI": {
     "source": "news",
@@ -3750,7 +3792,7 @@
     "article_link": "https://www.thehindu.com/news/cities/chennai/the-humble-typewriter-keeps-clacking-despite-the-digital-takeover/article71321515.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 29
   },
   "SAFDARJUNG": {
@@ -3761,7 +3803,7 @@
     "article_link": "https://www.thehindu.com/news/cities/Delhi/four-days-of-rain-swell-drains-in-delhi-18-year-old-feared-swept-away/article71322701.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "RJD": {
@@ -3772,7 +3814,7 @@
     "article_link": "https://www.thehindu.com/news/national/kerala/foreign-investment-in-private-hospitals-will-make-treatment-unaffordable-rjd/article71322194.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SFCTSA": {
@@ -3783,7 +3825,7 @@
     "article_link": "https://www.thehindu.com/news/national/kerala/calicut-varsity-to-end-contract-of-staff-in-its-self-financing-institutions/article71322192.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "MPS": {
@@ -3794,7 +3836,7 @@
     "article_link": "https://www.thehindu.com/news/national/tamil-nadu/tn-mps-meeting-convened-by-cm-vijay-seeks-freeze-on-543-lok-sabha-seats/article71322504.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "LOK": {
@@ -3805,7 +3847,7 @@
     "article_link": "https://www.thehindu.com/news/national/tamil-nadu/tn-mps-meeting-convened-by-cm-vijay-seeks-freeze-on-543-lok-sabha-seats/article71322504.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 25
   },
   "META": {
@@ -3816,7 +3858,7 @@
     "article_link": "https://www.thehindu.com/business/Industry/government-examines-if-meta-recommendation-system-deciding-what-to-show-to-whom-fits-intermediary-status/article71322615.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "TRINAMOOL": {
@@ -3827,7 +3869,7 @@
     "article_link": "https://www.thehindu.com/news/national/west-bengal/abhishek-banerjees-personal-assistant-grilled-for-10-hours-by-bengal-police/article71322577.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "BENGAL": {
@@ -3838,7 +3880,7 @@
     "article_link": "https://www.thehindu.com/news/national/west-bengal/abhishek-banerjees-personal-assistant-grilled-for-10-hours-by-bengal-police/article71322577.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 40
   },
   "SARDAR": {
@@ -3849,7 +3891,7 @@
     "article_link": "https://www.thehindu.com/news/national/tamil-nadu/ceg-alumni-warn-about-possible-damage-to-heritage-cupolas-during-widening-of-sardar-patel-road/article71321483.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "PATEL": {
@@ -3860,7 +3902,7 @@
     "article_link": "https://www.thehindu.com/news/national/tamil-nadu/ceg-alumni-warn-about-possible-damage-to-heritage-cupolas-during-widening-of-sardar-patel-road/article71321483.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 34
   },
   "ROAD": {
@@ -3871,73 +3913,7 @@
     "article_link": "https://www.thehindu.com/news/national/tamil-nadu/ceg-alumni-warn-about-possible-damage-to-heritage-cupolas-during-widening-of-sardar-patel-road/article71321483.ece",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 50
-  },
-  "FSDA": {
-    "source": "news",
-    "snippet": "Near-expiry sauces, beverages found at suppliers to Bengaluru\u2019s five-star hotels",
-    "score": 3,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/cities/bangalore/near-expiry-sauces-beverages-found-at-suppliers-to-bengalurus-five-star-hotels/article71321520.ece",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
-  },
-  "TIRUCHI": {
-    "source": "news",
-    "snippet": "Plea to speed up Tiruchi Airport runway expansion work gets shriller",
-    "score": 3,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/cities/Tiruchirapalli/plea-to-speed-up-tiruchi-airport-runway-expansion-work-gets-shriller/article71321774.ece",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
-  },
-  "DURAI": {
-    "source": "news",
-    "snippet": "Plea to speed up Tiruchi Airport runway expansion work gets shriller",
-    "score": 3,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/cities/Tiruchirapalli/plea-to-speed-up-tiruchi-airport-runway-expansion-work-gets-shriller/article71321774.ece",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
-  },
-  "VAIKO": {
-    "source": "news",
-    "snippet": "Plea to speed up Tiruchi Airport runway expansion work gets shriller",
-    "score": 3,
-    "news_outlet": "the_hindu",
-    "article_link": "https://www.thehindu.com/news/cities/Tiruchirapalli/plea-to-speed-up-tiruchi-airport-runway-expansion-work-gets-shriller/article71321774.ece",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
-  },
-  "JAWAHARLAL": {
-    "source": "news",
-    "snippet": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
-    "score": 3,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 35
-  },
-  "DEAN": {
-    "source": "news",
-    "snippet": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
-    "score": 3,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "AJINKYA": {
@@ -3948,7 +3924,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/you-cant-go-series-by-series-ajinkya-rahane-demands-clarity-over-rohit-sharmas-world-cup-spot/articleshow/133065057.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "NYC": {
@@ -3959,7 +3935,7 @@
     "article_link": "https://timesofindia.indiatimes.com/technology/tech-news/new-york-city-mayor-zohran-mamdani-extends-tax-deadline-after-residents-complain-that-emails-you-warned-us-about-are-unclear/articleshow/133064426.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "ZOHRAN": {
@@ -3970,7 +3946,7 @@
     "article_link": "https://timesofindia.indiatimes.com/technology/tech-news/new-york-city-mayor-zohran-mamdani-extends-tax-deadline-after-residents-complain-that-emails-you-warned-us-about-are-unclear/articleshow/133064426.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "MAMDANI": {
@@ -3981,8 +3957,261 @@
     "article_link": "https://timesofindia.indiatimes.com/technology/tech-news/new-york-city-mayor-zohran-mamdani-extends-tax-deadline-after-residents-complain-that-emails-you-warned-us-about-are-unclear/articleshow/133064426.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
+  },
+  "ANUPAM": {
+    "source": "news",
+    "snippet": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "KHER": {
+    "source": "news",
+    "snippet": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "ASSAM": {
+    "source": "news",
+    "snippet": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
+  },
+  "RANDEEP": {
+    "source": "news",
+    "snippet": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 26
+  },
+  "HOODA": {
+    "source": "news",
+    "snippet": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "ALIA": {
+    "source": "news",
+    "snippet": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
+  },
+  "BHATT": {
+    "source": "news",
+    "snippet": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "BHUMI": {
+    "source": "news",
+    "snippet": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "PEDNEKAR": {
+    "source": "news",
+    "snippet": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "NITA": {
+    "source": "news",
+    "snippet": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
+  },
+  "AMBANI": {
+    "source": "news",
+    "snippet": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "ADANI": {
+    "source": "news",
+    "snippet": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "JAWAHARLAL": {
+    "source": "news",
+    "snippet": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 35
+  },
+  "DEAN": {
+    "source": "news",
+    "snippet": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
+  },
+  "DHOOT": {
+    "source": "news",
+    "snippet": "IPO bonanza: 5 firms to raise over Rs 7,400 crore this week",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/business/india-business/ipo-bonanza-from-dhoot-transmission-to-shiprocket-5-companies-to-raise-over-rs-7400-crore-this-week/articleshow/133065941.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "MOLBIO": {
+    "source": "news",
+    "snippet": "IPO bonanza: 5 firms to raise over Rs 7,400 crore this week",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/business/india-business/ipo-bonanza-from-dhoot-transmission-to-shiprocket-5-companies-to-raise-over-rs-7400-crore-this-week/articleshow/133065941.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "DIAGNOSTICS": {
+    "source": "news",
+    "snippet": "IPO bonanza: 5 firms to raise over Rs 7,400 crore this week",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/business/india-business/ipo-bonanza-from-dhoot-transmission-to-shiprocket-5-companies-to-raise-over-rs-7400-crore-this-week/articleshow/133065941.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 32
+  },
+  "MILKY": {
+    "source": "news",
+    "snippet": "IPO bonanza: 5 firms to raise over Rs 7,400 crore this week",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/business/india-business/ipo-bonanza-from-dhoot-transmission-to-shiprocket-5-companies-to-raise-over-rs-7400-crore-this-week/articleshow/133065941.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 44
+  },
+  "SHIPROCKET": {
+    "source": "news",
+    "snippet": "IPO bonanza: 5 firms to raise over Rs 7,400 crore this week",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/business/india-business/ipo-bonanza-from-dhoot-transmission-to-shiprocket-5-companies-to-raise-over-rs-7400-crore-this-week/articleshow/133065941.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 0
+  },
+  "USS": {
+    "source": "news",
+    "snippet": "USS Colorado took 22 hits in the 1944 battle but stayed in action",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/defence/international/in-1944-japanese-shore-guns-hit-uss-colorado-22-times-off-tinian-killing-43-and-wounding-198-the-battleship-stayed-in-action-and-fired-back/articleshow/133032978.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
+  },
+  "COLORADO": {
+    "source": "news",
+    "snippet": "USS Colorado took 22 hits in the 1944 battle but stayed in action",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/defence/international/in-1944-japanese-shore-guns-hit-uss-colorado-22-times-off-tinian-killing-43-and-wounding-198-the-battleship-stayed-in-action-and-fired-back/articleshow/133032978.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
+  },
+  "PACIFIC": {
+    "source": "news",
+    "snippet": "USS Colorado took 22 hits in the 1944 battle but stayed in action",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/defence/international/in-1944-japanese-shore-guns-hit-uss-colorado-22-times-off-tinian-killing-43-and-wounding-198-the-battleship-stayed-in-action-and-fired-back/articleshow/133032978.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 43
+  },
+  "EAT": {
+    "source": "news",
+    "snippet": "Stephen and Ayesha Curry reach $100 million milestone through their foundation",
+    "score": 3,
+    "news_outlet": "times_of_india",
+    "article_link": "https://timesofindia.indiatimes.com/sports/nba/top-stories/stephen-curry-and-ayesha-curry-mark-a-major-100-million-milestone-as-their-foundation-continues-changing-lives/articleshow/133059172.cms",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
   },
   "MICHAEL": {
     "source": "news",
@@ -3992,7 +4221,7 @@
     "article_link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 46
   },
   "ZACH": {
@@ -4003,30 +4232,8 @@
     "article_link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 44
-  },
-  "DELAWARE": {
-    "source": "news",
-    "snippet": "US scientists tag sharks to help forecast hurricane intensification",
-    "score": 3,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/science/us-scientists-are-tagging-sharks-with-ocean-sensors-every-time-they-surface-data-is-sent-by-satellite-to-help-forecast-how-strongly-hurricanes-may-intensify/articleshow/133063381.cms",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 48
-  },
-  "ATLANTIC": {
-    "source": "news",
-    "snippet": "US scientists tag sharks to help forecast hurricane intensification",
-    "score": 3,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/science/us-scientists-are-tagging-sharks-with-ocean-sensors-every-time-they-surface-data-is-sent-by-satellite-to-help-forecast-how-strongly-hurricanes-may-intensify/articleshow/133063381.cms",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 49
   },
   "THALAPATHY": {
     "source": "news",
@@ -4036,19 +4243,19 @@
     "article_link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
-  "EAT": {
+  "MODI": {
     "source": "news",
-    "snippet": "Stephen and Ayesha Curry reach $100 million milestone through their foundation",
+    "snippet": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
     "score": 3,
     "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/sports/nba/top-stories/stephen-curry-and-ayesha-curry-mark-a-major-100-million-milestone-as-their-foundation-continues-changing-lives/articleshow/133059172.cms",
+    "article_link": "https://timesofindia.indiatimes.com/india/youll-have-to-answer-for-this-crime-rahul-slams-pm-modi-hm-shah-over-police-action-on-students/articleshow/133065103.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 50
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 31
   },
   "COE": {
     "source": "news",
@@ -4058,7 +4265,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/coe-is-not-merely-a-rehab-centre-vvs-laxman-speaks-out-as-indias-injury-crisis-puts-bcci-facility-under-scanner/articleshow/133064527.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "VVS": {
@@ -4069,7 +4276,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/coe-is-not-merely-a-rehab-centre-vvs-laxman-speaks-out-as-indias-injury-crisis-puts-bcci-facility-under-scanner/articleshow/133064527.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "LAXMAN": {
@@ -4080,7 +4287,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/coe-is-not-merely-a-rehab-centre-vvs-laxman-speaks-out-as-indias-injury-crisis-puts-bcci-facility-under-scanner/articleshow/133064527.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SBI": {
@@ -4091,7 +4298,7 @@
     "article_link": "https://timesofindia.indiatimes.com/business/india-business/market-recap-four-of-top-10-firms-add-rs-1-43-lakh-crore-sbi-bags-biggest-gains/articleshow/133065010.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "RAIPUR": {
@@ -4102,7 +4309,7 @@
     "article_link": "https://timesofindia.indiatimes.com/city/raipur/hum-don-hain-student-assaulted-at-raipur-school-video-posted-online-with-tiranga-dialogue/articleshow/133064652.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 19
   },
   "ATMANAND": {
@@ -4113,7 +4320,7 @@
     "article_link": "https://timesofindia.indiatimes.com/city/raipur/hum-don-hain-student-assaulted-at-raipur-school-video-posted-online-with-tiranga-dialogue/articleshow/133064652.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "DEOBAND": {
@@ -4124,7 +4331,7 @@
     "article_link": "https://timesofindia.indiatimes.com/india/shivling-exists-beneath-its-premises-hindu-outfit-plans-ganga-water-offering-at-deoband-seminary/articleshow/133063915.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "GOAT": {
@@ -4135,7 +4342,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "JACQUES": {
@@ -4146,7 +4353,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 33
   },
   "TENDULKAR": {
@@ -4157,7 +4364,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 37
   },
   "ASAPHILA": {
@@ -4168,7 +4375,7 @@
     "article_link": "https://timesofindia.indiatimes.com/city/guwahati/latest-arunachal-map-shows-3-places-illegally-held-by-china/articleshow/133057126.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "RAM": {
@@ -4179,7 +4386,7 @@
     "article_link": "https://timesofindia.indiatimes.com/india/pm-must-come-to-house-and-reply-on-ram-mandir-donation-theft-case-mallikarjun-kharge/articleshow/133063944.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "MANDIR": {
@@ -4190,7 +4397,7 @@
     "article_link": "https://timesofindia.indiatimes.com/india/pm-must-come-to-house-and-reply-on-ram-mandir-donation-theft-case-mallikarjun-kharge/articleshow/133063944.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "KHARGE": {
@@ -4201,7 +4408,7 @@
     "article_link": "https://timesofindia.indiatimes.com/india/pm-must-come-to-house-and-reply-on-ram-mandir-donation-theft-case-mallikarjun-kharge/articleshow/133063944.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SOUTH": {
@@ -4212,7 +4419,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "AFRICA": {
@@ -4223,7 +4430,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "NAMIBIA": {
@@ -4234,7 +4441,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 42
   },
   "BULANDSHAHR": {
@@ -4245,7 +4452,7 @@
     "article_link": "https://timesofindia.indiatimes.com/city/meerut/bulandshahr-encounter-wanted-rape-murder-accused-carrying-rs-50000-reward-killed-in-police-firing/articleshow/133062313.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "NCC": {
@@ -4256,7 +4463,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/marathon-hit-shubman-gill-bats-for-over-an-hour-in-ncc-nets/articleshow/133063248.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 36
   },
   "SAI": {
@@ -4267,7 +4474,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/marathon-hit-shubman-gill-bats-for-over-an-hour-in-ncc-nets/articleshow/133063248.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 26
   },
   "SUDHARSAN": {
@@ -4278,7 +4485,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/marathon-hit-shubman-gill-bats-for-over-an-hour-in-ncc-nets/articleshow/133063248.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SHAIK": {
@@ -4289,7 +4496,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/marathon-hit-shubman-gill-bats-for-over-an-hour-in-ncc-nets/articleshow/133063248.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "RASHEED": {
@@ -4300,7 +4507,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/marathon-hit-shubman-gill-bats-for-over-an-hour-in-ncc-nets/articleshow/133063248.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SARFARAZ": {
@@ -4311,7 +4518,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/marathon-hit-shubman-gill-bats-for-over-an-hour-in-ncc-nets/articleshow/133063248.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "RUTURAJ": {
@@ -4322,7 +4529,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/marathon-hit-shubman-gill-bats-for-over-an-hour-in-ncc-nets/articleshow/133063248.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "GAIKWAD": {
@@ -4333,7 +4540,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/marathon-hit-shubman-gill-bats-for-over-an-hour-in-ncc-nets/articleshow/133063248.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "CIVIL": {
@@ -4344,7 +4551,7 @@
     "article_link": "https://timesofindia.indiatimes.com/india/captain-of-turbulence-hit-phuket-delhi-flight-may-have-failed-dope-test/articleshow/133059271.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "ANUJ": {
@@ -4355,7 +4562,7 @@
     "article_link": "https://timesofindia.indiatimes.com/city/lucknow/married-25-women-using-fake-ids-bjp-mla-alleges-he-was-duped-into-marrying-his-daughter-to-conman/articleshow/133061517.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "NIA": {
@@ -4366,7 +4573,7 @@
     "article_link": "https://timesofindia.indiatimes.com/india/nia-arrests-main-conspirator-in-kerala-illegal-explosives-seizure-case-tenth-arrest-so-far/articleshow/133063260.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "JUBAIL": {
@@ -4377,7 +4584,7 @@
     "article_link": "https://timesofindia.indiatimes.com/world/middle-east/houthi-attack-suspected-at-saudi-gas-facility-in-jubail-aramco-jazan-fire-extinguished/articleshow/133063118.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "ARAMCO": {
@@ -4388,7 +4595,7 @@
     "article_link": "https://timesofindia.indiatimes.com/world/middle-east/houthi-attack-suspected-at-saudi-gas-facility-in-jubail-aramco-jazan-fire-extinguished/articleshow/133063118.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 15
   },
   "JAZAN": {
@@ -4399,7 +4606,7 @@
     "article_link": "https://timesofindia.indiatimes.com/world/middle-east/houthi-attack-suspected-at-saudi-gas-facility-in-jubail-aramco-jazan-fire-extinguished/articleshow/133063118.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "WAUGH": {
@@ -4410,7 +4617,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/i-would-have-banned-sourav-ganguly-javagal-srinath-on-steve-waughs-wait-during-2001-eden-test-toss/articleshow/133062092.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 32
   },
   "JAVAGAL": {
@@ -4421,7 +4628,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/i-would-have-banned-sourav-ganguly-javagal-srinath-on-steve-waughs-wait-during-2001-eden-test-toss/articleshow/133062092.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SRINATH": {
@@ -4432,7 +4639,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/i-would-have-banned-sourav-ganguly-javagal-srinath-on-steve-waughs-wait-during-2001-eden-test-toss/articleshow/133062092.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SOURAV": {
@@ -4443,7 +4650,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/cricket/news/i-would-have-banned-sourav-ganguly-javagal-srinath-on-steve-waughs-wait-during-2001-eden-test-toss/articleshow/133062092.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "ISRO": {
@@ -4454,7 +4661,7 @@
     "article_link": "https://timesofindia.indiatimes.com/science/in-space-moves-to-privatise-operations-of-rs-986-cr-spaceport/articleshow/133059108.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "INDORE": {
@@ -4465,7 +4672,7 @@
     "article_link": "https://timesofindia.indiatimes.com/city/indore/raja-raghuvanshis-brothers-booked-for-serving-liquor-without-licence-at-familys-dhaba-in-indore/articleshow/133058721.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 23
   },
   "VIPIN": {
@@ -4476,7 +4683,7 @@
     "article_link": "https://timesofindia.indiatimes.com/city/indore/raja-raghuvanshis-brothers-booked-for-serving-liquor-without-licence-at-familys-dhaba-in-indore/articleshow/133058721.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "LIONEL": {
@@ -4487,7 +4694,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "RAFAEL": {
@@ -4498,7 +4705,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 49
   },
   "RODRIGO": {
@@ -4509,7 +4716,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 35
   },
   "PAUL": {
@@ -4520,7 +4727,7 @@
     "article_link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "SCOTLAND": {
@@ -4531,41 +4738,8 @@
     "article_link": "https://timesofindia.indiatimes.com/real-estate/news/why-britains-housing-market-is-losing-momentum-as-mortgage-rates-rise-again/articleshow/133056565.cms",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 37
-  },
-  "NARENDRA": {
-    "source": "news",
-    "snippet": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
-    "score": 3,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/india/gen-z-is-a-force-that-cant-be-ignored-dharmendra-pradhan/articleshow/133061131.cms",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 16
-  },
-  "ASHISH": {
-    "source": "news",
-    "snippet": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
-    "score": 3,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/basant-kumar-meghwal-creates-history-with-silver-medal-at-world-athletics-u20-championships/articleshow/133061896.cms",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
-  },
-  "YADAV": {
-    "source": "news",
-    "snippet": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
-    "score": 3,
-    "news_outlet": "times_of_india",
-    "article_link": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/basant-kumar-meghwal-creates-history-with-silver-medal-at-world-athletics-u20-championships/articleshow/133061896.cms",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 0
   },
   "INDONESIA": {
     "source": "news",
@@ -4575,7 +4749,7 @@
     "article_link": "https://www.ndtv.com/world-news/indonesia-wildfire-indonesia-closes-national-park-as-wildfire-burns-435-acres-11885512#publisher=newsstand",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 42
   },
   "TENGGER": {
@@ -4586,7 +4760,7 @@
     "article_link": "https://www.ndtv.com/world-news/indonesia-wildfire-indonesia-closes-national-park-as-wildfire-burns-435-acres-11885512#publisher=newsstand",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SEMERU": {
@@ -4597,7 +4771,7 @@
     "article_link": "https://www.ndtv.com/world-news/indonesia-wildfire-indonesia-closes-national-park-as-wildfire-burns-435-acres-11885512#publisher=newsstand",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "PARK": {
@@ -4608,7 +4782,7 @@
     "article_link": "https://www.ndtv.com/world-news/indonesia-wildfire-indonesia-closes-national-park-as-wildfire-burns-435-acres-11885512#publisher=newsstand",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "GYAN": {
@@ -4619,7 +4793,7 @@
     "article_link": "https://www.ndtv.com/india-news/up-bjp-mla-gyan-tiwari-says-daughter-duped-into-marriage-with-man-who-had-25-weddings-11885794#publisher=newsstand",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "TIWARI": {
@@ -4630,7 +4804,7 @@
     "article_link": "https://www.ndtv.com/india-news/up-bjp-mla-gyan-tiwari-says-daughter-duped-into-marriage-with-man-who-had-25-weddings-11885794#publisher=newsstand",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "WHATSAPP": {
@@ -4641,7 +4815,7 @@
     "article_link": "https://www.ndtv.com/india-news/jharkhand-jssc-paper-leak-exclusive-120-answers-whatsapp-and-a-bombshell-cid-report-11885336#publisher=newsstand",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 30
   },
   "SUPRIYA": {
@@ -4652,7 +4826,7 @@
     "article_link": "https://www.ndtv.com/india-news/internal-matter-supriya-sule-on-sunetra-pawar-prashant-kishor-meet-amid-rift-buzz-maharashtra-politics-ncp-11885319#publisher=newsstand",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SULE": {
@@ -4663,7 +4837,7 @@
     "article_link": "https://www.ndtv.com/india-news/internal-matter-supriya-sule-on-sunetra-pawar-prashant-kishor-meet-amid-rift-buzz-maharashtra-politics-ncp-11885319#publisher=newsstand",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "UTAH": {
@@ -4674,7 +4848,7 @@
     "article_link": "https://www.ndtv.com/world-news/pilots-of-helicopter-that-crashed-while-fighting-utah-wildfire-die-11884977#publisher=newsstand",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "FISHLAKE": {
@@ -4685,7 +4859,7 @@
     "article_link": "https://www.ndtv.com/world-news/pilots-of-helicopter-that-crashed-while-fighting-utah-wildfire-die-11884977#publisher=newsstand",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "GIANNI": {
@@ -4696,7 +4870,7 @@
     "article_link": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 35
   },
   "DANIEL": {
@@ -4707,7 +4881,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 48
   },
   "KINAHAN": {
@@ -4718,7 +4892,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "SERVICE": {
@@ -4729,7 +4903,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 45
   },
   "DUBAI": {
@@ -4740,7 +4914,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "BALD": {
@@ -4751,7 +4925,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "RANGE": {
@@ -4762,7 +4936,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "COLUMBIA": {
@@ -4773,7 +4947,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 40
   },
   "OMAN": {
@@ -4784,7 +4958,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "PEREZ": {
@@ -4795,7 +4969,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cg5lnqjz497o?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 43
   },
   "HILTON": {
@@ -4806,7 +4980,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cg5lnqjz497o?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 40
   },
   "TODD": {
@@ -4817,7 +4991,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "BLANCHE": {
@@ -4828,7 +5002,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 34
   },
   "REPUBLICANS": {
@@ -4839,7 +5013,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 36
   },
   "SPAIN": {
@@ -4850,7 +5024,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "MOROCCO": {
@@ -4861,7 +5035,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 47
   },
   "CEUTA": {
@@ -4872,7 +5046,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 18
   },
   "KYIV": {
@@ -4883,7 +5057,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "VOLODYMYR": {
@@ -4894,7 +5068,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "ZELENSKY": {
@@ -4905,7 +5079,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "UKRAINE": {
@@ -4916,8 +5090,19 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 43
+  },
+  "JAPAN": {
+    "source": "news",
+    "snippet": "Typhoon Dolphin batters Japan's Okinawa before bearing down on China",
+    "score": 3,
+    "news_outlet": "bbc_world",
+    "article_link": "https://www.bbc.co.uk/news/articles/cvglp2zlvrlo?at_medium=RSS&at_campaign=rss",
+    "mentions": 1,
+    "num_sources": 1,
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
+    "interlock_score": 50
   },
   "OKINAWA": {
     "source": "news",
@@ -4927,7 +5112,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cvglp2zlvrlo?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "COLOMBIA": {
@@ -4938,7 +5123,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 35
   },
   "ABELARDO": {
@@ -4949,7 +5134,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "ESPRIELLA": {
@@ -4960,63 +5145,8 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
-  },
-  "NBA": {
-    "source": "news",
-    "snippet": "NBA forward Clarke's death due to effects of drugs",
-    "score": 3,
-    "news_outlet": "bbc_world",
-    "article_link": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 50
-  },
-  "MEMPHIS": {
-    "source": "news",
-    "snippet": "NBA forward Clarke's death due to effects of drugs",
-    "score": 3,
-    "news_outlet": "bbc_world",
-    "article_link": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 39
-  },
-  "BRANDON": {
-    "source": "news",
-    "snippet": "NBA forward Clarke's death due to effects of drugs",
-    "score": 3,
-    "news_outlet": "bbc_world",
-    "article_link": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 34
-  },
-  "LOS": {
-    "source": "news",
-    "snippet": "NBA forward Clarke's death due to effects of drugs",
-    "score": 3,
-    "news_outlet": "bbc_world",
-    "article_link": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 50
-  },
-  "ANGELES": {
-    "source": "news",
-    "snippet": "NBA forward Clarke's death due to effects of drugs",
-    "score": 3,
-    "news_outlet": "bbc_world",
-    "article_link": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
-    "mentions": 1,
-    "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
-    "interlock_score": 40
   },
   "AUQIB": {
     "source": "news",
@@ -5026,7 +5156,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/c2elpkg1l0jo?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "NABI": {
@@ -5037,7 +5167,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/c2elpkg1l0jo?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 16
   },
   "NIGERIA": {
@@ -5048,7 +5178,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cqx7q17531do?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 47
   },
   "ALBIN": {
@@ -5059,7 +5189,7 @@
     "article_link": "https://www.bbc.co.uk/news/videos/cvg8je12xxeo?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 15
   },
   "KURTI": {
@@ -5070,7 +5200,7 @@
     "article_link": "https://www.bbc.co.uk/news/videos/cvg8je12xxeo?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 0
   },
   "AMERICA": {
@@ -5081,7 +5211,7 @@
     "article_link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
     "mentions": 2,
     "num_sources": 2,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   },
   "BRITAIN": {
@@ -5092,7 +5222,7 @@
     "article_link": "https://timesofindia.indiatimes.com/real-estate/news/why-britains-housing-market-is-losing-momentum-as-mortgage-rates-rise-again/articleshow/133056565.cms",
     "mentions": 2,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 43
   },
   "RUSSIA": {
@@ -5103,7 +5233,7 @@
     "article_link": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
     "mentions": 1,
     "num_sources": 1,
-    "scraped_at": "2026-08-09T10:35:55.805613+00:00",
+    "scraped_at": "2026-08-09T10:58:44.734846+00:00",
     "interlock_score": 50
   }
 }

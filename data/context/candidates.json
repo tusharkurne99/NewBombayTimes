@@ -1,31 +1,7 @@
 {
-  "generated_at": "2026-08-09T10:35:55.805613+00:00",
-  "num_articles": 144,
+  "generated_at": "2026-08-09T10:58:44.734846+00:00",
+  "num_articles": 142,
   "candidates": [
-    {
-      "word": "HORMUZ",
-      "length": 6,
-      "mentions": 6,
-      "num_sources": 4,
-      "score": 14,
-      "snippets": [
-        {
-          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
-          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
-          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Iran Guards say won\u2019t reopen Hormuz without U.S. meeting all Tehran\u2019s conditions",
-          "link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
     {
       "word": "WEST",
       "length": 4,
@@ -51,26 +27,26 @@
       ]
     },
     {
-      "word": "WORLD",
-      "length": 5,
-      "mentions": 6,
-      "num_sources": 2,
-      "score": 10,
+      "word": "HORMUZ",
+      "length": 6,
+      "mentions": 5,
+      "num_sources": 3,
+      "score": 11,
       "snippets": [
         {
-          "text": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
-          "link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
+          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
+          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
           "source": "the_hindu"
         },
         {
-          "text": "'Can\u2019t go series by series': Rahane demands clarity over Rohit Sharma's WC spot",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/you-cant-go-series-by-series-ajinkya-rahane-demands-clarity-over-rohit-sharmas-world-cup-spot/articleshow/133065057.cms",
-          "source": "times_of_india"
+          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
+          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
+          "source": "the_hindu"
         },
         {
-          "text": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
-          "source": "times_of_india"
+          "text": "Iran Guards say won\u2019t reopen Hormuz without U.S. meeting all Tehran\u2019s conditions",
+          "link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
+          "source": "the_hindu"
         }
       ]
     },
@@ -147,50 +123,50 @@
       ]
     },
     {
-      "word": "MESSI",
+      "word": "INDIA",
       "length": 5,
-      "mentions": 6,
-      "num_sources": 2,
-      "score": 10,
+      "mentions": 29,
+      "num_sources": 4,
+      "score": 9.25,
       "snippets": [
         {
-          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
-          "source": "times_of_india"
+          "text": "India hands over another consignment of Bailey bridges to Sri Lanka",
+          "link": "https://www.thehindu.com/news/national/india-hands-over-another-consignment-of-bailey-bridges-to-sri-lanka/article71324530.ece",
+          "source": "the_hindu"
         },
         {
-          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
-          "source": "times_of_india"
+          "text": "India hands over another consignment of Bailey bridges to Sri Lanka",
+          "link": "https://www.thehindu.com/news/national/india-hands-over-another-consignment-of-bailey-bridges-to-sri-lanka/article71324530.ece",
+          "source": "the_hindu"
         },
         {
-          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
-          "source": "times_of_india"
+          "text": "Congress calls for defence of Constitution and democracy in spirit of Quit India movement",
+          "link": "https://www.thehindu.com/news/national/telangana/congress-calls-for-defence-of-constitution-and-democracy-in-spirit-of-quit-india-movement/article71324493.ece",
+          "source": "the_hindu"
         }
       ]
     },
     {
-      "word": "KERALA",
-      "length": 6,
+      "word": "WORLD",
+      "length": 5,
       "mentions": 5,
       "num_sources": 2,
       "score": 9,
       "snippets": [
         {
-          "text": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
-          "link": "https://www.thehindu.com/news/national/indian-navy-joins-search-for-three-fishermen-missing-after-boat-mishaps-in-kerala/article71324425.ece",
+          "text": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+          "link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
           "source": "the_hindu"
         },
         {
-          "text": "Vande Mataram row: Kerala\u2019s UDF govt. again faces allegations of toeing the RSS line",
-          "link": "https://www.thehindu.com/news/national/kerala/vande-mataram-row-keralas-udf-govt-again-faces-allegations-of-toeing-the-rss-line/article71324212.ece",
-          "source": "the_hindu"
+          "text": "'Can\u2019t go series by series': Rahane demands clarity over Rohit Sharma's WC spot",
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/you-cant-go-series-by-series-ajinkya-rahane-demands-clarity-over-rohit-sharmas-world-cup-spot/articleshow/133065057.cms",
+          "source": "times_of_india"
         },
         {
-          "text": "Two killed, 25 injured as Kerala SRTC bus crashes into signboard on Bengaluru-Mysuru Highway",
-          "link": "https://www.thehindu.com/news/cities/bangalore/two-killed-25-injured-as-kerala-srtc-bus-crashes-into-signboard-on-bengaluru-mysuru-highway/article71321257.ece",
-          "source": "the_hindu"
+          "text": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
+          "source": "times_of_india"
         }
       ]
     },
@@ -267,25 +243,25 @@
       ]
     },
     {
-      "word": "INDIA",
-      "length": 5,
-      "mentions": 25,
-      "num_sources": 4,
-      "score": 8.25,
+      "word": "QUIT",
+      "length": 4,
+      "mentions": 6,
+      "num_sources": 1,
+      "score": 8,
       "snippets": [
         {
-          "text": "Freedom fighters\u2019 patriotism inspires generations: Fadnavis on \u2018Quit India\u2019 Movement anniversary",
-          "link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
+          "text": "Congress calls for defence of Constitution and democracy in spirit of Quit India movement",
+          "link": "https://www.thehindu.com/news/national/telangana/congress-calls-for-defence-of-constitution-and-democracy-in-spirit-of-quit-india-movement/article71324493.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Congress calls for defence of Constitution and democracy in spirit of Quit India movement",
+          "link": "https://www.thehindu.com/news/national/telangana/congress-calls-for-defence-of-constitution-and-democracy-in-spirit-of-quit-india-movement/article71324493.ece",
           "source": "the_hindu"
         },
         {
           "text": "Freedom fighters\u2019 patriotism inspires generations: Fadnavis on \u2018Quit India\u2019 Movement anniversary",
           "link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
           "source": "the_hindu"
         }
       ]
@@ -310,6 +286,30 @@
         {
           "text": "Mild earthquake, tremors in Maharashtra\u2019s Nashik; cracks reported in houses",
           "link": "https://www.thehindu.com/news/national/maharashtra/mild-earthquake-tremors-in-maharashtras-nashik-cracks-reported-in-houses/article71324020.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "KERALA",
+      "length": 6,
+      "mentions": 4,
+      "num_sources": 2,
+      "score": 8,
+      "snippets": [
+        {
+          "text": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
+          "link": "https://www.thehindu.com/news/national/indian-navy-joins-search-for-three-fishermen-missing-after-boat-mishaps-in-kerala/article71324425.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Vande Mataram row: Kerala\u2019s UDF govt. again faces allegations of toeing the RSS line",
+          "link": "https://www.thehindu.com/news/national/kerala/vande-mataram-row-keralas-udf-govt-again-faces-allegations-of-toeing-the-rss-line/article71324212.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Two killed, 25 injured as Kerala SRTC bus crashes into signboard on Bengaluru-Mysuru Highway",
+          "link": "https://www.thehindu.com/news/cities/bangalore/two-killed-25-injured-as-kerala-srtc-bus-crashes-into-signboard-on-bengaluru-mysuru-highway/article71321257.ece",
           "source": "the_hindu"
         }
       ]
@@ -358,30 +358,6 @@
         {
           "text": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
           "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "JAPAN",
-      "length": 5,
-      "mentions": 4,
-      "num_sources": 2,
-      "score": 8,
-      "snippets": [
-        {
-          "text": "Woman tries Japan\u2019s \u2018rent-a-dad\u2019 service and finds goodbye unexpectedly hard",
-          "link": "https://timesofindia.indiatimes.com/life-style/travel/news/woman-tries-rent-a-dad-in-japan-for-the-first-time-i-kind-of-felt-like-a-daughter-and-saying-goodbye-was-harder-than-i-expected/articleshow/133064973.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Woman tries Japan\u2019s \u2018rent-a-dad\u2019 service and finds goodbye unexpectedly hard",
-          "link": "https://timesofindia.indiatimes.com/life-style/travel/news/woman-tries-rent-a-dad-in-japan-for-the-first-time-i-kind-of-felt-like-a-daughter-and-saying-goodbye-was-harder-than-i-expected/articleshow/133064973.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Woman tries Japan\u2019s \u2018rent-a-dad\u2019 service and finds goodbye unexpectedly hard",
-          "link": "https://timesofindia.indiatimes.com/life-style/travel/news/woman-tries-rent-a-dad-in-japan-for-the-first-time-i-kind-of-felt-like-a-daughter-and-saying-goodbye-was-harder-than-i-expected/articleshow/133064973.cms",
           "source": "times_of_india"
         }
       ]
@@ -603,6 +579,30 @@
       ]
     },
     {
+      "word": "BANERJEE",
+      "length": 8,
+      "mentions": 4,
+      "num_sources": 1,
+      "score": 6,
+      "snippets": [
+        {
+          "text": "Mamata visits residence of Trinamool worker who died in police custody, faces protests",
+          "link": "https://www.thehindu.com/news/national/west-bengal/mamata-visits-residence-of-trinamool-worker-who-died-in-police-custody-faces-protests/article71324471.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
+          "link": "https://www.thehindu.com/news/national/west-bengal/abhishek-banerjees-personal-assistant-grilled-for-10-hours-by-bengal-police/article71322577.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
+          "link": "https://www.thehindu.com/news/national/west-bengal/abhishek-banerjees-personal-assistant-grilled-for-10-hours-by-bengal-police/article71322577.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
       "word": "JNU",
       "length": 3,
       "mentions": 2,
@@ -622,44 +622,20 @@
       ]
     },
     {
-      "word": "QUIT",
-      "length": 4,
-      "mentions": 4,
-      "num_sources": 1,
-      "score": 6,
-      "snippets": [
-        {
-          "text": "Freedom fighters\u2019 patriotism inspires generations: Fadnavis on \u2018Quit India\u2019 Movement anniversary",
-          "link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Quit India Movement Day: Participants will forever inspire generations of Indians, says L. Murugan",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/quit-india-movement-day-participants-will-forever-inspire-generations-of-indians-says-l-murugan/article71324293.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Those who participated in Quit India movement remain inspiration for every Indian: PM Modi",
-          "link": "https://www.thehindu.com/news/national/those-who-participated-in-quit-india-movement-remain-inspiration-for-every-indian-pm-modi/article71324276.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "GEN",
-      "length": 3,
+      "word": "GAUTAM",
+      "length": 6,
       "mentions": 2,
       "num_sources": 2,
       "score": 6,
       "snippets": [
         {
-          "text": "Be aware of external forces trying to mislead you through social media: Odisha CM to Gen Z",
-          "link": "https://www.thehindu.com/news/national/odisha/be-aware-of-external-forces-trying-to-mislead-you-through-social-media-odisha-cm-to-gen-z/article71324382.ece",
+          "text": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
+          "link": "https://www.thehindu.com/news/national/indian-navy-joins-search-for-three-fishermen-missing-after-boat-mishaps-in-kerala/article71324425.ece",
           "source": "the_hindu"
         },
         {
-          "text": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
-          "link": "https://timesofindia.indiatimes.com/india/gen-z-is-a-force-that-cant-be-ignored-dharmendra-pradhan/articleshow/133061131.cms",
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
           "source": "times_of_india"
         }
       ]
@@ -822,6 +798,30 @@
       ]
     },
     {
+      "word": "MESSI",
+      "length": 5,
+      "mentions": 4,
+      "num_sources": 1,
+      "score": 6,
+      "snippets": [
+        {
+          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
+          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
+          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
+          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
       "word": "AUSTRALIA",
       "length": 9,
       "mentions": 2,
@@ -860,30 +860,6 @@
         {
           "text": "New criminal laws introduced to provide speedy justice to citizens: Union Home Minister Amit Shah",
           "link": "https://www.thehindu.com/news/cities/puducherry/new-criminal-laws-introduced-to-provide-speedy-justice-to-citizens-union-home-minister-amit-shah/article71324260.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "IRAN",
-      "length": 4,
-      "mentions": 12,
-      "num_sources": 4,
-      "score": 5.0,
-      "snippets": [
-        {
-          "text": "Seafarers hold silent protest in Visakhapatnam against killings in war zones",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/seafarers-hold-silent-protest-in-visakhapatnam-against-killings-in-war-zones/article71324314.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
-          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
-          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
           "source": "the_hindu"
         }
       ]
@@ -937,30 +913,6 @@
       ]
     },
     {
-      "word": "BENGALURU",
-      "length": 9,
-      "mentions": 3,
-      "num_sources": 1,
-      "score": 5,
-      "snippets": [
-        {
-          "text": "Two killed, 25 injured as Kerala SRTC bus crashes into signboard on Bengaluru-Mysuru Highway",
-          "link": "https://www.thehindu.com/news/cities/bangalore/two-killed-25-injured-as-kerala-srtc-bus-crashes-into-signboard-on-bengaluru-mysuru-highway/article71321257.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Near-expiry sauces, beverages found at suppliers to Bengaluru\u2019s five-star hotels",
-          "link": "https://www.thehindu.com/news/cities/bangalore/near-expiry-sauces-beverages-found-at-suppliers-to-bengalurus-five-star-hotels/article71321520.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Near-expiry sauces, beverages found at suppliers to Bengaluru\u2019s five-star hotels",
-          "link": "https://www.thehindu.com/news/cities/bangalore/near-expiry-sauces-beverages-found-at-suppliers-to-bengalurus-five-star-hotels/article71321520.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
       "word": "KSRTC",
       "length": 5,
       "mentions": 3,
@@ -980,30 +932,6 @@
         {
           "text": "KSRTC accident trail puts driver deployment, ageing fleet under scrutiny",
           "link": "https://www.thehindu.com/news/national/kerala/host-of-issues-cited-as-reasons-for-road-accidents-involving-ksrtc-buses/article71321779.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "BANERJEE",
-      "length": 8,
-      "mentions": 3,
-      "num_sources": 1,
-      "score": 5,
-      "snippets": [
-        {
-          "text": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
-          "link": "https://www.thehindu.com/news/national/west-bengal/abhishek-banerjees-personal-assistant-grilled-for-10-hours-by-bengal-police/article71322577.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
-          "link": "https://www.thehindu.com/news/national/west-bengal/abhishek-banerjees-personal-assistant-grilled-for-10-hours-by-bengal-police/article71322577.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
-          "link": "https://www.thehindu.com/news/national/west-bengal/abhishek-banerjees-personal-assistant-grilled-for-10-hours-by-bengal-police/article71322577.ece",
           "source": "the_hindu"
         }
       ]
@@ -1201,26 +1129,26 @@
       ]
     },
     {
-      "word": "PRADHAN",
-      "length": 7,
-      "mentions": 3,
-      "num_sources": 1,
-      "score": 5,
+      "word": "IRAN",
+      "length": 4,
+      "mentions": 11,
+      "num_sources": 4,
+      "score": 4.75,
       "snippets": [
         {
-          "text": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
-          "link": "https://timesofindia.indiatimes.com/india/gen-z-is-a-force-that-cant-be-ignored-dharmendra-pradhan/articleshow/133061131.cms",
-          "source": "times_of_india"
+          "text": "Seafarers hold silent protest in Visakhapatnam against killings in war zones",
+          "link": "https://www.thehindu.com/news/national/andhra-pradesh/seafarers-hold-silent-protest-in-visakhapatnam-against-killings-in-war-zones/article71324314.ece",
+          "source": "the_hindu"
         },
         {
-          "text": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
-          "link": "https://timesofindia.indiatimes.com/india/gen-z-is-a-force-that-cant-be-ignored-dharmendra-pradhan/articleshow/133061131.cms",
-          "source": "times_of_india"
+          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
+          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
+          "source": "the_hindu"
         },
         {
-          "text": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
-          "link": "https://timesofindia.indiatimes.com/india/gen-z-is-a-force-that-cant-be-ignored-dharmendra-pradhan/articleshow/133061131.cms",
-          "source": "times_of_india"
+          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
+          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
+          "source": "the_hindu"
         }
       ]
     },
@@ -1245,6 +1173,63 @@
           "text": "What is AI model distillation and why is it becoming a US-China flashpoint?",
           "link": "https://timesofindia.indiatimes.com/defence/international/what-is-ai-model-distillation-and-why-is-it-becoming-a-us-china-flashpoint/articleshow/133065118.cms",
           "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "BAILEY",
+      "length": 6,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "India hands over another consignment of Bailey bridges to Sri Lanka",
+          "link": "https://www.thehindu.com/news/national/india-hands-over-another-consignment-of-bailey-bridges-to-sri-lanka/article71324530.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "India hands over another consignment of Bailey bridges to Sri Lanka",
+          "link": "https://www.thehindu.com/news/national/india-hands-over-another-consignment-of-bailey-bridges-to-sri-lanka/article71324530.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "MAMATA",
+      "length": 6,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "Mamata visits residence of Trinamool worker who died in police custody, faces protests",
+          "link": "https://www.thehindu.com/news/national/west-bengal/mamata-visits-residence-of-trinamool-worker-who-died-in-police-custody-faces-protests/article71324471.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Mamata visits residence of Trinamool worker who died in police custody, faces protests",
+          "link": "https://www.thehindu.com/news/national/west-bengal/mamata-visits-residence-of-trinamool-worker-who-died-in-police-custody-faces-protests/article71324471.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "SABHA",
+      "length": 5,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
+          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "T.N. MPs\u2019 meeting convened by CM Vijay seeks freeze on 543 Lok Sabha seats",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/tn-mps-meeting-convened-by-cm-vijay-seeks-freeze-on-543-lok-sabha-seats/article71322504.ece",
+          "source": "the_hindu"
         }
       ]
     },
@@ -1301,25 +1286,6 @@
         {
           "text": "KSRTC accident trail puts driver deployment, ageing fleet under scrutiny",
           "link": "https://www.thehindu.com/news/national/kerala/host-of-issues-cited-as-reasons-for-road-accidents-involving-ksrtc-buses/article71321779.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "SABHA",
-      "length": 5,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
-          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "T.N. MPs\u2019 meeting convened by CM Vijay seeks freeze on 543 Lok Sabha seats",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/tn-mps-meeting-convened-by-cm-vijay-seeks-freeze-on-543-lok-sabha-seats/article71322504.ece",
           "source": "the_hindu"
         }
       ]
@@ -1553,25 +1519,6 @@
       ]
     },
     {
-      "word": "MADRAS",
-      "length": 6,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "Madras Day 2026: the humble typewriter keeps clacking despite the digital takeover",
-          "link": "https://www.thehindu.com/news/cities/chennai/the-humble-typewriter-keeps-clacking-despite-the-digital-takeover/article71321515.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Madras HC directs Chief Secretary to file compliance report on rehabilitation scheme for transpersons at taluk level",
-          "link": "https://www.thehindu.com/news/cities/Madurai/madras-hc-directs-chief-secretary-to-file-compliance-report-on-rehabilitation-scheme-for-transpersons-at-taluk-level/article71321999.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
       "word": "ABHISHEK",
       "length": 8,
       "mentions": 2,
@@ -1686,39 +1633,58 @@
       ]
     },
     {
-      "word": "DELL",
-      "length": 4,
+      "word": "KARTIK",
+      "length": 6,
       "mentions": 2,
       "num_sources": 1,
       "score": 4,
       "snippets": [
         {
-          "text": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
-          "link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
           "source": "times_of_india"
         },
         {
-          "text": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
-          "link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
           "source": "times_of_india"
         }
       ]
     },
     {
-      "word": "BASE",
-      "length": 4,
+      "word": "AARYAN",
+      "length": 6,
       "mentions": 2,
       "num_sources": 1,
       "score": 4,
       "snippets": [
         {
-          "text": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
-          "link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
           "source": "times_of_india"
         },
         {
-          "text": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
-          "link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "TINIAN",
+      "length": 6,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "USS Colorado took 22 hits in the 1944 battle but stayed in action",
+          "link": "https://timesofindia.indiatimes.com/defence/international/in-1944-japanese-shore-guns-hit-uss-colorado-22-times-off-tinian-killing-43-and-wounding-198-the-battleship-stayed-in-action-and-fired-back/articleshow/133032978.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "USS Colorado took 22 hits in the 1944 battle but stayed in action",
+          "link": "https://timesofindia.indiatimes.com/defence/international/in-1944-japanese-shore-guns-hit-uss-colorado-22-times-off-tinian-killing-43-and-wounding-198-the-battleship-stayed-in-action-and-fired-back/articleshow/133032978.cms",
           "source": "times_of_india"
         }
       ]
@@ -1738,63 +1704,6 @@
         {
           "text": "In 1997, Steve Jobs told employees: Nike sells shoes, yet inspires millions",
           "link": "https://timesofindia.indiatimes.com/technology/tech-news/in-1997-after-returning-to-apple-11-years-after-he-was-fired-from-the-company-he-founded-steve-jobs-at-staff-townhall-nike-sells-shoes-and-yet-/articleshow/133063854.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "JANA",
-      "length": 4,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
-          "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
-          "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "NAYAGAN",
-      "length": 7,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
-          "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
-          "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "MODI",
-      "length": 4,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
-          "link": "https://timesofindia.indiatimes.com/india/youll-have-to-answer-for-this-crime-rahul-slams-pm-modi-hm-shah-over-police-action-on-students/articleshow/133065103.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
-          "link": "https://timesofindia.indiatimes.com/india/gen-z-is-a-force-that-cant-be-ignored-dharmendra-pradhan/articleshow/133061131.cms",
           "source": "times_of_india"
         }
       ]
@@ -1852,6 +1761,82 @@
         {
           "text": "Patrick Mahomes\u2019 million-dollar collection: Cars, watches, mansions and more",
           "link": "https://timesofindia.indiatimes.com/sports/nfl/news/patrick-mahomes-million-dollar-collection-i-try-to-invest-in-stuff-that-i-truly-believe-in-from-luxury-cars-and-watches-to-mansions-and-his-biggest-investments/articleshow/133054669.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "DELL",
+      "length": 4,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
+          "link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
+          "link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "BASE",
+      "length": 4,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
+          "link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
+          "link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "JANA",
+      "length": 4,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
+          "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
+          "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "NAYAGAN",
+      "length": 7,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
+          "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
+          "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
           "source": "times_of_india"
         }
       ]
@@ -2085,63 +2070,6 @@
       ]
     },
     {
-      "word": "DHARMENDRA",
-      "length": 10,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
-          "link": "https://timesofindia.indiatimes.com/india/gen-z-is-a-force-that-cant-be-ignored-dharmendra-pradhan/articleshow/133061131.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
-          "link": "https://timesofindia.indiatimes.com/india/gen-z-is-a-force-that-cant-be-ignored-dharmendra-pradhan/articleshow/133061131.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "BASANT",
-      "length": 6,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
-          "link": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/basant-kumar-meghwal-creates-history-with-silver-medal-at-world-athletics-u20-championships/articleshow/133061896.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
-          "link": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/basant-kumar-meghwal-creates-history-with-silver-medal-at-world-athletics-u20-championships/articleshow/133061896.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "MEGHWAL",
-      "length": 7,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
-          "link": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/basant-kumar-meghwal-creates-history-with-silver-medal-at-world-athletics-u20-championships/articleshow/133061896.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
-          "link": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/basant-kumar-meghwal-creates-history-with-silver-medal-at-world-athletics-u20-championships/articleshow/133061896.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
       "word": "RED",
       "length": 3,
       "mentions": 2,
@@ -2294,25 +2222,6 @@
       ]
     },
     {
-      "word": "CLARKE",
-      "length": 6,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "NBA forward Clarke's death due to effects of drugs",
-          "link": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
-          "source": "bbc_world"
-        },
-        {
-          "text": "NBA forward Clarke's death due to effects of drugs",
-          "link": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
-          "source": "bbc_world"
-        }
-      ]
-    },
-    {
       "word": "KOSOVO",
       "length": 6,
       "mentions": 2,
@@ -2328,6 +2237,160 @@
           "text": "Watch: Moment opposition MP throws eggs at Kosovo's acting PM",
           "link": "https://www.bbc.co.uk/news/videos/cvg8je12xxeo?at_medium=RSS&at_campaign=rss",
           "source": "bbc_world"
+        }
+      ]
+    },
+    {
+      "word": "GOODWORKS",
+      "length": 9,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "KDEM enters MoU with Goodworks Group to attract fresh investment of \u20b95,000 crore in new GCCs; create over 62,000 new jobs",
+          "link": "https://www.thehindu.com/news/national/karnataka/kdem-enters-mou-with-goodworks-group-to-attract-fresh-investment-of-5000-crore-in-new-gccs-create-over-62000-new-jobs/article71322590.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "SRIRANGAM",
+      "length": 9,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Srirangam temple\u2019s eastern gopuram reopened after three years post repairs, renovation",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/srirangam-temples-eastern-gopuram-reopened-after-three-years-post-repairs-renovation/article71324353.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "SRI",
+      "length": 3,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "India hands over another consignment of Bailey bridges to Sri Lanka",
+          "link": "https://www.thehindu.com/news/national/india-hands-over-another-consignment-of-bailey-bridges-to-sri-lanka/article71324530.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "LANKA",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "India hands over another consignment of Bailey bridges to Sri Lanka",
+          "link": "https://www.thehindu.com/news/national/india-hands-over-another-consignment-of-bailey-bridges-to-sri-lanka/article71324530.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "TPCC",
+      "length": 4,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Congress calls for defence of Constitution and democracy in spirit of Quit India movement",
+          "link": "https://www.thehindu.com/news/national/telangana/congress-calls-for-defence-of-constitution-and-democracy-in-spirit-of-quit-india-movement/article71324493.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "MAHESH",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Congress calls for defence of Constitution and democracy in spirit of Quit India movement",
+          "link": "https://www.thehindu.com/news/national/telangana/congress-calls-for-defence-of-constitution-and-democracy-in-spirit-of-quit-india-movement/article71324493.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "JHARKHAND",
+      "length": 9,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
+          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "RAVINDRA",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
+          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "PASWAN",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
+          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "VIDHAN",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
+          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "GHERAO",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
+          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
+          "source": "the_hindu"
         }
       ]
     },
@@ -2416,20 +2479,6 @@
       ]
     },
     {
-      "word": "GAUTAM",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
-          "link": "https://www.thehindu.com/news/national/indian-navy-joins-search-for-three-fishermen-missing-after-boat-mishaps-in-kerala/article71324425.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
       "word": "KRISHNA",
       "length": 7,
       "mentions": 1,
@@ -2481,76 +2530,6 @@
         {
           "text": "BJP, JD(S) launch padayatra against Bidadi township project",
           "link": "https://www.thehindu.com/news/cities/bangalore/bjp-jds-launch-padayatra-against-bidadi-township-project/article71324362.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "JHARKHAND",
-      "length": 9,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
-          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "RAVINDRA",
-      "length": 8,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
-          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "PASWAN",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
-          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "VIDHAN",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
-          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "GHERAO",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
-          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
           "source": "the_hindu"
         }
       ]
@@ -3018,6 +2997,20 @@
       ]
     },
     {
+      "word": "GEN",
+      "length": 3,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Be aware of external forces trying to mislead you through social media: Odisha CM to Gen Z",
+          "link": "https://www.thehindu.com/news/national/odisha/be-aware-of-external-forces-trying-to-mislead-you-through-social-media-odisha-cm-to-gen-z/article71324382.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
       "word": "MOHAN",
       "length": 5,
       "mentions": 1,
@@ -3055,20 +3048,6 @@
         {
           "text": "Be aware of external forces trying to mislead you through social media: Odisha CM to Gen Z",
           "link": "https://www.thehindu.com/news/national/odisha/be-aware-of-external-forces-trying-to-mislead-you-through-social-media-odisha-cm-to-gen-z/article71324382.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "GOODWORKS",
-      "length": 9,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "KDEM enters MoU with Goodworks Group to attract fresh investment of \u20b95,000 crore in new GCCs; create over 62,000 new jobs",
-          "link": "https://www.thehindu.com/news/national/karnataka/kdem-enters-mou-with-goodworks-group-to-attract-fresh-investment-of-5000-crore-in-new-gccs-create-over-62000-new-jobs/article71322590.ece",
           "source": "the_hindu"
         }
       ]
@@ -3662,6 +3641,20 @@
       ]
     },
     {
+      "word": "BENGALURU",
+      "length": 9,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Two killed, 25 injured as Kerala SRTC bus crashes into signboard on Bengaluru-Mysuru Highway",
+          "link": "https://www.thehindu.com/news/cities/bangalore/two-killed-25-injured-as-kerala-srtc-bus-crashes-into-signboard-on-bengaluru-mysuru-highway/article71321257.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
       "word": "MYSURU",
       "length": 6,
       "mentions": 1,
@@ -3699,6 +3692,20 @@
         {
           "text": "Mild earthquake, tremors in Maharashtra\u2019s Nashik; cracks reported in houses",
           "link": "https://www.thehindu.com/news/national/maharashtra/mild-earthquake-tremors-in-maharashtras-nashik-cracks-reported-in-houses/article71324020.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "MADRAS",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Madras Day 2026: the humble typewriter keeps clacking despite the digital takeover",
+          "link": "https://www.thehindu.com/news/cities/chennai/the-humble-typewriter-keeps-clacking-despite-the-digital-takeover/article71321515.ece",
           "source": "the_hindu"
         }
       ]
@@ -3886,104 +3893,6 @@
       ]
     },
     {
-      "word": "FSDA",
-      "length": 4,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Near-expiry sauces, beverages found at suppliers to Bengaluru\u2019s five-star hotels",
-          "link": "https://www.thehindu.com/news/cities/bangalore/near-expiry-sauces-beverages-found-at-suppliers-to-bengalurus-five-star-hotels/article71321520.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "TIRUCHI",
-      "length": 7,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Plea to speed up Tiruchi Airport runway expansion work gets shriller",
-          "link": "https://www.thehindu.com/news/cities/Tiruchirapalli/plea-to-speed-up-tiruchi-airport-runway-expansion-work-gets-shriller/article71321774.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "DURAI",
-      "length": 5,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Plea to speed up Tiruchi Airport runway expansion work gets shriller",
-          "link": "https://www.thehindu.com/news/cities/Tiruchirapalli/plea-to-speed-up-tiruchi-airport-runway-expansion-work-gets-shriller/article71321774.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "VAIKO",
-      "length": 5,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Plea to speed up Tiruchi Airport runway expansion work gets shriller",
-          "link": "https://www.thehindu.com/news/cities/Tiruchirapalli/plea-to-speed-up-tiruchi-airport-runway-expansion-work-gets-shriller/article71321774.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "JAWAHARLAL",
-      "length": 10,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
-          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "NEHRU",
-      "length": 5,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
-          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "DEAN",
-      "length": 4,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
-          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
       "word": "AJINKYA",
       "length": 7,
       "mentions": 1,
@@ -4040,6 +3949,342 @@
       ]
     },
     {
+      "word": "ANUPAM",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "KHER",
+      "length": 4,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "ASSAM",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "RANDEEP",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "HOODA",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "ALIA",
+      "length": 4,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "BHATT",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "BHUMI",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "PEDNEKAR",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "NITA",
+      "length": 4,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "AMBANI",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "ADANI",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Kartik Aaryan, Anupam Kher, Randeep Hooda: Celebrities who supported Assam flood victims",
+          "link": "https://timesofindia.indiatimes.com/city/guwahati/kartik-aaryan-anupam-kher-to-randeep-hooda-list-of-celebrities-who-extended-support-to-assam-flood-victims/articleshow/133065143.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "JAWAHARLAL",
+      "length": 10,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "NEHRU",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "DEAN",
+      "length": 4,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "DHOOT",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "IPO bonanza: 5 firms to raise over Rs 7,400 crore this week",
+          "link": "https://timesofindia.indiatimes.com/business/india-business/ipo-bonanza-from-dhoot-transmission-to-shiprocket-5-companies-to-raise-over-rs-7400-crore-this-week/articleshow/133065941.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "MOLBIO",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "IPO bonanza: 5 firms to raise over Rs 7,400 crore this week",
+          "link": "https://timesofindia.indiatimes.com/business/india-business/ipo-bonanza-from-dhoot-transmission-to-shiprocket-5-companies-to-raise-over-rs-7400-crore-this-week/articleshow/133065941.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "DIAGNOSTICS",
+      "length": 11,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "IPO bonanza: 5 firms to raise over Rs 7,400 crore this week",
+          "link": "https://timesofindia.indiatimes.com/business/india-business/ipo-bonanza-from-dhoot-transmission-to-shiprocket-5-companies-to-raise-over-rs-7400-crore-this-week/articleshow/133065941.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "MILKY",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "IPO bonanza: 5 firms to raise over Rs 7,400 crore this week",
+          "link": "https://timesofindia.indiatimes.com/business/india-business/ipo-bonanza-from-dhoot-transmission-to-shiprocket-5-companies-to-raise-over-rs-7400-crore-this-week/articleshow/133065941.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "SHIPROCKET",
+      "length": 10,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "IPO bonanza: 5 firms to raise over Rs 7,400 crore this week",
+          "link": "https://timesofindia.indiatimes.com/business/india-business/ipo-bonanza-from-dhoot-transmission-to-shiprocket-5-companies-to-raise-over-rs-7400-crore-this-week/articleshow/133065941.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "USS",
+      "length": 3,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "USS Colorado took 22 hits in the 1944 battle but stayed in action",
+          "link": "https://timesofindia.indiatimes.com/defence/international/in-1944-japanese-shore-guns-hit-uss-colorado-22-times-off-tinian-killing-43-and-wounding-198-the-battleship-stayed-in-action-and-fired-back/articleshow/133032978.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "COLORADO",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "USS Colorado took 22 hits in the 1944 battle but stayed in action",
+          "link": "https://timesofindia.indiatimes.com/defence/international/in-1944-japanese-shore-guns-hit-uss-colorado-22-times-off-tinian-killing-43-and-wounding-198-the-battleship-stayed-in-action-and-fired-back/articleshow/133032978.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "PACIFIC",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "USS Colorado took 22 hits in the 1944 battle but stayed in action",
+          "link": "https://timesofindia.indiatimes.com/defence/international/in-1944-japanese-shore-guns-hit-uss-colorado-22-times-off-tinian-killing-43-and-wounding-198-the-battleship-stayed-in-action-and-fired-back/articleshow/133032978.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "EAT",
+      "length": 3,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Stephen and Ayesha Curry reach $100 million milestone through their foundation",
+          "link": "https://timesofindia.indiatimes.com/sports/nba/top-stories/stephen-curry-and-ayesha-curry-mark-a-major-100-million-milestone-as-their-foundation-continues-changing-lives/articleshow/133059172.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
       "word": "MICHAEL",
       "length": 7,
       "mentions": 1,
@@ -4068,34 +4313,6 @@
       ]
     },
     {
-      "word": "DELAWARE",
-      "length": 8,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "US scientists tag sharks to help forecast hurricane intensification",
-          "link": "https://timesofindia.indiatimes.com/science/us-scientists-are-tagging-sharks-with-ocean-sensors-every-time-they-surface-data-is-sent-by-satellite-to-help-forecast-how-strongly-hurricanes-may-intensify/articleshow/133063381.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "ATLANTIC",
-      "length": 8,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "US scientists tag sharks to help forecast hurricane intensification",
-          "link": "https://timesofindia.indiatimes.com/science/us-scientists-are-tagging-sharks-with-ocean-sensors-every-time-they-surface-data-is-sent-by-satellite-to-help-forecast-how-strongly-hurricanes-may-intensify/articleshow/133063381.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
       "word": "THALAPATHY",
       "length": 10,
       "mentions": 1,
@@ -4110,15 +4327,15 @@
       ]
     },
     {
-      "word": "EAT",
-      "length": 3,
+      "word": "MODI",
+      "length": 4,
       "mentions": 1,
       "num_sources": 1,
       "score": 3,
       "snippets": [
         {
-          "text": "Stephen and Ayesha Curry reach $100 million milestone through their foundation",
-          "link": "https://timesofindia.indiatimes.com/sports/nba/top-stories/stephen-curry-and-ayesha-curry-mark-a-major-100-million-milestone-as-their-foundation-continues-changing-lives/articleshow/133059172.cms",
+          "text": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
+          "link": "https://timesofindia.indiatimes.com/india/youll-have-to-answer-for-this-crime-rahul-slams-pm-modi-hm-shah-over-police-action-on-students/articleshow/133065103.cms",
           "source": "times_of_india"
         }
       ]
@@ -4754,62 +4971,6 @@
       ]
     },
     {
-      "word": "NARENDRA",
-      "length": 8,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
-          "link": "https://timesofindia.indiatimes.com/india/gen-z-is-a-force-that-cant-be-ignored-dharmendra-pradhan/articleshow/133061131.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "KUMAR",
-      "length": 5,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
-          "link": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/basant-kumar-meghwal-creates-history-with-silver-medal-at-world-athletics-u20-championships/articleshow/133061896.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "ASHISH",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
-          "link": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/basant-kumar-meghwal-creates-history-with-silver-medal-at-world-athletics-u20-championships/articleshow/133061896.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "YADAV",
-      "length": 5,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
-          "link": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/basant-kumar-meghwal-creates-history-with-silver-medal-at-world-athletics-u20-championships/articleshow/133061896.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
       "word": "INDONESIA",
       "length": 9,
       "mentions": 1,
@@ -5258,6 +5419,20 @@
       ]
     },
     {
+      "word": "JAPAN",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Typhoon Dolphin batters Japan's Okinawa before bearing down on China",
+          "link": "https://www.bbc.co.uk/news/articles/cvglp2zlvrlo?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        }
+      ]
+    },
+    {
       "word": "OKINAWA",
       "length": 7,
       "mentions": 1,
@@ -5309,76 +5484,6 @@
         {
           "text": "US offers $1bn to Colombia on new right-wing president's first day of office",
           "link": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
-          "source": "bbc_world"
-        }
-      ]
-    },
-    {
-      "word": "NBA",
-      "length": 3,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "NBA forward Clarke's death due to effects of drugs",
-          "link": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
-          "source": "bbc_world"
-        }
-      ]
-    },
-    {
-      "word": "MEMPHIS",
-      "length": 7,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "NBA forward Clarke's death due to effects of drugs",
-          "link": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
-          "source": "bbc_world"
-        }
-      ]
-    },
-    {
-      "word": "BRANDON",
-      "length": 7,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "NBA forward Clarke's death due to effects of drugs",
-          "link": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
-          "source": "bbc_world"
-        }
-      ]
-    },
-    {
-      "word": "LOS",
-      "length": 3,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "NBA forward Clarke's death due to effects of drugs",
-          "link": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
-          "source": "bbc_world"
-        }
-      ]
-    },
-    {
-      "word": "ANGELES",
-      "length": 7,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "NBA forward Clarke's death due to effects of drugs",
-          "link": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
           "source": "bbc_world"
         }
       ]

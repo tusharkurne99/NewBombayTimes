@@ -7,46 +7,53 @@
     "cols": 9
   },
   "grid": [
-    "R##HAUNTS",
-    "ATLANTA##",
-    "S#ORDERED",
-    "HIVE##ETA",
-    "EYE##NUN",
-    "EES##FDIC",
-    "DREAMER#I",
-    "##ABSTAIN",
-    "OUTAGE##G"
+    "B###TESLA",
+    "ACNE#APIS",
+    "HAIRSTYLE",
+    "TRAIT#SOS",
+    "###EON###",
+    "NGT#KIOWA",
+    "EPICENTER",
+    "AARP#ACID",
+    "PSEUD###S"
   ],
   "numbering": {
     "0,0": 1,
-    "0,3": 2,
-    "0,4": 3,
-    "0,5": 4,
-    "0,6": 5,
-    "1,0": 6,
-    "1,2": 7,
-    "2,2": 8,
-    "2,7": 9,
-    "2,8": 10,
-    "3,0": 11,
-    "3,1": 12,
-    "3,6": 13,
-    "4,0": 14,
-    "4,6": 15,
-    "5,0": 16,
-    "5,5": 17,
-    "6,0": 18,
-    "6,3": 19,
-    "6,4": 20,
-    "7,2": 21,
-    "8,0": 22
+    "0,4": 2,
+    "0,5": 3,
+    "0,6": 4,
+    "0,7": 5,
+    "0,8": 6,
+    "1,0": 7,
+    "1,1": 8,
+    "1,2": 9,
+    "1,3": 10,
+    "1,5": 11,
+    "2,0": 12,
+    "2,4": 13,
+    "3,0": 14,
+    "3,6": 15,
+    "4,3": 16,
+    "4,5": 17,
+    "5,0": 18,
+    "5,1": 19,
+    "5,2": 20,
+    "5,4": 21,
+    "5,6": 22,
+    "5,7": 23,
+    "5,8": 24,
+    "6,0": 25,
+    "6,3": 26,
+    "7,0": 27,
+    "7,5": 28,
+    "8,0": 29
   },
   "clues": {
     "across": {
       "2": {
-        "answer": "HAUNTS",
-        "clue": "Frequent visitor to old mansions.",
-        "length": 6,
+        "answer": "TESLA",
+        "clue": "Elder statesman of electric cars",
+        "length": 5,
         "topical": false,
         "clue_options": null,
         "source_snippet": "",
@@ -54,31 +61,9 @@
         "context_meta": null,
         "review_recommended": false
       },
-      "6": {
-        "answer": "ATLANTA",
-        "clue": "Georgia's largest city, for short",
-        "length": 7,
-        "topical": false,
-        "clue_options": null,
-        "source_snippet": "",
-        "source": null,
-        "context_meta": null,
-        "review_recommended": false
-      },
-      "8": {
-        "answer": "ORDERED",
-        "clue": "Given situation of a meeting.",
-        "length": 7,
-        "topical": false,
-        "clue_options": null,
-        "source_snippet": "",
-        "source": null,
-        "context_meta": null,
-        "review_recommended": false
-      },
-      "11": {
-        "answer": "HIVE",
-        "clue": "Buzz of industry",
+      "7": {
+        "answer": "ACNE",
+        "clue": "Common skin condition often marked by blackheads and whiteheads.",
         "length": 4,
         "topical": false,
         "clue_options": null,
@@ -87,10 +72,21 @@
         "context_meta": null,
         "review_recommended": false
       },
-      "13": {
-        "answer": "ETA",
-        "clue": "Airline schedule update",
-        "length": 3,
+      "11": {
+        "answer": "APIS",
+        "clue": "Acronym often used in Silicon Valley tech startups.",
+        "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "12": {
+        "answer": "HAIRSTYLE",
+        "clue": "Indian women often sport this look at weddings.",
+        "length": 9,
         "topical": false,
         "clue_options": null,
         "source_snippet": "",
@@ -99,9 +95,9 @@
         "review_recommended": false
       },
       "14": {
-        "answer": "EYE",
-        "clue": "Where one person sees everything that's going on.",
-        "length": 3,
+        "answer": "TRAIT",
+        "clue": "Flaw that's hard to hide from oneself",
+        "length": 5,
         "topical": false,
         "clue_options": null,
         "source_snippet": "",
@@ -110,8 +106,8 @@
         "review_recommended": false
       },
       "15": {
-        "answer": "NUN",
-        "clue": "Maiden attire in some Eastern churches",
+        "answer": "SOS",
+        "clue": "Desperate signal sent by sailors",
         "length": 3,
         "topical": false,
         "clue_options": null,
@@ -121,8 +117,8 @@
         "review_recommended": false
       },
       "16": {
-        "answer": "EES",
-        "clue": "Small Indian village",
+        "answer": "EON",
+        "clue": "Period of intense creativity in the arts",
         "length": 3,
         "topical": false,
         "clue_options": null,
@@ -131,9 +127,61 @@
         "context_meta": null,
         "review_recommended": false
       },
-      "17": {
-        "answer": "FDIC",
-        "clue": "Regulator for US bank deposits",
+      "18": {
+        "answer": "NGT",
+        "clue": "Environmental watchdog's requirement for project approvals review",
+        "length": 3,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Environmental watchdog's requirement for project approvals review"
+          },
+          {
+            "angle": "concise",
+            "text": "Environmental watchdog issues report on project approval"
+          },
+          {
+            "angle": "oblique",
+            "text": "Environmental watchdog's report due to minister's order"
+          }
+        ],
+        "source_snippet": "NGT must make public report of panel that reviewed approvals for Nicobar project: Jairam Ramesh",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/news/national/nicobar-project-approvals-review-ngt-panel-report-public-congress/article71324112.ece",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-09T10:58:44.734846+00:00"
+        },
+        "review_recommended": true
+      },
+      "21": {
+        "answer": "KIOWA",
+        "clue": "Small US tribe in Nebraska",
+        "length": 5,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "25": {
+        "answer": "EPICENTER",
+        "clue": "Where earthquakes and volcanic eruptions originate",
+        "length": 9,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "27": {
+        "answer": "AARP",
+        "clue": "Group for seniors in the US, established in 1958.",
         "length": 4,
         "topical": false,
         "clue_options": null,
@@ -142,10 +190,10 @@
         "context_meta": null,
         "review_recommended": false
       },
-      "18": {
-        "answer": "DREAMER",
-        "clue": "Person who imagines alternative lives.",
-        "length": 7,
+      "28": {
+        "answer": "ACID",
+        "clue": "Chemical that can erode stone slowly.",
+        "length": 4,
         "topical": false,
         "clue_options": null,
         "source_snippet": "",
@@ -153,21 +201,10 @@
         "context_meta": null,
         "review_recommended": false
       },
-      "21": {
-        "answer": "ABSTAIN",
-        "clue": "Resist a certain indulgence.",
-        "length": 7,
-        "topical": false,
-        "clue_options": null,
-        "source_snippet": "",
-        "source": null,
-        "context_meta": null,
-        "review_recommended": false
-      },
-      "22": {
-        "answer": "OUTAGE",
-        "clue": "Loss of power at an Indian village.",
-        "length": 6,
+      "29": {
+        "answer": "PSEUD",
+        "clue": "Faux writer's signature often used in satire.",
+        "length": 5,
         "topical": false,
         "clue_options": null,
         "source_snippet": "",
@@ -178,68 +215,9 @@
     },
     "down": {
       "1": {
-        "answer": "RASHEED",
-        "clue": "Indian cricketer who batted for over an hour at NCC nets",
-        "length": 7,
-        "topical": true,
-        "clue_options": [
-          {
-            "angle": "direct",
-            "text": "Indian cricketer who batted for over an hour at NCC nets"
-          },
-          {
-            "angle": "concise",
-            "text": "Gill's opponent in a long NCC stint"
-          },
-          {
-            "angle": "oblique",
-            "text": "Indian net session record set by a young batsman?"
-          }
-        ],
-        "source_snippet": "Marathon hit! Shubman Gill bats for over an hour at NCC nets",
-        "source": "news",
-        "context_meta": {
-          "news_outlet": "times_of_india",
-          "article_link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/marathon-hit-shubman-gill-bats-for-over-an-hour-in-ncc-nets/articleshow/133063248.cms",
-          "mentions": 1,
-          "num_sources": 1,
-          "scraped_at": "2026-08-09T10:35:55.805613+00:00"
-        },
-        "review_recommended": true
-      },
-      "12": {
-        "answer": "IYER",
-        "clue": "India's current T20 captain.",
+        "answer": "BAHT",
+        "clue": "Currency of Thailand",
         "length": 4,
-        "topical": true,
-        "clue_options": [
-          {
-            "angle": "direct",
-            "text": "India's current T20 captain."
-          },
-          {
-            "angle": "concise",
-            "text": "Indian T20 captain since 2022"
-          },
-          {
-            "angle": "oblique",
-            "text": "Indian T20 captain of recent note"
-          }
-        ],
-        "source_snippet": "Shreyas Santosh Iyer (born 6 December 1994) is an Indian international cricketer who plays for the India national team. Iyer captains India in T20Is and serves as the vice-captain in ODIs.",
-        "source": "trivia",
-        "context_meta": {
-          "wikipedia_title": "Shreyas Iyer",
-          "wikipedia_url": "https://en.wikipedia.org/wiki/Shreyas_Iyer",
-          "topic": "cricket",
-          "pageviews_3mo": 237395
-        },
-        "review_recommended": true
-      },
-      "7": {
-        "answer": "LOVESEAT",
-        "clue": "Furniture for two in a cozy setting often found on weekends.",
-        "length": 8,
         "topical": false,
         "clue_options": null,
         "source_snippet": "",
@@ -247,10 +225,21 @@
         "context_meta": null,
         "review_recommended": false
       },
-      "2": {
-        "answer": "HARE",
-        "clue": "Small, swift mammal often used for racing.",
+      "18": {
+        "answer": "NEAP",
+        "clue": "Monthly period between two full moons.",
         "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "8": {
+        "answer": "CAR",
+        "clue": "Vehicular mode of transportation often driven by young adults.",
+        "length": 3,
         "topical": false,
         "clue_options": null,
         "source_snippet": "",
@@ -259,70 +248,8 @@
         "review_recommended": false
       },
       "19": {
-        "answer": "ABA",
-        "clue": "Bureau of Indian Affairs location.",
-        "length": 3,
-        "topical": false,
-        "clue_options": null,
-        "source_snippet": "",
-        "source": null,
-        "context_meta": null,
-        "review_recommended": false
-      },
-      "3": {
-        "answer": "AND",
-        "clue": "Method of preparing fish for frying in British dish",
-        "length": 3,
-        "topical": true,
-        "clue_options": [
-          {
-            "angle": "direct",
-            "text": "Method of preparing fish for frying in British dish"
-          },
-          {
-            "angle": "concise",
-            "text": "British pub staples are often combined by this word"
-          },
-          {
-            "angle": "oblique",
-            "text": "Battered together with a side?"
-          }
-        ],
-        "source_snippet": "Fish and chips is a hot dish consisting of battered and fried fish, served with chips. Often considered the national dish of the United Kingdom, fish and chips originated in England in the 19th century.",
-        "source": "trivia",
-        "context_meta": {
-          "wikipedia_title": "Fish and chips",
-          "wikipedia_url": "https://en.wikipedia.org/wiki/Fish_and_chips",
-          "topic": "culture",
-          "pageviews_3mo": 79008
-        },
-        "review_recommended": true
-      },
-      "20": {
-        "answer": "MSG",
-        "clue": "Ingredient commonly added to Asian dishes",
-        "length": 3,
-        "topical": false,
-        "clue_options": null,
-        "source_snippet": "",
-        "source": null,
-        "context_meta": null,
-        "review_recommended": false
-      },
-      "4": {
-        "answer": "UTE",
-        "clue": "Mountain range in western Canada.",
-        "length": 3,
-        "topical": false,
-        "clue_options": null,
-        "source_snippet": "",
-        "source": null,
-        "context_meta": null,
-        "review_recommended": false
-      },
-      "17": {
-        "answer": "FETE",
-        "clue": "Small party or celebration, for example.",
+        "answer": "GPAS",
+        "clue": "Academic grading system lettering",
         "length": 4,
         "topical": false,
         "clue_options": null,
@@ -331,39 +258,39 @@
         "context_meta": null,
         "review_recommended": false
       },
-      "5": {
-        "answer": "NARENDRA",
-        "clue": "Resigned Union Minister",
-        "length": 8,
+      "9": {
+        "answer": "NIA",
+        "clue": "Indian agency that made arrests in Kerala explosives case.",
+        "length": 3,
         "topical": true,
         "clue_options": [
           {
             "angle": "direct",
-            "text": "Resigned Union Minister"
+            "text": "Indian agency that made arrests in Kerala explosives case."
           },
           {
             "angle": "concise",
-            "text": "Minister's warning to the youth"
+            "text": "Explosive probe agency makes key arrest in Kerala case"
           },
           {
             "angle": "oblique",
-            "text": "Former leader's name in Indian politics today?"
+            "text": "Federal agency that took custody of key suspect"
           }
         ],
-        "source_snippet": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
+        "source_snippet": "NIA arrests main conspirator in Kerala illegal explosives seizure case",
         "source": "news",
         "context_meta": {
           "news_outlet": "times_of_india",
-          "article_link": "https://timesofindia.indiatimes.com/india/gen-z-is-a-force-that-cant-be-ignored-dharmendra-pradhan/articleshow/133061131.cms",
+          "article_link": "https://timesofindia.indiatimes.com/india/nia-arrests-main-conspirator-in-kerala-illegal-explosives-seizure-case-tenth-arrest-so-far/articleshow/133063260.cms",
           "mentions": 1,
           "num_sources": 1,
-          "scraped_at": "2026-08-09T10:35:55.805613+00:00"
+          "scraped_at": "2026-08-09T10:58:44.734846+00:00"
         },
         "review_recommended": true
       },
-      "9": {
-        "answer": "ETUI",
-        "clue": "French term for office decor.",
+      "20": {
+        "answer": "TIRE",
+        "clue": "Vehicle's wear and tear manifestation",
         "length": 4,
         "topical": false,
         "clue_options": null,
@@ -373,9 +300,157 @@
         "review_recommended": false
       },
       "10": {
-        "answer": "DANCING",
-        "clue": "A style of performance where steps are choreographed.",
-        "length": 7,
+        "answer": "ERIE",
+        "clue": "Lake in western New York",
+        "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "26": {
+        "answer": "CPU",
+        "clue": "Central processing unit of many computers and gadgets.",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "13": {
+        "answer": "STOKE",
+        "clue": "Engine component's role in India's FFSC rocket",
+        "length": 5,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Engine component's role in India's FFSC rocket"
+          },
+          {
+            "angle": "concise",
+            "text": "Private sector push in rocketry innovation"
+          },
+          {
+            "angle": "oblique",
+            "text": "Rocket fuel's emotional boost in NewSpace endeavors?"
+          }
+        ],
+        "source_snippet": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-09T10:58:44.734846+00:00"
+        },
+        "review_recommended": true
+      },
+      "3": {
+        "answer": "EAT",
+        "clue": "Curry couple's milestone reached through charitable efforts.",
+        "length": 3,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Curry couple's milestone reached through charitable efforts."
+          },
+          {
+            "angle": "concise",
+            "text": "Golden milestone fueled by foundation's efforts"
+          },
+          {
+            "angle": "oblique",
+            "text": "NBA stars' milestone reached through their charitable efforts?"
+          }
+        ],
+        "source_snippet": "Stephen and Ayesha Curry reach $100 million milestone through their foundation",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "times_of_india",
+          "article_link": "https://timesofindia.indiatimes.com/sports/nba/top-stories/stephen-curry-and-ayesha-curry-mark-a-major-100-million-milestone-as-their-foundation-continues-changing-lives/articleshow/133059172.cms",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-09T10:58:44.734846+00:00"
+        },
+        "review_recommended": true
+      },
+      "17": {
+        "answer": "NINA",
+        "clue": "Indian film star known for \"Rajani\" role.",
+        "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "4": {
+        "answer": "SPYS",
+        "clue": "Furtive figures often tracked by authorities.",
+        "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "22": {
+        "answer": "OTC",
+        "clue": "Where shares are bought and sold.",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "5": {
+        "answer": "LILO",
+        "clue": "Billionaire's young daughter",
+        "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "23": {
+        "answer": "WEI",
+        "clue": "Ancient Chinese dynasty",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "6": {
+        "answer": "ASES",
+        "clue": "Small unit of currency in India",
+        "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "24": {
+        "answer": "ARDS",
+        "clue": "Fibrosis in lungs can be caused by this condition.",
+        "length": 4,
         "topical": false,
         "clue_options": null,
         "source_snippet": "",

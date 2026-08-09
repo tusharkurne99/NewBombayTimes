@@ -33,7 +33,14 @@ OUTPUT_DIR = os.path.join(ROOT, "output")
 PUZZLES_DIR = os.path.join(OUTPUT_DIR, "puzzles")
 TEST_GRIDS_DIR = os.path.join(OUTPUT_DIR, "test_grids")
 
-for _d in (RAW_DIR, WORDBANKS_DIR, CONTEXT_DIR, PUZZLES_DIR, TEST_GRIDS_DIR):
+# web/data/puzzles -- the slimmed, public-safe copies publish_web.py writes
+# for the actual website to fetch. Separate from PUZZLES_DIR (which keeps
+# full editorial metadata: clue_options, review_recommended, source
+# snippets/links) on purpose -- see publish_web.py's docstring.
+WEB_DIR = os.path.join(ROOT, "web")
+WEB_PUZZLES_DIR = os.path.join(WEB_DIR, "data", "puzzles")
+
+for _d in (RAW_DIR, WORDBANKS_DIR, CONTEXT_DIR, PUZZLES_DIR, TEST_GRIDS_DIR, WEB_PUZZLES_DIR):
     os.makedirs(_d, exist_ok=True)
 
 # --- raw downloaded source data (build_word_bank.py / build_crossword_quality_wordlist.py) ---
@@ -63,3 +70,7 @@ def test_grid_path(size_arg: str) -> str:
 
 def puzzle_path(date_str: str, size_arg: str) -> str:
     return os.path.join(PUZZLES_DIR, f"puzzle_{date_str}_{size_arg}.json")
+
+
+def web_puzzle_path(size_arg: str) -> str:
+    return os.path.join(WEB_PUZZLES_DIR, f"latest_{size_arg}.json")

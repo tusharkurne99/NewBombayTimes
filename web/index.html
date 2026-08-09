@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>New Bombay Times — Games</title>
+<link rel="stylesheet" href="assets/theme.css">
+<style>
+  /* ------------------------------ Hero ------------------------------ */
+  .hero { background: var(--accent); color: var(--accent-text); padding: 40px 20px 46px; }
+  .hero-inner { max-width: 760px; margin: 0 auto; text-align: center; }
+  .hero-eyebrow {
+    font-size: 12px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase;
+    opacity: .8; margin: 0 0 10px;
+  }
+  .hero h1 {
+    font-family: var(--font-display); font-size: clamp(28px, 4.4vw, 42px);
+    line-height: 1.15; margin: 0 0 12px; text-wrap: balance; font-weight: 700;
+  }
+  .hero p {
+    font-size: 16px; line-height: 1.55; margin: 0; opacity: .92;
+    max-width: 52ch; margin-inline: auto;
+  }
+  .hero-date {
+    display: inline-block; margin-top: 18px; font-size: 13px; font-weight: 700;
+    letter-spacing: .4px; background: rgba(255,255,255,.16); padding: 6px 14px; border-radius: 999px;
+  }
+
+  /* ------------------------------ Main ------------------------------ */
+  main { max-width: 1040px; margin: 0 auto; padding: 44px 20px 80px; }
+  .cards { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 22px; }
+  @media (max-width: 760px) {
+    .cards { grid-template-columns: 1fr; max-width: 340px; margin-inline: auto; }
+  }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--surface-border); border-radius: 10px;
+    box-shadow: var(--shadow); padding: 26px 22px 22px; text-align: center; position: relative;
+    text-decoration: none; color: inherit; display: block;
+    transition: transform .18s ease, box-shadow .18s ease;
+  }
+  .card:hover { transform: translateY(-3px); }
+
+  .badge-free {
+    position: absolute; top: 14px; left: 14px; width: 26px; height: 26px; border-radius: 999px;
+    background: var(--bg); border: 1px solid var(--surface-border);
+    display: flex; align-items: center; justify-content: center; color: var(--text-muted);
+  }
+  .badge-new {
+    position: absolute; top: 14px; right: 14px; background: var(--badge-bg); color: var(--badge-text);
+    font-size: 10px; font-weight: 700; letter-spacing: .5px; padding: 4px 8px; border-radius: 5px;
+  }
+
+  .grid-icon { display: grid; gap: 2px; width: 78px; height: 78px; margin: 6px auto 16px; }
+  .grid-icon i { background: var(--surface-border); border-radius: 1px; }
+  .grid-icon i.black { background: var(--text); }
+
+  .card h2 { font-family: var(--font-display); font-size: 26px; margin: 0 0 8px; font-weight: 700; }
+  .card .date { font-size: 13px; color: var(--text-muted); margin-bottom: 10px; }
+  .card .rule { height: 1px; background: var(--surface-border); margin: 10px auto 12px; width: 60%; }
+  .card .credit { font-size: 12px; color: var(--text-muted); line-height: 1.5; }
+  .card .credit strong { color: var(--text); font-weight: 600; }
+
+  /* --------------------------- Leaderboard --------------------------- */
+  .lb-section { margin-top: 64px; }
+  .lb-head h2 { font-family: var(--font-display); font-size: 24px; margin: 0; font-weight: 700; }
+  .lb-sub { font-size: 14px; color: var(--text-muted); margin: 6px 0 20px; max-width: 60ch; }
+  .lb-card { background: var(--surface); border: 1px solid var(--surface-border); border-radius: 10px; box-shadow: var(--shadow); padding: 8px 0; }
+  .lb-row { display: grid; grid-template-columns: 48px 1fr auto; align-items: center; gap: 12px; padding: 12px 22px; }
+  .lb-row + .lb-row { border-top: 1px solid var(--surface-border); }
+  .lb-rank { font-family: var(--font-display); font-weight: 700; font-size: 15px; color: var(--text-muted); width: 26px; height: 26px; border-radius: 999px; display: flex; align-items: center; justify-content: center; }
+  .lb-row[data-rank="1"] .lb-rank { background: var(--gold); color: #fff; }
+  .lb-row[data-rank="2"] .lb-rank { background: var(--silver); color: #fff; }
+  .lb-row[data-rank="3"] .lb-rank { background: var(--bronze); color: #fff; }
+  .lb-name { font-weight: 600; font-size: 15px; }
+  .lb-time { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 15px; color: var(--text-muted); }
+  .lb-row[data-rank="1"] .lb-time, .lb-row[data-rank="2"] .lb-time, .lb-row[data-rank="3"] .lb-time { color: var(--text); }
+  .lb-empty { padding: 22px; text-align: center; color: var(--text-muted); font-size: 14px; }
+  .lb-footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 22px 16px; flex-wrap: wrap; }
+  .lb-note { font-size: 12.5px; color: var(--text-muted); }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-left">
+    <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    <a class="wordmark" href="index.html">
+      <svg class="wordmark-icon" width="26" height="26" viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="var(--masthead-text)" d="M4 21 V10 C4 5.02 7.58 2 12 2 C16.42 2 20 5.02 20 10 V21 Z"/>
+        <path fill="var(--masthead-bg)" d="M8 21 V11.5 C8 8.5 9.8 6.5 12 6.5 C14.2 6.5 16 8.5 16 11.5 V21 Z"/>
+      </svg>
+      <span class="wordmark-text">New Bombay Times</span>
+      <span class="wordmark-suffix">Games</span>
+    </a>
+  </div>
+  <button class="cta-pill">How to Play</button>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">Free · No subscription · No account required</p>
+    <h1>Three new puzzles, built fresh from today's headlines.</h1>
+    <p>A Mini, a Midi, and a full Crossword, generated daily with an Indian lens
+       and a dash of the wider world — every clue reviewed by hand before it's
+       yours to solve.</p>
+    <span class="hero-date" id="hero-date">Loading today's date…</span>
+  </div>
+</section>
+
+<main id="top">
+  <div class="cards">
+    <a class="card" href="solve.html?size=crossword" data-puzzle="crossword">
+      <span class="badge-free" title="Free to play" aria-hidden="true">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <rect x="4" y="11" width="16" height="9" rx="1.5"></rect><path d="M7 11V7a5 5 0 0 1 9-3"></path>
+        </svg>
+      </span>
+      <div class="grid-icon" data-pattern="crossword" style="grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(5,1fr);"></div>
+      <h2>The Crossword</h2>
+      <div class="date" data-date-for="crossword">—</div>
+      <div class="rule"></div>
+      <div class="credit">Drafted by <strong>the daily engine</strong><br>Reviewed by <strong>the editor</strong></div>
+    </a>
+
+    <a class="card" href="solve.html?size=midi" data-puzzle="midi">
+      <span class="badge-free" title="Free to play" aria-hidden="true">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <rect x="4" y="11" width="16" height="9" rx="1.5"></rect><path d="M7 11V7a5 5 0 0 1 9-3"></path>
+        </svg>
+      </span>
+      <span class="badge-new">NEW</span>
+      <div class="grid-icon" data-pattern="midi" style="grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(5,1fr);"></div>
+      <h2>The Midi</h2>
+      <div class="date" data-date-for="midi">—</div>
+      <div class="rule"></div>
+      <div class="credit">Drafted by <strong>the daily engine</strong><br>Reviewed by <strong>the editor</strong></div>
+    </a>
+
+    <a class="card" href="solve.html?size=mini" data-puzzle="mini">
+      <span class="badge-free" title="Free to play" aria-hidden="true">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <rect x="4" y="11" width="16" height="9" rx="1.5"></rect><path d="M7 11V7a5 5 0 0 1 9-3"></path>
+        </svg>
+      </span>
+      <div class="grid-icon" data-pattern="mini" style="grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(4,1fr);"></div>
+      <h2>The Mini</h2>
+      <div class="date" data-date-for="mini">—</div>
+      <div class="rule"></div>
+      <div class="credit">Drafted by <strong>the daily engine</strong><br>Reviewed by <strong>the editor</strong></div>
+    </a>
+  </div>
+
+  <section class="lb-section">
+    <div class="lb-head"><h2>Today's Fastest — The Mini</h2></div>
+    <p class="lb-sub">Pick any name for the day, no account needed. Solve, and your time joins the board below — land in the top five and things get a little celebratory.</p>
+    <div class="lb-card">
+      <div id="lb-rows"></div>
+      <div class="lb-footer">
+        <span class="lb-note" id="lb-note">Board resets each day at midnight IST.</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span class="foot-icon-wrap">
+    <svg class="wordmark-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="var(--text-muted)" d="M4 21 V10 C4 5.02 7.58 2 12 2 C16.42 2 20 5.02 20 10 V21 Z"/>
+      <path fill="var(--bg)" d="M8 21 V11.5 C8 8.5 9.8 6.5 12 6.5 C14.2 6.5 16 8.5 16 11.5 V21 Z"/>
+    </svg>
+  </span>
+  <span>New Bombay Times is an independent, non-commercial project built for fun — not affiliated with The New York Times.</span>
+</footer>
+
+<script src="assets/leaderboard.js"></script>
+<script>
+  // ---- decorative grid icons (same authentic patterns as the design
+  // pitch -- Mini's is the project's actual original 5x5 black-square
+  // layout, scaled to a 4x4 icon) ----
+  var PATTERNS = {
+    mini: { size: 4, black: [[0,3],[3,0]] },
+    midi: { size: 5, black: [[0,2],[4,2],[2,0],[2,4],[1,1],[3,3]] },
+    crossword: { size: 5, black: [[0,1],[0,3],[4,3],[4,1],[1,4],[3,0],[3,4],[1,0],[2,2]] }
+  };
+  document.querySelectorAll('.grid-icon').forEach(function (el) {
+    var p = PATTERNS[el.dataset.pattern];
+    var blackSet = new Set(p.black.map(function (rc) { return rc[0] + ',' + rc[1]; }));
+    for (var r = 0; r < p.size; r++) {
+      for (var c = 0; c < p.size; c++) {
+        var cell = document.createElement('i');
+        if (blackSet.has(r + ',' + c)) cell.classList.add('black');
+        el.appendChild(cell);
+      }
+    }
+  });
+
+  // ---- real dates + leaderboard, read from the actual daily puzzle
+  // files rather than the browser's clock -- this is what actually
+  // changes once run_daily.sh + publish.sh produce a new day's puzzles ----
+  function fmtDate(iso) {
+    // avoid new Date('2026-08-09') timezone-shift surprises: parse manually
+    var parts = iso.split('-').map(Number);
+    var d = new Date(parts[0], parts[1] - 1, parts[2]);
+    return d.toLocaleDateString(undefined, { weekday: 'long', month: 'short', day: 'numeric', year: 'numeric' });
+  }
+
+  ['mini', 'midi', 'crossword'].forEach(function (size) {
+    fetch('data/puzzles/latest_' + size + '.json')
+      .then(function (r) { if (!r.ok) throw new Error('no puzzle'); return r.json(); })
+      .then(function (puzzle) {
+        var human = fmtDate(puzzle.date);
+        var el = document.querySelector('[data-date-for="' + size + '"]');
+        if (el) el.textContent = human;
+        if (size === 'mini') {
+          document.getElementById('hero-date').textContent = human;
+          renderLeaderboard(puzzle.id);
+        }
+      })
+      .catch(function () {
+        var el = document.querySelector('[data-date-for="' + size + '"]');
+        if (el) el.textContent = 'Coming soon';
+      });
+  });
+
+  function renderLeaderboard(puzzleId) {
+    var board = window.NBTLeaderboard.getBoard(puzzleId);
+    var rowsEl = document.getElementById('lb-rows');
+    if (!board.length) {
+      rowsEl.innerHTML = '<div class="lb-empty">No one has solved today’s Mini yet — be the first.</div>';
+      return;
+    }
+    rowsEl.innerHTML = '';
+    board.slice(0, 5).forEach(function (row, i) {
+      var div = document.createElement('div');
+      div.className = 'lb-row';
+      div.dataset.rank = i + 1;
+      div.innerHTML =
+        '<span class="lb-rank">' + (i + 1) + '</span>' +
+        '<span class="lb-name">' + row.name + '</span>' +
+        '<span class="lb-time">' + window.NBTLeaderboard.formatTime(row.ms) + '</span>';
+      rowsEl.appendChild(div);
+    });
+  }
+</script>
+</body>
+</html>

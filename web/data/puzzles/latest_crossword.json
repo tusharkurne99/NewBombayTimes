@@ -1,4 +1,7 @@
 {
+  "id": "2026-08-09-crossword",
+  "date": "2026-08-09",
+  "puzzle_type": "crossword",
   "size": {
     "rows": 15,
     "cols": 15
@@ -83,268 +86,268 @@
     "14,0": 60,
     "14,9": 61
   },
-  "words": {
+  "clues": {
     "across": {
       "1": {
-        "answer": "UPSHOT",
+        "clue": "Rising to prominence in a field",
         "length": 6
       },
       "7": {
-        "answer": "RESALE",
+        "clue": "Furniture sale often held by second-hand shops.",
         "length": 6
       },
       "11": {
-        "answer": "NEE",
+        "clue": "Prefix applied to one's maiden name",
         "length": 3
       },
       "12": {
-        "answer": "TECHIE",
+        "clue": "Person who's always on the go in Silicon Valley.",
         "length": 6
       },
       "15": {
-        "answer": "ARE",
+        "clue": "Focal point of a discussion or debate",
         "length": 3
       },
       "16": {
-        "answer": "FALLONHARDTIMES",
+        "clue": "US naval officer and Medal of Honor recipient",
         "length": 15
       },
       "19": {
-        "answer": "ATF",
+        "clue": "Federal agency responsible for firearms regulation",
         "length": 3
       },
       "20": {
-        "answer": "ERICA",
+        "clue": "US president born in Virginia",
         "length": 5
       },
       "21": {
-        "answer": "PAUSE",
+        "clue": "When taking a break from work or study.",
         "length": 5
       },
       "23": {
-        "answer": "SATCHEL",
+        "clue": "Indian student's portable bag item often seen at exams",
         "length": 7
       },
       "26": {
-        "answer": "RHO",
+        "clue": "Greek letter symbol in music notation",
         "length": 3
       },
       "27": {
-        "answer": "ATP",
+        "clue": "Cell's energy currency, briefly",
         "length": 3
       },
       "28": {
-        "answer": "PARADE",
+        "clue": "Colorful procession through the streets of Mumbai.",
         "length": 6
       },
       "29": {
-        "answer": "NIA",
+        "clue": "Agency involved in Kerala explosives seizure case",
         "length": 3
       },
       "31": {
-        "answer": "REID",
+        "clue": "Scottish politician",
         "length": 4
       },
       "32": {
-        "answer": "ALL",
+        "clue": "General consensus among many groups.",
         "length": 3
       },
       "34": {
-        "answer": "DHOOT",
+        "clue": "Indian stock market news this week featured five such firms.",
         "length": 5
       },
       "36": {
-        "answer": "ERA",
+        "clue": "Period of time since ancient civilization began",
         "length": 3
       },
       "37": {
-        "answer": "LIAR",
+        "clue": "Flower that's also a fake one",
         "length": 4
       },
       "39": {
-        "answer": "NUB",
+        "clue": "Small child's nickname in some Indian cultures",
         "length": 3
       },
       "40": {
-        "answer": "DANIEL",
+        "clue": "Crime boss returning to Ireland's airports",
         "length": 6
       },
       "42": {
-        "answer": "NGT",
+        "clue": "Environmental watchdog's report requirement",
         "length": 3
       },
       "43": {
-        "answer": "TKO",
+        "clue": "Knockout in boxing or everyday life.",
         "length": 3
       },
       "45": {
-        "answer": "BEARCAT",
+        "clue": "Feline creature known for its ferocity",
         "length": 7
       },
       "47": {
-        "answer": "QUASH",
+        "clue": "Sporting official's verdict on an opposing player",
         "length": 5
       },
       "48": {
-        "answer": "AMATI",
+        "clue": "Indian term for an elder or respected person",
         "length": 5
       },
       "50": {
-        "answer": "LYE",
+        "clue": "Baker's component often used for whitening dough.",
         "length": 3
       },
       "52": {
-        "answer": "SLIPPERYASANEEL",
+        "clue": "Indian politician known for a certain gait",
         "length": 15
       },
       "57": {
-        "answer": "ONI",
+        "clue": "River in South America",
         "length": 3
       },
       "58": {
-        "answer": "SOPORE",
+        "clue": "J&K Police searches multiple locations in this town.",
         "length": 6
       },
       "59": {
-        "answer": "TWO",
+        "clue": "Number of siblings in some families.",
         "length": 3
       },
       "60": {
-        "answer": "COGENT",
+        "clue": "This is where a train's rhythm takes hold.",
         "length": 6
       },
       "61": {
-        "answer": "ICIEST",
+        "clue": "Winter chill is worst in this region.",
         "length": 6
       }
     },
     "down": {
       "1": {
-        "answer": "UNFAIR",
+        "clue": "Loss in judicial proceedings often cited as unjust.",
         "length": 6
       },
       "40": {
-        "answer": "DBAS",
+        "clue": "Small unit of land shared among several families.",
         "length": 4
       },
       "2": {
-        "answer": "PEAT",
+        "clue": "Frequent visitor to someone's garden",
         "length": 4
       },
       "32": {
-        "answer": "ALAE",
+        "clue": "Ancient Persian royal title",
         "length": 4
       },
       "53": {
-        "answer": "LOO",
+        "clue": "Where you typically find water in India.",
         "length": 3
       },
       "3": {
-        "answer": "SELFPOLLINATING",
+        "clue": "Plant's intimate companion",
         "length": 15
       },
       "33": {
-        "answer": "LAIR",
+        "clue": "Place where animals live in India's wild.",
         "length": 4
       },
       "54": {
-        "answer": "PIE",
+        "clue": "Fruit often served at Diwali parties.",
         "length": 3
       },
       "4": {
-        "answer": "OTO",
+        "clue": "Japanese honorific suffix",
         "length": 3
       },
       "38": {
-        "answer": "RECAP",
+        "clue": "Summarize what happened at a party.",
         "length": 5
       },
       "5": {
-        "answer": "TEN",
+        "clue": "Number you'd use on a phone",
         "length": 3
       },
       "22": {
-        "answer": "SAID",
+        "clue": "What you might utter to someone who asked why.",
         "length": 4
       },
       "41": {
-        "answer": "LAMEST",
+        "clue": "Overused phrase in bad movies and plays",
         "length": 6
       },
       "13": {
-        "answer": "CHEETAHS",
+        "clue": "Fastest land animal in many African reserves",
         "length": 8
       },
       "46": {
-        "answer": "TARO",
+        "clue": "Vine that's often served at Indian buffets.",
         "length": 4
       },
       "6": {
-        "answer": "CHAR",
+        "clue": "Symbol on the Indian passport",
         "length": 4
       },
       "49": {
-        "answer": "TYPE",
+        "clue": "Formal document requirement",
         "length": 4
       },
       "14": {
-        "answer": "IRIS",
+        "clue": "Flower's innermost part often used in art.",
         "length": 4
       },
       "30": {
-        "answer": "HONGQIAO",
+        "clue": "Shanghai airport affected by Typhoon Dolphin cancellation",
         "length": 8
       },
       "7": {
-        "answer": "REDCAP",
+        "clue": "Hindu priest's distinctive headgear",
         "length": 6
       },
       "35": {
-        "answer": "TUTU",
+        "clue": "Ballet dancer's signature skirt",
         "length": 4
       },
       "55": {
-        "answer": "SRI",
+        "clue": "South Asian nation receiving aid from India",
         "length": 3
       },
       "17": {
-        "answer": "TATAR",
+        "clue": "Caucasian steppes' nomadic group",
         "length": 5
       },
       "56": {
-        "answer": "AEC",
+        "clue": "French automaker founded in 1921.",
         "length": 3
       },
       "8": {
-        "answer": "SAI",
+        "clue": "Indian athlete who faced Gill at NCC nets",
         "length": 3
       },
       "24": {
-        "answer": "CREE",
+        "clue": "Small region in northeast India",
         "length": 4
       },
       "9": {
-        "answer": "ARMCHAIRATHLETE",
+        "clue": "Person who stays fit while sitting.",
         "length": 15
       },
       "10": {
-        "answer": "LEE",
+        "clue": "Australian cricketer who named Tendulkar's rival GOAT",
         "length": 3
       },
       "25": {
-        "answer": "EDDA",
+        "clue": "Folk tale from Norway and Sweden",
         "length": 4
       },
       "51": {
-        "answer": "YEWS",
+        "clue": "A sound made in response to criticism",
         "length": 4
       },
       "18": {
-        "answer": "SULE",
+        "clue": "Indian politician's cryptic phrase about meeting controversy",
         "length": 4
       },
       "44": {
-        "answer": "OCELOT",
+        "clue": "Mysterious big cat native to Asia and Africa.",
         "length": 6
       }
     }

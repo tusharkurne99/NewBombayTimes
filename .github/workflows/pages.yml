@@ -1,0 +1,43 @@
+name: Deploy web/ to GitHub Pages
+
+# Deploys the web/ folder (and nothing else -- not the Python pipeline,
+# not data/, not docs/) as a static site whenever it changes on main.
+# This does NOT run the daily puzzle pipeline -- that still happens on
+# your own machine via scripts/run_daily.sh + scripts/publish.sh, which
+# is what actually updates web/data/puzzles/ and pushes the commit that
+# triggers this workflow.
+#
+# One-time setup required in the GitHub UI before this does anything:
+# Settings -> Pages -> Source -> "GitHub Actions" (not "Deploy from a
+# branch"). See README.md for the full walkthrough.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'web/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -7,11 +7,11 @@
     "cols": 5
   },
   "grid": [
-    "TAB##",
-    "BRAG#",
-    "SATAN",
-    "#BORI",
-    "##NBA"
+    "NGT##",
+    "YARN#",
+    "CLEAR",
+    "#ENDS",
+    "##DAS"
   ],
   "numbering": {
     "0,0": 1,
@@ -27,19 +27,38 @@
   "clues": {
     "across": {
       "1": {
-        "answer": "TAB",
-        "clue": "In a screen display or document.",
+        "answer": "NGT",
+        "clue": "Indian environmental regulator's report requirement",
         "length": 3,
-        "topical": false,
-        "clue_options": null,
-        "source_snippet": "",
-        "source": null,
-        "context_meta": null,
-        "review_recommended": false
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Indian environmental regulator's report requirement"
+          },
+          {
+            "angle": "concise",
+            "text": "Environmental watchdog's public disclosure order"
+          },
+          {
+            "angle": "oblique",
+            "text": "Government body enforcing environmental laws in India's islands?"
+          }
+        ],
+        "source_snippet": "NGT must make public report of panel that reviewed approvals for Nicobar project: Jairam Ramesh",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/news/national/nicobar-project-approvals-review-ngt-panel-report-public-congress/article71324112.ece",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-09T10:58:44.734846+00:00"
+        },
+        "review_recommended": true
       },
       "4": {
-        "answer": "BRAG",
-        "clue": "Prideful boast that's quickly deflated.",
+        "answer": "YARN",
+        "clue": "Fib that's hard to weave into something new.",
         "length": 4,
         "topical": false,
         "clue_options": null,
@@ -49,8 +68,8 @@
         "review_recommended": false
       },
       "6": {
-        "answer": "SATAN",
-        "clue": "In some mythologies and folklore, this one's a frequent adversary.",
+        "answer": "CLEAR",
+        "clue": "Sunlight through the trees",
         "length": 5,
         "topical": false,
         "clue_options": null,
@@ -60,70 +79,9 @@
         "review_recommended": false
       },
       "8": {
-        "answer": "BORI",
-        "clue": "River flowing south from Balaghat Range hills",
+        "answer": "ENDS",
+        "clue": "Fulfilling obligation to complete project",
         "length": 4,
-        "topical": true,
-        "clue_options": [
-          {
-            "angle": "direct",
-            "text": "River flowing south from Balaghat Range hills"
-          },
-          {
-            "angle": "concise",
-            "text": "Maharashtra watercourse rising in Balaghat Range"
-          },
-          {
-            "angle": "oblique",
-            "text": "River flowing through Maharashtra and Karnataka?"
-          }
-        ],
-        "source_snippet": "The Bori  River is a tributary of the Bhima River, the main tributary of the Krishna River, in Maharashtra and Karnataka, India. It rises in the Balaghat Range near the hills of Dharur and flows southwards towards Akkalkot.",
-        "source": "trivia",
-        "context_meta": {
-          "wikipedia_title": "Bori River",
-          "wikipedia_url": "https://en.wikipedia.org/wiki/Bori_River",
-          "topic": "geography",
-          "pageviews_3mo": 319
-        },
-        "review_recommended": true
-      },
-      "9": {
-        "answer": "NBA",
-        "clue": "Player whose death was linked to opioid use",
-        "length": 3,
-        "topical": true,
-        "clue_options": [
-          {
-            "angle": "direct",
-            "text": "Player whose death was linked to opioid use"
-          },
-          {
-            "angle": "concise",
-            "text": "Basketball pro's tragic end sparks a cautionary tale"
-          },
-          {
-            "angle": "oblique",
-            "text": "Recent loss in sports overseas?"
-          }
-        ],
-        "source_snippet": "NBA forward Clarke's death due to effects of drugs",
-        "source": "news",
-        "context_meta": {
-          "news_outlet": "bbc_world",
-          "article_link": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
-          "mentions": 1,
-          "num_sources": 1,
-          "scraped_at": "2026-08-09T10:35:55.805613+00:00"
-        },
-        "review_recommended": true
-      }
-    },
-    "down": {
-      "1": {
-        "answer": "TBS",
-        "clue": "Bengal's broadcasting network since 1976",
-        "length": 3,
         "topical": false,
         "clue_options": null,
         "source_snippet": "",
@@ -131,9 +89,52 @@
         "context_meta": null,
         "review_recommended": false
       },
+      "9": {
+        "answer": "DAS",
+        "clue": "In Hindu tradition, this honorific prefix is often used to introduce a name.",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      }
+    },
+    "down": {
+      "1": {
+        "answer": "NYC",
+        "clue": "US city where an Indian politician serves as mayor",
+        "length": 3,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "US city where an Indian politician serves as mayor"
+          },
+          {
+            "angle": "concise",
+            "text": "Tax break granted in Big Apple this week"
+          },
+          {
+            "angle": "oblique",
+            "text": "Urban hub's abbreviation in tax notice controversy?"
+          }
+        ],
+        "source_snippet": "NYC Mayor Zohran Mamdani extends tax deadline after residents call emails 'unclear'",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "times_of_india",
+          "article_link": "https://timesofindia.indiatimes.com/technology/tech-news/new-york-city-mayor-zohran-mamdani-extends-tax-deadline-after-residents-complain-that-emails-you-warned-us-about-are-unclear/articleshow/133064426.cms",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-09T10:58:44.734846+00:00"
+        },
+        "review_recommended": true
+      },
       "2": {
-        "answer": "ARAB",
-        "clue": "Region associated with ancient trade routes.",
+        "answer": "GALE",
+        "clue": "Strong wind blows from the north.",
         "length": 4,
         "topical": false,
         "clue_options": null,
@@ -143,8 +144,8 @@
         "review_recommended": false
       },
       "3": {
-        "answer": "BATON",
-        "clue": "Conductor's leading tool at an orchestra",
+        "answer": "TREND",
+        "clue": "Indian economy's up-and-comer",
         "length": 5,
         "topical": false,
         "clue_options": null,
@@ -154,8 +155,8 @@
         "review_recommended": false
       },
       "5": {
-        "answer": "GARB",
-        "clue": "Layer of clothing that's often flimsy.",
+        "answer": "NADA",
+        "clue": "Zero result in a test score",
         "length": 4,
         "topical": false,
         "clue_options": null,
@@ -165,32 +166,32 @@
         "review_recommended": false
       },
       "7": {
-        "answer": "NIA",
-        "clue": "Indian agency making an arrest in Kerala case",
+        "answer": "RSS",
+        "clue": "Kerala's UDF govt. accused of following this ideology",
         "length": 3,
         "topical": true,
         "clue_options": [
           {
             "angle": "direct",
-            "text": "Indian agency making an arrest in Kerala case"
+            "text": "Kerala's UDF govt. accused of following this ideology"
           },
           {
             "angle": "concise",
-            "text": "Agency makes key arrest in Kerala explosives case"
+            "text": "Right-wing Hindu nationalist outfit facing allegations again"
           },
           {
             "angle": "oblique",
-            "text": "Central agency's recent Kerala bust\"\n\n(10 words)"
+            "text": "Organization accused of promoting Hindu nationalism in Kerala?"
           }
         ],
-        "source_snippet": "NIA arrests main conspirator in Kerala illegal explosives seizure case",
+        "source_snippet": "Vande Mataram row: Kerala\u2019s UDF govt. again faces allegations of toeing the RSS line",
         "source": "news",
         "context_meta": {
-          "news_outlet": "times_of_india",
-          "article_link": "https://timesofindia.indiatimes.com/india/nia-arrests-main-conspirator-in-kerala-illegal-explosives-seizure-case-tenth-arrest-so-far/articleshow/133063260.cms",
-          "mentions": 1,
-          "num_sources": 1,
-          "scraped_at": "2026-08-09T10:35:55.805613+00:00"
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/news/national/kerala/vande-mataram-row-keralas-udf-govt-again-faces-allegations-of-toeing-the-rss-line/article71324212.ece",
+          "mentions": 2,
+          "num_sources": 2,
+          "scraped_at": "2026-08-09T10:58:44.734846+00:00"
         },
         "review_recommended": true
       }

@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>New Bombay Times — Solve</title>
+<link rel="stylesheet" href="assets/theme.css">
+<style>
+  .m-title { display: flex; flex-direction: column; line-height: 1.15; min-width: 0; }
+  .m-title b { font-family: var(--font-display); font-size: 16px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .m-title span { font-size: 11px; color: rgba(247,244,238,.6); white-space: nowrap; }
+  .m-right { display: flex; align-items: center; gap: 6px; }
+  .timer { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 15px; padding: 6px 10px; border-radius: 6px; min-width: 62px; text-align: center; }
+
+  .switcher { display: flex; justify-content: center; gap: 8px; padding: 12px 16px; background: var(--surface-2); border-bottom: 1px solid var(--surface-border); }
+  .switcher button { background: var(--surface); border: 1px solid var(--surface-border); color: var(--text-muted); padding: 7px 16px; border-radius: 999px; font-weight: 700; font-size: 13px; cursor: pointer; }
+  .switcher button.active { background: var(--badge-bg); color: var(--badge-text); border-color: var(--badge-bg); }
+
+  .toolbar { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 16px; flex-wrap: wrap; }
+  .tool-btn { display: flex; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--surface-border); color: var(--text); padding: 8px 14px; border-radius: 999px; font-size: 13px; font-weight: 700; cursor: pointer; }
+  .tool-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  .stage { display: flex; gap: 28px; justify-content: center; align-items: flex-start; padding: 8px 16px 60px; max-width: 1000px; margin: 0 auto; flex-wrap: wrap; }
+  .board-col { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+
+  .active-clue { display: flex; align-items: center; gap: 10px; background: var(--surface); border: 1px solid var(--surface-border); border-radius: 10px; box-shadow: var(--shadow); padding: 10px 6px; width: 100%; max-width: 560px; }
+  .active-clue button { background: none; border: none; color: var(--text-muted); cursor: pointer; padding: 6px; display: flex; flex: none; }
+  .active-clue button:hover { color: var(--accent); }
+  .active-clue .txt { flex: 1; text-align: center; font-size: 15px; }
+  .active-clue .num { font-weight: 700; margin-right: 6px; }
+
+  .grid-wrap { background: var(--text); padding: 2px; border-radius: 4px; box-shadow: var(--shadow); }
+  .xgrid { display: grid; gap: 2px; }
+  .xcell { position: relative; background: var(--surface); cursor: pointer; display: flex; align-items: center; justify-content: center; user-select: none; }
+  .xcell.black { background: var(--text); cursor: default; }
+  .xcell .num { position: absolute; top: 1px; left: 2px; font-size: calc(var(--cell) * 0.24); font-weight: 700; color: var(--text-muted); line-height: 1; }
+  .xcell .ltr { font-family: var(--font-sans); font-weight: 600; color: var(--text); font-size: calc(var(--cell) * 0.52); text-transform: uppercase; }
+  .xcell.in-word { background: var(--surface-2); }
+  .xcell.selected { background: var(--cell-selected); }
+  .xcell.wrong .ltr { color: var(--err); }
+
+  .clue-lists { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; width: 100%; max-width: 460px; }
+  .clue-col h3 { font-family: var(--font-display); font-size: 14px; margin: 0 0 8px; text-transform: uppercase; letter-spacing: .6px; color: var(--text-muted); border-bottom: 1px solid var(--surface-border); padding-bottom: 6px; }
+  .clue-col ol { list-style: none; margin: 0; padding: 0; max-height: 300px; overflow-y: auto; }
+  .clue-col li { display: flex; gap: 6px; padding: 5px 6px; border-radius: 6px; cursor: pointer; font-size: 13px; line-height: 1.35; }
+  .clue-col li:hover { background: var(--surface-2); }
+  .clue-col li.active { background: var(--surface-2); font-weight: 600; }
+  .clue-col li .n { color: var(--text-muted); flex: none; min-width: 18px; }
+  @media (max-width: 760px) { .clue-lists { display: none; } }
+
+  .load-msg { text-align: center; padding: 60px 20px; color: var(--text-muted); }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="m-left">
+    <a class="icon-btn" href="index.html" aria-label="Back to puzzles" title="Back to puzzles">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+    </a>
+    <svg class="wordmark-icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="var(--masthead-text)" d="M4 21 V10 C4 5.02 7.58 2 12 2 C16.42 2 20 5.02 20 10 V21 Z"/>
+      <path fill="var(--masthead-bg)" d="M8 21 V11.5 C8 8.5 9.8 6.5 12 6.5 C14.2 6.5 16 8.5 16 11.5 V21 Z"/>
+    </svg>
+    <div class="m-title">
+      <b id="puzzle-title">Loading…</b>
+      <span id="puzzle-date"></span>
+    </div>
+  </div>
+  <div class="m-right">
+    <button class="icon-btn" id="pause-btn" aria-label="Pause timer" title="Pause">
+      <svg id="pause-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14"></rect><rect x="14" y="5" width="4" height="14"></rect></svg>
+      <svg id="play-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M8 5v14l11-7z"></path></svg>
+    </button>
+    <span class="timer" id="timer">0:00</span>
+  </div>
+</header>
+
+<div class="switcher">
+  <button data-size="mini">Mini</button>
+  <button data-size="midi">Midi</button>
+  <button data-size="crossword">Crossword</button>
+</div>
+
+<div class="toolbar">
+  <button class="tool-btn" id="check-btn">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg>
+    Check
+  </button>
+  <button class="tool-btn" id="reveal-btn">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+    Reveal
+  </button>
+  <button class="tool-btn" id="clear-btn">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M3 6h18M8 6V4h8v2M6 6l1 14h10l1-14"/></svg>
+    Clear
+  </button>
+</div>
+
+<div id="stage-wrap">
+  <div class="load-msg" id="load-msg">Loading today's puzzle…</div>
+  <div class="stage" id="stage" style="display:none">
+    <div class="board-col">
+      <div class="active-clue">
+        <button id="prev-clue" aria-label="Previous clue"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <div class="txt"><span class="num" id="active-num">1-Across</span><span id="active-text">Loading…</span></div>
+        <button id="next-clue" aria-label="Next clue"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 6l6 6-6 6"/></svg></button>
+      </div>
+      <div class="grid-wrap"><div class="xgrid" id="grid"></div></div>
+    </div>
+    <div class="clue-lists">
+      <div class="clue-col"><h3>Across</h3><ol id="list-across"></ol></div>
+      <div class="clue-col"><h3>Down</h3><ol id="list-down"></ol></div>
+    </div>
+  </div>
+</div>
+
+<!-- Username modal -->
+<div class="overlay" id="name-overlay">
+  <div class="modal">
+    <svg class="arch" width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" style="margin:0 auto 14px;">
+      <path fill="var(--text)" d="M4 21 V10 C4 5.02 7.58 2 12 2 C16.42 2 20 5.02 20 10 V21 Z"/>
+      <path fill="var(--surface)" d="M8 21 V11.5 C8 8.5 9.8 6.5 12 6.5 C14.2 6.5 16 8.5 16 11.5 V21 Z"/>
+    </svg>
+    <h2>Before you start…</h2>
+    <p>Pick a name for today's board — anything goes, no account needed. It only has to be unique for today.</p>
+    <input id="name-input" type="text" placeholder="e.g. chai_before_coffee" maxlength="24" autocomplete="off">
+    <button class="primary-btn" id="name-submit">Start solving</button>
+  </div>
+</div>
+
+<!-- Completion modal -->
+<div class="overlay hidden" id="done-overlay">
+  <div class="modal">
+    <svg class="arch" width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" style="margin:0 auto 14px;">
+      <path fill="var(--text)" d="M4 21 V10 C4 5.02 7.58 2 12 2 C16.42 2 20 5.02 20 10 V21 Z"/>
+      <path fill="var(--surface)" d="M8 21 V11.5 C8 8.5 9.8 6.5 12 6.5 C14.2 6.5 16 8.5 16 11.5 V21 Z"/>
+    </svg>
+    <h2 id="done-heading">Solved!</h2>
+    <div class="done-time" id="done-time">0:00</div>
+    <div class="done-rank" id="done-rank">Rank — of —</div>
+    <div class="mini-lb" id="done-lb"></div>
+    <button class="primary-btn" id="done-close">Back to puzzles</button>
+  </div>
+</div>
+
+<canvas id="confetti-canvas"></canvas>
+
+<script src="assets/leaderboard.js"></script>
+<script src="assets/confetti.js"></script>
+<script>
+var TITLES = { mini: 'The Mini', midi: 'The Midi', crossword: 'The Crossword' };
+var PUZZLE_CACHE = {};
+
+var state = {
+  size: 'mini',
+  puzzle: null,
+  slots: { across: [], down: [] },
+  cellSlot: {},
+  values: [],
+  sel: { r: 0, c: 0 },
+  dir: 'across',
+  timerStart: null,
+  elapsedBeforePause: 0,
+  paused: false,
+  running: false,
+  username: null,
+  finished: false
+};
+
+function fmtDate(iso) {
+  var parts = iso.split('-').map(Number);
+  var d = new Date(parts[0], parts[1] - 1, parts[2]);
+  return d.toLocaleDateString(undefined, { weekday: 'long', month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+function fetchPuzzle(size) {
+  if (PUZZLE_CACHE[size]) return Promise.resolve(PUZZLE_CACHE[size]);
+  return fetch('data/puzzles/latest_' + size + '.json')
+    .then(function (r) {
+      if (!r.ok) throw new Error('Puzzle not found for ' + size);
+      return r.json();
+    })
+    .then(function (data) { PUZZLE_CACHE[size] = data; return data; });
+}
+
+function buildSlots(grid, numbering) {
+  var rows = grid.length, cols = grid[0].length;
+  var across = [], down = [];
+  for (var r = 0; r < rows; r++) {
+    var c = 0;
+    while (c < cols) {
+      if (grid[r][c] === '#') { c++; continue; }
+      var start = c, cells = [];
+      while (c < cols && grid[r][c] !== '#') { cells.push([r, c]); c++; }
+      if (cells.length >= 2) across.push({ number: numbering[r + ',' + start], cells: cells });
+    }
+  }
+  for (var c = 0; c < cols; c++) {
+    var r = 0;
+    while (r < rows) {
+      if (grid[r][c] === '#') { r++; continue; }
+      var start = r, cells = [];
+      while (r < rows && grid[r][c] !== '#') { cells.push([r, c]); r++; }
+      if (cells.length >= 2) down.push({ number: numbering[start + ',' + c], cells: cells });
+    }
+  }
+  across.sort(function (a, b) { return a.number - b.number; });
+  down.sort(function (a, b) { return a.number - b.number; });
+
+  var cellSlot = {};
+  for (var r = 0; r < rows; r++) for (var c = 0; c < cols; c++) cellSlot[r + ',' + c] = { across: -1, down: -1 };
+  across.forEach(function (s, i) { s.cells.forEach(function (rc) { cellSlot[rc[0] + ',' + rc[1]].across = i; }); });
+  down.forEach(function (s, i) { s.cells.forEach(function (rc) { cellSlot[rc[0] + ',' + rc[1]].down = i; }); });
+
+  return { across: across, down: down, cellSlot: cellSlot };
+}
+
+function loadPuzzle(size) {
+  document.getElementById('load-msg').style.display = '';
+  document.getElementById('load-msg').textContent = "Loading today's puzzle…";
+  document.getElementById('stage').style.display = 'none';
+
+  fetchPuzzle(size).then(function (puzzle) {
+    state.size = size;
+    state.puzzle = puzzle;
+    var built = buildSlots(puzzle.grid, puzzle.numbering);
+    state.slots = built; state.cellSlot = built.cellSlot;
+
+    var rows = puzzle.size.rows, cols = puzzle.size.cols;
+    state.values = [];
+    for (var r = 0; r < rows; r++) { var row = []; for (var c = 0; c < cols; c++) row.push(''); state.values.push(row); }
+
+    outer:
+    for (var r = 0; r < rows; r++) for (var c = 0; c < cols; c++) {
+      if (puzzle.grid[r][c] !== '#') { state.sel = { r: r, c: c }; break outer; }
+    }
+    state.dir = 'across';
+    state.finished = false;
+
+    document.getElementById('puzzle-title').textContent = TITLES[size];
+    document.getElementById('puzzle-date').textContent = fmtDate(puzzle.date);
+    document.querySelectorAll('.switcher button').forEach(function (b) { b.classList.toggle('active', b.dataset.size === size); });
+
+    renderGrid();
+    renderClueLists();
+    updateActiveClue();
+    resetTimer();
+
+    document.getElementById('load-msg').style.display = 'none';
+    document.getElementById('stage').style.display = 'flex';
+
+    var url = new URL(window.location);
+    url.searchParams.set('size', size);
+    window.history.replaceState({}, '', url);
+  }).catch(function (err) {
+    document.getElementById('load-msg').textContent =
+      "Couldn't load today's " + TITLES[size] + ". Has run_daily.sh + publish.sh run yet?";
+  });
+}
+
+function cellSize(cols) {
+  var maxW = Math.min(window.innerWidth - 32, 520);
+  var s = Math.floor(maxW / cols);
+  return Math.max(22, Math.min(56, s));
+}
+
+function renderGrid() {
+  var grid = state.puzzle.grid;
+  var rows = grid.length, cols = grid[0].length;
+  var el = document.getElementById('grid');
+  el.innerHTML = '';
+  var cs = cellSize(cols);
+  el.style.setProperty('--cell', cs + 'px');
+  el.style.gridTemplateColumns = 'repeat(' + cols + ', var(--cell))';
+  el.style.gridTemplateRows = 'repeat(' + rows + ', var(--cell))';
+
+  for (var r = 0; r < rows; r++) {
+    for (var c = 0; c < cols; c++) {
+      var div = document.createElement('div');
+      div.className = 'xcell';
+      div.dataset.r = r; div.dataset.c = c;
+      if (grid[r][c] === '#') {
+        div.classList.add('black');
+      } else {
+        var num = state.puzzle.numbering[r + ',' + c];
+        if (num) { var ns = document.createElement('span'); ns.className = 'num'; ns.textContent = num; div.appendChild(ns); }
+        var ls = document.createElement('span'); ls.className = 'ltr';
+        div.appendChild(ls);
+        div.addEventListener('click', function () { selectCell(+this.dataset.r, +this.dataset.c, true); });
+      }
+      el.appendChild(div);
+    }
+  }
+  paintGrid();
+}
+
+function paintGrid() {
+  var el = document.getElementById('grid');
+  var cur = currentSlot();
+  el.querySelectorAll('.xcell').forEach(function (div) {
+    if (div.classList.contains('black')) return;
+    var r = +div.dataset.r, c = +div.dataset.c;
+    div.classList.remove('in-word', 'selected', 'wrong');
+    var ltr = div.querySelector('.ltr');
+    ltr.textContent = state.values[r][c] || '';
+    if (cur && cur.cells.some(function (rc) { return rc[0] === r && rc[1] === c; })) div.classList.add('in-word');
+    if (r === state.sel.r && c === state.sel.c) div.classList.add('selected');
+  });
+}
+
+function currentSlot() {
+  var cs = state.cellSlot[state.sel.r + ',' + state.sel.c];
+  if (!cs) return null;
+  var idx = state.dir === 'across' ? cs.across : cs.down;
+  if (idx === -1) {
+    idx = state.dir === 'across' ? cs.down : cs.across;
+    if (idx === -1) return null;
+    state.dir = state.dir === 'across' ? 'down' : 'across';
+  }
+  return state.slots[state.dir][idx];
+}
+
+function selectCell(r, c, toggle) {
+  if (state.puzzle.grid[r][c] === '#') return;
+  var cs = state.cellSlot[r + ',' + c];
+  if (toggle && r === state.sel.r && c === state.sel.c) {
+    var other = state.dir === 'across' ? 'down' : 'across';
+    if ((other === 'down' ? cs.down : cs.across) !== -1) state.dir = other;
+  } else {
+    if (state.dir === 'across' && cs.across === -1 && cs.down !== -1) state.dir = 'down';
+    if (state.dir === 'down' && cs.down === -1 && cs.across !== -1) state.dir = 'across';
+  }
+  state.sel = { r: r, c: c };
+  paintGrid(); updateActiveClue(); startTimerIfNeeded();
+}
+
+function clueFor(dir, number) { return state.puzzle.clues[dir][String(number)]; }
+
+function updateActiveClue() {
+  var slot = currentSlot();
+  if (!slot) return;
+  var clue = clueFor(state.dir, slot.number);
+  document.getElementById('active-num').textContent = slot.number + '-' + (state.dir === 'across' ? 'Across' : 'Down');
+  document.getElementById('active-text').textContent = clue ? clue.clue : '';
+  document.querySelectorAll('.clue-col li').forEach(function (li) {
+    li.classList.toggle('active', li.dataset.dir === state.dir && +li.dataset.num === slot.number);
+  });
+  var activeLi = document.querySelector('.clue-col li.active');
+  if (activeLi) activeLi.scrollIntoView({ block: 'nearest' });
+}
+
+function renderClueLists() {
+  ['across', 'down'].forEach(function (dir) {
+    var ol = document.getElementById('list-' + dir);
+    ol.innerHTML = '';
+    state.slots[dir].forEach(function (slot) {
+      var clue = clueFor(dir, slot.number);
+      if (!clue) return;
+      var li = document.createElement('li');
+      li.dataset.dir = dir; li.dataset.num = slot.number;
+      li.innerHTML = '<span class="n">' + slot.number + '.</span><span>' + clue.clue + '</span>';
+      li.addEventListener('click', function () {
+        state.dir = dir;
+        state.sel = { r: slot.cells[0][0], c: slot.cells[0][1] };
+        paintGrid(); updateActiveClue(); startTimerIfNeeded();
+      });
+      ol.appendChild(li);
+    });
+  });
+}
+
+function moveToNextCellInSlot() {
+  var slot = currentSlot();
+  if (!slot) return;
+  var idx = slot.cells.findIndex(function (rc) { return rc[0] === state.sel.r && rc[1] === state.sel.c; });
+  if (idx > -1 && idx < slot.cells.length - 1) {
+    state.sel = { r: slot.cells[idx + 1][0], c: slot.cells[idx + 1][1] };
+  } else { jumpToAdjacentSlot(1); return; }
+  paintGrid(); updateActiveClue();
+}
+
+function moveToPrevCellInSlot() {
+  var slot = currentSlot();
+  if (!slot) return;
+  var idx = slot.cells.findIndex(function (rc) { return rc[0] === state.sel.r && rc[1] === state.sel.c; });
+  if (idx > 0) { state.sel = { r: slot.cells[idx - 1][0], c: slot.cells[idx - 1][1] }; paintGrid(); updateActiveClue(); }
+}
+
+function flatSlotList() {
+  var flat = [];
+  state.slots.across.forEach(function (s) { flat.push({ dir: 'across', slot: s }); });
+  state.slots.down.forEach(function (s) { flat.push({ dir: 'down', slot: s }); });
+  flat.sort(function (a, b) { return a.slot.number - b.slot.number || (a.dir < b.dir ? -1 : 1); });
+  return flat;
+}
+
+function jumpToAdjacentSlot(delta) {
+  var flat = flatSlotList();
+  var curIdx = flat.findIndex(function (f) { return f.dir === state.dir && f.slot.number === currentSlot().number; });
+  var nextIdx = (curIdx + delta + flat.length) % flat.length;
+  var next = flat[nextIdx];
+  state.dir = next.dir;
+  state.sel = { r: next.slot.cells[0][0], c: next.slot.cells[0][1] };
+  paintGrid(); updateActiveClue();
+}
+
+function handleArrow(key) {
+  var r = state.sel.r, c = state.sel.c;
+  var grid = state.puzzle.grid, rows = grid.length, cols = grid[0].length;
+  var dr = 0, dc = 0;
+  if (key === 'ArrowRight') { dc = 1; state.dir = 'across'; }
+  if (key === 'ArrowLeft') { dc = -1; state.dir = 'across'; }
+  if (key === 'ArrowDown') { dr = 1; state.dir = 'down'; }
+  if (key === 'ArrowUp') { dr = -1; state.dir = 'down'; }
+  var nr = r + dr, nc = c + dc;
+  while (nr >= 0 && nr < rows && nc >= 0 && nc < cols && grid[nr][nc] === '#') { nr += dr; nc += dc; }
+  if (nr >= 0 && nr < rows && nc >= 0 && nc < cols && grid[nr][nc] !== '#') { state.sel = { r: nr, c: nc }; paintGrid(); updateActiveClue(); }
+}
+
+document.addEventListener('keydown', function (e) {
+  if (!document.getElementById('name-overlay').classList.contains('hidden')) return;
+  if (state.finished || !state.puzzle) return;
+  var key = e.key;
+  if (/^[a-zA-Z]$/.test(key)) {
+    state.values[state.sel.r][state.sel.c] = key.toUpperCase();
+    paintGrid(); startTimerIfNeeded(); moveToNextCellInSlot(); checkCompletion();
+    e.preventDefault();
+  } else if (key === 'Backspace') {
+    if (state.values[state.sel.r][state.sel.c]) { state.values[state.sel.r][state.sel.c] = ''; paintGrid(); }
+    else { moveToPrevCellInSlot(); state.values[state.sel.r][state.sel.c] = ''; paintGrid(); }
+    e.preventDefault();
+  } else if (key.indexOf('Arrow') === 0) { handleArrow(key); e.preventDefault(); }
+  else if (key === 'Tab') { jumpToAdjacentSlot(e.shiftKey ? -1 : 1); e.preventDefault(); }
+  else if (key === ' ') { selectCell(state.sel.r, state.sel.c, true); e.preventDefault(); }
+});
+
+document.getElementById('prev-clue').addEventListener('click', function () { jumpToAdjacentSlot(-1); });
+document.getElementById('next-clue').addEventListener('click', function () { jumpToAdjacentSlot(1); });
+
+/* ------------------------------- Timer ------------------------------- */
+var timerInterval = null;
+function resetTimer() {
+  clearInterval(timerInterval);
+  state.timerStart = null; state.elapsedBeforePause = 0; state.paused = false; state.running = false;
+  document.getElementById('timer').textContent = '0:00';
+  document.getElementById('pause-icon').style.display = '';
+  document.getElementById('play-icon').style.display = 'none';
+}
+function startTimerIfNeeded() {
+  if (state.running || state.finished) return;
+  state.running = true; state.timerStart = Date.now();
+  timerInterval = setInterval(tick, 250);
+}
+function elapsedMs() {
+  if (!state.running || state.paused) return state.elapsedBeforePause;
+  return state.elapsedBeforePause + (Date.now() - state.timerStart);
+}
+function tick() { document.getElementById('timer').textContent = window.NBTLeaderboard.formatTime(elapsedMs()); }
+
+document.getElementById('pause-btn').addEventListener('click', function () {
+  if (!state.running || state.finished) return;
+  if (!state.paused) {
+    state.elapsedBeforePause = elapsedMs(); state.paused = true;
+    document.getElementById('pause-icon').style.display = 'none'; document.getElementById('play-icon').style.display = '';
+  } else {
+    state.paused = false; state.timerStart = Date.now();
+    document.getElementById('pause-icon').style.display = ''; document.getElementById('play-icon').style.display = 'none';
+  }
+});
+
+/* ---------------------------- Check / Reveal --------------------------- */
+document.getElementById('check-btn').addEventListener('click', function () {
+  var solved = state.puzzle.grid;
+  document.querySelectorAll('.xcell').forEach(function (div) {
+    if (div.classList.contains('black')) return;
+    var r = +div.dataset.r, c = +div.dataset.c;
+    var v = state.values[r][c];
+    div.classList.toggle('wrong', !!v && v !== solved[r][c]);
+  });
+  setTimeout(function () { document.querySelectorAll('.xcell.wrong').forEach(function (d) { d.classList.remove('wrong'); }); }, 1400);
+});
+
+document.getElementById('clear-btn').addEventListener('click', function () {
+  var rows = state.puzzle.size.rows, cols = state.puzzle.size.cols;
+  for (var r = 0; r < rows; r++) for (var c = 0; c < cols; c++) if (state.puzzle.grid[r][c] !== '#') state.values[r][c] = '';
+  paintGrid();
+});
+
+document.getElementById('reveal-btn').addEventListener('click', function () {
+  var solved = state.puzzle.grid;
+  var rows = state.puzzle.size.rows, cols = state.puzzle.size.cols;
+  for (var r = 0; r < rows; r++) for (var c = 0; c < cols; c++) if (state.puzzle.grid[r][c] !== '#') state.values[r][c] = solved[r][c];
+  paintGrid();
+  finishPuzzle(true);
+});
+
+function checkCompletion() {
+  var rows = state.puzzle.size.rows, cols = state.puzzle.size.cols;
+  var solved = state.puzzle.grid;
+  for (var r = 0; r < rows; r++) for (var c = 0; c < cols; c++) {
+    if (solved[r][c] === '#') continue;
+    if (state.values[r][c] !== solved[r][c]) return;
+  }
+  finishPuzzle(false);
+}
+
+/* --------------------------- Completion modal --------------------------- */
+function finishPuzzle(viaReveal) {
+  if (state.finished) return;
+  state.finished = true;
+  clearInterval(timerInterval);
+  var ms = elapsedMs();
+  var timeStr = window.NBTLeaderboard.formatTime(ms);
+  var puzzleId = state.puzzle.id;
+  var name = state.username || 'anon-solver';
+
+  var rank, board;
+  if (!viaReveal) {
+    rank = window.NBTLeaderboard.submitTime(puzzleId, name, ms);
+    board = window.NBTLeaderboard.getBoard(puzzleId);
+  } else {
+    board = window.NBTLeaderboard.getBoard(puzzleId);
+    rank = board.length + 1;
+  }
+
+  document.getElementById('done-heading').textContent = viaReveal ? 'Puzzle revealed' : 'Solved! 🎉';
+  document.getElementById('done-time').textContent = timeStr;
+  document.getElementById('done-rank').textContent =
+    viaReveal ? 'Not counted toward today’s leaderboard' : ('Rank ' + rank + ' of ' + board.length + ' today');
+
+  var lb = document.getElementById('done-lb');
+  lb.innerHTML = '';
+  board.slice(0, 5).forEach(function (row, i) {
+    var div = document.createElement('div');
+    var isMe = !viaReveal && row.name === name && row.ms === ms && (i + 1) === rank;
+    div.className = 'mini-lb-row r' + (i + 1) + (isMe ? ' me' : '');
+    div.innerHTML = '<span class="rk">' + (i + 1) + '</span><span>' + row.name + '</span><span class="tm">' + window.NBTLeaderboard.formatTime(row.ms) + '</span>';
+    lb.appendChild(div);
+  });
+
+  document.getElementById('done-overlay').classList.remove('hidden');
+
+  if (!viaReveal && rank <= 5) {
+    setTimeout(function () {
+      window.NBTConfetti.burst(window.innerWidth * 0.3, window.innerHeight * 0.35);
+      window.NBTConfetti.burst(window.innerWidth * 0.7, window.innerHeight * 0.35);
+    }, 200);
+  }
+}
+
+document.getElementById('done-close').addEventListener('click', function () {
+  document.getElementById('done-overlay').classList.add('hidden');
+  loadPuzzle(state.size);
+});
+
+/* ------------------------------- Wiring ------------------------------- */
+document.querySelectorAll('.switcher button').forEach(function (btn) {
+  btn.addEventListener('click', function () { loadPuzzle(btn.dataset.size); });
+});
+window.addEventListener('resize', function () { if (state.puzzle) renderGrid(); });
+
+document.getElementById('name-submit').addEventListener('click', submitName);
+document.getElementById('name-input').addEventListener('keydown', function (e) { if (e.key === 'Enter') submitName(); });
+function submitName() {
+  var v = document.getElementById('name-input').value.trim();
+  state.username = v || 'anon-solver';
+  document.getElementById('name-overlay').classList.add('hidden');
+}
+
+var initialSize = new URLSearchParams(window.location.search).get('size') || 'mini';
+if (!TITLES[initialSize]) initialSize = 'mini';
+loadPuzzle(initialSize);
+</script>
+</body>
+</html>

@@ -282,6 +282,20 @@ function renderGrid() {
   el.style.gridTemplateColumns = 'repeat(' + cols + ', var(--cell))';
   el.style.gridTemplateRows = 'repeat(' + rows + ', var(--cell))';
 
+  // Fix .board-col's width to the grid's actual rendered pixel width
+  // (cells + inter-cell gaps + the grid-wrap frame's own padding/border).
+  // Without this, .board-col has no explicit width -- it's sized by its
+  // widest child, and .active-clue (width:100%) has genuinely ambiguous
+  // sizing in that situation. Longer/shorter clue text was shifting
+  // .board-col's effective width by a few pixels, which was enough to
+  // push the whole .stage row across its flex-wrap threshold on SOME
+  // clues and not others -- the grid+clue-lists layout flipped between
+  // side-by-side and stacked abruptly as you navigated clues, for no
+  // reason a solver could see. Fixing this width once per puzzle load
+  // makes the wrap decision depend only on window size, never clue text.
+  var gridPixelWidth = cs * cols + 2 * (cols - 1) + 4; // gaps (2px) + grid-wrap padding (2px each side)
+  document.querySelector('.board-col').style.width = gridPixelWidth + 'px';
+
   for (var r = 0; r < rows; r++) {
     for (var c = 0; c < cols; c++) {
       var div = document.createElement('div');

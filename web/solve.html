@@ -12,11 +12,16 @@
   .m-right { display: flex; align-items: center; gap: 6px; }
   .timer { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 15px; padding: 6px 10px; border-radius: 6px; min-width: 62px; text-align: center; }
 
+  /* Switcher + toolbar are wrapped in one sticky bar (below) so they can
+     never scroll out of reach, whatever the cause -- a tall clue list, a
+     long puzzle, a future page addition. */
+  .controls-bar { position: sticky; top: 56px; z-index: 15; background: var(--bg); }
+
   .switcher { display: flex; justify-content: center; gap: 8px; padding: 12px 16px; background: var(--surface-2); border-bottom: 1px solid var(--surface-border); }
   .switcher button { background: var(--surface); border: 1px solid var(--surface-border); color: var(--text-muted); padding: 7px 16px; border-radius: 999px; font-weight: 700; font-size: 13px; cursor: pointer; }
   .switcher button.active { background: var(--badge-bg); color: var(--badge-text); border-color: var(--badge-bg); }
 
-  .toolbar { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 16px; flex-wrap: wrap; }
+  .toolbar { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 16px; flex-wrap: wrap; border-bottom: 1px solid var(--surface-border); }
   .tool-btn { display: flex; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--surface-border); color: var(--text); padding: 8px 14px; border-radius: 999px; font-size: 13px; font-weight: 700; cursor: pointer; }
   .tool-btn:hover { border-color: var(--accent); color: var(--accent); }
 
@@ -76,25 +81,27 @@
   </div>
 </header>
 
-<div class="switcher">
-  <button data-size="mini">Mini</button>
-  <button data-size="midi">Midi</button>
-  <button data-size="crossword">Crossword</button>
-</div>
+<div class="controls-bar">
+  <div class="switcher">
+    <button data-size="mini">Mini</button>
+    <button data-size="midi">Midi</button>
+    <button data-size="crossword">Crossword</button>
+  </div>
 
-<div class="toolbar">
-  <button class="tool-btn" id="check-btn">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg>
-    Check
-  </button>
-  <button class="tool-btn" id="reveal-btn">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
-    Reveal
-  </button>
-  <button class="tool-btn" id="clear-btn">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M3 6h18M8 6V4h8v2M6 6l1 14h10l1-14"/></svg>
-    Clear
-  </button>
+  <div class="toolbar">
+    <button class="tool-btn" id="check-btn">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg>
+      Check
+    </button>
+    <button class="tool-btn" id="reveal-btn">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+      Reveal
+    </button>
+    <button class="tool-btn" id="clear-btn">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M3 6h18M8 6V4h8v2M6 6l1 14h10l1-14"/></svg>
+      Clear
+    </button>
+  </div>
 </div>
 
 <div id="stage-wrap">
@@ -347,7 +354,23 @@ function updateActiveClue() {
     li.classList.toggle('active', li.dataset.dir === state.dir && +li.dataset.num === slot.number);
   });
   var activeLi = document.querySelector('.clue-col li.active');
-  if (activeLi) activeLi.scrollIntoView({ block: 'nearest' });
+  if (activeLi) scrollWithinList(activeLi);
+}
+
+// Deliberately NOT using Element.scrollIntoView() here: when the clue
+// list is short enough to need no internal scrolling of its own (true
+// for every Mini clue list, and often Midi), the browser escalates the
+// scroll request to the outer PAGE instead, since there's nothing to
+// scroll internally -- the whole page jumps on every clue change, even
+// though the clue was already fully visible. Scoping the scroll to just
+// the list's own scrollTop guarantees the page itself never moves.
+function scrollWithinList(el) {
+  var container = el.parentElement; // the <ol>
+  if (!container) return;
+  var elTop = el.offsetTop, elBottom = elTop + el.offsetHeight;
+  var viewTop = container.scrollTop, viewBottom = viewTop + container.clientHeight;
+  if (elTop < viewTop) container.scrollTop = elTop;
+  else if (elBottom > viewBottom) container.scrollTop = elBottom - container.clientHeight;
 }
 
 function renderClueLists() {

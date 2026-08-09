@@ -1,0 +1,347 @@
+{
+  "size": {
+    "rows": 15,
+    "cols": 15
+  },
+  "grid": [
+    "ICY#AGRA#ALOHAS",
+    "#CAS#LINEMEN#T#",
+    "GMT#YOGI#ANIME#",
+    "#BRAES##ERG#I#P",
+    "T#ARMS#E#ETDS#L",
+    "I##BEYONDTHESEA",
+    "ROBIN##CST#NAPS",
+    "EMOTIONALOUTLET",
+    "LATE#RSS##NISEI",
+    "ENTRANCEFEES##C",
+    "S#OSSA#D#VATS#S",
+    "S#M#IMD##ASSES#",
+    "#ASIDE#LODE#DOG",
+    "#I#SENSATE#IAF#",
+    "ARTIST#SOSS#NAG"
+  ],
+  "numbering": {
+    "0,0": 1,
+    "0,1": 2,
+    "0,2": 3,
+    "0,4": 4,
+    "0,5": 5,
+    "0,6": 6,
+    "0,7": 7,
+    "0,9": 8,
+    "0,10": 9,
+    "0,11": 10,
+    "0,13": 11,
+    "1,1": 12,
+    "1,5": 13,
+    "2,0": 14,
+    "2,4": 15,
+    "2,9": 16,
+    "2,12": 17,
+    "3,1": 18,
+    "3,3": 19,
+    "3,8": 20,
+    "3,14": 21,
+    "4,0": 22,
+    "4,2": 23,
+    "4,7": 24,
+    "4,9": 25,
+    "4,11": 26,
+    "5,3": 27,
+    "5,8": 28,
+    "5,13": 29,
+    "6,0": 30,
+    "6,1": 31,
+    "6,2": 32,
+    "6,7": 33,
+    "6,11": 34,
+    "7,0": 35,
+    "7,5": 36,
+    "7,6": 37,
+    "7,10": 38,
+    "8,0": 39,
+    "8,5": 40,
+    "8,10": 41,
+    "9,0": 42,
+    "9,4": 43,
+    "9,9": 44,
+    "10,2": 45,
+    "10,9": 46,
+    "10,12": 47,
+    "11,4": 48,
+    "11,9": 49,
+    "11,13": 50,
+    "12,1": 51,
+    "12,3": 52,
+    "12,7": 53,
+    "12,8": 54,
+    "12,12": 55,
+    "13,3": 56,
+    "13,11": 57,
+    "14,0": 58,
+    "14,7": 59,
+    "14,12": 60
+  },
+  "words": {
+    "across": {
+      "1": {
+        "answer": "ICY",
+        "length": 3
+      },
+      "4": {
+        "answer": "AGRA",
+        "length": 4
+      },
+      "8": {
+        "answer": "ALOHAS",
+        "length": 6
+      },
+      "12": {
+        "answer": "CAS",
+        "length": 3
+      },
+      "13": {
+        "answer": "LINEMEN",
+        "length": 7
+      },
+      "14": {
+        "answer": "GMT",
+        "length": 3
+      },
+      "15": {
+        "answer": "YOGI",
+        "length": 4
+      },
+      "16": {
+        "answer": "ANIME",
+        "length": 5
+      },
+      "18": {
+        "answer": "BRAES",
+        "length": 5
+      },
+      "20": {
+        "answer": "ERG",
+        "length": 3
+      },
+      "23": {
+        "answer": "ARMS",
+        "length": 4
+      },
+      "25": {
+        "answer": "ETDS",
+        "length": 4
+      },
+      "27": {
+        "answer": "BEYONDTHESEA",
+        "length": 12
+      },
+      "30": {
+        "answer": "ROBIN",
+        "length": 5
+      },
+      "33": {
+        "answer": "CST",
+        "length": 3
+      },
+      "34": {
+        "answer": "NAPS",
+        "length": 4
+      },
+      "35": {
+        "answer": "EMOTIONALOUTLET",
+        "length": 15
+      },
+      "39": {
+        "answer": "LATE",
+        "length": 4
+      },
+      "40": {
+        "answer": "RSS",
+        "length": 3
+      },
+      "41": {
+        "answer": "NISEI",
+        "length": 5
+      },
+      "42": {
+        "answer": "ENTRANCEFEES",
+        "length": 12
+      },
+      "45": {
+        "answer": "OSSA",
+        "length": 4
+      },
+      "46": {
+        "answer": "VATS",
+        "length": 4
+      },
+      "48": {
+        "answer": "IMD",
+        "length": 3
+      },
+      "49": {
+        "answer": "ASSES",
+        "length": 5
+      },
+      "51": {
+        "answer": "ASIDE",
+        "length": 5
+      },
+      "53": {
+        "answer": "LODE",
+        "length": 4
+      },
+      "55": {
+        "answer": "DOG",
+        "length": 3
+      },
+      "56": {
+        "answer": "SENSATE",
+        "length": 7
+      },
+      "57": {
+        "answer": "IAF",
+        "length": 3
+      },
+      "58": {
+        "answer": "ARTIST",
+        "length": 6
+      },
+      "59": {
+        "answer": "SOSS",
+        "length": 4
+      },
+      "60": {
+        "answer": "NAG",
+        "length": 3
+      }
+    },
+    "down": {
+      "22": {
+        "answer": "TIRELESS",
+        "length": 8
+      },
+      "2": {
+        "answer": "CCMB",
+        "length": 4
+      },
+      "31": {
+        "answer": "OMAN",
+        "length": 4
+      },
+      "51": {
+        "answer": "AIR",
+        "length": 3
+      },
+      "3": {
+        "answer": "YATRA",
+        "length": 5
+      },
+      "32": {
+        "answer": "BOTTOMS",
+        "length": 7
+      },
+      "19": {
+        "answer": "ARBITERS",
+        "length": 8
+      },
+      "52": {
+        "answer": "ISI",
+        "length": 3
+      },
+      "15": {
+        "answer": "YEMENI",
+        "length": 6
+      },
+      "43": {
+        "answer": "ASIDES",
+        "length": 6
+      },
+      "5": {
+        "answer": "GLOSSY",
+        "length": 6
+      },
+      "36": {
+        "answer": "ORNAMENT",
+        "length": 8
+      },
+      "6": {
+        "answer": "RIG",
+        "length": 3
+      },
+      "37": {
+        "answer": "NSC",
+        "length": 3
+      },
+      "7": {
+        "answer": "ANI",
+        "length": 3
+      },
+      "24": {
+        "answer": "ENCASED",
+        "length": 7
+      },
+      "53": {
+        "answer": "LAS",
+        "length": 3
+      },
+      "28": {
+        "answer": "DSL",
+        "length": 3
+      },
+      "54": {
+        "answer": "OTO",
+        "length": 3
+      },
+      "8": {
+        "answer": "AMARETTO",
+        "length": 8
+      },
+      "44": {
+        "answer": "EVADES",
+        "length": 6
+      },
+      "9": {
+        "answer": "LENGTH",
+        "length": 6
+      },
+      "38": {
+        "answer": "UNEASE",
+        "length": 6
+      },
+      "10": {
+        "answer": "ONI",
+        "length": 3
+      },
+      "26": {
+        "answer": "DENTISTS",
+        "length": 8
+      },
+      "17": {
+        "answer": "MISSALS",
+        "length": 7
+      },
+      "47": {
+        "answer": "SEDAN",
+        "length": 5
+      },
+      "11": {
+        "answer": "ATE",
+        "length": 3
+      },
+      "29": {
+        "answer": "EPEE",
+        "length": 4
+      },
+      "50": {
+        "answer": "SOFA",
+        "length": 4
+      },
+      "21": {
+        "answer": "PLASTICS",
+        "length": 8
+      }
+    }
+  }
+}

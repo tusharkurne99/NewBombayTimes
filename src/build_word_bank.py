@@ -14,7 +14,8 @@ Produces: word_bank.txt (one word per line, uppercase)
 
 import urllib.request
 from wordfreq import zipf_frequency
-from word_filters import is_safe_context_free_word
+from word_filters import is_safe_context_free_word, is_sensitive_word
+import paths
 
 WORDLIST_URL = "https://raw.githubusercontent.com/dwyl/english-words/master/words_alpha.txt"
 MIN_LEN = 3
@@ -27,7 +28,7 @@ MIN_ZIPF = 3.0
 
 def main():
     print("Downloading word list...")
-    raw_path = "words_alpha.txt"
+    raw_path = paths.WORDS_ALPHA
     urllib.request.urlretrieve(WORDLIST_URL, raw_path)
 
     with open(raw_path) as f:
@@ -55,6 +56,8 @@ def main():
         if not is_safe_context_free_word(w, zipf):
             dropped_hallucination_risk += 1
             continue
+        if is_sensitive_word(w):
+            continue
         kept.append(w)
 
     kept = sorted(set(kept))
@@ -63,10 +66,10 @@ def main():
     print(f"  -> {dropped_hallucination_risk} words dropped by the "
           f"hallucination-risk check despite passing the frequency filter")
 
-    with open("word_bank.txt", "w") as f:
+    with open(paths.WORD_BANK, "w") as f:
         f.write("\n".join(kept))
 
-    print("Wrote word_bank.txt")
+    print(f"Wrote {paths.WORD_BANK}")
     print("\nNext: add Indian-context words (cities, cricket, Bollywood, "
           "politics terms) to word_bank.txt manually -- generic English "
           "frequency lists won't know these are common in your context.")

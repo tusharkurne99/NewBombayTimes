@@ -1,0 +1,154 @@
+{
+  "size": {
+    "rows": 9,
+    "cols": 9
+  },
+  "grid": [
+    "W####SLAP",
+    "SERFS#IMF",
+    "WYE#OLMEC",
+    "SEDIMENTS",
+    "#H#DEV#H#",
+    "VOLODYMYR",
+    "ELISA#ESE",
+    "TED#YENTA",
+    "SSSS####L"
+  ],
+  "numbering": {
+    "0,0": 1,
+    "0,5": 2,
+    "0,6": 3,
+    "0,7": 4,
+    "0,8": 5,
+    "1,0": 6,
+    "1,1": 7,
+    "1,2": 8,
+    "1,4": 9,
+    "1,6": 10,
+    "2,0": 11,
+    "2,4": 12,
+    "2,5": 13,
+    "3,0": 14,
+    "3,3": 15,
+    "4,3": 16,
+    "5,0": 17,
+    "5,2": 18,
+    "5,6": 19,
+    "5,8": 20,
+    "6,0": 21,
+    "6,6": 22,
+    "7,0": 23,
+    "7,4": 24,
+    "8,0": 25
+  },
+  "words": {
+    "across": {
+      "2": {
+        "answer": "SLAP",
+        "length": 4
+      },
+      "6": {
+        "answer": "SERFS",
+        "length": 5
+      },
+      "10": {
+        "answer": "IMF",
+        "length": 3
+      },
+      "11": {
+        "answer": "WYE",
+        "length": 3
+      },
+      "12": {
+        "answer": "OLMEC",
+        "length": 5
+      },
+      "14": {
+        "answer": "SEDIMENTS",
+        "length": 9
+      },
+      "16": {
+        "answer": "DEV",
+        "length": 3
+      },
+      "17": {
+        "answer": "VOLODYMYR",
+        "length": 9
+      },
+      "21": {
+        "answer": "ELISA",
+        "length": 5
+      },
+      "22": {
+        "answer": "ESE",
+        "length": 3
+      },
+      "23": {
+        "answer": "TED",
+        "length": 3
+      },
+      "24": {
+        "answer": "YENTA",
+        "length": 5
+      },
+      "25": {
+        "answer": "SSSS",
+        "length": 4
+      }
+    },
+    "down": {
+      "1": {
+        "answer": "WSWS",
+        "length": 4
+      },
+      "17": {
+        "answer": "VETS",
+        "length": 4
+      },
+      "7": {
+        "answer": "EYEHOLES",
+        "length": 8
+      },
+      "8": {
+        "answer": "RED",
+        "length": 3
+      },
+      "18": {
+        "answer": "LIDS",
+        "length": 4
+      },
+      "15": {
+        "answer": "IDOS",
+        "length": 4
+      },
+      "9": {
+        "answer": "SOMEDAY",
+        "length": 7
+      },
+      "13": {
+        "answer": "LEVY",
+        "length": 4
+      },
+      "3": {
+        "answer": "LIMN",
+        "length": 4
+      },
+      "19": {
+        "answer": "MEN",
+        "length": 3
+      },
+      "4": {
+        "answer": "AMETHYST",
+        "length": 8
+      },
+      "5": {
+        "answer": "PFCS",
+        "length": 4
+      },
+      "20": {
+        "answer": "REAL",
+        "length": 4
+      }
+    }
+  }
+}

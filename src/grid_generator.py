@@ -11,6 +11,7 @@ Run: python grid_generator.py
 
 import json
 import random
+import time
 from collections import defaultdict, Counter
 
 BLACK = "#"
@@ -156,52 +157,121 @@ def _generate_symmetric_pattern(size, target_black_fraction, max_tries=30):
     return None
 
 
-def generate_midi(word_list, priority_words=None, max_seeds=3, pattern_attempts=5):
+def generate_midi(word_list, priority_words=None, max_seeds=3, pattern_attempts=10,
+                   overall_time_budget_seconds=60, per_pattern_time_budget=6):
     """
     Generate a 9x9 Midi puzzle. Uses a freshly generated symmetric pattern
     each call (see _generate_symmetric_pattern) rather than a fixed set --
     Midi/Crossword patterns are cheap to generate on demand, unlike Mini's
     hand-picked set.
 
-    pattern_attempts: tries multiple DIFFERENT random patterns, not just
-    multiple word-orderings within one pattern. Found by testing, not
-    assumed: some specific patterns are genuinely harder to fill than
-    others even though all pass the same structural validity checks (no
-    1/2-letter runs, connected) -- retrying word order alone within one
-    unlucky pattern can still fail or take a long time, while trying a
-    fresh pattern often succeeds quickly. This is the same "bad orderings
-    get stuck, fresh restarts often don't" lesson as the node_budget
-    mechanism in backtrack(), just applied one level up.
+    Budget allocation: SHORT per pattern, MANY patterns tried -- see
+    generate_crossword()'s docstring for the full reasoning and the real
+    measured failure this fixed (an earlier version gave few patterns a
+    long budget each, which could burn the entire allowance on one bad
+    pattern; short-budget-many-patterns matches the actual observed
+    distribution where good patterns solve in a few seconds).
     """
+    deadline = time.monotonic() + overall_time_budget_seconds
+
     for _ in range(pattern_attempts):
+        if time.monotonic() > deadline:
+            break
         pattern = _generate_symmetric_pattern(MIDI_SIZE, MIDI_DENSITY)
         if pattern is None:
             continue
+        remaining = deadline - time.monotonic()
+        this_budget = min(per_pattern_time_budget, remaining)
+        if this_budget <= 0:
+            break
         result = generate_grid(word_list, pattern=pattern, max_attempts=20,
                                 priority_words=priority_words, max_seeds=max_seeds,
-                                node_budget_per_attempt=5000)
+                                node_budget_per_attempt=5000,
+                                time_budget_seconds=this_budget)
+        if result:
+            return result
+
+    print("  [generate_midi] seeded attempts did not finish in time -- "
+          "falling back to autofill with no forced topical words...")
+    fallback_deadline = time.monotonic() + 20
+    while time.monotonic() < fallback_deadline:
+        pattern = _generate_symmetric_pattern(MIDI_SIZE, MIDI_DENSITY)
+        if pattern is None:
+            continue
+        remaining = fallback_deadline - time.monotonic()
+        result = generate_grid(word_list, pattern=pattern, max_attempts=20,
+                                priority_words=priority_words, max_seeds=0,
+                                node_budget_per_attempt=5000,
+                                time_budget_seconds=min(6, remaining))
         if result:
             return result
     return None
 
 
-def generate_crossword(word_list, priority_words=None, max_seeds=4, pattern_attempts=3):
+def generate_crossword(word_list, priority_words=None, max_seeds=2, pattern_attempts=15,
+                        overall_time_budget_seconds=180, per_pattern_time_budget=12):
     """
     Generate a 15x15 full Crossword puzzle. Same approach as generate_midi,
-    including trying multiple different patterns if one is a bad draw.
-    Tested: ~40-60s per pattern attempt at 20% density with the curated
-    crossword-quality word list -- fine for a once-daily batch job, NOT
-    fine for interactive use. Don't call this from anything that needs a
-    fast response, and expect this to take a few minutes in the worst
-    case (multiple pattern attempts each taking up to a minute).
+    including trying multiple different patterns if one is a bad draw, and
+    the same no-seeding fallback if the overall time budget runs out.
+
+    max_seeds default lowered again, from 3 to 2, based on a direct
+    real-data test: with a real 202-word priority set, max_seeds=3 took
+    155 seconds to solve; max_seeds=2 solved the SAME priority set in 27
+    seconds. Each forced seed compounds the grid's constraints (it
+    removes options from everything it crosses, which removes further
+    options from whatever THOSE cross, cascading), so the difficulty
+    doesn't grow linearly with seed count -- it's much steeper. 2
+    guaranteed topical words per Crossword, reliably, was judged better
+    than 3 guaranteed words at a real risk of multi-minute generation.
+
+    IMPORTANT, found by testing and fixed after an earlier version got
+    this wrong: budget allocation is SHORT-per-pattern, MANY patterns --
+    not few patterns with long budgets each. Real measurements showed
+    good patterns solve in 1-5 seconds; a bad pattern can eat unlimited
+    time. Giving each of only 3 patterns a full 60s (180/3) meant almost
+    all the budget could get spent grinding on one bad pattern instead of
+    cycling through many fresh ones -- measured concretely: one real run
+    took the full 243 seconds and still failed entirely (both the seeded
+    attempts AND the no-seed fallback), because the per-pattern budget
+    was too generous to a bad draw. Default per_pattern_time_budget=12
+    with pattern_attempts=15 instead tries up to 15 different patterns,
+    quickly abandoning any that don't solve within ~12s each, within the
+    same overall 180s ceiling -- this matches the actual observed
+    distribution (fast patterns solve almost immediately; slow ones
+    should be abandoned quickly, not persisted with).
     """
+    deadline = time.monotonic() + overall_time_budget_seconds
+
     for _ in range(pattern_attempts):
+        if time.monotonic() > deadline:
+            break
         pattern = _generate_symmetric_pattern(CROSSWORD_SIZE, CROSSWORD_DENSITY)
         if pattern is None:
             continue
+        remaining = deadline - time.monotonic()
+        this_budget = min(per_pattern_time_budget, remaining)
+        if this_budget <= 0:
+            break
         result = generate_grid(word_list, pattern=pattern, max_attempts=15,
                                 priority_words=priority_words, max_seeds=max_seeds,
-                                node_budget_per_attempt=8000)
+                                node_budget_per_attempt=8000,
+                                time_budget_seconds=this_budget)
+        if result:
+            return result
+
+    print("  [generate_crossword] seeded attempts did not finish in time -- "
+          "falling back to autofill with no forced topical words...")
+    fallback_deadline = time.monotonic() + 45
+    while time.monotonic() < fallback_deadline:
+        pattern = _generate_symmetric_pattern(CROSSWORD_SIZE, CROSSWORD_DENSITY)
+        if pattern is None:
+            continue
+        remaining = fallback_deadline - time.monotonic()
+        result = generate_grid(word_list, pattern=pattern, max_attempts=15,
+                                priority_words=priority_words, max_seeds=0,
+                                node_budget_per_attempt=8000,
+                                time_budget_seconds=min(12, remaining))
         if result:
             return result
     return None
@@ -471,7 +541,7 @@ def assign(slot_id, word, domains, crossings, crossing_map, letter_counts):
 
 
 def backtrack(slots, assignment, domains, crossings, crossing_map, letter_counts,
-              priority_words=None, node_budget=None):
+              priority_words=None, node_budget=None, deadline=None):
     """
     node_budget: mutable single-element list [remaining_nodes], shared
     across the whole recursive search. AC-3 (see ac3() above) guarantees
@@ -486,8 +556,21 @@ def backtrack(slots, assignment, domains, crossings, crossing_map, letter_counts
     is far more reliable in practice than hoping the first ordering is a
     good one, especially at Midi/Crossword sizes where a bad subtree can
     otherwise run for a very long time.
+
+    deadline: wall-clock time.monotonic() cutoff, checked alongside the
+    node budget. The node budget alone does NOT bound real elapsed time --
+    per-node cost varies a lot depending on how constrained the search is
+    (e.g. a hard-to-place seeded topical word makes every node in that
+    search more expensive), so a fixed node count can still mean wildly
+    different wall-clock time between runs. Found in practice: a run that
+    was fast before could hang noticeably longer on a different day's
+    seeded topical words even with the exact same node budget. The
+    deadline is the actual user-facing guarantee ("this will not run
+    forever"); the node budget remains as a secondary, cheaper check.
     """
     if node_budget is not None and node_budget[0] <= 0:
+        return None
+    if deadline is not None and time.monotonic() > deadline:
         return None
 
     if len(assignment) == len(slots):
@@ -510,13 +593,15 @@ def backtrack(slots, assignment, domains, crossings, crossing_map, letter_counts
             # "node" without the budget ever seeing it (found via
             # profiling: a 200-node budget took 3.7s for what the old
             # accounting called "1 node").
+        if deadline is not None and time.monotonic() > deadline:
+            return None
 
         assignment[slot.id] = word
         prune_log = assign(slot.id, word, domains, crossings, crossing_map,
                             letter_counts)
         if prune_log is not None:
             result = backtrack(slots, assignment, domains, crossings, crossing_map,
-                                letter_counts, priority_words, node_budget)
+                                letter_counts, priority_words, node_budget, deadline)
             if result is not None:
                 return result
             restore(domains, letter_counts, prune_log)
@@ -571,7 +656,7 @@ def seed_priority_words(slots, domains, crossings, crossing_map, letter_counts,
 
 
 def generate_grid(word_list, pattern=None, max_attempts=50, priority_words=None,
-                   max_seeds=2, node_budget_per_attempt=20000):
+                   max_seeds=2, node_budget_per_attempt=20000, time_budget_seconds=None):
     """
     If `pattern` isn't given, picks one at random from PATTERNS each call --
     this is what actually gives you a different-looking grid each run,
@@ -582,10 +667,17 @@ def generate_grid(word_list, pattern=None, max_attempts=50, priority_words=None,
 
     node_budget_per_attempt: caps how much backtracking search a single
     attempt is allowed before giving up and retrying with a fresh random
-    ordering (see backtrack()'s docstring for why this matters). Larger
-    grids need more attempts / bigger budgets to reliably solve -- see
-    generate_midi()/generate_crossword() below for pre-tuned wrappers
-    rather than guessing these numbers yourself each time.
+    ordering (see backtrack()'s docstring for why this matters).
+
+    time_budget_seconds: wall-clock cap for THIS ENTIRE generate_grid call
+    (shared across all its internal max_attempts retries, NOT reset per
+    retry -- see the comment above the deadline computation below for why
+    that distinction matters). Belt-and-suspenders alongside the node
+    budget -- see backtrack()'s docstring for why node count alone isn't
+    a reliable proxy for elapsed time. Larger grids need more attempts /
+    bigger budgets to reliably solve -- see generate_midi()/
+    generate_crossword() below for pre-tuned wrappers rather than
+    guessing these numbers yourself each time.
     """
     if pattern is None:
         pattern = random.choice(PATTERNS)
@@ -594,7 +686,21 @@ def generate_grid(word_list, pattern=None, max_attempts=50, priority_words=None,
     crossings = build_crossings(slots)
     crossing_map = build_crossing_map(crossings)
 
+    # Deadline computed ONCE, shared across every internal attempt below --
+    # NOT recomputed per attempt. A per-attempt-fresh deadline was a real
+    # bug found in practice: with time_budget_seconds=15 and the default
+    # max_attempts=15, a "15 second" budget could silently mean up to
+    # 15 x 15 = 225 seconds of real elapsed time, because each of the 15
+    # internal retries got its own full fresh 15-second allowance. This is
+    # exactly what caused Crossword generation to hang far longer than
+    # intended even after adding what looked like a time budget.
+    overall_deadline = (time.monotonic() + time_budget_seconds
+                         if time_budget_seconds else None)
+
     for attempt in range(max_attempts):
+        if overall_deadline is not None and time.monotonic() > overall_deadline:
+            break
+
         domains = build_domains(slots, word_list)
         if any(len(d) == 0 for d in domains.values()):
             continue
@@ -607,7 +713,7 @@ def generate_grid(word_list, pattern=None, max_attempts=50, priority_words=None,
 
         node_budget = [node_budget_per_attempt] if node_budget_per_attempt else None
         result = backtrack(slots, seeded_assignment, domains, crossings, crossing_map,
-                            letter_counts, priority_words, node_budget)
+                            letter_counts, priority_words, node_budget, overall_deadline)
         if result:
             return build_output(pattern, slots, numbering, result)
 
@@ -646,23 +752,25 @@ if __name__ == "__main__":
     import os
     import sys
 
+    import paths
+
     size_arg = sys.argv[1] if len(sys.argv) > 1 else "mini"
     if size_arg not in ("mini", "midi", "crossword"):
         print(f"Unknown size '{size_arg}' -- use mini, midi, or crossword")
         sys.exit(1)
 
     priority_words = set()
-    if os.path.exists("priority_words.txt"):
-        with open("priority_words.txt") as f:
+    if os.path.exists(paths.PRIORITY_WORDS):
+        with open(paths.PRIORITY_WORDS) as f:
             priority_words = {w.strip() for w in f if w.strip()}
         print(f"Loaded {len(priority_words)} priority (topical) words")
 
     if size_arg == "mini":
-        word_bank_path = "merged_word_bank.txt"
-        fallback_path = "word_bank.txt"
+        word_bank_path = paths.MERGED_WORD_BANK
+        fallback_path = paths.WORD_BANK
     else:
-        word_bank_path = "midi_crossword_word_bank.txt"
-        fallback_path = "crossword_quality_words.txt"
+        word_bank_path = paths.MIDI_CROSSWORD_WORD_BANK
+        fallback_path = paths.CROSSWORD_QUALITY_WORDS
 
     if os.path.exists(word_bank_path):
         with open(word_bank_path) as f:
@@ -698,7 +806,7 @@ if __name__ == "__main__":
               f"or pattern too constrained.")
         sys.exit(1)
 
-    out_path = f"test_grid_{size_arg}.json"
+    out_path = paths.test_grid_path(size_arg)
     with open(out_path, "w") as f:
         json.dump(result, f, indent=2)
     print(f"Wrote {out_path}")

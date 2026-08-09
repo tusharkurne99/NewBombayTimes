@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+
+# Large third-party downloads, re-created by setup_evergreen.sh -- not
+# worth tracking in git (multi-MB, no diff value).
+data/raw/

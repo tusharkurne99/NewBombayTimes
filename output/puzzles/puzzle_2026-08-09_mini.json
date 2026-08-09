@@ -1,0 +1,122 @@
+{
+  "id": "2026-08-09-mini",
+  "date": "2026-08-09",
+  "puzzle_type": "mini",
+  "size": {
+    "rows": 5,
+    "cols": 5
+  },
+  "grid": [
+    "##SKI",
+    "STAYS",
+    "PATIL",
+    "OLIVE",
+    "TEN##"
+  ],
+  "numbering": {
+    "0,2": 1,
+    "0,3": 2,
+    "0,4": 3,
+    "1,0": 4,
+    "1,1": 5,
+    "2,0": 6,
+    "3,0": 7,
+    "4,0": 8
+  },
+  "clues": {
+    "across": {
+      "1": {
+        "answer": "SKI",
+        "clue": "Winter sport that's a downhill thrill",
+        "length": 3,
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
+      },
+      "4": {
+        "answer": "STAYS",
+        "clue": "Remains constant through various life changes slowly",
+        "length": 5,
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
+      },
+      "6": {
+        "answer": "PATIL",
+        "clue": "Former minister credited education reform efforts",
+        "length": 5,
+        "topical": true,
+        "source_snippet": "Veerashaiva-Lingayat institutions played key role in promoting education in North Karnataka: M.B. Patil",
+        "source": "news",
+        "review_recommended": true
+      },
+      "7": {
+        "answer": "OLIVE",
+        "clue": "Fruit often used in Greek cuisine and martinis.",
+        "length": 5,
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
+      },
+      "8": {
+        "answer": "TEN",
+        "clue": "Number of fingers on a typical adult hand count",
+        "length": 3,
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
+      }
+    },
+    "down": {
+      "4": {
+        "answer": "SPOT",
+        "clue": "Where you'll often find a parking ticket.",
+        "length": 4,
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
+      },
+      "5": {
+        "answer": "TALE",
+        "clue": "Short story's narrative thread often found here",
+        "length": 4,
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
+      },
+      "1": {
+        "answer": "SATIN",
+        "clue": "Fabric smooth as a politician's promise",
+        "length": 5,
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
+      },
+      "2": {
+        "answer": "KYIV",
+        "clue": "Capital of Ukraine caught in brutal conflict's deadly sweep",
+        "length": 4,
+        "topical": true,
+        "source_snippet": "Child among three killed in Russian missile attacks near Kyiv",
+        "source": "news",
+        "review_recommended": true
+      },
+      "3": {
+        "answer": "ISLE",
+        "clue": "Tropical haven in a body of water",
+        "length": 4,
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
+      }
+    }
+  }
+}

@@ -20,11 +20,15 @@
 # the refreshed assets.
 
 set -e
-cd "$(dirname "$0")"
 
-if [ -d "venv" ]; then
-    source venv/bin/activate
+# Resolve the project root the same way run_daily.sh does.
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+if [ -d "$ROOT/venv" ]; then
+    source "$ROOT/venv/bin/activate"
 fi
+
+cd "$ROOT/src"
 
 echo "=== Building general word bank (Mini) -- takes a few minutes ==="
 python build_word_bank.py

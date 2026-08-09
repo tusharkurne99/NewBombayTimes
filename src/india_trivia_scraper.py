@@ -36,6 +36,7 @@ from datetime import datetime, timedelta
 import requests
 
 from word_filters import is_droppable_suffix  # shared with scraper.py
+import paths
 
 API_URL = "https://en.wikipedia.org/w/api.php"
 PAGEVIEWS_URL = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article"
@@ -261,13 +262,13 @@ def main():
         print(f"  {e['word']:<15} views={e['pageviews_3mo']:<8} "
               f"topic={e['topic']:<10} from='{e['source_title']}'")
 
-    with open("india_trivia.json", "w") as f:
+    with open(paths.INDIA_TRIVIA, "w") as f:
         json.dump(unique_entries, f, indent=2)
-    print("\nWrote india_trivia.json")
+    print(f"\nWrote {paths.INDIA_TRIVIA}")
 
-    with open("india_word_bank.txt", "w") as f:
+    with open(paths.INDIA_WORD_BANK, "w") as f:
         f.write("\n".join(sorted(e["word"] for e in unique_entries)))
-    print("Wrote india_word_bank.txt")
+    print(f"Wrote {paths.INDIA_WORD_BANK}")
 
 
 if __name__ == "__main__":

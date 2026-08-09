@@ -21,11 +21,11 @@ Design notes:
   to a trivial template after a few failed attempts so the pipeline never
   crashes on a bad generation.
 
-Run: python clue_generator.py
-Reads: test_grid.json (from grid_generator.py), word_context.json
-       (from merge_sources.py, optional -- works without it, just with
-       fewer topical clues)
-Produces: puzzle_<date>.json -- the final, playable puzzle
+Run: python clue_generator.py <mini|midi|crossword>
+Reads: output/test_grids/test_grid_<size>.json (from grid_generator.py),
+       data/context/word_context.json (from merge_sources.py, optional --
+       works without it, just with fewer topical clues)
+Produces: output/puzzles/puzzle_<date>_<size>.json -- the final, playable puzzle
 """
 
 import json
@@ -34,6 +34,8 @@ import sys
 from datetime import date
 
 import requests
+
+import paths
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "llama3.2:3b"  # swap to "llama3.1:8b" for higher quality, slower
@@ -126,7 +128,7 @@ def main():
         print(f"Unknown size '{size_arg}' -- use mini, midi, or crossword")
         sys.exit(1)
 
-    grid_path = f"test_grid_{size_arg}.json"
+    grid_path = paths.test_grid_path(size_arg)
     try:
         with open(grid_path) as f:
             grid = json.load(f)
@@ -137,7 +139,7 @@ def main():
 
     word_context = {}
     try:
-        with open("word_context.json") as f:
+        with open(paths.WORD_CONTEXT) as f:
             word_context = json.load(f)
         print(f"Loaded context for {len(word_context)} words")
     except FileNotFoundError:
@@ -169,6 +171,28 @@ def main():
                 "clue": clue_text,
                 "length": entry["length"],
                 "topical": context is not None,
+                # Source snippet the clue was (supposedly) grounded in --
+                # kept in the output rather than discarded after use, so a
+                # human reviewer can actually check the clue against it.
+                # This exists because of a real, serious finding: a clue
+                # once fabricated a criminal accusation about a real,
+                # named, unrelated person (see project log part 3) even
+                # though real context was theoretically available -- a
+                # small local model can produce fluent, confident, WRONG
+                # text regardless of what it's given. No filter catches
+                # this reliably; a human skim is the actual safeguard.
+                "source_snippet": context.get("snippet", "") if context else "",
+                "source": context.get("source") if context else None,
+                # Every topical clue is flagged for review, not just ones
+                # that look person/institution-related -- we don't yet
+                # reliably know which topical words name a real person
+                # (that would need entity-type metadata plumbed through
+                # from scraper.py/india_trivia_scraper.py, not yet done).
+                # Flagging all topical clues is the safe default until
+                # that's more precise: a false positive here just means
+                # skimming one extra clue, a false negative could mean
+                # publishing another Pyarelal-style fabrication.
+                "review_recommended": context is not None,
             }
 
     puzzle = {
@@ -181,13 +205,19 @@ def main():
         "clues": clues,
     }
 
-    out_path = f"puzzle_{date.today().isoformat()}_{size_arg}.json"
+    out_path = paths.puzzle_path(date.today().isoformat(), size_arg)
     with open(out_path, "w") as f:
         json.dump(puzzle, f, indent=2)
 
     topical_count = sum(1 for d in clues.values() for e in d.values() if e["topical"])
+    review_count = sum(1 for d in clues.values() for e in d.values()
+                        if e["review_recommended"])
     print(f"\nWrote {out_path}")
     print(f"Topical clues: {topical_count}/{total}")
+    print(f"\n*** {review_count} clue(s) flagged review_recommended=true. ***")
+    print("*** Read every one against its source_snippet before calling ***")
+    print("*** this puzzle final -- especially any about a real person  ***")
+    print("*** or institution. See project_log_week1_part3.md section 3.***")
 
 
 if __name__ == "__main__":

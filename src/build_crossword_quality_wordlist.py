@@ -24,6 +24,8 @@ Produces: crossword_quality_words.txt (WORD<tab>score, one per line)
 import re
 import urllib.request
 
+import paths
+
 WORDLIST_URL = ("https://raw.githubusercontent.com/christophsjones/"
                  "crossword-wordlist/master/crossword_wordlist.txt")
 MIN_LEN = 3
@@ -32,7 +34,7 @@ MAX_LEN = 15
 
 def main():
     print("Downloading crossword-quality word list...")
-    raw_path = "crossword_wordlist_raw.txt"
+    raw_path = paths.CROSSWORD_WORDLIST_RAW
     urllib.request.urlretrieve(WORDLIST_URL, raw_path)
 
     entries = {}
@@ -63,11 +65,11 @@ def main():
 
     print(f"  -> {len(entries)} single-word entries")
 
-    with open("crossword_quality_words.txt", "w") as f:
+    with open(paths.CROSSWORD_QUALITY_WORDS, "w") as f:
         for w, s in sorted(entries.items()):
             f.write(f"{w}\t{s}\n")
 
-    print("Wrote crossword_quality_words.txt")
+    print(f"Wrote {paths.CROSSWORD_QUALITY_WORDS}")
     print("\nScore key (from the source list's README):")
     print("  50 = common word/phrase, use without hesitation")
     print("  25 = acceptable")

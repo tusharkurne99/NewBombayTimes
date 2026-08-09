@@ -16,6 +16,7 @@ import feedparser
 import spacy
 
 from word_filters import is_generic_word, INDIAN_ADMIN_SUFFIXES
+import paths
 
 FEEDS = {
     "the_hindu": "https://www.thehindu.com/news/feeder/default.rss",
@@ -227,10 +228,10 @@ def main():
         "candidates": candidates,
     }
 
-    with open("candidates.json", "w") as f:
+    with open(paths.CANDIDATES, "w") as f:
         json.dump(out, f, indent=2)
 
-    print("Wrote candidates.json")
+    print(f"Wrote {paths.CANDIDATES}")
     print("\nTop 15 candidates:")
     for c in candidates[:15]:
         print(f"  {c['word']:<15} len={c['length']:<3} score={c['score']:<3} "

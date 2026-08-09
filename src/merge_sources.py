@@ -40,6 +40,10 @@ Produces:
 import json
 import os
 
+from wordfreq import zipf_frequency
+from word_filters import is_safe_context_free_word, is_sensitive_word
+import paths
+
 
 def load_word_bank(path):
     if not os.path.exists(path):
@@ -49,13 +53,35 @@ def load_word_bank(path):
         return {w.strip().upper() for w in f if w.strip()}
 
 
-def load_quality_word_bank(path, min_score=40):
+def load_quality_word_bank(path, min_score=40, wordnet_filter_max_len=10):
     """
     Returns (word_set, score_dict) from crossword_quality_words.txt
-    (WORD<tab>score per line). word_set is filtered to >= min_score for
-    use as Midi/Crossword filler; score_dict has EVERY word's score
+    (WORD<tab>score per line). score_dict has EVERY word's score
     (unfiltered), used separately to compute interlock_score for topical
     words regardless of whether they clear the filler threshold.
+
+    word_set (the actual Midi/Crossword filler pool) applies:
+    1. score >= min_score (40) -- the source list's own quality score.
+    2. is_safe_context_free_word() -- the SAME WordNet-based "does this
+       word have real, checkable dictionary meaning" filter already built
+       and proven for word_bank.txt (the PAINE/KYRIE hallucination fix),
+       but ONLY for words up to wordnet_filter_max_len letters.
+
+    Why the length cutoff on filter #2, found by testing, not assumed:
+    applying the WordNet filter to ALL lengths does fix crosswordese/junk
+    (e.g. "DRJ", "GARYS" -- scored decently in the source list but have
+    no real meaning) -- verified. But it also disproportionately guts the
+    LONG end of the word list: legitimate long crossword answers are
+    often proper nouns or compound/technical terms with weak WordNet
+    coverage, so the filter was removing genuine words, not just junk, at
+    those lengths. Concretely: unrestricted WordNet filtering left only
+    ~45 words of length 15 (down from ~2000+ before filtering), and
+    Crossword (15x15, which needs several mutually-compatible 15-letter
+    answers) did not solve within 3 minutes with that pool -- a real
+    regression, not a hypothetical one. Restricting the WordNet filter to
+    words <=10 letters (where the actual junk was concentrated in real
+    puzzle output) restored long-word volume (~2072 words of length 15)
+    and Crossword solved in ~1 second with clean output on retest.
     """
     if not os.path.exists(path):
         print(f"  (skipping {path} -- not found; run "
@@ -72,8 +98,13 @@ def load_quality_word_bank(path, min_score=40):
             word, score_str = line.split("\t")
             score = int(score_str)
             score_dict[word] = score
-            if score >= min_score:
-                word_set.add(word)
+            if score < min_score or is_sensitive_word(word):
+                continue
+            if len(word) <= wordnet_filter_max_len:
+                if is_safe_context_free_word(word, zipf_frequency(word.lower(), "en")):
+                    word_set.add(word)
+            else:
+                word_set.add(word)  # long words: trust the score, skip WordNet check
     return word_set, score_dict
 
 
@@ -119,15 +150,15 @@ def load_trivia(path):
 
 def main():
     print("Loading sources...")
-    general = load_word_bank("word_bank.txt")
-    india_generic = load_word_bank("india_word_bank.txt")
-    quality_words, quality_scores = load_quality_word_bank("crossword_quality_words.txt")
-    news_ctx = load_news_candidates("candidates.json")
-    trivia_ctx = load_trivia("india_trivia.json")
+    general = load_word_bank(paths.WORD_BANK)
+    india_generic = load_word_bank(paths.INDIA_WORD_BANK)
+    quality_words, quality_scores = load_quality_word_bank(paths.CROSSWORD_QUALITY_WORDS)
+    news_ctx = load_news_candidates(paths.CANDIDATES)
+    trivia_ctx = load_trivia(paths.INDIA_TRIVIA)
 
     print(f"  general word bank: {len(general)} words")
     print(f"  india word bank (no context): {len(india_generic)} words")
-    print(f"  crossword-quality word bank (score>=40): {len(quality_words)} words")
+    print(f"  crossword-quality word bank (filtered): {len(quality_words)} words")
     print(f"  news candidates (with context): {len(news_ctx)} words")
     print(f"  trivia words (with context): {len(trivia_ctx)} words")
 
@@ -163,21 +194,21 @@ def main():
     print(f"Midi/Crossword pool: {len(midi_crossword_pool)} unique words")
     print(f"Words with clue context (priority words): {len(word_context)}")
 
-    with open("merged_word_bank.txt", "w") as f:
+    with open(paths.MERGED_WORD_BANK, "w") as f:
         f.write("\n".join(sorted(mini_pool)))
-    print("Wrote merged_word_bank.txt")
+    print(f"Wrote {paths.MERGED_WORD_BANK}")
 
-    with open("midi_crossword_word_bank.txt", "w") as f:
+    with open(paths.MIDI_CROSSWORD_WORD_BANK, "w") as f:
         f.write("\n".join(sorted(midi_crossword_pool)))
-    print("Wrote midi_crossword_word_bank.txt")
+    print(f"Wrote {paths.MIDI_CROSSWORD_WORD_BANK}")
 
-    with open("word_context.json", "w") as f:
+    with open(paths.WORD_CONTEXT, "w") as f:
         json.dump(word_context, f, indent=2)
-    print("Wrote word_context.json (now includes interlock_score per word)")
+    print(f"Wrote {paths.WORD_CONTEXT} (now includes interlock_score per word)")
 
-    with open("priority_words.txt", "w") as f:
+    with open(paths.PRIORITY_WORDS, "w") as f:
         f.write("\n".join(sorted(word_context.keys())))
-    print("Wrote priority_words.txt")
+    print(f"Wrote {paths.PRIORITY_WORDS}")
 
 
 if __name__ == "__main__":

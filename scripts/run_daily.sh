@@ -1,8 +1,9 @@
 #!/bin/bash
 # run_daily.sh
 # The actual daily puzzle pipeline. Run this every day to produce today's
-# three puzzles (Mini, Midi, Crossword). Assumes word_bank.txt,
-# crossword_quality_words.txt, and india_trivia.json/india_word_bank.txt
+# three puzzles (Mini, Midi, Crossword). Assumes data/wordbanks/word_bank.txt,
+# data/wordbanks/crossword_quality_words.txt, and
+# data/context/india_trivia.json / data/wordbanks/india_word_bank.txt
 # already exist (built once via setup_evergreen.sh, refreshed occasionally,
 # NOT rebuilt every day).
 #
@@ -13,21 +14,24 @@
 # merge_sources.py never ran or failed).
 #
 # Timing note: Mini + Midi are fast (seconds). Crossword (15x15) takes
-# roughly 40-60 seconds to solve -- fine for an overnight/once-daily batch
+# roughly 30-60 seconds to solve -- fine for an overnight/once-daily batch
 # job, just don't expect this whole script to finish instantly.
 
 set -e
 
-# Always run from this script's own directory, regardless of where it's
-# invoked from, so relative paths (word_bank.txt etc.) resolve correctly.
-cd "$(dirname "$0")"
+# Resolve the project root (one level up from this script's own directory,
+# regardless of where it's invoked from), so paths.py's data/output
+# directories resolve correctly no matter where run_daily.sh is called from.
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 
-if [ -d "venv" ]; then
-    source venv/bin/activate
+if [ -d "$ROOT/venv" ]; then
+    source "$ROOT/venv/bin/activate"
 fi
 
+cd "$ROOT/src"
+
 # echo "=== [1/4] Scraping today's news ==="
-# python scrapper.py
+# python scraper.py
 
 # echo ""
 # echo "=== [2/4] Merging word sources (news + trivia + general) ==="
@@ -36,7 +40,7 @@ fi
 echo ""
 echo "=== [3/4] Generating grids (Mini, Midi, Crossword) ==="
 # python grid_generator.py mini
-python grid_generator.py midi
+# python grid_generator.py midi
 python grid_generator.py crossword
 
 echo ""
@@ -54,3 +58,5 @@ python clue_generator.py crossword
 
 echo ""
 echo "=== Done. Today's Mini, Midi, and Crossword puzzles are ready. ==="
+echo "See output/puzzles/ -- read every clue with review_recommended: true"
+echo "before calling any puzzle final."

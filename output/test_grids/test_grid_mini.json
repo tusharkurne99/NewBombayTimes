@@ -1,0 +1,69 @@
+{
+  "size": {
+    "rows": 5,
+    "cols": 5
+  },
+  "grid": [
+    "##SKI",
+    "STAYS",
+    "PATIL",
+    "OLIVE",
+    "TEN##"
+  ],
+  "numbering": {
+    "0,2": 1,
+    "0,3": 2,
+    "0,4": 3,
+    "1,0": 4,
+    "1,1": 5,
+    "2,0": 6,
+    "3,0": 7,
+    "4,0": 8
+  },
+  "words": {
+    "across": {
+      "1": {
+        "answer": "SKI",
+        "length": 3
+      },
+      "4": {
+        "answer": "STAYS",
+        "length": 5
+      },
+      "6": {
+        "answer": "PATIL",
+        "length": 5
+      },
+      "7": {
+        "answer": "OLIVE",
+        "length": 5
+      },
+      "8": {
+        "answer": "TEN",
+        "length": 3
+      }
+    },
+    "down": {
+      "4": {
+        "answer": "SPOT",
+        "length": 4
+      },
+      "5": {
+        "answer": "TALE",
+        "length": 4
+      },
+      "1": {
+        "answer": "SATIN",
+        "length": 5
+      },
+      "2": {
+        "answer": "KYIV",
+        "length": 4
+      },
+      "3": {
+        "answer": "ISLE",
+        "length": 4
+      }
+    }
+  }
+}

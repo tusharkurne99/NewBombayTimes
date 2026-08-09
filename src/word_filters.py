@@ -101,10 +101,46 @@ def is_safe_context_free_word(word, zipf_score, min_famous_zipf=3.8):
 # needs no ongoing maintenance: this is a small, finite, well-understood
 # linguistic category (Indian state-name suffixes), not an open-ended set
 # of "whatever descriptor word might appear next."
-INDIAN_ADMIN_SUFFIXES = {"NADU", "PRADESH", "DESH"}
+INDIAN_ADMIN_SUFFIXES = {
+    "NADU", "PRADESH", "DESH",
+    # Common Indian architectural/toponymic suffix morphemes -- same
+    # category as the state-name suffixes above (transliterated Hindi/
+    # Urdu/Tamil words meaning "palace," "building," "tower," etc., not
+    # real English dictionary words, so WordNet has zero knowledge of
+    # them and is_generic_word() lets them through unfiltered). Found via
+    # the same failure pattern as NADU: "Taj Mahal" -> spurious standalone
+    # "MAHAL" answer with a clue clearly describing the Taj Mahal
+    # specifically. See project log part 2/3 for the full NADU/MAHAL
+    # discussion -- this list is expected to grow as new instances of the
+    # same pattern are found; that's fine, it's still a closed, well-
+    # understood linguistic category, not an open-ended one.
+    "MAHAL", "BHAVAN", "BAGH", "MINAR", "NAGAR", "GANJ", "GARH", "PURAM",
+}
 
 
 def is_droppable_suffix(word):
     """True if `word` is a generic descriptor (via WordNet) OR one of the
     small set of Indian administrative-unit suffixes above."""
     return is_generic_word(word) or word.upper() in INDIAN_ADMIN_SUFFIXES
+
+
+# Small, closed, deliberately hand-maintained exception list -- same
+# justified-exception category as ALWAYS_IN_NEWS_PENALTY and
+# INDIAN_ADMIN_SUFFIXES above, NOT the open-ended "generic descriptor
+# word" problem WordNet filtering replaced. These are real, valid,
+# technically-correct dictionary/crossword words that are nonetheless
+# not appropriate for a general-audience daily puzzle, either because
+# they're mildly vulgar (ASS) or because they carry a strong, unrelated,
+# distressing modern association that would be jarring or in poor taste
+# to see as a crossword answer regardless of the word's older/original
+# meaning (ISIS as the Egyptian goddess; NAZI, KKK as historical/political
+# terms). Found by inspection of real generated puzzles, not exhaustively
+# researched -- expect to add to this occasionally, same as the other
+# small exception lists in this file.
+SENSITIVE_WORDS = {
+    "ISIS", "ASS", "NAZI", "NAZIS", "KKK", "RAPE", "RAPED", "RAPIST",
+}
+
+
+def is_sensitive_word(word):
+    return word.upper() in SENSITIVE_WORDS

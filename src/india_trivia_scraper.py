@@ -75,6 +75,44 @@ META_TITLE_PATTERNS = [
     r"^Category:", r"^Glossary of ",
 ]
 
+MAX_RETRIES = 5
+RETRY_BASE_DELAY = 2.0
+
+
+def _get_with_retry(url, params, max_retries=MAX_RETRIES, base_delay=RETRY_BASE_DELAY):
+    """
+    GET with retry/backoff on 429 (rate limit) and 5xx (transient server
+    error). Found necessary in practice: scraping a ~2000-title category
+    (e.g. "Indian cricketers") makes thousands of sequential requests, and
+    Wikipedia's action API does start rate-limiting sustained bursts even
+    with a per-request delay. Without this, a single 429 crashed the whole
+    script -- and since results are only written to disk at the very end
+    of main(), that threw away every category already scraped, not just
+    the one that hit the limit.
+
+    Honors a Retry-After header when the API sends one, otherwise
+    exponential backoff (2s, 4s, 8s, 16s, 32s).
+
+    Deliberately does NOT call raise_for_status() on the final returned
+    response -- get_pageviews() needs to see a plain 404 (meaning "no
+    pageview data for this title", a normal/expected case) without an
+    exception being thrown. Callers that want other error statuses to
+    raise should call resp.raise_for_status() themselves.
+    """
+    for attempt in range(max_retries):
+        resp = requests.get(url, params=params, headers=HEADERS, timeout=15)
+        if resp.status_code == 429 or resp.status_code >= 500:
+            if attempt == max_retries - 1:
+                return resp  # let the caller decide how to handle final failure
+            retry_after = resp.headers.get("Retry-After")
+            delay = float(retry_after) if retry_after else base_delay * (2 ** attempt)
+            print(f"    got HTTP {resp.status_code}, backing off {delay:.1f}s "
+                  f"(attempt {attempt + 1}/{max_retries})...")
+            time.sleep(delay)
+            continue
+        return resp
+    raise RuntimeError("unreachable")  # loop above always returns
+
 
 def get_all_category_members(category):
     """Fetch the FULL category listing via pagination (cmcontinue),
@@ -93,7 +131,7 @@ def get_all_category_members(category):
         if cmcontinue:
             params["cmcontinue"] = cmcontinue
 
-        resp = requests.get(API_URL, params=params, headers=HEADERS, timeout=15)
+        resp = _get_with_retry(API_URL, params)
         resp.raise_for_status()
         data = resp.json()
         for member in data.get("query", {}).get("categorymembers", []):
@@ -126,7 +164,7 @@ def get_extracts(titles):
             "titles": "|".join(chunk),
             "format": "json",
         }
-        resp = requests.get(API_URL, params=params, headers=HEADERS, timeout=15)
+        resp = _get_with_retry(API_URL, params)
         resp.raise_for_status()
         data = resp.json()
         query = data.get("query", {})
@@ -161,10 +199,18 @@ def get_pageviews(title, months_back=PAGEVIEWS_MONTHS_BACK):
     url = (f"{PAGEVIEWS_URL}/en.wikipedia/all-access/user/"
            f"{encoded_title}/monthly/{start_str}/{end_str}")
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=10)
+        # Retry on 429/5xx here too -- this function is called once per
+        # title (up to ~2000 times for a big category like "Indian
+        # cricketers"), and this method used to swallow a 429 as a plain
+        # RequestException, silently scoring the title 0 views instead of
+        # retrying. That's worse than crashing: it corrupts the popularity
+        # ranking without any visible error, systematically penalizing
+        # whichever titles happen to get rate-limited (typically the ones
+        # fetched later in a long category) rather than genuinely being
+        # unpopular.
+        resp = _get_with_retry(url, params=None, max_retries=3, base_delay=1.0)
         if resp.status_code == 404:
             return 0
-        resp.raise_for_status()
         items = resp.json().get("items", [])
         return sum(item["views"] for item in items)
     except requests.RequestException:
@@ -231,7 +277,18 @@ def main():
         top_titles = scored_titles[:TOP_K_PER_CATEGORY]
         print(f"  -> top by views: {[f'{t}({v})' for t, v in top_titles[:5]]} ...")
 
-        extracts = get_extracts([t for t, v in top_titles])
+        try:
+            extracts = get_extracts([t for t, v in top_titles])
+        except requests.RequestException as e:
+            # Don't let a snippet-fetch failure lose the whole category --
+            # entries without a snippet still get a word + topic + source
+            # title (clue_generator.py already falls back to a generic
+            # clue when there's no context). This is also what makes it
+            # safe for the retry loop in _get_with_retry to eventually give
+            # up on a persistent outage: the failure is contained to one
+            # category's snippets, not the whole run's accumulated data.
+            print(f"  FAILED fetching extracts ({e}), keeping entries without snippets")
+            extracts = {}
 
         for title, views in top_titles:
             snippet = extracts.get(title, "")

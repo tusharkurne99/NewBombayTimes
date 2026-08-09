@@ -30,17 +30,17 @@ fi
 
 cd "$ROOT/src"
 
-# echo "=== [1/4] Scraping today's news ==="
-# python scraper.py
+echo "=== [1/4] Scraping today's news ==="
+python scraper.py
 
-# echo ""
-# echo "=== [2/4] Merging word sources (news + trivia + general) ==="
-# python merge_sources.py
+echo ""
+echo "=== [2/4] Merging word sources (news + trivia + general) ==="
+python merge_sources.py
 
 echo ""
 echo "=== [3/4] Generating grids (Mini, Midi, Crossword) ==="
-# python grid_generator.py mini
-# python grid_generator.py midi
+python grid_generator.py mini
+python grid_generator.py midi
 python grid_generator.py crossword
 
 echo ""

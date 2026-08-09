@@ -20,13 +20,6 @@
     "score": 354962,
     "interlock_score": 50
   },
-  "MAHAL": {
-    "source": "trivia",
-    "snippet": "The Taj Mahal ( TAHJ m\u0259-HAHL, TAHZH -\u2060; Hindustani: [t\u032a\u0251\u02d0d\u0361\u0292 \u02c8m\u025b\u0266(\u025b)l]; lit.\u2009'Crown of the Palace') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r.\u20091628\u20131658), to house the tomb of his late wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself.",
-    "topic": "geography",
-    "score": 354962,
-    "interlock_score": 50
-  },
   "GILL": {
     "source": "news",
     "snippet": "Marathon hit! Shubman Gill bats for over an hour at NCC nets",
@@ -222,13 +215,6 @@
     "topic": "geography",
     "score": 60888,
     "interlock_score": 8
-  },
-  "MINAR": {
-    "source": "trivia",
-    "snippet": "The Qutb Minar, also spelled Qutub Minar and Qutab Minar, is a minaret and victory tower, built during the Delhi sultanate, and comprising the Qutb complex, a UNESCO World Heritage Site in Mehrauli, South Delhi, India. It was mostly built between 1199 and 1220, contains 399 steps, and is one of the most frequented heritage spots in the city.",
-    "topic": "geography",
-    "score": 60888,
-    "interlock_score": 13
   },
   "KONARK": {
     "source": "trivia",
@@ -604,7 +590,7 @@
     "source": "trivia",
     "snippet": "Anjalai Ammal Murugappan padaiyatchi was an Indian freedom fighter, social worker, reformer and politician from Cuddalore, Tamil Nadu. She spent seven and a half years in prison for her participation in the independence movement.",
     "topic": "history",
-    "score": 13833,
+    "score": 13983,
     "interlock_score": 0
   },
   "COOMARASWAMY": {
@@ -859,6 +845,13 @@
     "score": 1224,
     "interlock_score": 0
   },
+  "PENINSULAR": {
+    "source": "trivia",
+    "snippet": "The Peninsular River System is an Indian River System. It is one of two types of Indian River System, along with the Himalayan River System.",
+    "topic": "geography",
+    "score": 1207,
+    "interlock_score": 29
+  },
   "BANGANGA": {
     "source": "trivia",
     "snippet": "Banganga (also known as Bal Ganga) is a river and a major stopping point on the pilgrimage route to the Vaishno Devi shrine in Jammu and Kashmir. It is located approximately 1 km from the base camp town of Katra, at an altitude of approximately 2,800 feet.",
@@ -1005,6 +998,13 @@
     "score": 132,
     "interlock_score": 0
   },
+  "ADHWARA": {
+    "source": "trivia",
+    "snippet": "Adhwara (Maithili: \u0905\u0927\u0935\u093e\u0930\u093e) refers to a group of rivers flowing on the plane of the Mithila region in the Indian subcontinent.  It is not a single river but a collective term for the interconnected waterways in the region.",
+    "topic": "geography",
+    "score": 108,
+    "interlock_score": 0
+  },
   "IRANG": {
     "source": "trivia",
     "snippet": "Irang River is a river in Manipur in northeastern India flows into the Barak River and is found in the northeastern state of Manipur, India. It flows through hilly terrain and dense forest, supporting both biodiversity and local livelihoods.",
@@ -1039,20 +1039,6 @@
     "topic": "history",
     "score": 17,
     "interlock_score": 0
-  },
-  "ADHWARA": {
-    "source": "trivia",
-    "snippet": "Adhwara (Maithili: \u0905\u0927\u0935\u093e\u0930\u093e) refers to a group of rivers flowing on the plane of the Mithila region in the Indian subcontinent.  It is not a single river but a collective term for the interconnected waterways in the region.",
-    "topic": "geography",
-    "score": 0,
-    "interlock_score": 0
-  },
-  "PENINSULAR": {
-    "source": "trivia",
-    "snippet": "The Peninsular River System is an Indian River System. It is one of two types of Indian River System, along with the Himalayan River System.",
-    "topic": "geography",
-    "score": 0,
-    "interlock_score": 29
   },
   "CANADA": {
     "source": "news",

@@ -21,13 +21,6 @@
     "pageviews_3mo": 354962
   },
   {
-    "word": "MAHAL",
-    "topic": "geography",
-    "source_title": "Taj Mahal",
-    "snippet": "The Taj Mahal ( TAHJ m\u0259-HAHL, TAHZH -\u2060; Hindustani: [t\u032a\u0251\u02d0d\u0361\u0292 \u02c8m\u025b\u0266(\u025b)l]; lit.\u2009'Crown of the Palace') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r.\u20091628\u20131658), to house the tomb of his late wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself.",
-    "pageviews_3mo": 354962
-  },
-  {
     "word": "GILL",
     "topic": "cricket",
     "source_title": "Shubman Gill",
@@ -225,13 +218,6 @@
   },
   {
     "word": "QUTB",
-    "topic": "geography",
-    "source_title": "Qutb Minar",
-    "snippet": "The Qutb Minar, also spelled Qutub Minar and Qutab Minar, is a minaret and victory tower, built during the Delhi sultanate, and comprising the Qutb complex, a UNESCO World Heritage Site in Mehrauli, South Delhi, India. It was mostly built between 1199 and 1220, contains 399 steps, and is one of the most frequented heritage spots in the city.",
-    "pageviews_3mo": 60888
-  },
-  {
-    "word": "MINAR",
     "topic": "geography",
     "source_title": "Qutb Minar",
     "snippet": "The Qutb Minar, also spelled Qutub Minar and Qutab Minar, is a minaret and victory tower, built during the Delhi sultanate, and comprising the Qutb complex, a UNESCO World Heritage Site in Mehrauli, South Delhi, India. It was mostly built between 1199 and 1220, contains 399 steps, and is one of the most frequented heritage spots in the city.",
@@ -613,7 +599,7 @@
     "topic": "history",
     "source_title": "Anjalai Ammal",
     "snippet": "Anjalai Ammal Murugappan padaiyatchi was an Indian freedom fighter, social worker, reformer and politician from Cuddalore, Tamil Nadu. She spent seven and a half years in prison for her participation in the independence movement.",
-    "pageviews_3mo": 13833
+    "pageviews_3mo": 13983
   },
   {
     "word": "COOMARASWAMY",
@@ -868,6 +854,13 @@
     "pageviews_3mo": 1224
   },
   {
+    "word": "PENINSULAR",
+    "topic": "geography",
+    "source_title": "Peninsular River System",
+    "snippet": "The Peninsular River System is an Indian River System. It is one of two types of Indian River System, along with the Himalayan River System.",
+    "pageviews_3mo": 1207
+  },
+  {
     "word": "BANGANGA",
     "topic": "geography",
     "source_title": "Banganga River (Jammu and Kashmir)",
@@ -1015,6 +1008,13 @@
     "pageviews_3mo": 132
   },
   {
+    "word": "ADHWARA",
+    "topic": "geography",
+    "source_title": "Adhwara",
+    "snippet": "Adhwara (Maithili: \u0905\u0927\u0935\u093e\u0930\u093e) refers to a group of rivers flowing on the plane of the Mithila region in the Indian subcontinent.  It is not a single river but a collective term for the interconnected waterways in the region.",
+    "pageviews_3mo": 108
+  },
+  {
     "word": "IRANG",
     "topic": "geography",
     "source_title": "Irang River",
@@ -1048,19 +1048,5 @@
     "source_title": "Medieval Meitei",
     "snippet": "Medieval Meitei (or Medieval Manipuri) may refer to:",
     "pageviews_3mo": 17
-  },
-  {
-    "word": "ADHWARA",
-    "topic": "geography",
-    "source_title": "Adhwara",
-    "snippet": "Adhwara (Maithili: \u0905\u0927\u0935\u093e\u0930\u093e) refers to a group of rivers flowing on the plane of the Mithila region in the Indian subcontinent.  It is not a single river but a collective term for the interconnected waterways in the region.",
-    "pageviews_3mo": 0
-  },
-  {
-    "word": "PENINSULAR",
-    "topic": "geography",
-    "source_title": "Peninsular River System",
-    "snippet": "The Peninsular River System is an Indian River System. It is one of two types of Indian River System, along with the Himalayan River System.",
-    "pageviews_3mo": 0
   }
 ]

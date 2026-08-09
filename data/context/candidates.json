@@ -1,37 +1,13 @@
 {
-  "generated_at": "2026-08-09T09:59:21.930613+00:00",
-  "num_articles": 142,
+  "generated_at": "2026-08-09T10:35:55.805613+00:00",
+  "num_articles": 144,
   "candidates": [
-    {
-      "word": "MESSI",
-      "length": 5,
-      "mentions": 10,
-      "num_sources": 2,
-      "score": 14,
-      "snippets": [
-        {
-          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
     {
       "word": "HORMUZ",
       "length": 6,
-      "mentions": 5,
+      "mentions": 6,
       "num_sources": 4,
-      "score": 13,
+      "score": 14,
       "snippets": [
         {
           "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
@@ -44,9 +20,9 @@
           "source": "the_hindu"
         },
         {
-          "text": "Strait of Hormuz standoff: What conditions have US, Iran set to reopen waterway",
-          "link": "https://timesofindia.indiatimes.com/world/middle-east/strait-of-hormuz-standoff-what-iran-us-want-and-what-it-takes-to-reopen-waterway/articleshow/133061432.cms",
-          "source": "times_of_india"
+          "text": "Iran Guards say won\u2019t reopen Hormuz without U.S. meeting all Tehran\u2019s conditions",
+          "link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
+          "source": "the_hindu"
         }
       ]
     },
@@ -70,6 +46,54 @@
         {
           "text": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
           "link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "WORLD",
+      "length": 5,
+      "mentions": 6,
+      "num_sources": 2,
+      "score": 10,
+      "snippets": [
+        {
+          "text": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+          "link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "'Can\u2019t go series by series': Rahane demands clarity over Rohit Sharma's WC spot",
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/you-cant-go-series-by-series-ajinkya-rahane-demands-clarity-over-rohit-sharmas-world-cup-spot/articleshow/133065057.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "CANADA",
+      "length": 6,
+      "mentions": 4,
+      "num_sources": 3,
+      "score": 10,
+      "snippets": [
+        {
+          "text": "Man arrested 7 months after Indian woman's murder in Canada",
+          "link": "https://www.thehindu.com/news/international/man-arrested-7-months-after-indian-womans-murder-in-canada/article71324231.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Man arrested 7 months after Indian woman's murder in Canada",
+          "link": "https://www.thehindu.com/news/international/man-arrested-7-months-after-indian-womans-murder-in-canada/article71324231.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Indian-origin woman's partner arrested in Canada 7 months after her murder",
+          "link": "https://timesofindia.indiatimes.com/world/rest-of-world/abdul-ghafoori-arrested-in-murder-of-indian-origin-partner-himanshi-khurana-in-toronto/articleshow/133061913.cms",
           "source": "times_of_india"
         }
       ]
@@ -123,6 +147,30 @@
       ]
     },
     {
+      "word": "MESSI",
+      "length": 5,
+      "mentions": 6,
+      "num_sources": 2,
+      "score": 10,
+      "snippets": [
+        {
+          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
+          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
+          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
+          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
       "word": "KERALA",
       "length": 6,
       "mentions": 5,
@@ -147,6 +195,30 @@
       ]
     },
     {
+      "word": "YEMEN",
+      "length": 5,
+      "mentions": 5,
+      "num_sources": 2,
+      "score": 9,
+      "snippets": [
+        {
+          "text": "Yemen\u2019s Houthis claim attack on Aramco facility as Saudi says fire extinguished",
+          "link": "https://www.thehindu.com/news/international/fire-extinguished-at-aramco-facility-in-jizan-says-saudi-arabia/article71324246.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Yemen\u2019s Houthis claim attack on Aramco facility as Saudi says fire extinguished",
+          "link": "https://www.thehindu.com/news/international/fire-extinguished-at-aramco-facility-in-jizan-says-saudi-arabia/article71324246.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Iran Guards say won\u2019t reopen Hormuz without U.S. meeting all Tehran\u2019s conditions",
+          "link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
       "word": "BARAMATI",
       "length": 8,
       "mentions": 3,
@@ -154,7 +226,7 @@
       "score": 9,
       "snippets": [
         {
-          "text": "Trainer aircraft of private firm crashes near Baramati airstrip; no casualty reported",
+          "text": "Trainer aircraft of private company skids off runway at Baramati airstrip in Maharashtra; no casualty",
           "link": "https://www.thehindu.com/news/national/maharashtra/baramati-trainer-aircraft-crash-updates-august-9-2026/article71324357.ece",
           "source": "the_hindu"
         },
@@ -173,9 +245,9 @@
     {
       "word": "CENTRE",
       "length": 6,
-      "mentions": 4,
+      "mentions": 5,
       "num_sources": 2,
-      "score": 8,
+      "score": 9,
       "snippets": [
         {
           "text": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
@@ -183,8 +255,8 @@
           "source": "the_hindu"
         },
         {
-          "text": "\u2018CoE is not just a rehab centre\u2019: VVS defends facility amid India\u2019s injury crisis",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/coe-is-not-merely-a-rehab-centre-vvs-laxman-speaks-out-as-indias-injury-crisis-puts-bcci-facility-under-scanner/articleshow/133064527.cms",
+          "text": "Centre weighs 200% increase in foreign investment approval threshold",
+          "link": "https://timesofindia.indiatimes.com/business/india-business/government-weighs-raising-fdi-approval-threshold-to-rs-15000-crore-from-rs-5000-crore-report/articleshow/133065304.cms",
           "source": "times_of_india"
         },
         {
@@ -195,26 +267,98 @@
       ]
     },
     {
-      "word": "YEMEN",
+      "word": "INDIA",
+      "length": 5,
+      "mentions": 25,
+      "num_sources": 4,
+      "score": 8.25,
+      "snippets": [
+        {
+          "text": "Freedom fighters\u2019 patriotism inspires generations: Fadnavis on \u2018Quit India\u2019 Movement anniversary",
+          "link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Freedom fighters\u2019 patriotism inspires generations: Fadnavis on \u2018Quit India\u2019 Movement anniversary",
+          "link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
+          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "MAHARASHTRA",
+      "length": 11,
+      "mentions": 4,
+      "num_sources": 2,
+      "score": 8,
+      "snippets": [
+        {
+          "text": "Freedom fighters\u2019 patriotism inspires generations: Fadnavis on \u2018Quit India\u2019 Movement anniversary",
+          "link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Trainer aircraft of private company skids off runway at Baramati airstrip in Maharashtra; no casualty",
+          "link": "https://www.thehindu.com/news/national/maharashtra/baramati-trainer-aircraft-crash-updates-august-9-2026/article71324357.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Mild earthquake, tremors in Maharashtra\u2019s Nashik; cracks reported in houses",
+          "link": "https://www.thehindu.com/news/national/maharashtra/mild-earthquake-tremors-in-maharashtras-nashik-cracks-reported-in-houses/article71324020.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "GANDHI",
+      "length": 6,
+      "mentions": 4,
+      "num_sources": 2,
+      "score": 8,
+      "snippets": [
+        {
+          "text": "Those who participated in Quit India movement remain inspiration for every Indian: PM Modi",
+          "link": "https://www.thehindu.com/news/national/those-who-participated-in-quit-india-movement-remain-inspiration-for-every-indian-pm-modi/article71324276.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "End corrupt system with love and affection, Rahul Gandhi tells students",
+          "link": "https://www.thehindu.com/news/national/uttar-pradesh/youth-indias-biggest-strength-its-potential-unmatched-rahul-gandhi-in-prayagraj/article71322354.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
+          "link": "https://timesofindia.indiatimes.com/india/youll-have-to-answer-for-this-crime-rahul-slams-pm-modi-hm-shah-over-police-action-on-students/articleshow/133065103.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "VIJAY",
       "length": 5,
       "mentions": 4,
       "num_sources": 2,
       "score": 8,
       "snippets": [
         {
-          "text": "Yemen\u2019s Houthis claim attack on Aramco facility as Saudi says fire extinguished",
-          "link": "https://www.thehindu.com/news/international/fire-extinguished-at-aramco-facility-in-jizan-says-saudi-arabia/article71324246.ece",
+          "text": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
+          "link": "https://www.thehindu.com/news/cities/Madurai/farmers-association-welcomes-tamil-nadu-cm-vijays-move-on-linking-godavari-cauvery-gundar-rivers/article71324121.ece",
           "source": "the_hindu"
         },
         {
-          "text": "Yemen\u2019s Houthis claim attack on Aramco facility as Saudi says fire extinguished",
-          "link": "https://www.thehindu.com/news/international/fire-extinguished-at-aramco-facility-in-jizan-says-saudi-arabia/article71324246.ece",
+          "text": "T.N. MPs\u2019 meeting convened by CM Vijay seeks freeze on 543 Lok Sabha seats",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/tn-mps-meeting-convened-by-cm-vijay-seeks-freeze-on-543-lok-sabha-seats/article71322504.ece",
           "source": "the_hindu"
         },
         {
-          "text": "Yemen's Houthis Claim Attack On Aramco Refinery On Red Sea Coast",
-          "link": "https://www.ndtv.com/world-news/yemens-houthis-claim-attack-on-aramco-refinery-on-red-sea-coast-11885963#publisher=newsstand",
-          "source": "ndtv"
+          "text": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
+          "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
+          "source": "times_of_india"
         }
       ]
     },
@@ -267,6 +411,126 @@
       ]
     },
     {
+      "word": "IRELAND",
+      "length": 7,
+      "mentions": 4,
+      "num_sources": 2,
+      "score": 8,
+      "snippets": [
+        {
+          "text": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "Why Britain's housing market is losing momentum as mortgage rates rise again",
+          "link": "https://timesofindia.indiatimes.com/real-estate/news/why-britains-housing-market-is-losing-momentum-as-mortgage-rates-rise-again/articleshow/133056565.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "UMAR",
+      "length": 4,
+      "mentions": 3,
+      "num_sources": 2,
+      "score": 7,
+      "snippets": [
+        {
+          "text": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+          "link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "KHALID",
+      "length": 6,
+      "mentions": 3,
+      "num_sources": 2,
+      "score": 7,
+      "snippets": [
+        {
+          "text": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+          "link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "ISRAEL",
+      "length": 6,
+      "mentions": 3,
+      "num_sources": 2,
+      "score": 7,
+      "snippets": [
+        {
+          "text": "Seafarers hold silent protest in Visakhapatnam against killings in war zones",
+          "link": "https://www.thehindu.com/news/national/andhra-pradesh/seafarers-hold-silent-protest-in-visakhapatnam-against-killings-in-war-zones/article71324314.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Israel accused of weaponising archaeology at ancient West Bank sites",
+          "link": "https://www.bbc.co.uk/news/articles/c20d8qre98do?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        },
+        {
+          "text": "Israel accused of weaponising archaeology at ancient West Bank sites",
+          "link": "https://www.bbc.co.uk/news/articles/c20d8qre98do?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        }
+      ]
+    },
+    {
+      "word": "SHAH",
+      "length": 4,
+      "mentions": 3,
+      "num_sources": 2,
+      "score": 7,
+      "snippets": [
+        {
+          "text": "New criminal laws introduced to provide speedy justice to citizens: Union Home Minister Amit Shah",
+          "link": "https://www.thehindu.com/news/cities/puducherry/new-criminal-laws-introduced-to-provide-speedy-justice-to-citizens-union-home-minister-amit-shah/article71324260.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
+          "link": "https://timesofindia.indiatimes.com/india/youll-have-to-answer-for-this-crime-rahul-slams-pm-modi-hm-shah-over-police-action-on-students/articleshow/133065103.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
+          "link": "https://timesofindia.indiatimes.com/india/youll-have-to-answer-for-this-crime-rahul-slams-pm-modi-hm-shah-over-police-action-on-students/articleshow/133065103.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
       "word": "STEVE",
       "length": 5,
       "mentions": 3,
@@ -286,54 +550,6 @@
         {
           "text": "In 1997, Steve Jobs told employees: Nike sells shoes, yet inspires millions",
           "link": "https://timesofindia.indiatimes.com/technology/tech-news/in-1997-after-returning-to-apple-11-years-after-he-was-fired-from-the-company-he-founded-steve-jobs-at-staff-townhall-nike-sells-shoes-and-yet-/articleshow/133063854.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "GANDHI",
-      "length": 6,
-      "mentions": 3,
-      "num_sources": 2,
-      "score": 7,
-      "snippets": [
-        {
-          "text": "End corrupt system with love and affection, Rahul Gandhi tells students",
-          "link": "https://www.thehindu.com/news/national/uttar-pradesh/youth-indias-biggest-strength-its-potential-unmatched-rahul-gandhi-in-prayagraj/article71322354.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
-          "link": "https://timesofindia.indiatimes.com/india/youll-have-to-answer-for-this-crime-rahul-slams-pm-modi-hm-shah-over-police-action-on-students/articleshow/133065103.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
-          "link": "https://timesofindia.indiatimes.com/india/youll-have-to-answer-for-this-crime-rahul-slams-pm-modi-hm-shah-over-police-action-on-students/articleshow/133065103.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "WORLD",
-      "length": 5,
-      "mentions": 5,
-      "num_sources": 1,
-      "score": 7,
-      "snippets": [
-        {
-          "text": "'Can\u2019t go series by series': Rahane demands clarity over Rohit Sharma's WC spot",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/you-cant-go-series-by-series-ajinkya-rahane-demands-clarity-over-rohit-sharmas-world-cup-spot/articleshow/133065057.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
           "source": "times_of_india"
         }
       ]
@@ -363,54 +579,6 @@
       ]
     },
     {
-      "word": "MOJTABA",
-      "length": 7,
-      "mentions": 3,
-      "num_sources": 2,
-      "score": 7,
-      "snippets": [
-        {
-          "text": "'Critical' no more? Iran shares surprise video of Mojtaba Khamenei",
-          "link": "https://timesofindia.indiatimes.com/world/middle-east/critical-no-more-iran-shares-surprise-video-of-mojtaba-khamenei/articleshow/133061558.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Iran Releases Undated Video Of Mojtaba Khamenei Amid Health Rumours",
-          "link": "https://www.ndtv.com/world-news/us-iran-war-tehran-releases-new-video-of-mojtaba-khamenei-amid-health-rumours-after-donald-trumps-claim-11885370#publisher=newsstand",
-          "source": "ndtv"
-        },
-        {
-          "text": "Iran Releases Undated Video Of Mojtaba Khamenei Amid Health Rumours",
-          "link": "https://www.ndtv.com/world-news/us-iran-war-tehran-releases-new-video-of-mojtaba-khamenei-amid-health-rumours-after-donald-trumps-claim-11885370#publisher=newsstand",
-          "source": "ndtv"
-        }
-      ]
-    },
-    {
-      "word": "KHAMENEI",
-      "length": 8,
-      "mentions": 3,
-      "num_sources": 2,
-      "score": 7,
-      "snippets": [
-        {
-          "text": "'Critical' no more? Iran shares surprise video of Mojtaba Khamenei",
-          "link": "https://timesofindia.indiatimes.com/world/middle-east/critical-no-more-iran-shares-surprise-video-of-mojtaba-khamenei/articleshow/133061558.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Iran Releases Undated Video Of Mojtaba Khamenei Amid Health Rumours",
-          "link": "https://www.ndtv.com/world-news/us-iran-war-tehran-releases-new-video-of-mojtaba-khamenei-amid-health-rumours-after-donald-trumps-claim-11885370#publisher=newsstand",
-          "source": "ndtv"
-        },
-        {
-          "text": "Iran Releases Undated Video Of Mojtaba Khamenei Amid Health Rumours",
-          "link": "https://www.ndtv.com/world-news/us-iran-war-tehran-releases-new-video-of-mojtaba-khamenei-amid-health-rumours-after-donald-trumps-claim-11885370#publisher=newsstand",
-          "source": "ndtv"
-        }
-      ]
-    },
-    {
       "word": "KASHMIR",
       "length": 7,
       "mentions": 3,
@@ -435,25 +603,44 @@
       ]
     },
     {
-      "word": "INDIA",
-      "length": 5,
-      "mentions": 17,
-      "num_sources": 4,
-      "score": 6.25,
+      "word": "JNU",
+      "length": 3,
+      "mentions": 2,
+      "num_sources": 2,
+      "score": 6,
       "snippets": [
         {
-          "text": "CIAL posts record \u20b9502-crore net profit",
-          "link": "https://www.thehindu.com/news/cities/Kochi/cial-posts-record-502-crore-net-profit/article71322311.ece",
+          "text": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+          "link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
           "source": "the_hindu"
         },
         {
-          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
+          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "QUIT",
+      "length": 4,
+      "mentions": 4,
+      "num_sources": 1,
+      "score": 6,
+      "snippets": [
+        {
+          "text": "Freedom fighters\u2019 patriotism inspires generations: Fadnavis on \u2018Quit India\u2019 Movement anniversary",
+          "link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
           "source": "the_hindu"
         },
         {
-          "text": "CEG alumni warn about possible damage to heritage cupolas during widening of Sardar Patel Road",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/ceg-alumni-warn-about-possible-damage-to-heritage-cupolas-during-widening-of-sardar-patel-road/article71321483.ece",
+          "text": "Quit India Movement Day: Participants will forever inspire generations of Indians, says L. Murugan",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/quit-india-movement-day-participants-will-forever-inspire-generations-of-indians-says-l-murugan/article71324293.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Those who participated in Quit India movement remain inspiration for every Indian: PM Modi",
+          "link": "https://www.thehindu.com/news/national/those-who-participated-in-quit-india-movement-remain-inspiration-for-every-indian-pm-modi/article71324276.ece",
           "source": "the_hindu"
         }
       ]
@@ -554,25 +741,6 @@
       ]
     },
     {
-      "word": "MAHARASHTRA",
-      "length": 11,
-      "mentions": 2,
-      "num_sources": 2,
-      "score": 6,
-      "snippets": [
-        {
-          "text": "Mild earthquake, tremors in Maharashtra\u2019s Nashik; cracks reported in houses",
-          "link": "https://www.thehindu.com/news/national/maharashtra/mild-earthquake-tremors-in-maharashtras-nashik-cracks-reported-in-houses/article71324020.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Watch: Trainer aircraft crashes near Baramati airstrip in Maharashtra",
-          "link": "https://timesofindia.indiatimes.com/india/watch-trainer-aircraft-crashes-near-baramati-airstrip-in-maharashtra/articleshow/133064460.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
       "word": "VANCE",
       "length": 5,
       "mentions": 2,
@@ -606,49 +774,6 @@
         {
           "text": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
           "link": "https://timesofindia.indiatimes.com/india/youll-have-to-answer-for-this-crime-rahul-slams-pm-modi-hm-shah-over-police-action-on-students/articleshow/133065103.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "CANADA",
-      "length": 6,
-      "mentions": 2,
-      "num_sources": 2,
-      "score": 6,
-      "snippets": [
-        {
-          "text": "Indian-origin woman's partner arrested in Canada 7 months after her murder",
-          "link": "https://timesofindia.indiatimes.com/world/rest-of-world/abdul-ghafoori-arrested-in-murder-of-indian-origin-partner-himanshi-khurana-in-toronto/articleshow/133061913.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "State of emergency declared as fast-moving Canada wildfire doubles in size",
-          "link": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
-          "source": "bbc_world"
-        }
-      ]
-    },
-    {
-      "word": "SHARMA",
-      "length": 6,
-      "mentions": 4,
-      "num_sources": 1,
-      "score": 6,
-      "snippets": [
-        {
-          "text": "'Can\u2019t go series by series': Rahane demands clarity over Rohit Sharma's WC spot",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/you-cant-go-series-by-series-ajinkya-rahane-demands-clarity-over-rohit-sharmas-world-cup-spot/articleshow/133065057.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "'Can\u2019t go series by series': Rahane demands clarity over Rohit Sharma's WC spot",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/you-cant-go-series-by-series-ajinkya-rahane-demands-clarity-over-rohit-sharmas-world-cup-spot/articleshow/133065057.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Delhi woman crushed between vehicles; kin alleges Mercedes driver was drunk, speeding",
-          "link": "https://timesofindia.indiatimes.com/city/delhi/woman-crushed-between-vehicles-after-smash-up-in-delhi-kin-alleges-mercedes-driver-was-speeding-drunk/articleshow/133061317.cms",
           "source": "times_of_india"
         }
       ]
@@ -697,30 +822,6 @@
       ]
     },
     {
-      "word": "PAUL",
-      "length": 4,
-      "mentions": 4,
-      "num_sources": 1,
-      "score": 6,
-      "snippets": [
-        {
-          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Watch: De Paul scores stunner, reveals Messi\u2019s No. 10 jersey in emotional tribute",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/watch-rodrigo-de-paul-scores-stunner-reveals-messis-no-10-jersey-in-emotional-tribute/articleshow/133061407.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Watch: De Paul scores stunner, reveals Messi\u2019s No. 10 jersey in emotional tribute",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/watch-rodrigo-de-paul-scores-stunner-reveals-messis-no-10-jersey-in-emotional-tribute/articleshow/133061407.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
       "word": "AUSTRALIA",
       "length": 9,
       "mentions": 2,
@@ -740,49 +841,73 @@
       ]
     },
     {
-      "word": "MANIPUR",
-      "length": 7,
-      "mentions": 3,
-      "num_sources": 1,
-      "score": 5,
-      "snippets": [
-        {
-          "text": "Four militants involved in extortion, cadre recruitment arrested in Manipur",
-          "link": "https://www.thehindu.com/news/national/manipur/four-militants-involved-in-extortion-cadre-recruitment-arrested-in-manipur/article71324175.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Former Chief Justice of Manipur High Court D. Krishnakumar appointed Chairman of T.N. Law Commission",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/former-chief-justice-of-manipur-high-court-d-krishnakumar-appointed-chairman-of-tn-law-commission/article71322585.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Former Chief Justice of Manipur High Court D. Krishnakumar appointed Chairman of T.N. Law Commission",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/former-chief-justice-of-manipur-high-court-d-krishnakumar-appointed-chairman-of-tn-law-commission/article71322585.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "TAMIL",
+      "word": "UNION",
       "length": 5,
       "mentions": 3,
       "num_sources": 1,
       "score": 5,
       "snippets": [
         {
-          "text": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
-          "link": "https://www.thehindu.com/news/cities/Madurai/farmers-association-welcomes-tamil-nadu-cm-vijays-move-on-linking-godavari-cauvery-gundar-rivers/article71324121.ece",
+          "text": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+          "link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
           "source": "the_hindu"
         },
         {
-          "text": "T.N. MPs\u2019 meeting convened by CM Vijay seeks freeze on 543 Lok Sabha seats",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/tn-mps-meeting-convened-by-cm-vijay-seeks-freeze-on-543-lok-sabha-seats/article71322504.ece",
+          "text": "New criminal laws introduced to provide speedy justice to citizens: Union Home Minister Amit Shah",
+          "link": "https://www.thehindu.com/news/cities/puducherry/new-criminal-laws-introduced-to-provide-speedy-justice-to-citizens-union-home-minister-amit-shah/article71324260.ece",
           "source": "the_hindu"
         },
         {
-          "text": "Former Chief Justice of Manipur High Court D. Krishnakumar appointed Chairman of T.N. Law Commission",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/former-chief-justice-of-manipur-high-court-d-krishnakumar-appointed-chairman-of-tn-law-commission/article71322585.ece",
+          "text": "New criminal laws introduced to provide speedy justice to citizens: Union Home Minister Amit Shah",
+          "link": "https://www.thehindu.com/news/cities/puducherry/new-criminal-laws-introduced-to-provide-speedy-justice-to-citizens-union-home-minister-amit-shah/article71324260.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "IRAN",
+      "length": 4,
+      "mentions": 12,
+      "num_sources": 4,
+      "score": 5.0,
+      "snippets": [
+        {
+          "text": "Seafarers hold silent protest in Visakhapatnam against killings in war zones",
+          "link": "https://www.thehindu.com/news/national/andhra-pradesh/seafarers-hold-silent-protest-in-visakhapatnam-against-killings-in-war-zones/article71324314.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
+          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
+          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "UNITED",
+      "length": 6,
+      "mentions": 3,
+      "num_sources": 1,
+      "score": 5,
+      "snippets": [
+        {
+          "text": "Seafarers hold silent protest in Visakhapatnam against killings in war zones",
+          "link": "https://www.thehindu.com/news/national/andhra-pradesh/seafarers-hold-silent-protest-in-visakhapatnam-against-killings-in-war-zones/article71324314.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
+          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
+          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
           "source": "the_hindu"
         }
       ]
@@ -860,30 +985,6 @@
       ]
     },
     {
-      "word": "ABHISHEK",
-      "length": 8,
-      "mentions": 3,
-      "num_sources": 1,
-      "score": 5,
-      "snippets": [
-        {
-          "text": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
-          "link": "https://www.thehindu.com/news/national/west-bengal/abhishek-banerjees-personal-assistant-grilled-for-10-hours-by-bengal-police/article71322577.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
-          "link": "https://www.thehindu.com/news/national/west-bengal/abhishek-banerjees-personal-assistant-grilled-for-10-hours-by-bengal-police/article71322577.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Abhishek\u2019s aide appears before CID for second consecutive day for questioning in land fraud case",
-          "link": "https://www.thehindu.com/news/national/west-bengal/tmc-leader-abhishek-banerjee-aide-sumit-roy-cid-questioning-in-land-fraud-case/article71324312.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
       "word": "BANERJEE",
       "length": 8,
       "mentions": 3,
@@ -903,30 +1004,6 @@
         {
           "text": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
           "link": "https://www.thehindu.com/news/national/west-bengal/abhishek-banerjees-personal-assistant-grilled-for-10-hours-by-bengal-police/article71322577.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "COURT",
-      "length": 5,
-      "mentions": 3,
-      "num_sources": 1,
-      "score": 5,
-      "snippets": [
-        {
-          "text": "Abhishek\u2019s aide appears before CID for second consecutive day for questioning in land fraud case",
-          "link": "https://www.thehindu.com/news/national/west-bengal/tmc-leader-abhishek-banerjee-aide-sumit-roy-cid-questioning-in-land-fraud-case/article71324312.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Former Chief Justice of Manipur High Court D. Krishnakumar appointed Chairman of T.N. Law Commission",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/former-chief-justice-of-manipur-high-court-d-krishnakumar-appointed-chairman-of-tn-law-commission/article71322585.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Former Chief Justice of Manipur High Court D. Krishnakumar appointed Chairman of T.N. Law Commission",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/former-chief-justice-of-manipur-high-court-d-krishnakumar-appointed-chairman-of-tn-law-commission/article71322585.ece",
           "source": "the_hindu"
         }
       ]
@@ -980,54 +1057,6 @@
       ]
     },
     {
-      "word": "BRETT",
-      "length": 5,
-      "mentions": 3,
-      "num_sources": 1,
-      "score": 5,
-      "snippets": [
-        {
-          "text": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "\u2018I don\u2019t care how old he is\u2019: Brett Lee\u2019s big warning for Vaibhav Sooryavanshi",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/i-dont-care-how-old-he-is-brett-lees-big-warning-for-vaibhav-sooryavanshi/articleshow/133062739.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "\u2018I don\u2019t care how old he is\u2019: Brett Lee\u2019s big warning for Vaibhav Sooryavanshi",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/i-dont-care-how-old-he-is-brett-lees-big-warning-for-vaibhav-sooryavanshi/articleshow/133062739.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "KALLIS",
-      "length": 6,
-      "mentions": 3,
-      "num_sources": 1,
-      "score": 5,
-      "snippets": [
-        {
-          "text": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
       "word": "CURRY",
       "length": 5,
       "mentions": 3,
@@ -1076,25 +1105,49 @@
       ]
     },
     {
-      "word": "IRELAND",
-      "length": 7,
+      "word": "BRETT",
+      "length": 5,
       "mentions": 3,
       "num_sources": 1,
       "score": 5,
       "snippets": [
         {
-          "text": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
+          "text": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
           "source": "times_of_india"
         },
         {
-          "text": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/west-indies-suffer-major-odi-world-cup-blow-miss-direct-qualification-for-2027-showpiece/articleshow/133064003.cms",
+          "text": "\u2018I don\u2019t care how old he is\u2019: Brett Lee\u2019s big warning for Vaibhav Sooryavanshi",
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/i-dont-care-how-old-he-is-brett-lees-big-warning-for-vaibhav-sooryavanshi/articleshow/133062739.cms",
           "source": "times_of_india"
         },
         {
-          "text": "Why Britain's housing market is losing momentum as mortgage rates rise again",
-          "link": "https://timesofindia.indiatimes.com/real-estate/news/why-britains-housing-market-is-losing-momentum-as-mortgage-rates-rise-again/articleshow/133056565.cms",
+          "text": "\u2018I don\u2019t care how old he is\u2019: Brett Lee\u2019s big warning for Vaibhav Sooryavanshi",
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/i-dont-care-how-old-he-is-brett-lees-big-warning-for-vaibhav-sooryavanshi/articleshow/133062739.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "KALLIS",
+      "length": 6,
+      "mentions": 3,
+      "num_sources": 1,
+      "score": 5,
+      "snippets": [
+        {
+          "text": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
           "source": "times_of_india"
         }
       ]
@@ -1148,30 +1201,6 @@
       ]
     },
     {
-      "word": "JORGE",
-      "length": 5,
-      "mentions": 3,
-      "num_sources": 1,
-      "score": 5,
-      "snippets": [
-        {
-          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Watch: De Paul scores stunner, reveals Messi\u2019s No. 10 jersey in emotional tribute",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/watch-rodrigo-de-paul-scores-stunner-reveals-messis-no-10-jersey-in-emotional-tribute/articleshow/133061407.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
       "word": "PRADHAN",
       "length": 7,
       "mentions": 3,
@@ -1196,50 +1225,178 @@
       ]
     },
     {
-      "word": "MERCEDES",
-      "length": 8,
-      "mentions": 3,
-      "num_sources": 1,
-      "score": 5,
-      "snippets": [
-        {
-          "text": "Delhi woman crushed between vehicles; kin alleges Mercedes driver was drunk, speeding",
-          "link": "https://timesofindia.indiatimes.com/city/delhi/woman-crushed-between-vehicles-after-smash-up-in-delhi-kin-alleges-mercedes-driver-was-speeding-drunk/articleshow/133061317.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Delhi woman crushed between vehicles; kin alleges Mercedes driver was drunk, speeding",
-          "link": "https://timesofindia.indiatimes.com/city/delhi/woman-crushed-between-vehicles-after-smash-up-in-delhi-kin-alleges-mercedes-driver-was-speeding-drunk/articleshow/133061317.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Delhi woman crushed between vehicles; kin alleges Mercedes driver was drunk, speeding",
-          "link": "https://timesofindia.indiatimes.com/city/delhi/woman-crushed-between-vehicles-after-smash-up-in-delhi-kin-alleges-mercedes-driver-was-speeding-drunk/articleshow/133061317.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "IRAN",
-      "length": 4,
+      "word": "CHINA",
+      "length": 5,
       "mentions": 10,
       "num_sources": 4,
       "score": 4.5,
       "snippets": [
         {
-          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
-          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
+          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
+          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
           "source": "the_hindu"
         },
         {
-          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
-          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
+          "text": "Shanghai cancels 1,300 flights as China prepares for Typhoon Dolphin",
+          "link": "https://www.thehindu.com/news/international/shanghai-flight-cancels-as-china-prepares-for-typhoon-dolphin/article71324067.ece",
           "source": "the_hindu"
         },
         {
-          "text": "Pentagon asks defence firms to ramp up weapons production as Iran war drains stockpile",
-          "link": "https://timesofindia.indiatimes.com/defence/international/pentagon-asks-defence-firms-to-ramp-up-weapons-production-as-iran-war-drains-stockpile-report/articleshow/133061658.cms",
+          "text": "What is AI model distillation and why is it becoming a US-China flashpoint?",
+          "link": "https://timesofindia.indiatimes.com/defence/international/what-is-ai-model-distillation-and-why-is-it-becoming-a-us-china-flashpoint/articleshow/133065118.cms",
           "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "DAY",
+      "length": 3,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+          "link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Quit India Movement Day: Participants will forever inspire generations of Indians, says L. Murugan",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/quit-india-movement-day-participants-will-forever-inspire-generations-of-indians-says-l-murugan/article71324293.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "BJP",
+      "length": 3,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "BJP, JD(S) launch padayatra against Bidadi township project",
+          "link": "https://www.thehindu.com/news/cities/bangalore/bjp-jds-launch-padayatra-against-bidadi-township-project/article71324362.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "BJP, JD(S) launch padayatra against Bidadi township project",
+          "link": "https://www.thehindu.com/news/cities/bangalore/bjp-jds-launch-padayatra-against-bidadi-township-project/article71324362.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "BIDADI",
+      "length": 6,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "BJP, JD(S) launch padayatra against Bidadi township project",
+          "link": "https://www.thehindu.com/news/cities/bangalore/bjp-jds-launch-padayatra-against-bidadi-township-project/article71324362.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "KSRTC accident trail puts driver deployment, ageing fleet under scrutiny",
+          "link": "https://www.thehindu.com/news/national/kerala/host-of-issues-cited-as-reasons-for-road-accidents-involving-ksrtc-buses/article71321779.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "SABHA",
+      "length": 5,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
+          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "T.N. MPs\u2019 meeting convened by CM Vijay seeks freeze on 543 Lok Sabha seats",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/tn-mps-meeting-convened-by-cm-vijay-seeks-freeze-on-543-lok-sabha-seats/article71322504.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "ANBUMANI",
+      "length": 8,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "Fund allocation for education in Tamil Nadu falls to one-third in 25 years: PMK MP Anbumani Ramadoss",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/fund-allocation-for-education-in-tamil-nadu-falls-to-one-third-in-25-years-pmk-mp-anbumani-ramadoss/article71321743.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Fund allocation for education in Tamil Nadu falls to one-third in 25 years: PMK MP Anbumani Ramadoss",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/fund-allocation-for-education-in-tamil-nadu-falls-to-one-third-in-25-years-pmk-mp-anbumani-ramadoss/article71321743.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "FFSC",
+      "length": 4,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
+          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
+          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "SPACE",
+      "length": 5,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
+          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
+          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "TEHRAN",
+      "length": 6,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
+          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
+          "source": "the_hindu"
+        },
+        {
+          "text": "Iran Guards say won\u2019t reopen Hormuz without U.S. meeting all Tehran\u2019s conditions",
+          "link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
+          "source": "the_hindu"
         }
       ]
     },
@@ -1339,7 +1496,7 @@
       ]
     },
     {
-      "word": "VIJAY",
+      "word": "TAMIL",
       "length": 5,
       "mentions": 2,
       "num_sources": 1,
@@ -1396,30 +1553,6 @@
       ]
     },
     {
-      "word": "CHINA",
-      "length": 5,
-      "mentions": 8,
-      "num_sources": 4,
-      "score": 4.0,
-      "snippets": [
-        {
-          "text": "Shanghai cancels 1,300 flights as China prepares for Typhoon Dolphin",
-          "link": "https://www.thehindu.com/news/international/shanghai-flight-cancels-as-china-prepares-for-typhoon-dolphin/article71324067.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Latest Arunachal map shows 3 places illegally held by China",
-          "link": "https://timesofindia.indiatimes.com/city/guwahati/latest-arunachal-map-shows-3-places-illegally-held-by-china/articleshow/133057126.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
       "word": "MADRAS",
       "length": 6,
       "mentions": 2,
@@ -1439,103 +1572,8 @@
       ]
     },
     {
-      "word": "SUPREME",
-      "length": 7,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
-          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Abhishek\u2019s aide appears before CID for second consecutive day for questioning in land fraud case",
-          "link": "https://www.thehindu.com/news/national/west-bengal/tmc-leader-abhishek-banerjee-aide-sumit-roy-cid-questioning-in-land-fraud-case/article71324312.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "UNITED",
-      "length": 6,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
-          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "FFSC",
-      "length": 4,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "SPACE",
-      "length": 5,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "SABHA",
-      "length": 5,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "T.N. MPs\u2019 meeting convened by CM Vijay seeks freeze on 543 Lok Sabha seats",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/tn-mps-meeting-convened-by-cm-vijay-seeks-freeze-on-543-lok-sabha-seats/article71322504.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Jharkhand students protest LIVE updates:Talks between student delegation and State government's concludes",
-          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "ROY",
-      "length": 3,
+      "word": "ABHISHEK",
+      "length": 8,
       "mentions": 2,
       "num_sources": 1,
       "score": 4,
@@ -1546,8 +1584,8 @@
           "source": "the_hindu"
         },
         {
-          "text": "Abhishek\u2019s aide appears before CID for second consecutive day for questioning in land fraud case",
-          "link": "https://www.thehindu.com/news/national/west-bengal/tmc-leader-abhishek-banerjee-aide-sumit-roy-cid-questioning-in-land-fraud-case/article71324312.ece",
+          "text": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
+          "link": "https://www.thehindu.com/news/national/west-bengal/abhishek-banerjees-personal-assistant-grilled-for-10-hours-by-bengal-police/article71322577.ece",
           "source": "the_hindu"
         }
       ]
@@ -1572,58 +1610,39 @@
       ]
     },
     {
-      "word": "KRISHNAKUMAR",
-      "length": 12,
+      "word": "MALAYSIA",
+      "length": 8,
       "mentions": 2,
       "num_sources": 1,
       "score": 4,
       "snippets": [
         {
-          "text": "Former Chief Justice of Manipur High Court D. Krishnakumar appointed Chairman of T.N. Law Commission",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/former-chief-justice-of-manipur-high-court-d-krishnakumar-appointed-chairman-of-tn-law-commission/article71322585.ece",
-          "source": "the_hindu"
-        },
-        {
-          "text": "Former Chief Justice of Manipur High Court D. Krishnakumar appointed Chairman of T.N. Law Commission",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/former-chief-justice-of-manipur-high-court-d-krishnakumar-appointed-chairman-of-tn-law-commission/article71322585.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "UMAR",
-      "length": 4,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
-          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
+          "text": "Laser blinds pilot, Malaysia Airlines flight flies in circle before Kolkata landing",
+          "link": "https://timesofindia.indiatimes.com/city/kolkata/laser-beam-disorients-pilot-malaysia-airlines-flight-circles-before-safe-landing-in-kolkata/articleshow/133065054.cms",
           "source": "times_of_india"
         },
         {
-          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
-          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
+          "text": "Laser blinds pilot, Malaysia Airlines flight flies in circle before Kolkata landing",
+          "link": "https://timesofindia.indiatimes.com/city/kolkata/laser-beam-disorients-pilot-malaysia-airlines-flight-circles-before-safe-landing-in-kolkata/articleshow/133065054.cms",
           "source": "times_of_india"
         }
       ]
     },
     {
-      "word": "KHALID",
-      "length": 6,
+      "word": "KOLKATA",
+      "length": 7,
       "mentions": 2,
       "num_sources": 1,
       "score": 4,
       "snippets": [
         {
-          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
-          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
+          "text": "Laser blinds pilot, Malaysia Airlines flight flies in circle before Kolkata landing",
+          "link": "https://timesofindia.indiatimes.com/city/kolkata/laser-beam-disorients-pilot-malaysia-airlines-flight-circles-before-safe-landing-in-kolkata/articleshow/133065054.cms",
           "source": "times_of_india"
         },
         {
-          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
-          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
+          "text": "Laser blinds pilot, Malaysia Airlines flight flies in circle before Kolkata landing",
+          "link": "https://timesofindia.indiatimes.com/city/kolkata/laser-beam-disorients-pilot-malaysia-airlines-flight-circles-before-safe-landing-in-kolkata/articleshow/133065054.cms",
           "source": "times_of_india"
         }
       ]
@@ -1648,58 +1667,20 @@
       ]
     },
     {
-      "word": "SHAH",
-      "length": 4,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
-          "link": "https://timesofindia.indiatimes.com/india/youll-have-to-answer-for-this-crime-rahul-slams-pm-modi-hm-shah-over-police-action-on-students/articleshow/133065103.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
-          "link": "https://timesofindia.indiatimes.com/india/youll-have-to-answer-for-this-crime-rahul-slams-pm-modi-hm-shah-over-police-action-on-students/articleshow/133065103.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "MODI",
-      "length": 4,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
-          "text": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
-          "link": "https://timesofindia.indiatimes.com/india/youll-have-to-answer-for-this-crime-rahul-slams-pm-modi-hm-shah-over-police-action-on-students/articleshow/133065103.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
-          "link": "https://timesofindia.indiatimes.com/india/gen-z-is-a-force-that-cant-be-ignored-dharmendra-pradhan/articleshow/133061131.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "NVIDIA",
+      "word": "SHARMA",
       "length": 6,
       "mentions": 2,
       "num_sources": 1,
       "score": 4,
       "snippets": [
         {
-          "text": "Nvidia CEO's joke on parenting that created a heated debate over Asian parenting",
-          "link": "https://timesofindia.indiatimes.com/technology/tech-news/nvidia-ceo-jensen-huangs-joke-on-parenting-that-created-a-heated-debate-over-asian-parenting/articleshow/133063399.cms",
+          "text": "'Can\u2019t go series by series': Rahane demands clarity over Rohit Sharma's WC spot",
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/you-cant-go-series-by-series-ajinkya-rahane-demands-clarity-over-rohit-sharmas-world-cup-spot/articleshow/133065057.cms",
           "source": "times_of_india"
         },
         {
-          "text": "Nvidia CEO's joke on parenting that created a heated debate over Asian parenting",
-          "link": "https://timesofindia.indiatimes.com/technology/tech-news/nvidia-ceo-jensen-huangs-joke-on-parenting-that-created-a-heated-debate-over-asian-parenting/articleshow/133063399.cms",
+          "text": "'Can\u2019t go series by series': Rahane demands clarity over Rohit Sharma's WC spot",
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/you-cant-go-series-by-series-ajinkya-rahane-demands-clarity-over-rohit-sharmas-world-cup-spot/articleshow/133065057.cms",
           "source": "times_of_india"
         }
       ]
@@ -1762,20 +1743,58 @@
       ]
     },
     {
-      "word": "SACHIN",
-      "length": 6,
+      "word": "JANA",
+      "length": 4,
       "mentions": 2,
       "num_sources": 1,
       "score": 4,
       "snippets": [
         {
-          "text": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
-          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
+          "text": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
+          "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
           "source": "times_of_india"
         },
         {
-          "text": "Raja Raghuvanshi\u2019s brothers booked for serving liquor without licence in Indore",
-          "link": "https://timesofindia.indiatimes.com/city/indore/raja-raghuvanshis-brothers-booked-for-serving-liquor-without-licence-at-familys-dhaba-in-indore/articleshow/133058721.cms",
+          "text": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
+          "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "NAYAGAN",
+      "length": 7,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
+          "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
+          "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "MODI",
+      "length": 4,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
+          "link": "https://timesofindia.indiatimes.com/india/youll-have-to-answer-for-this-crime-rahul-slams-pm-modi-hm-shah-over-police-action-on-students/articleshow/133065103.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
+          "link": "https://timesofindia.indiatimes.com/india/gen-z-is-a-force-that-cant-be-ignored-dharmendra-pradhan/articleshow/133061131.cms",
           "source": "times_of_india"
         }
       ]
@@ -1833,6 +1852,25 @@
         {
           "text": "Patrick Mahomes\u2019 million-dollar collection: Cars, watches, mansions and more",
           "link": "https://timesofindia.indiatimes.com/sports/nfl/news/patrick-mahomes-million-dollar-collection-i-try-to-invest-in-stuff-that-i-truly-believe-in-from-luxury-cars-and-watches-to-mansions-and-his-biggest-investments/articleshow/133054669.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "SACHIN",
+      "length": 6,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
+          "source": "times_of_india"
+        },
+        {
+          "text": "Raja Raghuvanshi\u2019s brothers booked for serving liquor without licence in Indore",
+          "link": "https://timesofindia.indiatimes.com/city/indore/raja-raghuvanshis-brothers-booked-for-serving-liquor-without-licence-at-familys-dhaba-in-indore/articleshow/133058721.cms",
           "source": "times_of_india"
         }
       ]
@@ -2028,8 +2066,8 @@
       ]
     },
     {
-      "word": "LIONEL",
-      "length": 6,
+      "word": "JORGE",
+      "length": 5,
       "mentions": 2,
       "num_sources": 1,
       "score": 4,
@@ -2040,27 +2078,8 @@
           "source": "times_of_india"
         },
         {
-          "text": "Watch: De Paul scores stunner, reveals Messi\u2019s No. 10 jersey in emotional tribute",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/watch-rodrigo-de-paul-scores-stunner-reveals-messis-no-10-jersey-in-emotional-tribute/articleshow/133061407.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "RODRIGO",
-      "length": 7,
-      "mentions": 2,
-      "num_sources": 1,
-      "score": 4,
-      "snippets": [
-        {
           "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
           "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Watch: De Paul scores stunner, reveals Messi\u2019s No. 10 jersey in emotional tribute",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/watch-rodrigo-de-paul-scores-stunner-reveals-messis-no-10-jersey-in-emotional-tribute/articleshow/133061407.cms",
           "source": "times_of_india"
         }
       ]
@@ -2180,20 +2199,77 @@
       ]
     },
     {
-      "word": "ISRAEL",
-      "length": 6,
+      "word": "MOJTABA",
+      "length": 7,
       "mentions": 2,
       "num_sources": 1,
       "score": 4,
       "snippets": [
         {
-          "text": "Israel accused of weaponising archaeology at ancient West Bank sites",
-          "link": "https://www.bbc.co.uk/news/articles/c20d8qre98do?at_medium=RSS&at_campaign=rss",
+          "text": "Iran Releases Undated Video Of Mojtaba Khamenei Amid Health Rumours",
+          "link": "https://www.ndtv.com/world-news/us-iran-war-tehran-releases-new-video-of-mojtaba-khamenei-amid-health-rumours-after-donald-trumps-claim-11885370#publisher=newsstand",
+          "source": "ndtv"
+        },
+        {
+          "text": "Iran Releases Undated Video Of Mojtaba Khamenei Amid Health Rumours",
+          "link": "https://www.ndtv.com/world-news/us-iran-war-tehran-releases-new-video-of-mojtaba-khamenei-amid-health-rumours-after-donald-trumps-claim-11885370#publisher=newsstand",
+          "source": "ndtv"
+        }
+      ]
+    },
+    {
+      "word": "KHAMENEI",
+      "length": 8,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "Iran Releases Undated Video Of Mojtaba Khamenei Amid Health Rumours",
+          "link": "https://www.ndtv.com/world-news/us-iran-war-tehran-releases-new-video-of-mojtaba-khamenei-amid-health-rumours-after-donald-trumps-claim-11885370#publisher=newsstand",
+          "source": "ndtv"
+        },
+        {
+          "text": "Iran Releases Undated Video Of Mojtaba Khamenei Amid Health Rumours",
+          "link": "https://www.ndtv.com/world-news/us-iran-war-tehran-releases-new-video-of-mojtaba-khamenei-amid-health-rumours-after-donald-trumps-claim-11885370#publisher=newsstand",
+          "source": "ndtv"
+        }
+      ]
+    },
+    {
+      "word": "FIFA",
+      "length": 4,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "Fifa criticises campaign to oust president Infantino",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
           "source": "bbc_world"
         },
         {
-          "text": "Israel accused of weaponising archaeology at ancient West Bank sites",
-          "link": "https://www.bbc.co.uk/news/articles/c20d8qre98do?at_medium=RSS&at_campaign=rss",
+          "text": "Fifa criticises campaign to oust president Infantino",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        }
+      ]
+    },
+    {
+      "word": "INFANTINO",
+      "length": 9,
+      "mentions": 2,
+      "num_sources": 1,
+      "score": 4,
+      "snippets": [
+        {
+          "text": "Fifa criticises campaign to oust president Infantino",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        },
+        {
+          "text": "Fifa criticises campaign to oust president Infantino",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
           "source": "bbc_world"
         }
       ]
@@ -2256,6 +2332,76 @@
       ]
     },
     {
+      "word": "JNUSU",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+          "link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "INDIGENOUS",
+      "length": 10,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+          "link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "PEOPLES",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "JNU cancels auditorium booking for discussion on Umar Khalid\u2019s book: Students\u2019 Union",
+          "link": "https://www.thehindu.com/news/cities/Delhi/jnu-cancels-auditorium-booking-for-discussion-on-umar-khalids-book-students-union/article71324448.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "DEVENDRA",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Freedom fighters\u2019 patriotism inspires generations: Fadnavis on \u2018Quit India\u2019 Movement anniversary",
+          "link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "FADNAVIS",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Freedom fighters\u2019 patriotism inspires generations: Fadnavis on \u2018Quit India\u2019 Movement anniversary",
+          "link": "https://www.thehindu.com/news/national/maharashtra/freedom-fighters-patriotism-inspires-generations-fadnavis-on-quit-india-movement-anniversary/article71324512.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
       "word": "COASTAL",
       "length": 7,
       "mentions": 1,
@@ -2307,6 +2453,482 @@
         {
           "text": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
           "link": "https://www.thehindu.com/news/national/indian-navy-joins-search-for-three-fishermen-missing-after-boat-mishaps-in-kerala/article71324425.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "JDS",
+      "length": 3,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "BJP, JD(S) launch padayatra against Bidadi township project",
+          "link": "https://www.thehindu.com/news/cities/bangalore/bjp-jds-launch-padayatra-against-bidadi-township-project/article71324362.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "KARNATAKA",
+      "length": 9,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "BJP, JD(S) launch padayatra against Bidadi township project",
+          "link": "https://www.thehindu.com/news/cities/bangalore/bjp-jds-launch-padayatra-against-bidadi-township-project/article71324362.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "JHARKHAND",
+      "length": 9,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
+          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "RAVINDRA",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
+          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "PASWAN",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
+          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "VIDHAN",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
+          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "GHERAO",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Jharkhand students protest LIVE updates: Committed to justice for protesting youth; those guilty of irregularities to face strict action, says Jharkhand CM",
+          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "RAMADOSS",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Fund allocation for education in Tamil Nadu falls to one-third in 25 years: PMK MP Anbumani Ramadoss",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/fund-allocation-for-education-in-tamil-nadu-falls-to-one-third-in-25-years-pmk-mp-anbumani-ramadoss/article71321743.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "HOUTHIS",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Yemen\u2019s Houthis claim attack on Aramco facility as Saudi says fire extinguished",
+          "link": "https://www.thehindu.com/news/international/fire-extinguished-at-aramco-facility-in-jizan-says-saudi-arabia/article71324246.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "STOKE",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
+          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "LAND",
+      "length": 4,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
+          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "NAGASAKI",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Nagasaki marks 81st atomic bomb anniversary as Mayor says nuclear deterrence only increases risk",
+          "link": "https://www.thehindu.com/news/international/nagasaki-marks-81st-atomic-bomb-anniversary/article71324359.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "SANAE",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Nagasaki marks 81st atomic bomb anniversary as Mayor says nuclear deterrence only increases risk",
+          "link": "https://www.thehindu.com/news/international/nagasaki-marks-81st-atomic-bomb-anniversary/article71324359.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "TAKAICHI",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Nagasaki marks 81st atomic bomb anniversary as Mayor says nuclear deterrence only increases risk",
+          "link": "https://www.thehindu.com/news/international/nagasaki-marks-81st-atomic-bomb-anniversary/article71324359.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "BUNDER",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Railways to convert old goods shed in Bunder as a ballast yard",
+          "link": "https://www.thehindu.com/news/cities/Mangalore/railways-to-convert-old-goods-shed-in-bunder-as-a-ballast-yard/article71324329.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "PANDESHWAR",
+      "length": 10,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Railways to convert old goods shed in Bunder as a ballast yard",
+          "link": "https://www.thehindu.com/news/cities/Mangalore/railways-to-convert-old-goods-shed-in-bunder-as-a-ballast-yard/article71324329.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "HOIGE",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Railways to convert old goods shed in Bunder as a ballast yard",
+          "link": "https://www.thehindu.com/news/cities/Mangalore/railways-to-convert-old-goods-shed-in-bunder-as-a-ballast-yard/article71324329.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "MURUGAN",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Quit India Movement Day: Participants will forever inspire generations of Indians, says L. Murugan",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/quit-india-movement-day-participants-will-forever-inspire-generations-of-indians-says-l-murugan/article71324293.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "WAYANAD",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "2024 Wayanad landslide: Study reveals the interplay of climate and geology",
+          "link": "https://www.thehindu.com/news/national/kerala/2024-wayanad-landslides-study-reveals-the-interplay-of-climate-and-geology/article71324236.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "PAWAN",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Tribal communities are guardians of nature and ancient wisdom, says Pawan Kalyan",
+          "link": "https://www.thehindu.com/news/national/andhra-pradesh/tribal-communities-are-guardians-of-nature-and-ancient-wisdom-says-pawan-kalyan/article71324322.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "KALYAN",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Tribal communities are guardians of nature and ancient wisdom, says Pawan Kalyan",
+          "link": "https://www.thehindu.com/news/national/andhra-pradesh/tribal-communities-are-guardians-of-nature-and-ancient-wisdom-says-pawan-kalyan/article71324322.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "ASIA",
+      "length": 4,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
+          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "SUPREME",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
+          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "ABDUL",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Man arrested 7 months after Indian woman's murder in Canada",
+          "link": "https://www.thehindu.com/news/international/man-arrested-7-months-after-indian-womans-murder-in-canada/article71324231.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "GHAFOORI",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Man arrested 7 months after Indian woman's murder in Canada",
+          "link": "https://www.thehindu.com/news/international/man-arrested-7-months-after-indian-womans-murder-in-canada/article71324231.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "TORONTO",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Man arrested 7 months after Indian woman's murder in Canada",
+          "link": "https://www.thehindu.com/news/international/man-arrested-7-months-after-indian-womans-murder-in-canada/article71324231.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "MAHATMA",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Those who participated in Quit India movement remain inspiration for every Indian: PM Modi",
+          "link": "https://www.thehindu.com/news/national/those-who-participated-in-quit-india-movement-remain-inspiration-for-every-indian-pm-modi/article71324276.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "MOHAMMAD",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Iran Guards say won\u2019t reopen Hormuz without U.S. meeting all Tehran\u2019s conditions",
+          "link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "BAGHER",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Iran Guards say won\u2019t reopen Hormuz without U.S. meeting all Tehran\u2019s conditions",
+          "link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "ZOLGHADR",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Iran Guards say won\u2019t reopen Hormuz without U.S. meeting all Tehran\u2019s conditions",
+          "link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "LEBANON",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Iran Guards say won\u2019t reopen Hormuz without U.S. meeting all Tehran\u2019s conditions",
+          "link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "PALESTINE",
+      "length": 9,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Iran Guards say won\u2019t reopen Hormuz without U.S. meeting all Tehran\u2019s conditions",
+          "link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "IRAQ",
+      "length": 4,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Iran Guards say won\u2019t reopen Hormuz without U.S. meeting all Tehran\u2019s conditions",
+          "link": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions/article71324444.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "AMIT",
+      "length": 4,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "New criminal laws introduced to provide speedy justice to citizens: Union Home Minister Amit Shah",
+          "link": "https://www.thehindu.com/news/cities/puducherry/new-criminal-laws-introduced-to-provide-speedy-justice-to-citizens-union-home-minister-amit-shah/article71324260.ece",
           "source": "the_hindu"
         }
       ]
@@ -2475,6 +3097,20 @@
         {
           "text": "Vande Mataram row: Kerala\u2019s UDF govt. again faces allegations of toeing the RSS line",
           "link": "https://www.thehindu.com/news/national/kerala/vande-mataram-row-keralas-udf-govt-again-faces-allegations-of-toeing-the-rss-line/article71324212.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "MANIPUR",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Four militants involved in extortion, cadre recruitment arrested in Manipur",
+          "link": "https://www.thehindu.com/news/national/manipur/four-militants-involved-in-extortion-cadre-recruitment-arrested-in-manipur/article71324175.ece",
           "source": "the_hindu"
         }
       ]
@@ -2788,20 +3424,6 @@
       ]
     },
     {
-      "word": "HOUTHIS",
-      "length": 7,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Yemen\u2019s Houthis claim attack on Aramco facility as Saudi says fire extinguished",
-          "link": "https://www.thehindu.com/news/international/fire-extinguished-at-aramco-facility-in-jizan-says-saudi-arabia/article71324246.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
       "word": "SOPORE",
       "length": 6,
       "mentions": 1,
@@ -3110,20 +3732,6 @@
       ]
     },
     {
-      "word": "BIDADI",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "KSRTC accident trail puts driver deployment, ageing fleet under scrutiny",
-          "link": "https://www.thehindu.com/news/national/kerala/host-of-issues-cited-as-reasons-for-road-accidents-involving-ksrtc-buses/article71321779.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
       "word": "RJD",
       "length": 3,
       "mentions": 1,
@@ -3138,34 +3746,6 @@
       ]
     },
     {
-      "word": "ASIA",
-      "length": 4,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
-          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "TEHRAN",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
-          "link": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
       "word": "SFCTSA",
       "length": 6,
       "mentions": 1,
@@ -3175,34 +3755,6 @@
         {
           "text": "Calicut varsity move to end staff contracts draws union ire",
           "link": "https://www.thehindu.com/news/national/kerala/calicut-varsity-to-end-contract-of-staff-in-its-self-financing-institutions/article71322192.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "STOKE",
-      "length": 5,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "LAND",
-      "length": 4,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
-          "link": "https://www.thehindu.com/sci-tech/science/what-is-the-significance-of-indias-first-privately-built-ffsc-rocket-engine-explained/article71324375.ece",
           "source": "the_hindu"
         }
       ]
@@ -3245,6 +3797,20 @@
         {
           "text": "Government examines if Meta recommendation system deciding what-to-show-to-whom fits intermediary status",
           "link": "https://www.thehindu.com/business/Industry/government-examines-if-meta-recommendation-system-deciding-what-to-show-to-whom-fits-intermediary-status/article71322615.ece",
+          "source": "the_hindu"
+        }
+      ]
+    },
+    {
+      "word": "ROY",
+      "length": 3,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
+          "link": "https://www.thehindu.com/news/national/west-bengal/abhishek-banerjees-personal-assistant-grilled-for-10-hours-by-bengal-police/article71322577.ece",
           "source": "the_hindu"
         }
       ]
@@ -3320,146 +3886,6 @@
       ]
     },
     {
-      "word": "BUNDER",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Railways to convert old goods shed in Bunder as a ballast yard",
-          "link": "https://www.thehindu.com/news/cities/Mangalore/railways-to-convert-old-goods-shed-in-bunder-as-a-ballast-yard/article71324329.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "PANDESHWAR",
-      "length": 10,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Railways to convert old goods shed in Bunder as a ballast yard",
-          "link": "https://www.thehindu.com/news/cities/Mangalore/railways-to-convert-old-goods-shed-in-bunder-as-a-ballast-yard/article71324329.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "HOIGE",
-      "length": 5,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Railways to convert old goods shed in Bunder as a ballast yard",
-          "link": "https://www.thehindu.com/news/cities/Mangalore/railways-to-convert-old-goods-shed-in-bunder-as-a-ballast-yard/article71324329.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "NAGASAKI",
-      "length": 8,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Nagasaki marks 81st atomic bomb anniversary as Mayor says nuclear deterrence only increases risk",
-          "link": "https://www.thehindu.com/news/international/nagasaki-marks-81st-atomic-bomb-anniversary/article71324359.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "SANAE",
-      "length": 5,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Nagasaki marks 81st atomic bomb anniversary as Mayor says nuclear deterrence only increases risk",
-          "link": "https://www.thehindu.com/news/international/nagasaki-marks-81st-atomic-bomb-anniversary/article71324359.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "TAKAICHI",
-      "length": 8,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Nagasaki marks 81st atomic bomb anniversary as Mayor says nuclear deterrence only increases risk",
-          "link": "https://www.thehindu.com/news/international/nagasaki-marks-81st-atomic-bomb-anniversary/article71324359.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "RAVINDRA",
-      "length": 8,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Jharkhand students protest LIVE updates:Talks between student delegation and State government's concludes",
-          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "PASWAN",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Jharkhand students protest LIVE updates:Talks between student delegation and State government's concludes",
-          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "VIDHAN",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Jharkhand students protest LIVE updates:Talks between student delegation and State government's concludes",
-          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "GHERAO",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Jharkhand students protest LIVE updates:Talks between student delegation and State government's concludes",
-          "link": "https://www.thehindu.com/news/national/jharkhand/jharkhand-student-protest-jpsc-jssc-aspirants-demonstration-jmm-hemant-soren-ranchi-live-updates-august-9-2026/article71323953.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
       "word": "FSDA",
       "length": 4,
       "mentions": 1,
@@ -3512,286 +3938,6 @@
           "text": "Plea to speed up Tiruchi Airport runway expansion work gets shriller",
           "link": "https://www.thehindu.com/news/cities/Tiruchirapalli/plea-to-speed-up-tiruchi-airport-runway-expansion-work-gets-shriller/article71321774.ece",
           "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "VIDARBHA",
-      "length": 8,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Vidarbha\u2019s farm widows who refuse to remarry",
-          "link": "https://www.thehindu.com/news/national/maharashtra/vidarbhas-farm-widows-who-refuse-to-remarry/article71305240.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "MATTANCHERRY",
-      "length": 12,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "U.S. envoy, Trump\u2019s son-in-law visit Mattancherry Jew Town",
-          "link": "https://www.thehindu.com/news/cities/Kochi/us-envoy-trumps-son-in-law-visit-mattancherry-jew-town/article71322743.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "JEW",
-      "length": 3,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "U.S. envoy, Trump\u2019s son-in-law visit Mattancherry Jew Town",
-          "link": "https://www.thehindu.com/news/cities/Kochi/us-envoy-trumps-son-in-law-visit-mattancherry-jew-town/article71322743.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "TOWN",
-      "length": 4,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "U.S. envoy, Trump\u2019s son-in-law visit Mattancherry Jew Town",
-          "link": "https://www.thehindu.com/news/cities/Kochi/us-envoy-trumps-son-in-law-visit-mattancherry-jew-town/article71322743.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "GANESH",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "GBA bans POP idols ahead of Ganesh Chaturthi",
-          "link": "https://www.thehindu.com/news/cities/bangalore/gba-bans-pop-idols-ahead-of-ganesh-chaturthi/article71321671.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "CHATURTHI",
-      "length": 9,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "GBA bans POP idols ahead of Ganesh Chaturthi",
-          "link": "https://www.thehindu.com/news/cities/bangalore/gba-bans-pop-idols-ahead-of-ganesh-chaturthi/article71321671.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "SAYSHARIRAM",
-      "length": 11,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "D\u2019Souza\u2019s murder was a supari killing over financial dispute, saysHariram Shankar",
-          "link": "https://www.thehindu.com/news/cities/Mangalore/dsouzas-murder-was-a-supari-killing-over-financial-dispute-sayshariram-shankar/article71322131.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "SHANKAR",
-      "length": 7,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "D\u2019Souza\u2019s murder was a supari killing over financial dispute, saysHariram Shankar",
-          "link": "https://www.thehindu.com/news/cities/Mangalore/dsouzas-murder-was-a-supari-killing-over-financial-dispute-sayshariram-shankar/article71322131.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "MUDARANGADI",
-      "length": 11,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "D\u2019Souza\u2019s murder was a supari killing over financial dispute, saysHariram Shankar",
-          "link": "https://www.thehindu.com/news/cities/Mangalore/dsouzas-murder-was-a-supari-killing-over-financial-dispute-sayshariram-shankar/article71322131.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "RAJU",
-      "length": 4,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "D\u2019Souza\u2019s murder was a supari killing over financial dispute, saysHariram Shankar",
-          "link": "https://www.thehindu.com/news/cities/Mangalore/dsouzas-murder-was-a-supari-killing-over-financial-dispute-sayshariram-shankar/article71322131.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "QUIT",
-      "length": 4,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Quit India Movement Day: Participants will forever inspire generations of Indians, says L. Murugan",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/quit-india-movement-day-participants-will-forever-inspire-generations-of-indians-says-l-murugan/article71324293.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "DAY",
-      "length": 3,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Quit India Movement Day: Participants will forever inspire generations of Indians, says L. Murugan",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/quit-india-movement-day-participants-will-forever-inspire-generations-of-indians-says-l-murugan/article71324293.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "MURUGAN",
-      "length": 7,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Quit India Movement Day: Participants will forever inspire generations of Indians, says L. Murugan",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/quit-india-movement-day-participants-will-forever-inspire-generations-of-indians-says-l-murugan/article71324293.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "PAWAN",
-      "length": 5,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Tribal communities are guardians of nature and ancient wisdom, says Pawan Kalyan",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/tribal-communities-are-guardians-of-nature-and-ancient-wisdom-says-pawan-kalyan/article71324322.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "KALYAN",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Tribal communities are guardians of nature and ancient wisdom, says Pawan Kalyan",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/tribal-communities-are-guardians-of-nature-and-ancient-wisdom-says-pawan-kalyan/article71324322.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "WAYANAD",
-      "length": 7,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "2024 Wayanad landslide: Study reveals the interplay of climate and geology",
-          "link": "https://www.thehindu.com/news/national/kerala/2024-wayanad-landslides-study-reveals-the-interplay-of-climate-and-geology/article71324236.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "SINGH",
-      "length": 5,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "BRICS Culture Ministers\u2019 meet adopts Bhopal Declaration to boost cultural cooperation; focuses on creators\u2019 networking",
-          "link": "https://www.thehindu.com/news/national/brics-culture-ministers-meet-adopts-bhopal-declaration-to-boost-cultural-cooperation-focuses-on-creators-networking/article71322513.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "SHEKHAWAT",
-      "length": 9,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "BRICS Culture Ministers\u2019 meet adopts Bhopal Declaration to boost cultural cooperation; focuses on creators\u2019 networking",
-          "link": "https://www.thehindu.com/news/national/brics-culture-ministers-meet-adopts-bhopal-declaration-to-boost-cultural-cooperation-focuses-on-creators-networking/article71322513.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "RANIPET",
-      "length": 7,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Vishnu idol unearthed in Ranipet",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/vishnu-idol-unearthed-in-ranipet/article71321344.ece",
-          "source": "the_hindu"
-        }
-      ]
-    },
-    {
-      "word": "JNU",
-      "length": 3,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
-          "link": "https://timesofindia.indiatimes.com/city/delhi/jnu-cancels-discussion-on-umar-khalids-book-cites-non-disclosure-of-programme-details/articleshow/133064615.cms",
-          "source": "times_of_india"
         }
       ]
     },
@@ -3852,29 +3998,127 @@
       ]
     },
     {
-      "word": "JENSEN",
+      "word": "NYC",
+      "length": 3,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "NYC Mayor Zohran Mamdani extends tax deadline after residents call emails 'unclear'",
+          "link": "https://timesofindia.indiatimes.com/technology/tech-news/new-york-city-mayor-zohran-mamdani-extends-tax-deadline-after-residents-complain-that-emails-you-warned-us-about-are-unclear/articleshow/133064426.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "ZOHRAN",
       "length": 6,
       "mentions": 1,
       "num_sources": 1,
       "score": 3,
       "snippets": [
         {
-          "text": "Nvidia CEO's joke on parenting that created a heated debate over Asian parenting",
-          "link": "https://timesofindia.indiatimes.com/technology/tech-news/nvidia-ceo-jensen-huangs-joke-on-parenting-that-created-a-heated-debate-over-asian-parenting/articleshow/133063399.cms",
+          "text": "NYC Mayor Zohran Mamdani extends tax deadline after residents call emails 'unclear'",
+          "link": "https://timesofindia.indiatimes.com/technology/tech-news/new-york-city-mayor-zohran-mamdani-extends-tax-deadline-after-residents-complain-that-emails-you-warned-us-about-are-unclear/articleshow/133064426.cms",
           "source": "times_of_india"
         }
       ]
     },
     {
-      "word": "HUANG",
-      "length": 5,
+      "word": "MAMDANI",
+      "length": 7,
       "mentions": 1,
       "num_sources": 1,
       "score": 3,
       "snippets": [
         {
-          "text": "Nvidia CEO's joke on parenting that created a heated debate over Asian parenting",
-          "link": "https://timesofindia.indiatimes.com/technology/tech-news/nvidia-ceo-jensen-huangs-joke-on-parenting-that-created-a-heated-debate-over-asian-parenting/articleshow/133063399.cms",
+          "text": "NYC Mayor Zohran Mamdani extends tax deadline after residents call emails 'unclear'",
+          "link": "https://timesofindia.indiatimes.com/technology/tech-news/new-york-city-mayor-zohran-mamdani-extends-tax-deadline-after-residents-complain-that-emails-you-warned-us-about-are-unclear/articleshow/133064426.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "MICHAEL",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
+          "link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "ZACH",
+      "length": 4,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
+          "link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "DELAWARE",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "US scientists tag sharks to help forecast hurricane intensification",
+          "link": "https://timesofindia.indiatimes.com/science/us-scientists-are-tagging-sharks-with-ocean-sensors-every-time-they-surface-data-is-sent-by-satellite-to-help-forecast-how-strongly-hurricanes-may-intensify/articleshow/133063381.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "ATLANTIC",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "US scientists tag sharks to help forecast hurricane intensification",
+          "link": "https://timesofindia.indiatimes.com/science/us-scientists-are-tagging-sharks-with-ocean-sensors-every-time-they-surface-data-is-sent-by-satellite-to-help-forecast-how-strongly-hurricanes-may-intensify/articleshow/133063381.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "THALAPATHY",
+      "length": 10,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Jana Nayagan box office day 18: Vijay\u2019s film eyes Rs 320 crore worldwide",
+          "link": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/jana-nayagan-box-office-collection-day-18-live-vijay-starrer-eyes-rs-320-crore-worldwide-as-third-weekend-pace-slows-after-worldwide-gross-surpasses-rs-312-crore/articleshow/133065525.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "EAT",
+      "length": 3,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Stephen and Ayesha Curry reach $100 million milestone through their foundation",
+          "link": "https://timesofindia.indiatimes.com/sports/nba/top-stories/stephen-curry-and-ayesha-curry-mark-a-major-100-million-milestone-as-their-foundation-continues-changing-lives/articleshow/133059172.cms",
           "source": "times_of_india"
         }
       ]
@@ -3964,62 +4208,6 @@
       ]
     },
     {
-      "word": "MICHAEL",
-      "length": 7,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
-          "link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "ZACH",
-      "length": 4,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
-          "link": "https://timesofindia.indiatimes.com/technology/tech-news/michael-dells-son-zachs-3-year-old-startup-currently-valued-at-13-billion-wants-to-replace-costly-home-generators-in-american-homes-with-/articleshow/133048601.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "DELAWARE",
-      "length": 8,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "US scientists tag sharks to help forecast hurricane intensification",
-          "link": "https://timesofindia.indiatimes.com/science/us-scientists-are-tagging-sharks-with-ocean-sensors-every-time-they-surface-data-is-sent-by-satellite-to-help-forecast-how-strongly-hurricanes-may-intensify/articleshow/133063381.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "ATLANTIC",
-      "length": 8,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "US scientists tag sharks to help forecast hurricane intensification",
-          "link": "https://timesofindia.indiatimes.com/science/us-scientists-are-tagging-sharks-with-ocean-sensors-every-time-they-surface-data-is-sent-by-satellite-to-help-forecast-how-strongly-hurricanes-may-intensify/articleshow/133063381.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
       "word": "DEOBAND",
       "length": 7,
       "mentions": 1,
@@ -4071,20 +4259,6 @@
         {
           "text": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
           "link": "https://timesofindia.indiatimes.com/sports/cricket/news/sachin-tendulkar-gets-best-batter-tag-but-brett-lee-names-this-all-rounder-as-crickets-goat/articleshow/133063292.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "EAT",
-      "length": 3,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Stephen and Ayesha Curry reach $100 million milestone through their foundation",
-          "link": "https://timesofindia.indiatimes.com/sports/nba/top-stories/stephen-curry-and-ayesha-curry-mark-a-major-100-million-milestone-as-their-foundation-continues-changing-lives/articleshow/133059172.cms",
           "source": "times_of_india"
         }
       ]
@@ -4510,8 +4684,50 @@
       ]
     },
     {
+      "word": "LIONEL",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
+          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
       "word": "RAFAEL",
       "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
+          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "RODRIGO",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
+          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/i-cant-imagine-the-pain-rafael-nadals-emotional-tribute-to-lionel-messi-after-fathers-death/articleshow/133061851.cms",
+          "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "PAUL",
+      "length": 4,
       "mentions": 1,
       "num_sources": 1,
       "score": 3,
@@ -4589,216 +4805,6 @@
         {
           "text": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
           "link": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/basant-kumar-meghwal-creates-history-with-silver-medal-at-world-athletics-u20-championships/articleshow/133061896.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "INTER",
-      "length": 5,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Watch: De Paul scores stunner, reveals Messi\u2019s No. 10 jersey in emotional tribute",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/watch-rodrigo-de-paul-scores-stunner-reveals-messis-no-10-jersey-in-emotional-tribute/articleshow/133061407.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "MIAMI",
-      "length": 5,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Watch: De Paul scores stunner, reveals Messi\u2019s No. 10 jersey in emotional tribute",
-          "link": "https://timesofindia.indiatimes.com/sports/football/top-stories/watch-rodrigo-de-paul-scores-stunner-reveals-messis-no-10-jersey-in-emotional-tribute/articleshow/133061407.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "SUBHAM",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Delhi woman crushed between vehicles; kin alleges Mercedes driver was drunk, speeding",
-          "link": "https://timesofindia.indiatimes.com/city/delhi/woman-crushed-between-vehicles-after-smash-up-in-delhi-kin-alleges-mercedes-driver-was-speeding-drunk/articleshow/133061317.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "BRAZIL",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Four killed in helicopter crash in Brazil's Rio de Janeiro",
-          "link": "https://timesofindia.indiatimes.com/world/rest-of-world/four-killed-in-helicopter-crash-in-rio-de-janeiro/articleshow/133061331.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "RIO",
-      "length": 3,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Four killed in helicopter crash in Brazil's Rio de Janeiro",
-          "link": "https://timesofindia.indiatimes.com/world/rest-of-world/four-killed-in-helicopter-crash-in-rio-de-janeiro/articleshow/133061331.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "JANEIRO",
-      "length": 7,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "Four killed in helicopter crash in Brazil's Rio de Janeiro",
-          "link": "https://timesofindia.indiatimes.com/world/rest-of-world/four-killed-in-helicopter-crash-in-rio-de-janeiro/articleshow/133061331.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "AARAV",
-      "length": 5,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "The Stateless Kings: How Chess preserves an ideal in a fractured world",
-          "link": "https://timesofindia.indiatimes.com/sports/chess/the-stateless-kings-how-chess-preserves-an-ideal-in-a-fractured-world/articleshow/133061451.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "DENGLA",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "The Stateless Kings: How Chess preserves an ideal in a fractured world",
-          "link": "https://timesofindia.indiatimes.com/sports/chess/the-stateless-kings-how-chess-preserves-an-ideal-in-a-fractured-world/articleshow/133061451.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "VIKTOR",
-      "length": 6,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "The Stateless Kings: How Chess preserves an ideal in a fractured world",
-          "link": "https://timesofindia.indiatimes.com/sports/chess/the-stateless-kings-how-chess-preserves-an-ideal-in-a-fractured-world/articleshow/133061451.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "KORCHNOI",
-      "length": 8,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "The Stateless Kings: How Chess preserves an ideal in a fractured world",
-          "link": "https://timesofindia.indiatimes.com/sports/chess/the-stateless-kings-how-chess-preserves-an-ideal-in-a-fractured-world/articleshow/133061451.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "UNION",
-      "length": 5,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "The Stateless Kings: How Chess preserves an ideal in a fractured world",
-          "link": "https://timesofindia.indiatimes.com/sports/chess/the-stateless-kings-how-chess-preserves-an-ideal-in-a-fractured-world/articleshow/133061451.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "ALIREZA",
-      "length": 7,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "The Stateless Kings: How Chess preserves an ideal in a fractured world",
-          "link": "https://timesofindia.indiatimes.com/sports/chess/the-stateless-kings-how-chess-preserves-an-ideal-in-a-fractured-world/articleshow/133061451.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "FIROUZJA",
-      "length": 8,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "The Stateless Kings: How Chess preserves an ideal in a fractured world",
-          "link": "https://timesofindia.indiatimes.com/sports/chess/the-stateless-kings-how-chess-preserves-an-ideal-in-a-fractured-world/articleshow/133061451.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "IAN",
-      "length": 3,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "The Stateless Kings: How Chess preserves an ideal in a fractured world",
-          "link": "https://timesofindia.indiatimes.com/sports/chess/the-stateless-kings-how-chess-preserves-an-ideal-in-a-fractured-world/articleshow/133061451.cms",
-          "source": "times_of_india"
-        }
-      ]
-    },
-    {
-      "word": "FIDE",
-      "length": 4,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "The Stateless Kings: How Chess preserves an ideal in a fractured world",
-          "link": "https://timesofindia.indiatimes.com/sports/chess/the-stateless-kings-how-chess-preserves-an-ideal-in-a-fractured-world/articleshow/133061451.cms",
           "source": "times_of_india"
         }
       ]
@@ -4958,6 +4964,118 @@
       ]
     },
     {
+      "word": "GIANNI",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Fifa criticises campaign to oust president Infantino",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        }
+      ]
+    },
+    {
+      "word": "DANIEL",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Suspected crime boss Daniel Kinahan returning to Ireland in high-security operation",
+          "link": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        }
+      ]
+    },
+    {
+      "word": "KINAHAN",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Suspected crime boss Daniel Kinahan returning to Ireland in high-security operation",
+          "link": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        }
+      ]
+    },
+    {
+      "word": "SERVICE",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Suspected crime boss Daniel Kinahan returning to Ireland in high-security operation",
+          "link": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        }
+      ]
+    },
+    {
+      "word": "DUBAI",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Suspected crime boss Daniel Kinahan returning to Ireland in high-security operation",
+          "link": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        }
+      ]
+    },
+    {
+      "word": "BALD",
+      "length": 4,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "State of emergency declared as fast-moving Canada wildfire doubles in size",
+          "link": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        }
+      ]
+    },
+    {
+      "word": "RANGE",
+      "length": 5,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "State of emergency declared as fast-moving Canada wildfire doubles in size",
+          "link": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        }
+      ]
+    },
+    {
+      "word": "COLUMBIA",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "State of emergency declared as fast-moving Canada wildfire doubles in size",
+          "link": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        }
+      ]
+    },
+    {
       "word": "OMAN",
       "length": 4,
       "mentions": 1,
@@ -5037,48 +5155,6 @@
         {
           "text": "Trump's ex-lawyer Todd Blanche narrowly confirmed as US attorney general",
           "link": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&at_campaign=rss",
-          "source": "bbc_world"
-        }
-      ]
-    },
-    {
-      "word": "COLOMBIA",
-      "length": 8,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "US offers $1bn to Colombia on new right-wing president's first day of office",
-          "link": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
-          "source": "bbc_world"
-        }
-      ]
-    },
-    {
-      "word": "ABELARDO",
-      "length": 8,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "US offers $1bn to Colombia on new right-wing president's first day of office",
-          "link": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
-          "source": "bbc_world"
-        }
-      ]
-    },
-    {
-      "word": "ESPRIELLA",
-      "length": 9,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "US offers $1bn to Colombia on new right-wing president's first day of office",
-          "link": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
           "source": "bbc_world"
         }
       ]
@@ -5196,43 +5272,43 @@
       ]
     },
     {
-      "word": "BALD",
-      "length": 4,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "State of emergency declared as fast-moving Canada wildfire doubles in size",
-          "link": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
-          "source": "bbc_world"
-        }
-      ]
-    },
-    {
-      "word": "RANGE",
-      "length": 5,
-      "mentions": 1,
-      "num_sources": 1,
-      "score": 3,
-      "snippets": [
-        {
-          "text": "State of emergency declared as fast-moving Canada wildfire doubles in size",
-          "link": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
-          "source": "bbc_world"
-        }
-      ]
-    },
-    {
-      "word": "COLUMBIA",
+      "word": "COLOMBIA",
       "length": 8,
       "mentions": 1,
       "num_sources": 1,
       "score": 3,
       "snippets": [
         {
-          "text": "State of emergency declared as fast-moving Canada wildfire doubles in size",
-          "link": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
+          "text": "US offers $1bn to Colombia on new right-wing president's first day of office",
+          "link": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        }
+      ]
+    },
+    {
+      "word": "ABELARDO",
+      "length": 8,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "US offers $1bn to Colombia on new right-wing president's first day of office",
+          "link": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        }
+      ]
+    },
+    {
+      "word": "ESPRIELLA",
+      "length": 9,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "US offers $1bn to Colombia on new right-wing president's first day of office",
+          "link": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
           "source": "bbc_world"
         }
       ]
@@ -5336,6 +5412,20 @@
       ]
     },
     {
+      "word": "NIGERIA",
+      "length": 7,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 3,
+      "snippets": [
+        {
+          "text": "Nigeria's mass wedding - and how telling lovers from fraudsters is proving tricky",
+          "link": "https://www.bbc.co.uk/news/articles/cqx7q17531do?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
+        }
+      ]
+    },
+    {
       "word": "ALBIN",
       "length": 5,
       "mentions": 1,
@@ -5383,25 +5473,6 @@
       ]
     },
     {
-      "word": "RUSSIA",
-      "length": 6,
-      "mentions": 2,
-      "num_sources": 2,
-      "score": 1.5,
-      "snippets": [
-        {
-          "text": "The Stateless Kings: How Chess preserves an ideal in a fractured world",
-          "link": "https://timesofindia.indiatimes.com/sports/chess/the-stateless-kings-how-chess-preserves-an-ideal-in-a-fractured-world/articleshow/133061451.cms",
-          "source": "times_of_india"
-        },
-        {
-          "text": "Child among three killed in Russian missile attacks near Kyiv",
-          "link": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
-          "source": "bbc_world"
-        }
-      ]
-    },
-    {
       "word": "BRITAIN",
       "length": 7,
       "mentions": 2,
@@ -5417,6 +5488,20 @@
           "text": "Why Britain's housing market is losing momentum as mortgage rates rise again",
           "link": "https://timesofindia.indiatimes.com/real-estate/news/why-britains-housing-market-is-losing-momentum-as-mortgage-rates-rise-again/articleshow/133056565.cms",
           "source": "times_of_india"
+        }
+      ]
+    },
+    {
+      "word": "RUSSIA",
+      "length": 6,
+      "mentions": 1,
+      "num_sources": 1,
+      "score": 0.75,
+      "snippets": [
+        {
+          "text": "Child among three killed in Russian missile attacks near Kyiv",
+          "link": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
+          "source": "bbc_world"
         }
       ]
     }

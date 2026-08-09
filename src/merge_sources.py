@@ -44,6 +44,19 @@ from wordfreq import zipf_frequency
 from word_filters import is_safe_context_free_word, is_sensitive_word
 import paths
 
+# See project_log_week1_part3.md section 3 / the review_recommended
+# mechanism in clue_generator.py: the user has editorial control over
+# CLUES (can pick between alternates or write one by hand) but not over
+# WORDS -- rejecting a word means re-running grid generation, which isn't
+# realistic for a daily catch. That makes word-level filtering the one
+# actual safety net for what appears in the grid at all, so it has to be
+# applied everywhere a word can enter the pool, not just the generic word
+# banks. This was a real gap: is_sensitive_word() was applied to
+# word_bank.txt and crossword_quality_words.txt, but NOT to news/trivia
+# words, which bypass both of those and go straight into the topical/
+# priority pool on the strength of having real context alone --
+# topicality was never a signal for appropriateness.
+
 
 def load_word_bank(path):
     if not os.path.exists(path):
@@ -109,27 +122,52 @@ def load_quality_word_bank(path, min_score=40, wordnet_filter_max_len=10):
 
 
 def load_news_candidates(path):
-    """Returns dict: word -> context dict."""
+    """Returns dict: word -> context dict.
+
+    Carries through provenance metadata (outlet, article link, how many
+    articles/sources mentioned it, when the scrape ran) beyond just the
+    snippet text -- this is what lets a human reviewer actually judge a
+    topical clue instead of just reading a bare sentence with no way to
+    check where it came from or how fresh/well-attested it is. See
+    clue_generator.py's context_meta field.
+    """
     if not os.path.exists(path):
         print(f"  (skipping {path} -- not found)")
         return {}
     with open(path) as f:
         data = json.load(f)
 
+    scraped_at = data.get("generated_at", "")
     out = {}
+    dropped = 0
     for c in data.get("candidates", []):
         word = c["word"].upper()
-        snippet = c["snippets"][0]["text"] if c.get("snippets") else ""
+        if is_sensitive_word(word):
+            dropped += 1
+            continue
+        top_snippet = c["snippets"][0] if c.get("snippets") else {}
         out[word] = {
             "source": "news",
-            "snippet": snippet,
+            "snippet": top_snippet.get("text", ""),
             "score": c.get("score", 0),
+            "news_outlet": top_snippet.get("source", ""),
+            "article_link": top_snippet.get("link", ""),
+            "mentions": c.get("mentions", 0),
+            "num_sources": c.get("num_sources", 0),
+            "scraped_at": scraped_at,
         }
+    if dropped:
+        print(f"  (dropped {dropped} sensitive word(s) from news candidates)")
     return out
 
 
 def load_trivia(path):
-    """Returns dict: word -> context dict."""
+    """Returns dict: word -> context dict.
+
+    Carries the source Wikipedia title/URL and pageview count through, for
+    the same reason as load_news_candidates() above -- provenance a human
+    reviewer can actually check, not just a bare snippet.
+    """
     if not os.path.exists(path):
         print(f"  (skipping {path} -- not found)")
         return {}
@@ -137,14 +175,28 @@ def load_trivia(path):
         data = json.load(f)
 
     out = {}
+    dropped = 0
     for e in data:
         word = e["word"].upper()
+        if is_sensitive_word(word):
+            dropped += 1
+            continue
+        source_title = e.get("source_title", "")
+        wikipedia_url = (
+            "https://en.wikipedia.org/wiki/" + source_title.replace(" ", "_")
+            if source_title else ""
+        )
         out[word] = {
             "source": "trivia",
             "snippet": e.get("snippet", ""),
             "topic": e.get("topic", ""),
             "score": e.get("pageviews_3mo", 0),
+            "wikipedia_title": source_title,
+            "wikipedia_url": wikipedia_url,
+            "pageviews_3mo": e.get("pageviews_3mo", 0),
         }
+    if dropped:
+        print(f"  (dropped {dropped} sensitive word(s) from trivia)")
     return out
 
 

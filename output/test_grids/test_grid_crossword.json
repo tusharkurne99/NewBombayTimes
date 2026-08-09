@@ -4,351 +4,343 @@
     "cols": 15
   },
   "grid": [
-    "JACKS#J#REVAMPS",
-    "N#O#B#IRE#H#ROC",
-    "UTERI#LEE#FAKIR",
-    "#R#A#STEVE##N#E",
-    "MIDIDA#XES#TOPE",
-    "#LEDES#A#PASWAN",
-    "ALT#THOMASPAINE",
-    "RIO#A#NIP#P#TOR",
-    "CONTINENTAL#ARS",
-    "SNAILS#A#TESLA#",
-    "ESTS#FAT#PSALMS",
-    "C#I##SLIMS#H#A#",
-    "OTOES#BOO#LASSI",
-    "NAN#E#INN#O#I#A",
-    "DUSTPAN#O#KAREN"
+    "JDS#ASSOCIATES#",
+    "AUTOMAT#P#BEMA#",
+    "MDR#PROTRACTORS",
+    "MIEN#DOH####TAP",
+    "IDS#FILA#CAPITA",
+    "EAST#NIM##BROOM",
+    "S#A#KEEN#HMONG#",
+    "#TNT##SAT##FAA#",
+    "#ODORS#PACT#L#V",
+    "MISSY##OKA#YOGA",
+    "ALTHEA#KANT#URN",
+    "XER####PIT#OTOE",
+    "ITALIANICES#LIS",
+    "#TIER#G#HEAVENS",
+    "#ENTERTAINS#TSA"
   ],
   "numbering": {
     "0,0": 1,
-    "0,2": 2,
-    "0,4": 3,
-    "0,6": 4,
-    "0,8": 5,
-    "0,10": 6,
-    "0,12": 7,
-    "0,13": 8,
-    "0,14": 9,
-    "1,6": 10,
-    "1,7": 11,
-    "1,12": 12,
-    "2,0": 13,
-    "2,1": 14,
-    "2,3": 15,
-    "2,6": 16,
-    "2,10": 17,
-    "3,5": 18,
-    "3,9": 19,
-    "4,0": 20,
-    "4,2": 21,
+    "0,1": 2,
+    "0,2": 3,
+    "0,4": 4,
+    "0,5": 5,
+    "0,6": 6,
+    "0,8": 7,
+    "0,10": 8,
+    "0,11": 9,
+    "0,12": 10,
+    "0,13": 11,
+    "1,0": 12,
+    "1,10": 13,
+    "2,0": 14,
+    "2,4": 15,
+    "2,7": 16,
+    "2,14": 17,
+    "3,0": 18,
+    "3,5": 19,
+    "3,12": 20,
+    "4,0": 21,
     "4,4": 22,
-    "4,7": 23,
-    "4,11": 24,
-    "4,13": 25,
-    "5,1": 26,
-    "5,9": 27,
+    "4,9": 23,
+    "4,10": 24,
+    "4,11": 25,
+    "5,0": 26,
+    "5,5": 27,
     "5,10": 28,
-    "6,0": 29,
-    "6,4": 30,
-    "6,6": 31,
-    "6,8": 32,
-    "7,0": 33,
-    "7,6": 34,
-    "7,12": 35,
-    "8,0": 36,
-    "8,3": 37,
-    "8,5": 38,
+    "6,4": 29,
+    "6,9": 30,
+    "7,1": 31,
+    "7,3": 32,
+    "7,6": 33,
+    "7,8": 34,
+    "7,11": 35,
+    "8,1": 36,
+    "8,4": 37,
+    "8,7": 38,
     "8,9": 39,
-    "8,12": 40,
+    "8,14": 40,
     "9,0": 41,
-    "9,9": 42,
+    "9,7": 42,
     "9,11": 43,
-    "10,0": 44,
-    "10,5": 45,
-    "10,6": 46,
-    "10,9": 47,
-    "11,5": 48,
-    "11,8": 49,
-    "12,0": 50,
-    "12,1": 51,
-    "12,4": 52,
-    "12,6": 53,
-    "12,10": 54,
-    "12,12": 55,
-    "12,14": 56,
-    "13,0": 57,
-    "13,6": 58,
-    "14,0": 59,
-    "14,10": 60
+    "9,13": 44,
+    "10,0": 45,
+    "10,7": 46,
+    "10,12": 47,
+    "11,0": 48,
+    "11,7": 49,
+    "11,11": 50,
+    "12,0": 51,
+    "12,3": 52,
+    "12,4": 53,
+    "12,6": 54,
+    "12,10": 55,
+    "12,12": 56,
+    "13,1": 57,
+    "13,8": 58,
+    "14,1": 59,
+    "14,12": 60
   },
   "words": {
     "across": {
       "1": {
-        "answer": "JACKS",
-        "length": 5
-      },
-      "5": {
-        "answer": "REVAMPS",
-        "length": 7
-      },
-      "10": {
-        "answer": "IRE",
+        "answer": "JDS",
         "length": 3
+      },
+      "4": {
+        "answer": "ASSOCIATES",
+        "length": 10
       },
       "12": {
-        "answer": "ROC",
-        "length": 3
+        "answer": "AUTOMAT",
+        "length": 7
       },
       "13": {
-        "answer": "UTERI",
-        "length": 5
-      },
-      "16": {
-        "answer": "LEE",
-        "length": 3
-      },
-      "17": {
-        "answer": "FAKIR",
-        "length": 5
-      },
-      "18": {
-        "answer": "STEVE",
-        "length": 5
-      },
-      "20": {
-        "answer": "MIDIDA",
-        "length": 6
-      },
-      "23": {
-        "answer": "XES",
-        "length": 3
-      },
-      "24": {
-        "answer": "TOPE",
+        "answer": "BEMA",
         "length": 4
       },
-      "26": {
-        "answer": "LEDES",
-        "length": 5
-      },
-      "27": {
-        "answer": "PASWAN",
-        "length": 6
-      },
-      "29": {
-        "answer": "ALT",
+      "14": {
+        "answer": "MDR",
         "length": 3
       },
-      "30": {
-        "answer": "THOMASPAINE",
+      "15": {
+        "answer": "PROTRACTORS",
         "length": 11
       },
-      "33": {
-        "answer": "RIO",
+      "18": {
+        "answer": "MIEN",
+        "length": 4
+      },
+      "19": {
+        "answer": "DOH",
         "length": 3
       },
-      "34": {
-        "answer": "NIP",
+      "20": {
+        "answer": "TAP",
+        "length": 3
+      },
+      "21": {
+        "answer": "IDS",
+        "length": 3
+      },
+      "22": {
+        "answer": "FILA",
+        "length": 4
+      },
+      "23": {
+        "answer": "CAPITA",
+        "length": 6
+      },
+      "26": {
+        "answer": "EAST",
+        "length": 4
+      },
+      "27": {
+        "answer": "NIM",
+        "length": 3
+      },
+      "28": {
+        "answer": "BROOM",
+        "length": 5
+      },
+      "29": {
+        "answer": "KEEN",
+        "length": 4
+      },
+      "30": {
+        "answer": "HMONG",
+        "length": 5
+      },
+      "31": {
+        "answer": "TNT",
+        "length": 3
+      },
+      "33": {
+        "answer": "SAT",
         "length": 3
       },
       "35": {
-        "answer": "TOR",
+        "answer": "FAA",
         "length": 3
       },
       "36": {
-        "answer": "CONTINENTAL",
-        "length": 11
-      },
-      "40": {
-        "answer": "ARS",
-        "length": 3
-      },
-      "41": {
-        "answer": "SNAILS",
-        "length": 6
-      },
-      "42": {
-        "answer": "TESLA",
+        "answer": "ODORS",
         "length": 5
       },
-      "44": {
-        "answer": "ESTS",
+      "38": {
+        "answer": "PACT",
+        "length": 4
+      },
+      "41": {
+        "answer": "MISSY",
+        "length": 5
+      },
+      "42": {
+        "answer": "OKA",
+        "length": 3
+      },
+      "43": {
+        "answer": "YOGA",
         "length": 4
       },
       "45": {
-        "answer": "FAT",
-        "length": 3
-      },
-      "47": {
-        "answer": "PSALMS",
+        "answer": "ALTHEA",
         "length": 6
       },
+      "46": {
+        "answer": "KANT",
+        "length": 4
+      },
+      "47": {
+        "answer": "URN",
+        "length": 3
+      },
       "48": {
-        "answer": "SLIMS",
-        "length": 5
+        "answer": "XER",
+        "length": 3
+      },
+      "49": {
+        "answer": "PIT",
+        "length": 3
       },
       "50": {
-        "answer": "OTOES",
-        "length": 5
+        "answer": "OTOE",
+        "length": 4
       },
-      "53": {
-        "answer": "BOO",
+      "51": {
+        "answer": "ITALIANICES",
+        "length": 11
+      },
+      "56": {
+        "answer": "LIS",
         "length": 3
-      },
-      "54": {
-        "answer": "LASSI",
-        "length": 5
       },
       "57": {
-        "answer": "NAN",
-        "length": 3
+        "answer": "TIER",
+        "length": 4
       },
       "58": {
-        "answer": "INN",
-        "length": 3
-      },
-      "59": {
-        "answer": "DUSTPAN",
+        "answer": "HEAVENS",
         "length": 7
       },
+      "59": {
+        "answer": "ENTERTAINS",
+        "length": 10
+      },
       "60": {
-        "answer": "KAREN",
-        "length": 5
+        "answer": "TSA",
+        "length": 3
       }
     },
     "down": {
       "1": {
-        "answer": "JNU",
-        "length": 3
+        "answer": "JAMMIES",
+        "length": 7
       },
-      "29": {
-        "answer": "ARCSECOND",
-        "length": 9
-      },
-      "14": {
-        "answer": "TRILLIONS",
-        "length": 9
-      },
-      "51": {
-        "answer": "TAU",
-        "length": 3
+      "41": {
+        "answer": "MAXI",
+        "length": 4
       },
       "2": {
-        "answer": "COE",
-        "length": 3
-      },
-      "21": {
-        "answer": "DETONATIONS",
-        "length": 11
-      },
-      "15": {
-        "answer": "RAID",
-        "length": 4
-      },
-      "37": {
-        "answer": "TIS",
-        "length": 3
-      },
-      "3": {
-        "answer": "SBI",
-        "length": 3
-      },
-      "22": {
-        "answer": "DETAIL",
+        "answer": "DUDIDA",
         "length": 6
-      },
-      "52": {
-        "answer": "SEP",
-        "length": 3
-      },
-      "18": {
-        "answer": "SASH",
-        "length": 4
-      },
-      "38": {
-        "answer": "NSFS",
-        "length": 4
-      },
-      "4": {
-        "answer": "JILT",
-        "length": 4
       },
       "31": {
-        "answer": "ONE",
-        "length": 3
+        "answer": "TOILETTE",
+        "length": 8
       },
-      "46": {
-        "answer": "ALBIN",
-        "length": 5
-      },
-      "11": {
-        "answer": "REEXAMINATION",
-        "length": 13
-      },
-      "5": {
-        "answer": "REEVE",
-        "length": 5
+      "3": {
+        "answer": "STRESSANDSTRAIN",
+        "length": 15
       },
       "32": {
-        "answer": "APT",
+        "answer": "TOSH",
+        "length": 4
+      },
+      "52": {
+        "answer": "LET",
         "length": 3
       },
-      "49": {
-        "answer": "MONO",
-        "length": 4
+      "4": {
+        "answer": "AMP",
+        "length": 3
       },
-      "19": {
-        "answer": "ESPS",
-        "length": 4
+      "37": {
+        "answer": "RYE",
+        "length": 3
       },
-      "39": {
-        "answer": "ATPS",
-        "length": 4
+      "53": {
+        "answer": "IRE",
+        "length": 3
+      },
+      "5": {
+        "answer": "SARDINE",
+        "length": 7
       },
       "6": {
-        "answer": "VHF",
-        "length": 3
-      },
-      "28": {
-        "answer": "APPLES",
-        "length": 6
+        "answer": "STOOLIES",
+        "length": 8
       },
       "54": {
-        "answer": "LOK",
+        "answer": "NGT",
+        "length": 3
+      },
+      "16": {
+        "answer": "THAMNAPOKPI",
+        "length": 11
+      },
+      "7": {
+        "answer": "CPR",
+        "length": 3
+      },
+      "34": {
+        "answer": "TAKAICHI",
+        "length": 8
+      },
+      "39": {
+        "answer": "CANTEEN",
+        "length": 7
+      },
+      "8": {
+        "answer": "ABC",
         "length": 3
       },
       "24": {
-        "answer": "TSA",
+        "answer": "ABM",
         "length": 3
-      },
-      "43": {
-        "answer": "SAHA",
-        "length": 4
-      },
-      "7": {
-        "answer": "MRKNOWITALL",
-        "length": 11
       },
       "55": {
-        "answer": "SIR",
+        "answer": "SAS",
         "length": 3
       },
-      "8": {
-        "answer": "POI",
+      "9": {
+        "answer": "TET",
         "length": 3
       },
       "25": {
-        "answer": "PANORAMAS",
-        "length": 9
+        "answer": "PROF",
+        "length": 4
       },
-      "9": {
-        "answer": "SCREENERS",
-        "length": 9
+      "10": {
+        "answer": "EMOTIONALOUTLET",
+        "length": 15
       },
-      "56": {
-        "answer": "IAN",
-        "length": 3
+      "11": {
+        "answer": "SARATOGA",
+        "length": 8
+      },
+      "44": {
+        "answer": "GROINS",
+        "length": 6
+      },
+      "17": {
+        "answer": "SPAM",
+        "length": 4
+      },
+      "40": {
+        "answer": "VANESSA",
+        "length": 7
       }
     }
   }

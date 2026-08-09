@@ -4,145 +4,139 @@
     "cols": 9
   },
   "grid": [
-    "MSGS#AAAS",
-    "ONUS##NAP",
-    "SEAWORTHY",
-    "TAR###E#S",
-    "#KANNADA#",
-    "V#N###ALA",
-    "INTIMATES",
-    "ICE##DEVI",
-    "ICED#ASEA"
+    "R##HAUNTS",
+    "ATLANTA##",
+    "S#ORDERED",
+    "HIVE##ETA",
+    "EYE##NUN",
+    "EES##FDIC",
+    "DREAMER#I",
+    "##ABSTAIN",
+    "OUTAGE##G"
   ],
   "numbering": {
     "0,0": 1,
-    "0,1": 2,
-    "0,2": 3,
-    "0,3": 4,
-    "0,5": 5,
-    "0,6": 6,
-    "0,7": 7,
-    "0,8": 8,
-    "1,0": 9,
-    "1,6": 10,
-    "2,0": 11,
-    "3,0": 12,
-    "4,1": 13,
-    "4,7": 14,
-    "5,0": 15,
-    "5,6": 16,
-    "5,8": 17,
+    "0,3": 2,
+    "0,4": 3,
+    "0,5": 4,
+    "0,6": 5,
+    "1,0": 6,
+    "1,2": 7,
+    "2,2": 8,
+    "2,7": 9,
+    "2,8": 10,
+    "3,0": 11,
+    "3,1": 12,
+    "3,6": 13,
+    "4,0": 14,
+    "4,6": 15,
+    "5,0": 16,
+    "5,5": 17,
     "6,0": 18,
-    "6,1": 19,
-    "6,5": 20,
-    "7,0": 21,
-    "7,5": 22,
-    "8,0": 23,
-    "8,5": 24
+    "6,3": 19,
+    "6,4": 20,
+    "7,2": 21,
+    "8,0": 22
   },
   "words": {
     "across": {
-      "1": {
-        "answer": "MSGS",
-        "length": 4
+      "2": {
+        "answer": "HAUNTS",
+        "length": 6
       },
-      "5": {
-        "answer": "AAAS",
-        "length": 4
-      },
-      "9": {
-        "answer": "ONUS",
-        "length": 4
-      },
-      "10": {
-        "answer": "NAP",
-        "length": 3
-      },
-      "11": {
-        "answer": "SEAWORTHY",
-        "length": 9
-      },
-      "12": {
-        "answer": "TAR",
-        "length": 3
-      },
-      "13": {
-        "answer": "KANNADA",
+      "6": {
+        "answer": "ATLANTA",
         "length": 7
       },
-      "16": {
-        "answer": "ALA",
+      "8": {
+        "answer": "ORDERED",
+        "length": 7
+      },
+      "11": {
+        "answer": "HIVE",
+        "length": 4
+      },
+      "13": {
+        "answer": "ETA",
         "length": 3
+      },
+      "14": {
+        "answer": "EYE",
+        "length": 3
+      },
+      "15": {
+        "answer": "NUN",
+        "length": 3
+      },
+      "16": {
+        "answer": "EES",
+        "length": 3
+      },
+      "17": {
+        "answer": "FDIC",
+        "length": 4
       },
       "18": {
-        "answer": "INTIMATES",
-        "length": 9
+        "answer": "DREAMER",
+        "length": 7
       },
       "21": {
-        "answer": "ICE",
-        "length": 3
+        "answer": "ABSTAIN",
+        "length": 7
       },
       "22": {
-        "answer": "DEVI",
-        "length": 4
-      },
-      "23": {
-        "answer": "ICED",
-        "length": 4
-      },
-      "24": {
-        "answer": "ASEA",
-        "length": 4
+        "answer": "OUTAGE",
+        "length": 6
       }
     },
     "down": {
       "1": {
-        "answer": "MOST",
+        "answer": "RASHEED",
+        "length": 7
+      },
+      "12": {
+        "answer": "IYER",
         "length": 4
       },
-      "15": {
-        "answer": "VIII",
-        "length": 4
+      "7": {
+        "answer": "LOVESEAT",
+        "length": 8
       },
       "2": {
-        "answer": "SNEAK",
-        "length": 5
+        "answer": "HARE",
+        "length": 4
       },
       "19": {
-        "answer": "NCC",
+        "answer": "ABA",
         "length": 3
       },
       "3": {
-        "answer": "GUARANTEE",
-        "length": 9
-      },
-      "4": {
-        "answer": "SSW",
+        "answer": "AND",
         "length": 3
       },
       "20": {
-        "answer": "ADA",
+        "answer": "MSG",
         "length": 3
       },
-      "6": {
-        "answer": "ANTEDATES",
-        "length": 9
-      },
-      "7": {
-        "answer": "AAH",
+      "4": {
+        "answer": "UTE",
         "length": 3
-      },
-      "14": {
-        "answer": "ALEVE",
-        "length": 5
-      },
-      "8": {
-        "answer": "SPYS",
-        "length": 4
       },
       "17": {
-        "answer": "ASIA",
+        "answer": "FETE",
         "length": 4
+      },
+      "5": {
+        "answer": "NARENDRA",
+        "length": 8
+      },
+      "9": {
+        "answer": "ETUI",
+        "length": 4
+      },
+      "10": {
+        "answer": "DANCING",
+        "length": 7
       }
     }
   }

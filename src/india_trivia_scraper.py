@@ -35,7 +35,7 @@ from datetime import datetime, timedelta
 
 import requests
 
-from word_filters import is_droppable_suffix  # shared with scraper.py
+from word_filters import is_droppable_suffix, is_sensitive_word  # shared with scraper.py
 import paths
 
 API_URL = "https://en.wikipedia.org/w/api.php"
@@ -292,7 +292,15 @@ def main():
 
         for title, views in top_titles:
             snippet = extracts.get(title, "")
+            # is_sensitive_word() applied here, not just in the generic
+            # word-bank builders -- these words go straight into the
+            # topical/priority pool on the strength of having real context
+            # alone, bypassing word_bank.txt/crossword_quality_words.txt
+            # entirely (see merge_sources.py's comment on the same gap for
+            # news candidates).
             for word in title_to_words(title, is_person):
+                if is_sensitive_word(word):
+                    continue
                 all_entries.append({
                     "word": word,
                     "topic": topic,

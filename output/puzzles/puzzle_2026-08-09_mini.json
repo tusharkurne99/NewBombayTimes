@@ -7,115 +7,192 @@
     "cols": 5
   },
   "grid": [
-    "##ASP",
-    "SABHA",
-    "ALBIN",
-    "STEVE",
-    "HOY##"
+    "TAB##",
+    "BRAG#",
+    "SATAN",
+    "#BORI",
+    "##NBA"
   ],
   "numbering": {
-    "0,2": 1,
-    "0,3": 2,
-    "0,4": 3,
+    "0,0": 1,
+    "0,1": 2,
+    "0,2": 3,
     "1,0": 4,
-    "1,1": 5,
+    "1,3": 5,
     "2,0": 6,
-    "3,0": 7,
-    "4,0": 8
+    "2,4": 7,
+    "3,1": 8,
+    "4,2": 9
   },
   "clues": {
     "across": {
       "1": {
-        "answer": "ASP",
-        "clue": "Venomous insect found in tropical climates often.",
+        "answer": "TAB",
+        "clue": "In a screen display or document.",
         "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "4": {
-        "answer": "SABHA",
-        "clue": "Indian parliament's upper house for state legislatures",
-        "length": 5,
-        "topical": true,
-        "source_snippet": "T.N. MPs\u2019 meeting convened by CM Vijay seeks freeze on 543 Lok Sabha seats",
-        "source": "news",
-        "review_recommended": true
-      },
-      "6": {
-        "answer": "ALBIN",
-        "clue": "Balkan protests turn ugly with egg-throwing politician's skin tone.",
-        "length": 5,
-        "topical": true,
-        "source_snippet": "Watch: Moment opposition MP throws eggs at Kosovo's acting PM",
-        "source": "news",
-        "review_recommended": true
-      },
-      "7": {
-        "answer": "STEVE",
-        "clue": "US general's name linked to military procurement woes",
-        "length": 5,
-        "topical": true,
-        "source_snippet": "Pentagon pushes defence companies to boost weapons production after concerns of depleted stocks",
-        "source": "news",
-        "review_recommended": true
-      },
-      "8": {
-        "answer": "HOY",
-        "clue": "Small boy from a medieval legend",
-        "length": 3,
+        "answer": "BRAG",
+        "clue": "Prideful boast that's quickly deflated.",
+        "length": 4,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
+      },
+      "6": {
+        "answer": "SATAN",
+        "clue": "In some mythologies and folklore, this one's a frequent adversary.",
+        "length": 5,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "8": {
+        "answer": "BORI",
+        "clue": "River flowing south from Balaghat Range hills",
+        "length": 4,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "River flowing south from Balaghat Range hills"
+          },
+          {
+            "angle": "concise",
+            "text": "Maharashtra watercourse rising in Balaghat Range"
+          },
+          {
+            "angle": "oblique",
+            "text": "River flowing through Maharashtra and Karnataka?"
+          }
+        ],
+        "source_snippet": "The Bori  River is a tributary of the Bhima River, the main tributary of the Krishna River, in Maharashtra and Karnataka, India. It rises in the Balaghat Range near the hills of Dharur and flows southwards towards Akkalkot.",
+        "source": "trivia",
+        "context_meta": {
+          "wikipedia_title": "Bori River",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bori_River",
+          "topic": "geography",
+          "pageviews_3mo": 319
+        },
+        "review_recommended": true
+      },
+      "9": {
+        "answer": "NBA",
+        "clue": "Player whose death was linked to opioid use",
+        "length": 3,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Player whose death was linked to opioid use"
+          },
+          {
+            "angle": "concise",
+            "text": "Basketball pro's tragic end sparks a cautionary tale"
+          },
+          {
+            "angle": "oblique",
+            "text": "Recent loss in sports overseas?"
+          }
+        ],
+        "source_snippet": "NBA forward Clarke's death due to effects of drugs",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "bbc_world",
+          "article_link": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-09T10:35:55.805613+00:00"
+        },
+        "review_recommended": true
       }
     },
     "down": {
-      "4": {
-        "answer": "SASH",
-        "clue": "Flap of fabric worn around a European neck.",
-        "length": 4,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "5": {
-        "answer": "ALTO",
-        "clue": "Vocal range often reached by sopranos and tenors",
-        "length": 4,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
       "1": {
-        "answer": "ABBEY",
-        "clue": "Hallowed halls of monastic learning and residence",
-        "length": 5,
+        "answer": "TBS",
+        "clue": "Bengal's broadcasting network since 1976",
+        "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "2": {
-        "answer": "SHIV",
-        "clue": "HIV strain that's also a popular nightclub drink",
+        "answer": "ARAB",
+        "clue": "Region associated with ancient trade routes.",
         "length": 4,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "3": {
-        "answer": "PANE",
-        "clue": "Bread layer often found between cheese and ham",
-        "length": 4,
+        "answer": "BATON",
+        "clue": "Conductor's leading tool at an orchestra",
+        "length": 5,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
+      },
+      "5": {
+        "answer": "GARB",
+        "clue": "Layer of clothing that's often flimsy.",
+        "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "7": {
+        "answer": "NIA",
+        "clue": "Indian agency making an arrest in Kerala case",
+        "length": 3,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Indian agency making an arrest in Kerala case"
+          },
+          {
+            "angle": "concise",
+            "text": "Agency makes key arrest in Kerala explosives case"
+          },
+          {
+            "angle": "oblique",
+            "text": "Central agency's recent Kerala bust\"\n\n(10 words)"
+          }
+        ],
+        "source_snippet": "NIA arrests main conspirator in Kerala illegal explosives seizure case",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "times_of_india",
+          "article_link": "https://timesofindia.indiatimes.com/india/nia-arrests-main-conspirator-in-kerala-illegal-explosives-seizure-case-tenth-arrest-so-far/articleshow/133063260.cms",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-09T10:35:55.805613+00:00"
+        },
+        "review_recommended": true
       }
     }
   }

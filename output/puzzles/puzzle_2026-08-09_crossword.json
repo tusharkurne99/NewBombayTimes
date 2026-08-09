@@ -7,681 +7,924 @@
     "cols": 15
   },
   "grid": [
-    "JACKS#J#REVAMPS",
-    "N#O#B#IRE#H#ROC",
-    "UTERI#LEE#FAKIR",
-    "#R#A#STEVE##N#E",
-    "MIDIDA#XES#TOPE",
-    "#LEDES#A#PASWAN",
-    "ALT#THOMASPAINE",
-    "RIO#A#NIP#P#TOR",
-    "CONTINENTAL#ARS",
-    "SNAILS#A#TESLA#",
-    "ESTS#FAT#PSALMS",
-    "C#I##SLIMS#H#A#",
-    "OTOES#BOO#LASSI",
-    "NAN#E#INN#O#I#A",
-    "DUSTPAN#O#KAREN"
+    "JDS#ASSOCIATES#",
+    "AUTOMAT#P#BEMA#",
+    "MDR#PROTRACTORS",
+    "MIEN#DOH####TAP",
+    "IDS#FILA#CAPITA",
+    "EAST#NIM##BROOM",
+    "S#A#KEEN#HMONG#",
+    "#TNT##SAT##FAA#",
+    "#ODORS#PACT#L#V",
+    "MISSY##OKA#YOGA",
+    "ALTHEA#KANT#URN",
+    "XER####PIT#OTOE",
+    "ITALIANICES#LIS",
+    "#TIER#G#HEAVENS",
+    "#ENTERTAINS#TSA"
   ],
   "numbering": {
     "0,0": 1,
-    "0,2": 2,
-    "0,4": 3,
-    "0,6": 4,
-    "0,8": 5,
-    "0,10": 6,
-    "0,12": 7,
-    "0,13": 8,
-    "0,14": 9,
-    "1,6": 10,
-    "1,7": 11,
-    "1,12": 12,
-    "2,0": 13,
-    "2,1": 14,
-    "2,3": 15,
-    "2,6": 16,
-    "2,10": 17,
-    "3,5": 18,
-    "3,9": 19,
-    "4,0": 20,
-    "4,2": 21,
+    "0,1": 2,
+    "0,2": 3,
+    "0,4": 4,
+    "0,5": 5,
+    "0,6": 6,
+    "0,8": 7,
+    "0,10": 8,
+    "0,11": 9,
+    "0,12": 10,
+    "0,13": 11,
+    "1,0": 12,
+    "1,10": 13,
+    "2,0": 14,
+    "2,4": 15,
+    "2,7": 16,
+    "2,14": 17,
+    "3,0": 18,
+    "3,5": 19,
+    "3,12": 20,
+    "4,0": 21,
     "4,4": 22,
-    "4,7": 23,
-    "4,11": 24,
-    "4,13": 25,
-    "5,1": 26,
-    "5,9": 27,
+    "4,9": 23,
+    "4,10": 24,
+    "4,11": 25,
+    "5,0": 26,
+    "5,5": 27,
     "5,10": 28,
-    "6,0": 29,
-    "6,4": 30,
-    "6,6": 31,
-    "6,8": 32,
-    "7,0": 33,
-    "7,6": 34,
-    "7,12": 35,
-    "8,0": 36,
-    "8,3": 37,
-    "8,5": 38,
+    "6,4": 29,
+    "6,9": 30,
+    "7,1": 31,
+    "7,3": 32,
+    "7,6": 33,
+    "7,8": 34,
+    "7,11": 35,
+    "8,1": 36,
+    "8,4": 37,
+    "8,7": 38,
     "8,9": 39,
-    "8,12": 40,
+    "8,14": 40,
     "9,0": 41,
-    "9,9": 42,
+    "9,7": 42,
     "9,11": 43,
-    "10,0": 44,
-    "10,5": 45,
-    "10,6": 46,
-    "10,9": 47,
-    "11,5": 48,
-    "11,8": 49,
-    "12,0": 50,
-    "12,1": 51,
-    "12,4": 52,
-    "12,6": 53,
-    "12,10": 54,
-    "12,12": 55,
-    "12,14": 56,
-    "13,0": 57,
-    "13,6": 58,
-    "14,0": 59,
-    "14,10": 60
+    "9,13": 44,
+    "10,0": 45,
+    "10,7": 46,
+    "10,12": 47,
+    "11,0": 48,
+    "11,7": 49,
+    "11,11": 50,
+    "12,0": 51,
+    "12,3": 52,
+    "12,4": 53,
+    "12,6": 54,
+    "12,10": 55,
+    "12,12": 56,
+    "13,1": 57,
+    "13,8": 58,
+    "14,1": 59,
+    "14,12": 60
   },
   "clues": {
     "across": {
       "1": {
-        "answer": "JACKS",
-        "clue": "Five-card poker players with a distinctive claim to fame",
-        "length": 5,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "5": {
-        "answer": "REVAMPS",
-        "clue": "Frequent reboots of a popular game series often occur here",
-        "length": 7,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "10": {
-        "answer": "IRE",
-        "clue": "Flame that burns within a passionate soul sometimes",
+        "answer": "JDS",
+        "clue": "Party that opposed Bidadi township project in Karnataka",
         "length": 3,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Party that opposed Bidadi township project in Karnataka"
+          },
+          {
+            "angle": "concise",
+            "text": "Regional party that opposes Bidadi project expansion"
+          },
+          {
+            "angle": "oblique",
+            "text": "South Indian party that opposes Bidadi township project?"
+          }
+        ],
+        "source_snippet": "BJP, JD(S) launch padayatra against Bidadi township project",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/news/cities/bangalore/bjp-jds-launch-padayatra-against-bidadi-township-project/article71324362.ece",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-09T10:35:55.805613+00:00"
+        },
+        "review_recommended": true
+      },
+      "4": {
+        "answer": "ASSOCIATES",
+        "clue": "People who often accompany a professional in meetings.",
+        "length": 10,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "12": {
-        "answer": "ROC",
-        "clue": "Viking warrior's symbol of conquest and power",
-        "length": 3,
+        "answer": "AUTOMAT",
+        "clue": "Old-fashioned restaurant service",
+        "length": 7,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "13": {
-        "answer": "UTERI",
-        "clue": "Female reproductive organ's muscular tube structure",
-        "length": 5,
+        "answer": "BEMA",
+        "clue": "Ancient Indian royal seat",
+        "length": 4,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
-      "16": {
-        "answer": "LEE",
-        "clue": "Australian fast bowler's moniker for Sachin Tendulkar",
+      "14": {
+        "answer": "MDR",
+        "clue": "Digital transactions remain mostly free for sellers",
         "length": 3,
         "topical": true,
-        "source_snippet": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Digital transactions remain mostly free for sellers"
+          },
+          {
+            "angle": "concise",
+            "text": "Digital transactions policy unveiled recently"
+          },
+          {
+            "angle": "oblique",
+            "text": "Free service commitment, for most UPI users?"
+          }
+        ],
+        "source_snippet": "UPI stays free for users, vast majority of transactions to remain free for merchants as well, says government",
         "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/business/Economy/upi-stays-free-for-users-vast-majority-of-transactions-to-remain-free-for-merchants-as-well-says-government/article71323950.ece",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-09T10:35:55.805613+00:00"
+        },
         "review_recommended": true
       },
-      "17": {
-        "answer": "FAKIR",
-        "clue": "Indian ascetic with a penchant for begging",
-        "length": 5,
+      "15": {
+        "answer": "PROTRACTORS",
+        "clue": "Instrument often used for surveying and mapping",
+        "length": 11,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "18": {
-        "answer": "STEVE",
-        "clue": "US Secretary of Defence under Trump and Biden",
-        "length": 5,
-        "topical": true,
-        "source_snippet": "Pentagon pushes defence companies to boost weapons production after concerns of depleted stocks",
-        "source": "news",
-        "review_recommended": true
-      },
-      "20": {
-        "answer": "MIDIDA",
-        "clue": "Andaman island's hidden chapter revealed by a Kannada scholar",
-        "length": 6,
-        "topical": true,
-        "source_snippet": "Book on Andaman history brings out aspects left out by conventional history: Kannada varsity professor",
-        "source": "news",
-        "review_recommended": true
-      },
-      "23": {
-        "answer": "XES",
-        "clue": "Ancient Greek letters on a math problem sheet",
-        "length": 3,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "24": {
-        "answer": "TOPE",
-        "clue": "French term for \"top of the heap",
+        "answer": "MIEN",
+        "clue": "Form of address often used by friends",
         "length": 4,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "19": {
+        "answer": "DOH",
+        "clue": "Exclamation of mock frustration in a test situation",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "20": {
+        "answer": "TAP",
+        "clue": "Sound that brings music to a stop suddenly",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "21": {
+        "answer": "IDS",
+        "clue": "Form used for tracking health and wellbeing in some countries.",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "22": {
+        "answer": "FILA",
+        "clue": "Italian shoemaker's logo maker",
+        "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "23": {
+        "answer": "CAPITA",
+        "clue": "Where Indian citizens pay taxes, for instance.",
+        "length": 6,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "26": {
-        "answer": "LEDES",
-        "clue": "French artist whose works are often surreal and dreamlike",
-        "length": 5,
+        "answer": "EAST",
+        "clue": "Direction from which the sun rises in winter months",
+        "length": 4,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "27": {
-        "answer": "PASWAN",
-        "clue": "Jharkhand's youngest voice in a high-stakes educational fight",
-        "length": 6,
-        "topical": true,
-        "source_snippet": "Jharkhand students protest LIVE updates:Talks between student delegation and State government's concludes",
-        "source": "news",
-        "review_recommended": true
-      },
-      "29": {
-        "answer": "ALT",
-        "clue": "Mile marker on a road trip's most common route",
+        "answer": "NIM",
+        "clue": "In some Indian states, this is an abbreviation for 'Nationalized Industrial Mineral'.",
         "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "28": {
+        "answer": "BROOM",
+        "clue": "Cleaning tool for floors and stairs",
+        "length": 5,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "29": {
+        "answer": "KEEN",
+        "clue": "A quality that helps you enjoy music",
+        "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "30": {
-        "answer": "THOMASPAINE",
-        "clue": "French aristocrat and a Certain Affair author",
-        "length": 11,
+        "answer": "HMONG",
+        "clue": "Minority group from Laos and Thailand.",
+        "length": 5,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "31": {
+        "answer": "TNT",
+        "clue": "Sound used in fireworks and movies.",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "33": {
-        "answer": "RIO",
-        "clue": "Capital of Carnival celebrations and scenic beaches in Brazil.",
-        "length": 3,
-        "topical": true,
-        "source_snippet": "Four killed in helicopter crash in Brazil's Rio de Janeiro",
-        "source": "news",
-        "review_recommended": true
-      },
-      "34": {
-        "answer": "NIP",
-        "clue": "Small action to avoid a bigger bite.",
+        "answer": "SAT",
+        "clue": "Exam or test result, for short.",
         "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "35": {
-        "answer": "TOR",
-        "clue": "Mountain peak often found on Swedish maps",
+        "answer": "FAA",
+        "clue": "Regulatory agency overseeing US air travel.",
         "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "36": {
-        "answer": "CONTINENTAL",
-        "clue": "Divided by rivers, but united as a whole region",
-        "length": 11,
+        "answer": "ODORS",
+        "clue": "Foul smells that linger in air.",
+        "length": 5,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
-      "40": {
-        "answer": "ARS",
-        "clue": "Ancient Greek symbol of justice and equality.",
-        "length": 3,
+      "38": {
+        "answer": "PACT",
+        "clue": "Formal agreement in writing or speech",
+        "length": 4,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "41": {
-        "answer": "SNAILS",
-        "clue": "Slow movers often leaving a trail",
-        "length": 6,
+        "answer": "MISSY",
+        "clue": "Younger sister's nickname in some families.",
+        "length": 5,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "42": {
-        "answer": "TESLA",
-        "clue": "Electric car pioneer's surname is a nod to his homeland",
-        "length": 5,
+        "answer": "OKA",
+        "clue": "Ancient Indian dynasty that ruled much of northern India.",
+        "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
-      "44": {
-        "answer": "ESTS",
-        "clue": "Frequent visitors to a medieval site often do this.",
+      "43": {
+        "answer": "YOGA",
+        "clue": "Ancient Indian exercise for flexibility and balance",
         "length": 4,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "45": {
-        "answer": "FAT",
-        "clue": "Body part that needs to be trimmed back.",
-        "length": 3,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "47": {
-        "answer": "PSALMS",
-        "clue": "Hebrew hymns of ancient Jewish worship",
+        "answer": "ALTHEA",
+        "clue": "Greek tragedy heroine in Sophocles' works.",
         "length": 6,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "46": {
+        "answer": "KANT",
+        "clue": "NALSAR student body's notable absence from convocation ceremony",
+        "length": 4,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "NALSAR student body's notable absence from convocation ceremony"
+          },
+          {
+            "angle": "concise",
+            "text": "Chief Justice skips NALSAR convocation"
+          },
+          {
+            "angle": "oblique",
+            "text": "Indian judicial figure at odds with NALSAR students?"
+          }
+        ],
+        "source_snippet": "Outgoing NALSAR students do not want CJI Surya Kant at convocation ceremony",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/news/national/telangana/outgoing-nalsar-students-do-not-want-cji-surya-kant-at-convocation-ceremony/article71322218.ece",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-09T10:35:55.805613+00:00"
+        },
+        "review_recommended": true
+      },
+      "47": {
+        "answer": "URN",
+        "clue": "Seal for official documents",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "48": {
-        "answer": "SLIMS",
-        "clue": "Thinly sliced diet soda brand, often seen on movie nights.",
-        "length": 5,
+        "answer": "XER",
+        "clue": "Small town in Nevada's high desert",
+        "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "49": {
+        "answer": "PIT",
+        "clue": "Where to put your weight, literally or figuratively",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "50": {
-        "answer": "OTOES",
-        "clue": "Flaky French bread that's often toasted",
-        "length": 5,
+        "answer": "OTOE",
+        "clue": "Small village in rural India.",
+        "length": 4,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
-      "53": {
-        "answer": "BOO",
-        "clue": "Scream at a ghostly figure on Halloween night",
+      "51": {
+        "answer": "ITALIANICES",
+        "clue": "Small Italian city with a famous cathedral.",
+        "length": 11,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "56": {
+        "answer": "LIS",
+        "clue": "French musical scale component",
         "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
-      },
-      "54": {
-        "answer": "LASSI",
-        "clue": "Yogurt drink popular in India and Pakistan's streets.",
-        "length": 5,
-        "topical": true,
-        "source_snippet": "Lassi (pronounced [l\u0259s\u02d0i]) is a yogurt\u2013based beverage with a smoothie-like consistency. The word 'lassi' for the drink is a borrowing from Hindi, first attested in 1882; its ultimate origin is unclear, and has been suggested as derived ultimately from Sanskrit lasya (stickiness) or rasah (juice).",
-        "source": "trivia",
-        "review_recommended": true
       },
       "57": {
-        "answer": "NAN",
-        "clue": "Tiny term of endearment often used by grandmas",
-        "length": 3,
+        "answer": "TIER",
+        "clue": "Layer of something you might climb.",
+        "length": 4,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "58": {
-        "answer": "INN",
-        "clue": "Cozy retreat for weary travelers",
-        "length": 3,
+        "answer": "HEAVENS",
+        "clue": "In Hindu mythology, site of gods' abode.",
+        "length": 7,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "59": {
-        "answer": "DUSTPAN",
-        "clue": "Swiffer's cleaning companion often found on floors.",
-        "length": 7,
+        "answer": "ENTERTAINS",
+        "clue": "Flips a coin for good luck",
+        "length": 10,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "60": {
-        "answer": "KAREN",
-        "clue": "Mediocre person often met with frustration online.",
-        "length": 5,
+        "answer": "TSA",
+        "clue": "US airport security agency's initials",
+        "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       }
     },
     "down": {
       "1": {
-        "answer": "JNU",
-        "clue": "Academic hub cancels event due to secrecy concerns surrounding speaker.",
-        "length": 3,
-        "topical": true,
-        "source_snippet": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
-        "source": "news",
-        "review_recommended": true
-      },
-      "29": {
-        "answer": "ARCSECOND",
-        "clue": "Angular unit of one sixty-millionth degree",
-        "length": 9,
+        "answer": "JAMMIES",
+        "clue": "Small, informal gatherings of friends.",
+        "length": 7,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
-      "14": {
-        "answer": "TRILLIONS",
-        "clue": "Massive amounts of money in a single pile",
-        "length": 9,
+      "41": {
+        "answer": "MAXI",
+        "clue": "Italian garment style",
+        "length": 4,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
-        "review_recommended": false
-      },
-      "51": {
-        "answer": "TAU",
-        "clue": "Greek letter of astronomical significance often seen in physics.",
-        "length": 3,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "2": {
-        "answer": "COE",
-        "clue": "Indian cricket rehab centre under scrutiny for player treatment",
-        "length": 3,
+        "answer": "DUDIDA",
+        "clue": "Kannada varsity professor's work on Andaman history.",
+        "length": 6,
         "topical": true,
-        "source_snippet": "\u2018CoE is not just a rehab centre\u2019: VVS defends facility amid India\u2019s injury crisis",
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Kannada varsity professor's work on Andaman history."
+          },
+          {
+            "angle": "concise",
+            "text": "Andaman historian's unconventional perspective"
+          },
+          {
+            "angle": "oblique",
+            "text": "Unveiling Andaman's lesser-known past\"\n\n(Or, alternatively)\n\n\"Islands' untold stories emerge in this book"
+          }
+        ],
+        "source_snippet": "Book on Andaman history brings out aspects left out by conventional history: Kannada varsity professor",
         "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/news/cities/Mangalore/book-on-andaman-history-brings-out-aspects-left-out-by-conventional-history-kannada-varsity-professor/article71324244.ece",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-09T10:35:55.805613+00:00"
+        },
         "review_recommended": true
       },
-      "21": {
-        "answer": "DETONATIONS",
-        "clue": "Explosive echoes heard after a loud crash sounds",
-        "length": 11,
+      "31": {
+        "answer": "TOILETTE",
+        "clue": "French beauty product container",
+        "length": 8,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
-        "review_recommended": false
-      },
-      "15": {
-        "answer": "RAID",
-        "clue": "Forceful entry into a secure facility often.",
-        "length": 4,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "37": {
-        "answer": "TIS",
-        "clue": "Ancient Greek phrase used by a philosopher",
-        "length": 3,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "3": {
-        "answer": "SBI",
-        "clue": "Banks' bad debt woes spark stock surge for Indian giant",
-        "length": 3,
-        "topical": true,
-        "source_snippet": "Market recap: Four of top 10 firms add Rs 1.43 lakh crore; SBI bags biggest gains",
-        "source": "news",
-        "review_recommended": true
-      },
-      "22": {
-        "answer": "DETAIL",
-        "clue": "Small part of a larger whole often overlooked",
-        "length": 6,
+        "answer": "STRESSANDSTRAIN",
+        "clue": "Emotional price of a long commute",
+        "length": 15,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
-        "review_recommended": false
-      },
-      "52": {
-        "answer": "SEP",
-        "clue": "Roman numeral marking the start of autumn.",
-        "length": 3,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "18": {
-        "answer": "SASH",
-        "clue": "Flower arrangement accessory in Asian fashion",
-        "length": 4,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "38": {
-        "answer": "NSFS",
-        "clue": "Famous New Zealand mountain range, often featured on stamps",
-        "length": 4,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "4": {
-        "answer": "JILT",
-        "clue": "Sternly rejected by someone you trusted completely",
-        "length": 4,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "31": {
-        "answer": "ONE",
-        "clue": "Single digit that's always on its own side.",
-        "length": 3,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "46": {
-        "answer": "ALBIN",
-        "clue": "Acting leader from a Balkan nation targeted by protester",
-        "length": 5,
-        "topical": true,
-        "source_snippet": "Watch: Moment opposition MP throws eggs at Kosovo's acting PM",
-        "source": "news",
-        "review_recommended": true
-      },
-      "11": {
-        "answer": "REEXAMINATION",
-        "clue": "A fresh look at a past mistake's value",
-        "length": 13,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "5": {
-        "answer": "REEVE",
-        "clue": "Ship's official overseeing authority member sometimes",
-        "length": 5,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "32": {
-        "answer": "APT",
-        "clue": "Fit for purpose or a skilled carpenter",
+        "answer": "TOSH",
+        "clue": "Flippant response often given to unwanted guests.",
+        "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "52": {
+        "answer": "LET",
+        "clue": "Tiny piece of paper",
         "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
-      "49": {
-        "answer": "MONO",
-        "clue": "Single-tone sound of a single note instrument",
-        "length": 4,
+      "4": {
+        "answer": "AMP",
+        "clue": "Symbol for voltage levels",
+        "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
-      "19": {
-        "answer": "ESPS",
-        "clue": "Group of women serving on a ship together",
-        "length": 4,
+      "37": {
+        "answer": "RYE",
+        "clue": "Grain used in Indian flatbread.",
+        "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
-      "39": {
-        "answer": "ATPS",
-        "clue": "Measure of human endurance or athletic feat",
-        "length": 4,
+      "53": {
+        "answer": "IRE",
+        "clue": "Ember of anger or frustration, for short.",
+        "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "5": {
+        "answer": "SARDINE",
+        "clue": "Tiny fish in oil",
+        "length": 7,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "6": {
-        "answer": "VHF",
-        "clue": "Radio band used by AM stations occasionally",
-        "length": 3,
+        "answer": "STOOLIES",
+        "clue": "Small furniture often used in traditional Indian settings.",
+        "length": 8,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
-        "review_recommended": false
-      },
-      "28": {
-        "answer": "APPLES",
-        "clue": "Fruit often eaten with peanut butter or pie",
-        "length": 6,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "54": {
-        "answer": "LOK",
-        "clue": "Indian parliamentary chamber with seats under review",
+        "answer": "NGT",
+        "clue": "Environmental watchdog's report required by Jairam Ramesh",
         "length": 3,
         "topical": true,
-        "source_snippet": "T.N. MPs\u2019 meeting convened by CM Vijay seeks freeze on 543 Lok Sabha seats",
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Environmental watchdog's report required by Jairam Ramesh"
+          },
+          {
+            "angle": "concise",
+            "text": "Environmental watchdog issues order publicly"
+          },
+          {
+            "angle": "oblique",
+            "text": "Environmental watchdog in India's bureaucracy?"
+          }
+        ],
+        "source_snippet": "NGT must make public report of panel that reviewed approvals for Nicobar project: Jairam Ramesh",
         "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/news/national/nicobar-project-approvals-review-ngt-panel-report-public-congress/article71324112.ece",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-09T10:35:55.805613+00:00"
+        },
         "review_recommended": true
       },
-      "24": {
-        "answer": "TSA",
-        "clue": "Security agency screening all luggage carefully overseas.",
-        "length": 3,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "43": {
-        "answer": "SAHA",
-        "clue": "Bengali cinema's Oscar nod winner for a notable role.",
-        "length": 4,
+      "16": {
+        "answer": "THAMNAPOKPI",
+        "clue": "Manipur arrests of extortion and recruitment figures",
+        "length": 11,
         "topical": true,
-        "source_snippet": "Amit Saha (born 6 November 1978) is an Indian actor primarily working in Bengali film industry. He played leading role in the National Award Winning film Bakita Byaktigoto with Ritwik Cakroborty.",
-        "source": "trivia",
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Manipur arrests of extortion and recruitment figures"
+          },
+          {
+            "angle": "concise",
+            "text": "Manipur extortion suspects in custody, for short"
+          },
+          {
+            "angle": "oblique",
+            "text": "Manipur's recent security headache?"
+          }
+        ],
+        "source_snippet": "Four militants involved in extortion, cadre recruitment arrested in Manipur",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/news/national/manipur/four-militants-involved-in-extortion-cadre-recruitment-arrested-in-manipur/article71324175.ece",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-09T10:35:55.805613+00:00"
+        },
         "review_recommended": true
       },
       "7": {
-        "answer": "MRKNOWITALL",
-        "clue": "Sarcastic persona from a classic cartoon",
-        "length": 11,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "55": {
-        "answer": "SIR",
-        "clue": "Title of a British nobleman of old",
+        "answer": "CPR",
+        "clue": "Rescue technique for cardiac arrest victims",
         "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "34": {
+        "answer": "TAKAICHI",
+        "clue": "Nagasaki's August 9 commemoration event",
+        "length": 8,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Nagasaki's August 9 commemoration event"
+          },
+          {
+            "angle": "concise",
+            "text": "Nagasaki's somber commemorative ritual"
+          },
+          {
+            "angle": "oblique",
+            "text": "Nagasaki's mayor expresses nuclear caution"
+          }
+        ],
+        "source_snippet": "Nagasaki marks 81st atomic bomb anniversary as Mayor says nuclear deterrence only increases risk",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/news/international/nagasaki-marks-81st-atomic-bomb-anniversary/article71324359.ece",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-09T10:35:55.805613+00:00"
+        },
+        "review_recommended": true
+      },
+      "39": {
+        "answer": "CANTEEN",
+        "clue": "Portable water container for soldiers",
+        "length": 7,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "8": {
-        "answer": "POI",
-        "clue": "Small but notable location on a map",
+        "answer": "ABC",
+        "clue": "Initial letter of alphabet sequence",
         "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
-      "25": {
-        "answer": "PANORAMAS",
-        "clue": "Viewing scenic vistas from a single vantage point",
-        "length": 9,
+      "24": {
+        "answer": "ABM",
+        "clue": "What's left of a Cold War-era diplomatic tool?",
+        "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "55": {
+        "answer": "SAS",
+        "clue": "Special forces unit of the British Army.",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
       "9": {
-        "answer": "SCREENERS",
-        "clue": "Folks who review medical test results carefully always",
-        "length": 9,
+        "answer": "TET",
+        "clue": "Indian festival marking Diwali",
+        "length": 3,
         "topical": false,
+        "clue_options": null,
         "source_snippet": "",
         "source": null,
+        "context_meta": null,
         "review_recommended": false
       },
-      "56": {
-        "answer": "IAN",
-        "clue": "Chess champion of India's royal connection to the game.",
-        "length": 3,
-        "topical": true,
-        "source_snippet": "The Stateless Kings: How Chess preserves an ideal in a fractured world",
-        "source": "news",
-        "review_recommended": true
+      "25": {
+        "answer": "PROF",
+        "clue": "Colleague of a tutor at university.",
+        "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "10": {
+        "answer": "EMOTIONALOUTLET",
+        "clue": "What city is home to India's largest lake?",
+        "length": 15,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "11": {
+        "answer": "SARATOGA",
+        "clue": "Site of the famous horse racing event.",
+        "length": 8,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "44": {
+        "answer": "GROINS",
+        "clue": "Structural element in some Indian temple designs",
+        "length": 6,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "17": {
+        "answer": "SPAM",
+        "clue": "Canned meat that's also a Hawaiian classic dish.",
+        "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "40": {
+        "answer": "VANESSA",
+        "clue": "Actress known for her roles in 'Scream' and 'Kingdom of Heaven'.",
+        "length": 7,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
       }
     }
   }

@@ -7,66 +7,74 @@
     "cols": 9
   },
   "grid": [
-    "W####SLAP",
-    "SERFS#IMF",
-    "WYE#OLMEC",
-    "SEDIMENTS",
-    "#H#DEV#H#",
-    "VOLODYMYR",
-    "ELISA#ESE",
-    "TED#YENTA",
-    "SSSS####L"
+    "MSGS#AAAS",
+    "ONUS##NAP",
+    "SEAWORTHY",
+    "TAR###E#S",
+    "#KANNADA#",
+    "V#N###ALA",
+    "INTIMATES",
+    "ICE##DEVI",
+    "ICED#ASEA"
   ],
   "numbering": {
     "0,0": 1,
-    "0,5": 2,
-    "0,6": 3,
-    "0,7": 4,
-    "0,8": 5,
-    "1,0": 6,
-    "1,1": 7,
-    "1,2": 8,
-    "1,4": 9,
+    "0,1": 2,
+    "0,2": 3,
+    "0,3": 4,
+    "0,5": 5,
+    "0,6": 6,
+    "0,7": 7,
+    "0,8": 8,
+    "1,0": 9,
     "1,6": 10,
     "2,0": 11,
-    "2,4": 12,
-    "2,5": 13,
-    "3,0": 14,
-    "3,3": 15,
-    "4,3": 16,
-    "5,0": 17,
-    "5,2": 18,
-    "5,6": 19,
-    "5,8": 20,
-    "6,0": 21,
-    "6,6": 22,
-    "7,0": 23,
-    "7,4": 24,
-    "8,0": 25
+    "3,0": 12,
+    "4,1": 13,
+    "4,7": 14,
+    "5,0": 15,
+    "5,6": 16,
+    "5,8": 17,
+    "6,0": 18,
+    "6,1": 19,
+    "6,5": 20,
+    "7,0": 21,
+    "7,5": 22,
+    "8,0": 23,
+    "8,5": 24
   },
   "clues": {
     "across": {
-      "2": {
-        "answer": "SLAP",
-        "clue": "Physical gesture that can be very rude sometimes",
+      "1": {
+        "answer": "MSGS",
+        "clue": "Short texts from friends and family members",
         "length": 4,
         "topical": false,
         "source_snippet": "",
         "source": null,
         "review_recommended": false
       },
-      "6": {
-        "answer": "SERFS",
-        "clue": "Feudal subjects bound to the land",
-        "length": 5,
+      "5": {
+        "answer": "AAAS",
+        "clue": "American Academy of Sciences is a membership body",
+        "length": 4,
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
+      },
+      "9": {
+        "answer": "ONUS",
+        "clue": "A weight that's added to an already difficult test",
+        "length": 4,
         "topical": false,
         "source_snippet": "",
         "source": null,
         "review_recommended": false
       },
       "10": {
-        "answer": "IMF",
-        "clue": "International money institution with acronyms",
+        "answer": "NAP",
+        "clue": "Short snooze often taken by the weary sleeper",
         "length": 3,
         "topical": false,
         "source_snippet": "",
@@ -74,89 +82,80 @@
         "review_recommended": false
       },
       "11": {
-        "answer": "WYE",
-        "clue": "River fork that's also an old term for Y",
-        "length": 3,
+        "answer": "SEAWORTHY",
+        "clue": "Vessel's quality measured by its buoyancy factor",
+        "length": 9,
         "topical": false,
         "source_snippet": "",
         "source": null,
         "review_recommended": false
       },
       "12": {
-        "answer": "OLMEC",
-        "clue": "Ancient Mesoamerican civilization's last stronghold",
-        "length": 5,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "14": {
-        "answer": "SEDIMENTS",
-        "clue": "Layer by layer, it settles to the bottom",
-        "length": 9,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "16": {
-        "answer": "DEV",
-        "clue": "Indian cricket legend's surname that means 'God is great'.",
+        "answer": "TAR",
+        "clue": "Pitch from a tree's sap collection process",
         "length": 3,
-        "topical": true,
-        "source_snippet": "Kapildev Ramlal Nikhanj (pronunciation: [k\u0259pil de\u02d0\u028b] born 6 January 1959) is an Indian former cricket team captain. Regarded as one of the greatest all-rounders in the history of cricket, he was a fast-medium bowler and a hard-hitting middle-order batsman.",
-        "source": "trivia",
-        "review_recommended": true
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
       },
-      "17": {
-        "answer": "VOLODYMYR",
-        "clue": "Zelenskyy's father, Ukraine president since 2014",
-        "length": 9,
+      "13": {
+        "answer": "KANNADA",
+        "clue": "Southern Indian language of Mysore royal connection",
+        "length": 7,
         "topical": true,
-        "source_snippet": "Child among three killed in Russian missile attacks near Kyiv",
+        "source_snippet": "Book on Andaman history brings out aspects left out by conventional history: Kannada varsity professor",
         "source": "news",
         "review_recommended": true
       },
+      "16": {
+        "answer": "ALA",
+        "clue": "Branch of learning recognized by UNESCO officially",
+        "length": 3,
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
+      },
+      "18": {
+        "answer": "INTIMATES",
+        "clue": "People you'd trust with your deepest secrets slowly.",
+        "length": 9,
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
+      },
       "21": {
-        "answer": "ELISA",
-        "clue": "Blood test that detects tiny foreign invaders",
-        "length": 5,
+        "answer": "ICE",
+        "clue": "Frozen treat often found in cocktails.",
+        "length": 3,
         "topical": false,
         "source_snippet": "",
         "source": null,
         "review_recommended": false
       },
       "22": {
-        "answer": "ESE",
-        "clue": "Direction from southeast to northeast on a map",
-        "length": 3,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
+        "answer": "DEVI",
+        "clue": "Nazi collaborator from France who spied on Indian forces",
+        "length": 4,
+        "topical": true,
+        "source_snippet": "Savitri Devi Mukherji (born Maximiani Julia Portas, French: [maksimjani p\u0254\u0281t\u0251s]; 30 September 1905 \u2013 22 October 1982) was a French-born Greek  Nazi activist, spy, and author. She served the Axis powers by committing acts of espionage against the Allied forces in India.",
+        "source": "trivia",
+        "review_recommended": true
       },
       "23": {
-        "answer": "TED",
-        "clue": "Speaker series founded by Bill Gates",
-        "length": 3,
+        "answer": "ICED",
+        "clue": "Frosty drink that's chilly to the core sometimes",
+        "length": 4,
         "topical": false,
         "source_snippet": "",
         "source": null,
         "review_recommended": false
       },
       "24": {
-        "answer": "YENTA",
-        "clue": "Social climber of gossip and disdain",
-        "length": 5,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "25": {
-        "answer": "SSSS",
-        "clue": "Five-letter hiss of a snake's warning cry",
+        "answer": "ASEA",
+        "clue": "Region between Africa and Southeast Asia",
         "length": 4,
         "topical": false,
         "source_snippet": "",
@@ -166,44 +165,8 @@
     },
     "down": {
       "1": {
-        "answer": "WSWS",
-        "clue": "Five letters of a wavy sea floor feature",
-        "length": 4,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "17": {
-        "answer": "VETS",
-        "clue": "Animal care professionals with medical degrees often",
-        "length": 4,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "7": {
-        "answer": "EYEHOLES",
-        "clue": "Small openings on a certain pirate's head",
-        "length": 8,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "8": {
-        "answer": "RED",
-        "clue": "Mughal emperor's signature color for grand projects.",
-        "length": 3,
-        "topical": true,
-        "source_snippet": "The Red Fort (Lal Qila in Hindi; Hindi pronunciation: [la\u02d0l 'q\u026ala\u02d0]) is a historic Mughal fort located in the Old Delhi area of Delhi, India. Serving as the main residence of the Mughal emperors, it was commissioned by Emperor Shah Jahan on the 12th of May 1639; the fort was constructed following his decision to shift the Mughal capital from Agra to Delhi.",
-        "source": "trivia",
-        "review_recommended": true
-      },
-      "18": {
-        "answer": "LIDS",
-        "clue": "Coverings for glasses and hats, often discarded",
+        "answer": "MOST",
+        "clue": "Common descriptor of a larger share or amount often used.",
         "length": 4,
         "topical": false,
         "source_snippet": "",
@@ -211,76 +174,103 @@
         "review_recommended": false
       },
       "15": {
-        "answer": "IDOS",
-        "clue": "Greek philosopher's supposed inferior blood type",
+        "answer": "VIII",
+        "clue": "Roman numeral for eight times born",
         "length": 4,
         "topical": false,
         "source_snippet": "",
         "source": null,
         "review_recommended": false
       },
-      "9": {
-        "answer": "SOMEDAY",
-        "clue": "Future plans may include this phrase sometimes found",
-        "length": 7,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "13": {
-        "answer": "LEVY",
-        "clue": "Tax collector's demand often has a penalty",
-        "length": 4,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "3": {
-        "answer": "LIMN",
-        "clue": "Greek poet's mysterious task often described",
-        "length": 4,
+      "2": {
+        "answer": "SNEAK",
+        "clue": "Move stealthily and quietly without detection sometimes.",
+        "length": 5,
         "topical": false,
         "source_snippet": "",
         "source": null,
         "review_recommended": false
       },
       "19": {
-        "answer": "MEN",
-        "clue": "Group commonly found at sporting events and bars",
+        "answer": "NCC",
+        "clue": "Bats for over an hour at a cricket training ground",
         "length": 3,
+        "topical": true,
+        "source_snippet": "Marathon hit! Shubman Gill bats for over an hour at NCC nets",
+        "source": "news",
+        "review_recommended": true
+      },
+      "3": {
+        "answer": "GUARANTEE",
+        "clue": "Risk-free promise made by a lender always",
+        "length": 9,
         "topical": false,
         "source_snippet": "",
         "source": null,
         "review_recommended": false
       },
       "4": {
-        "answer": "AMETHYST",
-        "clue": "Treasured gemstone of royalty and nobility",
-        "length": 8,
-        "topical": false,
-        "source_snippet": "",
-        "source": null,
-        "review_recommended": false
-      },
-      "5": {
-        "answer": "PFCS",
-        "clue": "Federal program for public schools funding",
-        "length": 4,
+        "answer": "SSW",
+        "clue": "Direction that's halfway between southwest and southeast corners.",
+        "length": 3,
         "topical": false,
         "source_snippet": "",
         "source": null,
         "review_recommended": false
       },
       "20": {
-        "answer": "REAL",
-        "clue": "Genuine article found in a movie trailer or soap opera",
+        "answer": "ADA",
+        "clue": "American disability rights law enacted in 1990",
+        "length": 3,
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
+      },
+      "6": {
+        "answer": "ANTEDATES",
+        "clue": "Old dates that are now out of favor",
+        "length": 9,
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
+      },
+      "7": {
+        "answer": "AAH",
+        "clue": "Excitement and distress expressed in a single syllable",
+        "length": 3,
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
+      },
+      "14": {
+        "answer": "ALEVE",
+        "clue": "Medication often taken after a nasty bug bite",
+        "length": 5,
+        "topical": false,
+        "source_snippet": "",
+        "source": null,
+        "review_recommended": false
+      },
+      "8": {
+        "answer": "SPYS",
+        "clue": "Secret agents with licenses to kill",
         "length": 4,
         "topical": false,
         "source_snippet": "",
         "source": null,
         "review_recommended": false
+      },
+      "17": {
+        "answer": "ASIA",
+        "clue": "Landmass home to the Strait of Hormuz",
+        "length": 4,
+        "topical": true,
+        "source_snippet": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
+        "source": "news",
+        "review_recommended": true
       }
     }
   }

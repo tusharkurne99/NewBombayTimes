@@ -7,10 +7,9 @@
     "interlock_score": 0
   },
   "NEHRU": {
-    "source": "trivia",
-    "snippet": "Jawaharlal Nehru (14 November 1889 \u2013 27 May 1964) was an Indian anti-colonial nationalist, secular humanist, social democrat, and statesman who was a central figure in India during the middle of the 20th century. Nehru was a principal leader of the Indian nationalist movement in the 1930s and 1940s.",
-    "topic": "history",
-    "score": 359415,
+    "source": "news",
+    "snippet": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+    "score": 3,
     "interlock_score": 50
   },
   "TAJ": {
@@ -69,8 +68,8 @@
   },
   "INDIA": {
     "source": "news",
-    "snippet": "India\u2019s Experience Economy set to reach $59.2 billion by 2030: EEMA president",
-    "score": 7.0,
+    "snippet": "CIAL posts record \u20b9502-crore net profit",
+    "score": 6.25,
     "interlock_score": 50
   },
   "KAMBOJ": {
@@ -116,9 +115,10 @@
     "interlock_score": 0
   },
   "PADIKKAL": {
-    "source": "news",
-    "snippet": "Jadeja\u2019s Kuldeep imitation leaves Gambhir in splits - Watch",
-    "score": 3,
+    "source": "trivia",
+    "snippet": "Devdutt Padikkal (Malayalam: [d\u032ae\u02d0\u028bd\u032aat\u032a pa\u0256ik\u02d0al]; born 7 July 2000) is an Indian cricketer who has played for the Indian national cricket team in Tests and Twenty20 Internationals (T20I). He made his international debut in July 2021 in a T20I against Sri Lanka and test debut in March 2024 against England.",
+    "topic": "cricket",
+    "score": 107565,
     "interlock_score": 0
   },
   "PATAUDI": {
@@ -149,9 +149,10 @@
     "interlock_score": 50
   },
   "JADEJA": {
-    "source": "news",
-    "snippet": "Jadeja\u2019s Kuldeep imitation leaves Gambhir in splits - Watch",
-    "score": 4,
+    "source": "trivia",
+    "snippet": "Ravindrasinh Anirudhsinh Jadeja (born 6 December 1988) is an Indian cricketer who represents the India national team currently in ODI and Test formats. He is an all-rounder, who bats left-handed and bowls left-arm orthodox spin.",
+    "topic": "cricket",
+    "score": 86789,
     "interlock_score": 0
   },
   "DEV": {
@@ -176,9 +177,10 @@
     "interlock_score": 21
   },
   "PANT": {
-    "source": "news",
-    "snippet": "Jadeja\u2019s Kuldeep imitation leaves Gambhir in splits - Watch",
-    "score": 3,
+    "source": "trivia",
+    "snippet": "Rishabh Rajendra Pant (Hindi: [\u027e\u026a\u02c8\u0282\u028cb\u02b0 \u027ea\u02d0'd\u0292e\u02d0d\u032a\u027e\u0259 p\u028cnt\u032a]; born 4 October 1997) is an Indian international cricketer who plays for the Indian national team as a wicket-keeper batter. He plays for the Delhi Capitals in the Indian Premier League and Delhi in domestic cricket.",
+    "topic": "cricket",
+    "score": 80150,
     "interlock_score": 50
   },
   "FISH": {
@@ -203,10 +205,9 @@
     "interlock_score": 9
   },
   "RED": {
-    "source": "trivia",
-    "snippet": "The Red Fort (Lal Qila in Hindi; Hindi pronunciation: [la\u02d0l 'q\u026ala\u02d0]) is a historic Mughal fort located in the Old Delhi area of Delhi, India. Serving as the main residence of the Mughal emperors, it was commissioned by Emperor Shah Jahan on the 12th of May 1639; the fort was constructed following his decision to shift the Mughal capital from Agra to Delhi.",
-    "topic": "geography",
-    "score": 63224,
+    "source": "news",
+    "snippet": "Yemen's Houthis Claim Attack On Aramco Refinery On Red Sea Coast",
+    "score": 4,
     "interlock_score": 50
   },
   "QUTB": {
@@ -258,10 +259,9 @@
     "interlock_score": 0
   },
   "ROY": {
-    "source": "trivia",
-    "snippet": "Raja Ram Mohan Roy (22 May 1772 \u2013 27 September 1833) was an Indian social reformer and writer who was one of the founders of the Brahmo Sabha in 1828, the precursor of the Brahmo Samaj, a socio-religious reform movement in the Indian subcontinent. He has been dubbed the \"Father of the Indian Renaissance.\" He was given the title of Raja by Mughal emperor Akbar II (r.\u20091806\u20131837).",
-    "topic": "history",
-    "score": 53910,
+    "source": "news",
+    "snippet": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
+    "score": 4,
     "interlock_score": 50
   },
   "PANEER": {
@@ -426,10 +426,9 @@
     "interlock_score": 50
   },
   "GANDHI": {
-    "source": "trivia",
-    "snippet": "Devdas Mohandas Gandhi (22 May 1900 \u2013 3 August 1957) was the fourth and youngest son of Mahatma Gandhi and Kasturba Gandhi. He was born in the Colony of Natal and came to India with his parents as a grown man.",
-    "topic": "history",
-    "score": 36222,
+    "source": "news",
+    "snippet": "End corrupt system with love and affection, Rahul Gandhi tells students",
+    "score": 7,
     "interlock_score": 50
   },
   "NAAN": {
@@ -629,10 +628,9 @@
     "interlock_score": 13
   },
   "SINGH": {
-    "source": "trivia",
-    "snippet": "Veer Kunwar Singh, also known as Babu Kunwar Singh was a chief organiser of the Indian Rebellion of 1857 from the Bhojpur region of Bihar. He was originally the ruler of Jagdishpur estate.",
-    "topic": "history",
-    "score": 10846,
+    "source": "news",
+    "snippet": "BRICS Culture Ministers\u2019 meet adopts Bhopal Declaration to boost cultural cooperation; focuses on creators\u2019 networking",
+    "score": 3,
     "interlock_score": 36
   },
   "MOHANI": {
@@ -1040,89 +1038,89 @@
     "score": 17,
     "interlock_score": 0
   },
-  "CANADA": {
-    "source": "news",
-    "snippet": "Man arrested 7 months after Indian woman's murder in Canada",
-    "score": 15,
-    "interlock_score": 50
-  },
   "MESSI": {
     "source": "news",
     "snippet": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
     "score": 14,
     "interlock_score": 44
   },
-  "COLOMBIA": {
-    "source": "news",
-    "snippet": "Car-bomb attack targets southwest Colombia day after conservative President takes office",
-    "score": 11,
-    "interlock_score": 35
-  },
   "HORMUZ": {
     "source": "news",
-    "snippet": "West Asia war LIVE: UAE says Iran targeted tanker as Oman cites progress in Hormuz talks",
-    "score": 10,
+    "snippet": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
+    "score": 13,
     "interlock_score": 24
-  },
-  "DELHI": {
-    "source": "news",
-    "snippet": "AIIMS Delhi terminates security guard after complaint of\u00a0misbehaviour\u00a0with woman patient",
-    "score": 10,
-    "interlock_score": 50
-  },
-  "RAGHUVANSHI": {
-    "source": "news",
-    "snippet": "Raja Raghuvanshi\u2019s brothers booked for serving liquor without licence in Indore",
-    "score": 10,
-    "interlock_score": 0
-  },
-  "COLUMBIA": {
-    "source": "news",
-    "snippet": "\u2018Like a bomb going off\u2019: British Columbia wildfire triggers mass evacuations",
-    "score": 9,
-    "interlock_score": 40
-  },
-  "BIDEN": {
-    "source": "news",
-    "snippet": "Former U.S. President Biden\u2019s cancer has spread, it\u2019s very painful, says son",
-    "score": 8,
-    "interlock_score": 50
   },
   "WEST": {
     "source": "news",
-    "snippet": "West Asia war LIVE: UAE says Iran targeted tanker as Oman cites progress in Hormuz talks",
-    "score": 7,
+    "snippet": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
+    "score": 12,
     "interlock_score": 50
   },
-  "VIJAY": {
+  "DELHI": {
+    "source": "news",
+    "snippet": "Delhi crosses August rainfall average in first eight days",
+    "score": 10,
+    "interlock_score": 50
+  },
+  "SHANGHAI": {
+    "source": "news",
+    "snippet": "Shanghai cancels 1,300 flights as China prepares for Typhoon Dolphin",
+    "score": 10,
+    "interlock_score": 46
+  },
+  "KERALA": {
+    "source": "news",
+    "snippet": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
+    "score": 9,
+    "interlock_score": 30
+  },
+  "BARAMATI": {
+    "source": "news",
+    "snippet": "Trainer aircraft of private firm crashes near Baramati airstrip; no casualty reported",
+    "score": 9,
+    "interlock_score": 0
+  },
+  "CENTRE": {
     "source": "news",
     "snippet": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
-    "score": 7,
-    "interlock_score": 31
+    "score": 8,
+    "interlock_score": 36
   },
-  "JOE": {
+  "YEMEN": {
     "source": "news",
-    "snippet": "Former U.S. President Biden\u2019s cancer has spread, it\u2019s very painful, says son",
+    "snippet": "Yemen\u2019s Houthis claim attack on Aramco facility as Saudi says fire extinguished",
+    "score": 8,
+    "interlock_score": 50
+  },
+  "JAPAN": {
+    "source": "news",
+    "snippet": "Woman tries Japan\u2019s \u2018rent-a-dad\u2019 service and finds goodbye unexpectedly hard",
+    "score": 8,
+    "interlock_score": 50
+  },
+  "LEE": {
+    "source": "news",
+    "snippet": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
+    "score": 8,
+    "interlock_score": 50
+  },
+  "STEVE": {
+    "source": "news",
+    "snippet": "Pentagon pushes defence companies to boost weapons production after concerns of depleted stocks",
     "score": 7,
     "interlock_score": 50
   },
-  "UNION": {
+  "WORLD": {
     "source": "news",
-    "snippet": "Two men held for taking photographs inside Arunachaleswarar temple",
+    "snippet": "'Can\u2019t go series by series': Rahane demands clarity over Rohit Sharma's WC spot",
     "score": 7,
     "interlock_score": 50
   },
-  "RAJA": {
+  "PRAKHAR": {
     "source": "news",
-    "snippet": "Raja Raghuvanshi\u2019s brothers booked for serving liquor without licence in Indore",
+    "snippet": "UP BJP MLA alleges daughter duped into marriage with conman who \u2018married 25 women\u2019",
     "score": 7,
-    "interlock_score": 50
-  },
-  "MODI": {
-    "source": "news",
-    "snippet": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
-    "score": 7,
-    "interlock_score": 31
+    "interlock_score": 0
   },
   "MOJTABA": {
     "source": "news",
@@ -1136,17 +1134,23 @@
     "score": 7,
     "interlock_score": 27
   },
-  "ESPRIELLA": {
-    "source": "news",
-    "snippet": "Colombia rocked by car bomb blast a day after new President takes charge",
-    "score": 7,
-    "interlock_score": 0
-  },
   "KASHMIR": {
     "source": "news",
     "snippet": "After Recent Terror Attacks, Cops Raid 26 Locations In J&K's Sopore",
     "score": 7,
     "interlock_score": 44
+  },
+  "GEN": {
+    "source": "news",
+    "snippet": "Be aware of external forces trying to mislead you through social media: Odisha CM to Gen Z",
+    "score": 6,
+    "interlock_score": 50
+  },
+  "RSS": {
+    "source": "news",
+    "snippet": "Vande Mataram row: Kerala\u2019s UDF govt. again faces allegations of toeing the RSS line",
+    "score": 6,
+    "interlock_score": 46
   },
   "JAMMU": {
     "source": "news",
@@ -1160,101 +1164,53 @@
     "score": 6,
     "interlock_score": 23
   },
-  "ARABIA": {
-    "source": "news",
-    "snippet": "Fire extinguished at Aramco facility in Jizan, says Saudi Arabia",
-    "score": 6,
-    "interlock_score": 50
-  },
-  "OMAN": {
-    "source": "news",
-    "snippet": "West Asia war LIVE: UAE says Iran targeted tanker as Oman cites progress in Hormuz talks",
-    "score": 6,
-    "interlock_score": 50
-  },
-  "UNITED": {
-    "source": "news",
-    "snippet": "West Asia war LIVE: UAE says Iran targeted tanker as Oman cites progress in Hormuz talks",
-    "score": 6,
-    "interlock_score": 50
-  },
-  "KERALA": {
-    "source": "news",
-    "snippet": "Vande Mataram row: Kerala\u2019s UDF govt. again faces allegations of toeing the RSS line",
-    "score": 6,
-    "interlock_score": 30
-  },
-  "TORONTO": {
-    "source": "news",
-    "snippet": "Man arrested 7 months after Indian woman's murder in Canada",
-    "score": 6,
-    "interlock_score": 50
-  },
-  "CENTRE": {
-    "source": "news",
-    "snippet": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
-    "score": 6,
-    "interlock_score": 36
-  },
-  "TAMIL": {
-    "source": "news",
-    "snippet": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
-    "score": 6,
-    "interlock_score": 50
-  },
-  "BRAZIL": {
-    "source": "news",
-    "snippet": "P.M. Bhargava: The Indian man who saw tomorrow in a cell",
-    "score": 6,
-    "interlock_score": 39
-  },
   "PENTAGON": {
     "source": "news",
     "snippet": "Pentagon pushes defence companies to boost weapons production after concerns of depleted stocks",
     "score": 6,
     "interlock_score": 42
   },
-  "WASHINGTON": {
+  "MAHARASHTRA": {
     "source": "news",
-    "snippet": "Pentagon pushes defence companies to boost weapons production after concerns of depleted stocks",
+    "snippet": "Mild earthquake, tremors in Maharashtra\u2019s Nashik; cracks reported in houses",
     "score": 6,
-    "interlock_score": 48
+    "interlock_score": 32
   },
-  "IMD": {
+  "VANCE": {
     "source": "news",
-    "snippet": "Delhi crosses August rainfall average in first eight days",
+    "snippet": "U.S. Vice-President Vance dials PM Modi",
+    "score": 6,
+    "interlock_score": 42
+  },
+  "RAHUL": {
+    "source": "news",
+    "snippet": "End corrupt system with love and affection, Rahul Gandhi tells students",
     "score": 6,
     "interlock_score": 0
   },
-  "SAI": {
+  "CANADA": {
     "source": "news",
-    "snippet": "SIT grills suspended constables in Sai Krishna\u2019s \u2018custodial death\u2019 case",
-    "score": 6,
-    "interlock_score": 26
-  },
-  "MLA": {
-    "source": "news",
-    "snippet": "M.B. Patil: No confusion over Cabinet expansion and high command will resolve all issues",
-    "score": 6,
-    "interlock_score": 29
-  },
-  "CIVIL": {
-    "source": "news",
-    "snippet": "T.N. to focus on strengthening women\u2019s land rights, says Food and Civil Supplies Minister",
+    "snippet": "Indian-origin woman's partner arrested in Canada 7 months after her murder",
     "score": 6,
     "interlock_score": 50
   },
-  "VIPIN": {
+  "SHARMA": {
+    "source": "news",
+    "snippet": "'Can\u2019t go series by series': Rahane demands clarity over Rohit Sharma's WC spot",
+    "score": 6,
+    "interlock_score": 24
+  },
+  "MLA": {
+    "source": "news",
+    "snippet": "UP BJP MLA alleges daughter duped into marriage with conman who \u2018married 25 women\u2019",
+    "score": 6,
+    "interlock_score": 29
+  },
+  "RAGHUVANSHI": {
     "source": "news",
     "snippet": "Raja Raghuvanshi\u2019s brothers booked for serving liquor without licence in Indore",
     "score": 6,
     "interlock_score": 0
-  },
-  "SHANGHAI": {
-    "source": "news",
-    "snippet": "Typhoon Dolphin: Shanghai airports cancel 1,300 flights as China evacuates thousands",
-    "score": 6,
-    "interlock_score": 46
   },
   "PAUL": {
     "source": "news",
@@ -1262,27 +1218,81 @@
     "score": 6,
     "interlock_score": 50
   },
-  "ABELARDO": {
+  "AUSTRALIA": {
     "source": "news",
-    "snippet": "Colombia rocked by car bomb blast a day after new President takes charge",
+    "snippet": "Crew Member Injured In 'Near Collision' At Sydney Airport, Probe On",
     "score": 6,
-    "interlock_score": 0
+    "interlock_score": 47
   },
-  "RSS": {
+  "MANIPUR": {
     "source": "news",
-    "snippet": "Vande Mataram row: Kerala\u2019s UDF govt. again faces allegations of toeing the RSS line",
+    "snippet": "Four militants involved in extortion, cadre recruitment arrested in Manipur",
     "score": 5,
-    "interlock_score": 46
+    "interlock_score": 19
   },
-  "LEE": {
+  "TAMIL": {
     "source": "news",
-    "snippet": "\u2018I don\u2019t care how old he is\u2019: Brett Lee\u2019s big warning for Vaibhav Sooryavanshi",
+    "snippet": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
     "score": 5,
     "interlock_score": 50
   },
-  "TRIVEDI": {
+  "TIRUPATI": {
     "source": "news",
-    "snippet": "UP BJP MLA alleges daughter duped into marriage with conman who \u2018married 25 women\u2019",
+    "snippet": "Government to transform Amaravati, Vizag, Tirupati into mega cities, says Minister",
+    "score": 5,
+    "interlock_score": 0
+  },
+  "BENGALURU": {
+    "source": "news",
+    "snippet": "Two killed, 25 injured as Kerala SRTC bus crashes into signboard on Bengaluru-Mysuru Highway",
+    "score": 5,
+    "interlock_score": 0
+  },
+  "KSRTC": {
+    "source": "news",
+    "snippet": "KSRTC accident trail puts driver deployment, ageing fleet under scrutiny",
+    "score": 5,
+    "interlock_score": 0
+  },
+  "ABHISHEK": {
+    "source": "news",
+    "snippet": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
+    "score": 5,
+    "interlock_score": 0
+  },
+  "BANERJEE": {
+    "source": "news",
+    "snippet": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
+    "score": 5,
+    "interlock_score": 0
+  },
+  "COURT": {
+    "source": "news",
+    "snippet": "Abhishek\u2019s aide appears before CID for second consecutive day for questioning in land fraud case",
+    "score": 5,
+    "interlock_score": 50
+  },
+  "ROHIT": {
+    "source": "news",
+    "snippet": "'Can\u2019t go series by series': Rahane demands clarity over Rohit Sharma's WC spot",
+    "score": 5,
+    "interlock_score": 0
+  },
+  "NIKE": {
+    "source": "news",
+    "snippet": "In 1997, Steve Jobs told employees: Nike sells shoes, yet inspires millions",
+    "score": 5,
+    "interlock_score": 50
+  },
+  "BRETT": {
+    "source": "news",
+    "snippet": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
+    "score": 5,
+    "interlock_score": 50
+  },
+  "KALLIS": {
+    "source": "news",
+    "snippet": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
     "score": 5,
     "interlock_score": 0
   },
@@ -1298,6 +1308,18 @@
     "score": 5,
     "interlock_score": 0
   },
+  "IRELAND": {
+    "source": "news",
+    "snippet": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
+    "score": 5,
+    "interlock_score": 49
+  },
+  "TRIVEDI": {
+    "source": "news",
+    "snippet": "UP BJP MLA alleges daughter duped into marriage with conman who \u2018married 25 women\u2019",
+    "score": 5,
+    "interlock_score": 0
+  },
   "JORGE": {
     "source": "news",
     "snippet": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
@@ -1310,41 +1332,17 @@
     "score": 5,
     "interlock_score": 39
   },
-  "INFANTINO": {
-    "source": "news",
-    "snippet": "FIFA hits back at \u2018concerted effort\u2019 to undermine Infantino amid fresh allegations",
-    "score": 5,
-    "interlock_score": 0
-  },
   "IRAN": {
     "source": "news",
-    "snippet": "West Asia war LIVE: UAE says Iran targeted tanker as Oman cites progress in Hormuz talks",
+    "snippet": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
     "score": 4.5,
     "interlock_score": 50
   },
-  "TEJPAL": {
+  "ODISHA": {
     "source": "news",
-    "snippet": "Bid to \u2018silence\u2019 him for investigative journalism: Tejpal\u2019s daughter on his conviction in rape case",
+    "snippet": "Be aware of external forces trying to mislead you through social media: Odisha CM to Gen Z",
     "score": 4,
     "interlock_score": 0
-  },
-  "YOGI": {
-    "source": "news",
-    "snippet": "U.P. CM Yogi showers flowers on Kanwariyas, describes Kanwar Yatra as unparalleled example of devotion, unity",
-    "score": 4,
-    "interlock_score": 50
-  },
-  "CHENNAI": {
-    "source": "news",
-    "snippet": "Residents in parts of Chennai flag sewage contamination of drinking water on social media",
-    "score": 4,
-    "interlock_score": 29
-  },
-  "ASIA": {
-    "source": "news",
-    "snippet": "West Asia war LIVE: UAE says Iran targeted tanker as Oman cites progress in Hormuz talks",
-    "score": 4,
-    "interlock_score": 50
   },
   "VANDE": {
     "source": "news",
@@ -1364,41 +1362,17 @@
     "score": 4,
     "interlock_score": 0
   },
-  "BHARGAVA": {
+  "IMD": {
     "source": "news",
-    "snippet": "P.M. Bhargava: The Indian man who saw tomorrow in a cell",
+    "snippet": "Delhi crosses August rainfall average in first eight days",
     "score": 4,
     "interlock_score": 0
   },
-  "MANIPUR": {
+  "VIJAY": {
     "source": "news",
-    "snippet": "Former Chief Justice of Manipur High Court D. Krishnakumar appointed Chairman of T.N. Law Commission",
+    "snippet": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
     "score": 4,
-    "interlock_score": 19
-  },
-  "NORTH": {
-    "source": "news",
-    "snippet": "Veerashaiva-Lingayat institutions played key role in promoting education in North Karnataka: M.B. Patil",
-    "score": 4,
-    "interlock_score": 50
-  },
-  "PATIL": {
-    "source": "news",
-    "snippet": "Veerashaiva-Lingayat institutions played key role in promoting education in North Karnataka: M.B. Patil",
-    "score": 4,
-    "interlock_score": 22
-  },
-  "KRISHNA": {
-    "source": "news",
-    "snippet": "YSRCP, farmers\u2019 body allege bid to weaken Krishna Milk Union",
-    "score": 4,
-    "interlock_score": 46
-  },
-  "BENGALURU": {
-    "source": "news",
-    "snippet": "Campaign mapping Bengaluru\u2019s stormwater drains brings citizens, data and research together",
-    "score": 4,
-    "interlock_score": 0
+    "interlock_score": 31
   },
   "JAMAAT": {
     "source": "news",
@@ -1412,71 +1386,95 @@
     "score": 4,
     "interlock_score": 0
   },
-  "LAXMAN": {
+  "CHINA": {
     "source": "news",
-    "snippet": "Induction of woman Minister into State Cabinet likely to be completed soon, says Laxman Savadi",
-    "score": 4,
-    "interlock_score": 0
+    "snippet": "Shanghai cancels 1,300 flights as China prepares for Typhoon Dolphin",
+    "score": 4.0,
+    "interlock_score": 50
   },
-  "SAVADI": {
+  "MADRAS": {
     "source": "news",
-    "snippet": "Induction of woman Minister into State Cabinet likely to be completed soon, says Laxman Savadi",
+    "snippet": "Madras Day 2026: the humble typewriter keeps clacking despite the digital takeover",
     "score": 4,
-    "interlock_score": 0
+    "interlock_score": 43
   },
-  "MAYAWATI": {
+  "SUPREME": {
     "source": "news",
-    "snippet": "Mayawati opposes \u2018creamy layer\u2019 for SCs, STs in reservation, hits out at RSS",
+    "snippet": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
     "score": 4,
-    "interlock_score": 0
+    "interlock_score": 46
   },
-  "MAHARASHTRA": {
+  "UNITED": {
     "source": "news",
-    "snippet": "Maharashtra CM orders fresh investigation of Siddhivinayak Temple donation case",
-    "score": 4,
-    "interlock_score": 32
-  },
-  "PHUKET": {
-    "source": "news",
-    "snippet": "Captain of turbulence-hit Phuket-Delhi flight may have failed dope test",
-    "score": 4,
-    "interlock_score": 0
-  },
-  "BRETT": {
-    "source": "news",
-    "snippet": "\u2018I don\u2019t care how old he is\u2019: Brett Lee\u2019s big warning for Vaibhav Sooryavanshi",
+    "snippet": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
     "score": 4,
     "interlock_score": 50
   },
-  "VAIBHAV": {
+  "FFSC": {
     "source": "news",
-    "snippet": "\u2018I don\u2019t care how old he is\u2019: Brett Lee\u2019s big warning for Vaibhav Sooryavanshi",
+    "snippet": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
     "score": 4,
     "interlock_score": 0
   },
-  "SOORYAVANSHI": {
+  "SPACE": {
     "source": "news",
-    "snippet": "\u2018I don\u2019t care how old he is\u2019: Brett Lee\u2019s big warning for Vaibhav Sooryavanshi",
-    "score": 4,
-    "interlock_score": 0
-  },
-  "AIRBNB": {
-    "source": "news",
-    "snippet": "Airbnb CEO reveals the non-AI feature that got the biggest reaction from analysts",
+    "snippet": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
     "score": 4,
     "interlock_score": 50
   },
-  "SHUBMAN": {
+  "SABHA": {
     "source": "news",
-    "snippet": "Marathon hit! Shubman Gill bats for over an hour at NCC nets",
+    "snippet": "T.N. MPs\u2019 meeting convened by CM Vijay seeks freeze on 543 Lok Sabha seats",
     "score": 4,
     "interlock_score": 0
   },
-  "PRAKHAR": {
+  "CEG": {
     "source": "news",
-    "snippet": "UP BJP MLA alleges daughter duped into marriage with conman who \u2018married 25 women\u2019",
+    "snippet": "CEG alumni warn about possible damage to heritage cupolas during widening of Sardar Patel Road",
     "score": 4,
     "interlock_score": 0
+  },
+  "KRISHNAKUMAR": {
+    "source": "news",
+    "snippet": "Former Chief Justice of Manipur High Court D. Krishnakumar appointed Chairman of T.N. Law Commission",
+    "score": 4,
+    "interlock_score": 0
+  },
+  "UMAR": {
+    "source": "news",
+    "snippet": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+    "score": 4,
+    "interlock_score": 30
+  },
+  "KHALID": {
+    "source": "news",
+    "snippet": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+    "score": 4,
+    "interlock_score": 50
+  },
+  "RAHANE": {
+    "source": "news",
+    "snippet": "'Can\u2019t go series by series': Rahane demands clarity over Rohit Sharma's WC spot",
+    "score": 4,
+    "interlock_score": 0
+  },
+  "SHAH": {
+    "source": "news",
+    "snippet": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
+    "score": 4,
+    "interlock_score": 50
+  },
+  "MODI": {
+    "source": "news",
+    "snippet": "'Answer for crime': Rahul attacks PM, Shah over police brutality against students",
+    "score": 4,
+    "interlock_score": 31
+  },
+  "NVIDIA": {
+    "source": "news",
+    "snippet": "Nvidia CEO's joke on parenting that created a heated debate over Asian parenting",
+    "score": 4,
+    "interlock_score": 20
   },
   "DELL": {
     "source": "news",
@@ -1490,11 +1488,17 @@
     "score": 4,
     "interlock_score": 50
   },
-  "HINTON": {
+  "JOBS": {
     "source": "news",
-    "snippet": "\u2018Godfather of AI\u2019 on AI models hacking other companies: More cyberattacks coming",
+    "snippet": "In 1997, Steve Jobs told employees: Nike sells shoes, yet inspires millions",
     "score": 4,
-    "interlock_score": 38
+    "interlock_score": 50
+  },
+  "SACHIN": {
+    "source": "news",
+    "snippet": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
+    "score": 4,
+    "interlock_score": 30
   },
   "STEPHEN": {
     "source": "news",
@@ -1514,10 +1518,52 @@
     "score": 4,
     "interlock_score": 32
   },
-  "CHINA": {
+  "ARUNACHAL": {
     "source": "news",
-    "snippet": "Typhoon Dolphin: Shanghai airports cancel 1,300 flights as China evacuates thousands",
-    "score": 4.0,
+    "snippet": "Latest Arunachal map shows 3 places illegally held by China",
+    "score": 4,
+    "interlock_score": 0
+  },
+  "AFGHANISTAN": {
+    "source": "news",
+    "snippet": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
+    "score": 4,
+    "interlock_score": 45
+  },
+  "ZIMBABWE": {
+    "source": "news",
+    "snippet": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
+    "score": 4,
+    "interlock_score": 39
+  },
+  "SHUBMAN": {
+    "source": "news",
+    "snippet": "Marathon hit! Shubman Gill bats for over an hour at NCC nets",
+    "score": 4,
+    "interlock_score": 0
+  },
+  "PHUKET": {
+    "source": "news",
+    "snippet": "Captain of turbulence-hit Phuket-Delhi flight may have failed dope test",
+    "score": 4,
+    "interlock_score": 0
+  },
+  "VAIBHAV": {
+    "source": "news",
+    "snippet": "\u2018I don\u2019t care how old he is\u2019: Brett Lee\u2019s big warning for Vaibhav Sooryavanshi",
+    "score": 4,
+    "interlock_score": 0
+  },
+  "SOORYAVANSHI": {
+    "source": "news",
+    "snippet": "\u2018I don\u2019t care how old he is\u2019: Brett Lee\u2019s big warning for Vaibhav Sooryavanshi",
+    "score": 4,
+    "interlock_score": 0
+  },
+  "RAJA": {
+    "source": "news",
+    "snippet": "Raja Raghuvanshi\u2019s brothers booked for serving liquor without licence in Indore",
+    "score": 4,
     "interlock_score": 50
   },
   "NADAL": {
@@ -1544,12 +1590,6 @@
     "score": 4,
     "interlock_score": 0
   },
-  "NARENDRA": {
-    "source": "news",
-    "snippet": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
-    "score": 4,
-    "interlock_score": 16
-  },
   "BASANT": {
     "source": "news",
     "snippet": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
@@ -1562,71 +1602,17 @@
     "score": 4,
     "interlock_score": 0
   },
-  "YADAV": {
+  "SYDNEY": {
     "source": "news",
-    "snippet": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
-    "score": 4,
-    "interlock_score": 0
-  },
-  "SHARMA": {
-    "source": "news",
-    "snippet": "Delhi woman crushed between vehicles; kin alleges Mercedes driver was drunk, speeding",
-    "score": 4,
-    "interlock_score": 24
-  },
-  "FIFA": {
-    "source": "news",
-    "snippet": "FIFA hits back at \u2018concerted effort\u2019 to undermine Infantino amid fresh allegations",
-    "score": 4,
-    "interlock_score": 43
-  },
-  "ARUNACHAL": {
-    "source": "news",
-    "snippet": "Latest Arunachal map shows 3 places illegally held by China",
-    "score": 4,
-    "interlock_score": 0
-  },
-  "KULDEEP": {
-    "source": "news",
-    "snippet": "Jadeja\u2019s Kuldeep imitation leaves Gambhir in splits - Watch",
-    "score": 4,
-    "interlock_score": 0
-  },
-  "GAMBHIR": {
-    "source": "news",
-    "snippet": "Jadeja\u2019s Kuldeep imitation leaves Gambhir in splits - Watch",
-    "score": 4,
-    "interlock_score": 0
-  },
-  "JANA": {
-    "source": "news",
-    "snippet": "Jana Nayagan day 17: Thalapathy Vijay film sees 135% jump, earns Rs 2.35 cr",
-    "score": 4,
-    "interlock_score": 40
-  },
-  "NAYAGAN": {
-    "source": "news",
-    "snippet": "Jana Nayagan day 17: Thalapathy Vijay film sees 135% jump, earns Rs 2.35 cr",
-    "score": 4,
-    "interlock_score": 0
-  },
-  "THALAPATHY": {
-    "source": "news",
-    "snippet": "Jana Nayagan day 17: Thalapathy Vijay film sees 135% jump, earns Rs 2.35 cr",
-    "score": 4,
-    "interlock_score": 0
-  },
-  "SCARBOROUGH": {
-    "source": "news",
-    "snippet": "US rejects China\u2019s attempt to enforce new restrictions at Scarborough Reef",
-    "score": 4,
-    "interlock_score": 32
-  },
-  "REEF": {
-    "source": "news",
-    "snippet": "US rejects China\u2019s attempt to enforce new restrictions at Scarborough Reef",
+    "snippet": "Crew Member Injured In 'Near Collision' At Sydney Airport, Probe On",
     "score": 4,
     "interlock_score": 50
+  },
+  "BROMO": {
+    "source": "news",
+    "snippet": "Indonesia Closes National Park As Wildfire Burns 435 Acres",
+    "score": 4,
+    "interlock_score": 39
   },
   "ISRAEL": {
     "source": "news",
@@ -1652,101 +1638,89 @@
     "score": 4,
     "interlock_score": 41
   },
-  "BHARAT": {
+  "COASTAL": {
     "source": "news",
-    "snippet": "Man killed after being hit by vehicle in deputy CM's cavalcade in Jammu",
-    "score": 3,
-    "interlock_score": 28
-  },
-  "GANGYAL": {
-    "source": "news",
-    "snippet": "Man killed after being hit by vehicle in deputy CM's cavalcade in Jammu",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "ARMED": {
-    "source": "news",
-    "snippet": "Car-bomb attack targets southwest Colombia day after conservative President takes office",
+    "snippet": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
     "score": 3,
     "interlock_score": 50
   },
-  "CARA": {
+  "GAUTAM": {
     "source": "news",
-    "snippet": "Bid to \u2018silence\u2019 him for investigative journalism: Tejpal\u2019s daughter on his conviction in rape case",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "EEMAGINE": {
-    "source": "news",
-    "snippet": "India\u2019s Experience Economy set to reach $59.2 billion by 2030: EEMA president",
+    "snippet": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
     "score": 3,
     "interlock_score": 0
   },
-  "KANWARIYAS": {
+  "KRISHNA": {
     "source": "news",
-    "snippet": "U.P. CM Yogi showers flowers on Kanwariyas, describes Kanwar Yatra as unparalleled example of devotion, unity",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "KANWAR": {
-    "source": "news",
-    "snippet": "U.P. CM Yogi showers flowers on Kanwariyas, describes Kanwar Yatra as unparalleled example of devotion, unity",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "YATRA": {
-    "source": "news",
-    "snippet": "U.P. CM Yogi showers flowers on Kanwariyas, describes Kanwar Yatra as unparalleled example of devotion, unity",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "ADITYANATH": {
-    "source": "news",
-    "snippet": "U.P. CM Yogi showers flowers on Kanwariyas, describes Kanwar Yatra as unparalleled example of devotion, unity",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "JIZAN": {
-    "source": "news",
-    "snippet": "Fire extinguished at Aramco facility in Jizan, says Saudi Arabia",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "UPI": {
-    "source": "news",
-    "snippet": "UPI stays free for users, vast majority of transactions to remain free for merchants as well, says government",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "MDR": {
-    "source": "news",
-    "snippet": "UPI stays free for users, vast majority of transactions to remain free for merchants as well, says government",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "MANN": {
-    "source": "news",
-    "snippet": "Punjab CM writes to Governor favouring parole for convict in Beant Singh\u2019s assassination case",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "PUNJAB": {
-    "source": "news",
-    "snippet": "Punjab CM writes to Governor favouring parole for convict in Beant Singh\u2019s assassination case",
-    "score": 3,
-    "interlock_score": 40
-  },
-  "HAWARA": {
-    "source": "news",
-    "snippet": "Punjab CM writes to Governor favouring parole for convict in Beant Singh\u2019s assassination case",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "SUPREME": {
-    "source": "news",
-    "snippet": "West Asia war LIVE: UAE says Iran targeted tanker as Oman cites progress in Hormuz talks",
+    "snippet": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
     "score": 3,
     "interlock_score": 46
+  },
+  "NEENDAKARA": {
+    "source": "news",
+    "snippet": "Indian Navy joins search for three fishermen missing after boat mishaps in Kerala",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "KANNADA": {
+    "source": "news",
+    "snippet": "Book on Andaman history brings out aspects left out by conventional history: Kannada varsity professor",
+    "score": 3,
+    "interlock_score": 25
+  },
+  "TAMBANDA": {
+    "source": "news",
+    "snippet": "Book on Andaman history brings out aspects left out by conventional history: Kannada varsity professor",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "RAJALAKSHMI": {
+    "source": "news",
+    "snippet": "Book on Andaman history brings out aspects left out by conventional history: Kannada varsity professor",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "DUDIDA": {
+    "source": "news",
+    "snippet": "Book on Andaman history brings out aspects left out by conventional history: Kannada varsity professor",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "KAIGALU": {
+    "source": "news",
+    "snippet": "Book on Andaman history brings out aspects left out by conventional history: Kannada varsity professor",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "MIDIDA": {
+    "source": "news",
+    "snippet": "Book on Andaman history brings out aspects left out by conventional history: Kannada varsity professor",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "MOHAN": {
+    "source": "news",
+    "snippet": "Be aware of external forces trying to mislead you through social media: Odisha CM to Gen Z",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "CHARAN": {
+    "source": "news",
+    "snippet": "Be aware of external forces trying to mislead you through social media: Odisha CM to Gen Z",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "MAJHI": {
+    "source": "news",
+    "snippet": "Be aware of external forces trying to mislead you through social media: Odisha CM to Gen Z",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "GOODWORKS": {
+    "source": "news",
+    "snippet": "KDEM enters MoU with Goodworks Group to attract fresh investment of \u20b95,000 crore in new GCCs; create over 62,000 new jobs",
+    "score": 3,
+    "interlock_score": 31
   },
   "UDF": {
     "source": "news",
@@ -1757,258 +1731,6 @@
   "CHENNITHALA": {
     "source": "news",
     "snippet": "Vande Mataram row: Kerala\u2019s UDF govt. again faces allegations of toeing the RSS line",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "ABDUL": {
-    "source": "news",
-    "snippet": "Man arrested 7 months after Indian woman's murder in Canada",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "GHAFOORI": {
-    "source": "news",
-    "snippet": "Man arrested 7 months after Indian woman's murder in Canada",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "SALEM": {
-    "source": "news",
-    "snippet": "Tamil Nadu Rail Users Federation seek more train services, stoppages in Salem Division",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "MANIDHANEYAM": {
-    "source": "news",
-    "snippet": "Manidhaneyam students clear UPSC CAPF examination",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "ANTHIYUR": {
-    "source": "news",
-    "snippet": "Two forest staff suspended over removal of leopard remains near Anthiyur",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "KANIMOZHI": {
-    "source": "news",
-    "snippet": "Dravidian movement played a key role in temple entry struggles: Kanimozhi",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "JHARKHAND": {
-    "source": "news",
-    "snippet": "Jharkhand students protest LIVE updates: Fasting students decline hospitalisation; say govt. 'playing games'",
-    "score": 3,
-    "interlock_score": 22
-  },
-  "GODAVARI": {
-    "source": "news",
-    "snippet": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "CAUVERY": {
-    "source": "news",
-    "snippet": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "GUNDAR": {
-    "source": "news",
-    "snippet": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "FARMERS": {
-    "source": "news",
-    "snippet": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
-    "score": 3,
-    "interlock_score": 44
-  },
-  "AIIMS": {
-    "source": "news",
-    "snippet": "AIIMS Delhi terminates security guard after complaint of\u00a0misbehaviour\u00a0with woman patient",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "BENGAL": {
-    "source": "news",
-    "snippet": "Bengal Government hospitals observe two-minute silence in memory of R.G. Kar rape-murder victim doctor",
-    "score": 3,
-    "interlock_score": 40
-  },
-  "KAR": {
-    "source": "news",
-    "snippet": "Bengal Government hospitals observe two-minute silence in memory of R.G. Kar rape-murder victim doctor",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "CHITPUR": {
-    "source": "news",
-    "snippet": "Bengal Government hospitals observe two-minute silence in memory of R.G. Kar rape-murder victim doctor",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "KOLKATA": {
-    "source": "news",
-    "snippet": "Bengal Government hospitals observe two-minute silence in memory of R.G. Kar rape-murder victim doctor",
-    "score": 3,
-    "interlock_score": 38
-  },
-  "NAYUDAMMA": {
-    "source": "news",
-    "snippet": "P.M. Bhargava: The Indian man who saw tomorrow in a cell",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "CSIR": {
-    "source": "news",
-    "snippet": "P.M. Bhargava: The Indian man who saw tomorrow in a cell",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "CCMB": {
-    "source": "news",
-    "snippet": "P.M. Bhargava: The Indian man who saw tomorrow in a cell",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "STEVE": {
-    "source": "news",
-    "snippet": "Pentagon pushes defence companies to boost weapons production after concerns of depleted stocks",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "FEINBERG": {
-    "source": "news",
-    "snippet": "Pentagon pushes defence companies to boost weapons production after concerns of depleted stocks",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "POST": {
-    "source": "news",
-    "snippet": "Pentagon pushes defence companies to boost weapons production after concerns of depleted stocks",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "AMIT": {
-    "source": "news",
-    "snippet": "Two men held for taking photographs inside Arunachaleswarar temple",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "SHAH": {
-    "source": "news",
-    "snippet": "Two men held for taking photographs inside Arunachaleswarar temple",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "COURT": {
-    "source": "news",
-    "snippet": "Former Chief Justice of Manipur High Court D. Krishnakumar appointed Chairman of T.N. Law Commission",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "KRISHNAKUMAR": {
-    "source": "news",
-    "snippet": "Former Chief Justice of Manipur High Court D. Krishnakumar appointed Chairman of T.N. Law Commission",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "VEERASHAIVA": {
-    "source": "news",
-    "snippet": "Veerashaiva-Lingayat institutions played key role in promoting education in North Karnataka: M.B. Patil",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "LINGAYAT": {
-    "source": "news",
-    "snippet": "Veerashaiva-Lingayat institutions played key role in promoting education in North Karnataka: M.B. Patil",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "KARNATAKA": {
-    "source": "news",
-    "snippet": "Veerashaiva-Lingayat institutions played key role in promoting education in North Karnataka: M.B. Patil",
-    "score": 3,
-    "interlock_score": 24
-  },
-  "JASON": {
-    "source": "news",
-    "snippet": "Jason Arday, Claudine Gay, and the line between inclusion and bias in universities",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "ARDAY": {
-    "source": "news",
-    "snippet": "Jason Arday, Claudine Gay, and the line between inclusion and bias in universities",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "CLAUDINE": {
-    "source": "news",
-    "snippet": "Jason Arday, Claudine Gay, and the line between inclusion and bias in universities",
-    "score": 3,
-    "interlock_score": 28
-  },
-  "GAY": {
-    "source": "news",
-    "snippet": "Jason Arday, Claudine Gay, and the line between inclusion and bias in universities",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "GLOBAL": {
-    "source": "news",
-    "snippet": "Jason Arday, Claudine Gay, and the line between inclusion and bias in universities",
-    "score": 3,
-    "interlock_score": 48
-  },
-  "CBI": {
-    "source": "news",
-    "snippet": "NEET-UG paper leak: What CBI chargesheet reveals about conspiracy, accused, modus operandi? | Explained",
-    "score": 3,
-    "interlock_score": 19
-  },
-  "YSRCP": {
-    "source": "news",
-    "snippet": "YSRCP, farmers\u2019 body allege bid to weaken Krishna Milk Union",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "MILK": {
-    "source": "news",
-    "snippet": "YSRCP, farmers\u2019 body allege bid to weaken Krishna Milk Union",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "VIJAYA": {
-    "source": "news",
-    "snippet": "YSRCP, farmers\u2019 body allege bid to weaken Krishna Milk Union",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "DAIRY": {
-    "source": "news",
-    "snippet": "YSRCP, farmers\u2019 body allege bid to weaken Krishna Milk Union",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "SOPORE": {
-    "source": "news",
-    "snippet": "J&K Police searches multiple locations in Sopore in  UAPA probe linked to Jamaat-e-Islami",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "SIDDHARTHA": {
-    "source": "news",
-    "snippet": "P.B. Siddhartha College signs MoU with Ritebook Technologies",
-    "score": 3,
-    "interlock_score": 28
-  },
-  "RITEBOOK": {
-    "source": "news",
-    "snippet": "P.B. Siddhartha College signs MoU with Ritebook Technologies",
     "score": 3,
     "interlock_score": 0
   },
@@ -2054,81 +1776,105 @@
     "score": 3,
     "interlock_score": 0
   },
-  "SIT": {
+  "BHARAT": {
     "source": "news",
-    "snippet": "SIT grills suspended constables in Sai Krishna\u2019s \u2018custodial death\u2019 case",
+    "snippet": "Man killed after being hit by vehicle in deputy CM's cavalcade in Jammu",
+    "score": 3,
+    "interlock_score": 28
+  },
+  "GANGYAL": {
+    "source": "news",
+    "snippet": "Man killed after being hit by vehicle in deputy CM's cavalcade in Jammu",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "FEINBERG": {
+    "source": "news",
+    "snippet": "Pentagon pushes defence companies to boost weapons production after concerns of depleted stocks",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "WASHINGTON": {
+    "source": "news",
+    "snippet": "Pentagon pushes defence companies to boost weapons production after concerns of depleted stocks",
+    "score": 3,
+    "interlock_score": 48
+  },
+  "POST": {
+    "source": "news",
+    "snippet": "Pentagon pushes defence companies to boost weapons production after concerns of depleted stocks",
     "score": 3,
     "interlock_score": 50
   },
-  "TUKARAM": {
+  "NAGERCOIL": {
     "source": "news",
-    "snippet": "M.B. Patil: No confusion over Cabinet expansion and high command will resolve all issues",
+    "snippet": "Two sisters killed after being hit by bike in Thiruvananthapuram",
     "score": 3,
     "interlock_score": 0
   },
-  "SANDUR": {
+  "UPI": {
     "source": "news",
-    "snippet": "M.B. Patil: No confusion over Cabinet expansion and high command will resolve all issues",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "ANNAPURNA": {
-    "source": "news",
-    "snippet": "M.B. Patil: No confusion over Cabinet expansion and high command will resolve all issues",
-    "score": 3,
-    "interlock_score": 26
-  },
-  "SHIVAKUMAR": {
-    "source": "news",
-    "snippet": "Induction of woman Minister into State Cabinet likely to be completed soon, says Laxman Savadi",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "KUMARASWAMY": {
-    "source": "news",
-    "snippet": "Don\u2019t pay NICE toll, Kumaraswamy tells people; gives govt. two weeks to stop toll collection",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "NALSAR": {
-    "source": "news",
-    "snippet": "Outgoing NALSAR students do not want CJI Surya Kant at convocation ceremony",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "SURYA": {
-    "source": "news",
-    "snippet": "Outgoing NALSAR students do not want CJI Surya Kant at convocation ceremony",
-    "score": 3,
-    "interlock_score": 27
-  },
-  "KANT": {
-    "source": "news",
-    "snippet": "Outgoing NALSAR students do not want CJI Surya Kant at convocation ceremony",
+    "snippet": "UPI stays free for users, vast majority of transactions to remain free for merchants as well, says government",
     "score": 3,
     "interlock_score": 50
   },
-  "DEWORMING": {
+  "MDR": {
     "source": "news",
-    "snippet": "Deworming tablets to be distributed through special camps on August 10 and 17",
+    "snippet": "UPI stays free for users, vast majority of transactions to remain free for merchants as well, says government",
     "score": 3,
     "interlock_score": 0
   },
-  "DAY": {
+  "GODAVARI": {
     "source": "news",
-    "snippet": "Deworming tablets to be distributed through special camps on August 10 and 17",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "MSK": {
-    "source": "news",
-    "snippet": "MSK Prasad urges parents to encourage children\u2019s talents",
+    "snippet": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
     "score": 3,
     "interlock_score": 0
   },
-  "PRASAD": {
+  "CAUVERY": {
     "source": "news",
-    "snippet": "MSK Prasad urges parents to encourage children\u2019s talents",
+    "snippet": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "GUNDAR": {
+    "source": "news",
+    "snippet": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "FARMERS": {
+    "source": "news",
+    "snippet": "Farmers association welcomes Tamil Nadu CM Vijay\u2019s move on linking Godavari-Cauvery-Gundar rivers",
+    "score": 3,
+    "interlock_score": 44
+  },
+  "NGT": {
+    "source": "news",
+    "snippet": "NGT must make public report of panel that reviewed approvals for Nicobar project: Jairam Ramesh",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "NICOBAR": {
+    "source": "news",
+    "snippet": "NGT must make public report of panel that reviewed approvals for Nicobar project: Jairam Ramesh",
+    "score": 3,
+    "interlock_score": 24
+  },
+  "JAIRAM": {
+    "source": "news",
+    "snippet": "NGT must make public report of panel that reviewed approvals for Nicobar project: Jairam Ramesh",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "HOUTHIS": {
+    "source": "news",
+    "snippet": "Yemen\u2019s Houthis claim attack on Aramco facility as Saudi says fire extinguished",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "SOPORE": {
+    "source": "news",
+    "snippet": "J&K Police searches multiple locations in Sopore in  UAPA probe linked to Jamaat-e-Islami",
     "score": 3,
     "interlock_score": 0
   },
@@ -2162,161 +1908,569 @@
     "score": 3,
     "interlock_score": 0
   },
-  "MANI": {
+  "NALSAR": {
     "source": "news",
-    "snippet": "National U-11 chess: Sarbartho Mani and Divi Bijesh emerge toppers",
+    "snippet": "Outgoing NALSAR students do not want CJI Surya Kant at convocation ceremony",
     "score": 3,
-    "interlock_score": 46
+    "interlock_score": 0
   },
-  "ARTICLES": {
+  "SURYA": {
     "source": "news",
-    "snippet": "What happens if there is no Constitutional Amendment on Delimitation?",
+    "snippet": "Outgoing NALSAR students do not want CJI Surya Kant at convocation ceremony",
+    "score": 3,
+    "interlock_score": 27
+  },
+  "KANT": {
+    "source": "news",
+    "snippet": "Outgoing NALSAR students do not want CJI Surya Kant at convocation ceremony",
     "score": 3,
     "interlock_score": 50
   },
-  "LOK": {
+  "KAVALAPPARA": {
     "source": "news",
-    "snippet": "What happens if there is no Constitutional Amendment on Delimitation?",
-    "score": 3,
-    "interlock_score": 25
-  },
-  "SABHA": {
-    "source": "news",
-    "snippet": "What happens if there is no Constitutional Amendment on Delimitation?",
+    "snippet": "Seven years on, Kavalappara hill still holds its dead",
     "score": 3,
     "interlock_score": 0
   },
-  "NGT": {
+  "HONGQIAO": {
     "source": "news",
-    "snippet": "NGT must make public report of panel that reviewed approvals for Nicobar project: Jairam Ramesh",
+    "snippet": "Shanghai cancels 1,300 flights as China prepares for Typhoon Dolphin",
     "score": 3,
     "interlock_score": 0
   },
-  "NICOBAR": {
+  "PUDONG": {
     "source": "news",
-    "snippet": "NGT must make public report of panel that reviewed approvals for Nicobar project: Jairam Ramesh",
-    "score": 3,
-    "interlock_score": 24
-  },
-  "JAIRAM": {
-    "source": "news",
-    "snippet": "NGT must make public report of panel that reviewed approvals for Nicobar project: Jairam Ramesh",
+    "snippet": "Shanghai cancels 1,300 flights as China prepares for Typhoon Dolphin",
     "score": 3,
     "interlock_score": 0
   },
-  "TVK": {
+  "AMARAVATI": {
     "source": "news",
-    "snippet": "Former AIADMK Ministers who joined TVK get party posts",
+    "snippet": "Government to transform Amaravati, Vizag, Tirupati into mega cities, says Minister",
     "score": 3,
     "interlock_score": 0
   },
-  "GSL": {
+  "VIZAG": {
     "source": "news",
-    "snippet": "SFI calls for action amid \u2018rising\u2019 student suicides in A.P.",
+    "snippet": "Government to transform Amaravati, Vizag, Tirupati into mega cities, says Minister",
     "score": 3,
     "interlock_score": 0
   },
-  "SRI": {
+  "PONGURU": {
     "source": "news",
-    "snippet": "Amit Shah offers prayers at Arunachaleswar Temple, Sri Ramana Ashram\u00a0in Tiruvannamalai",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "RAMANA": {
-    "source": "news",
-    "snippet": "Amit Shah offers prayers at Arunachaleswar Temple, Sri Ramana Ashram\u00a0in Tiruvannamalai",
+    "snippet": "Government to transform Amaravati, Vizag, Tirupati into mega cities, says Minister",
     "score": 3,
     "interlock_score": 0
   },
-  "MUMBAI": {
+  "NARAYANA": {
     "source": "news",
-    "snippet": "Educators across India gather in Mumbai to brainstorm on primary education",
-    "score": 3,
-    "interlock_score": 31
-  },
-  "PAN": {
-    "source": "news",
-    "snippet": "Educators across India gather in Mumbai to brainstorm on primary education",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "PYP": {
-    "source": "news",
-    "snippet": "Educators across India gather in Mumbai to brainstorm on primary education",
+    "snippet": "Government to transform Amaravati, Vizag, Tirupati into mega cities, says Minister",
     "score": 3,
     "interlock_score": 0
   },
-  "SOUTH": {
+  "SRTC": {
     "source": "news",
-    "snippet": "Educators across India gather in Mumbai to brainstorm on primary education",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "DEVENDRA": {
-    "source": "news",
-    "snippet": "Maharashtra CM orders fresh investigation of Siddhivinayak Temple donation case",
+    "snippet": "Two killed, 25 injured as Kerala SRTC bus crashes into signboard on Bengaluru-Mysuru Highway",
     "score": 3,
     "interlock_score": 0
   },
-  "FADNAVIS": {
+  "MYSURU": {
     "source": "news",
-    "snippet": "Maharashtra CM orders fresh investigation of Siddhivinayak Temple donation case",
+    "snippet": "Two killed, 25 injured as Kerala SRTC bus crashes into signboard on Bengaluru-Mysuru Highway",
     "score": 3,
     "interlock_score": 0
   },
-  "MRTS": {
+  "CIAL": {
     "source": "news",
-    "snippet": "Chennai Metro Rail\u2019s phase 2 corridor cuts through roof of MRTS station at Adambakkam",
+    "snippet": "CIAL posts record \u20b9502-crore net profit",
     "score": 3,
     "interlock_score": 0
   },
-  "ADAMBAKKAM": {
+  "NASHIK": {
     "source": "news",
-    "snippet": "Chennai Metro Rail\u2019s phase 2 corridor cuts through roof of MRTS station at Adambakkam",
+    "snippet": "Mild earthquake, tremors in Maharashtra\u2019s Nashik; cracks reported in houses",
     "score": 3,
     "interlock_score": 0
   },
-  "HDK": {
+  "CHENNAI": {
     "source": "news",
-    "snippet": "HDK asks JD(S) legislators to raise drought, BMIC, Bidadi township during coming Legislature session",
+    "snippet": "Madras Day 2026: the humble typewriter keeps clacking despite the digital takeover",
     "score": 3,
-    "interlock_score": 0
+    "interlock_score": 29
   },
-  "JDS": {
+  "SAFDARJUNG": {
     "source": "news",
-    "snippet": "HDK asks JD(S) legislators to raise drought, BMIC, Bidadi township during coming Legislature session",
-    "score": 3,
-    "interlock_score": 38
-  },
-  "BMIC": {
-    "source": "news",
-    "snippet": "HDK asks JD(S) legislators to raise drought, BMIC, Bidadi township during coming Legislature session",
+    "snippet": "Rain pain continues in Delhi; 18-year-old feared swept away",
     "score": 3,
     "interlock_score": 0
   },
   "BIDADI": {
     "source": "news",
-    "snippet": "HDK asks JD(S) legislators to raise drought, BMIC, Bidadi township during coming Legislature session",
+    "snippet": "KSRTC accident trail puts driver deployment, ageing fleet under scrutiny",
     "score": 3,
     "interlock_score": 0
   },
-  "ZIMBABWE": {
+  "RJD": {
     "source": "news",
-    "snippet": "\u2018I don\u2019t care how old he is\u2019: Brett Lee\u2019s big warning for Vaibhav Sooryavanshi",
+    "snippet": "Foreign investment in private hospitals will make treatment unaffordable: RJD",
     "score": 3,
-    "interlock_score": 39
+    "interlock_score": 0
   },
-  "MANHATTAN": {
+  "ASIA": {
     "source": "news",
-    "snippet": "Airbnb CEO reveals the non-AI feature that got the biggest reaction from analysts",
+    "snippet": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
     "score": 3,
-    "interlock_score": 45
+    "interlock_score": 50
+  },
+  "TEHRAN": {
+    "source": "news",
+    "snippet": "West Asia war LIVE: Iran Guards say won't reopen Hormuz without U.S. meeting all Tehran's conditions",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "SFCTSA": {
+    "source": "news",
+    "snippet": "Calicut varsity move to end staff contracts draws union ire",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "STOKE": {
+    "source": "news",
+    "snippet": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "LAND": {
+    "source": "news",
+    "snippet": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "MPS": {
+    "source": "news",
+    "snippet": "T.N. MPs\u2019 meeting convened by CM Vijay seeks freeze on 543 Lok Sabha seats",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "LOK": {
+    "source": "news",
+    "snippet": "T.N. MPs\u2019 meeting convened by CM Vijay seeks freeze on 543 Lok Sabha seats",
+    "score": 3,
+    "interlock_score": 25
+  },
+  "META": {
+    "source": "news",
+    "snippet": "Government examines if Meta recommendation system deciding what-to-show-to-whom fits intermediary status",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "TRINAMOOL": {
+    "source": "news",
+    "snippet": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "BENGAL": {
+    "source": "news",
+    "snippet": "Abhishek Banerjee\u2019s personal assistant grilled for 10 hours by Bengal police",
+    "score": 3,
+    "interlock_score": 40
+  },
+  "SARDAR": {
+    "source": "news",
+    "snippet": "CEG alumni warn about possible damage to heritage cupolas during widening of Sardar Patel Road",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "PATEL": {
+    "source": "news",
+    "snippet": "CEG alumni warn about possible damage to heritage cupolas during widening of Sardar Patel Road",
+    "score": 3,
+    "interlock_score": 34
+  },
+  "ROAD": {
+    "source": "news",
+    "snippet": "CEG alumni warn about possible damage to heritage cupolas during widening of Sardar Patel Road",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "BUNDER": {
+    "source": "news",
+    "snippet": "Railways to convert old goods shed in Bunder as a ballast yard",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "PANDESHWAR": {
+    "source": "news",
+    "snippet": "Railways to convert old goods shed in Bunder as a ballast yard",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "HOIGE": {
+    "source": "news",
+    "snippet": "Railways to convert old goods shed in Bunder as a ballast yard",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "NAGASAKI": {
+    "source": "news",
+    "snippet": "Nagasaki marks 81st atomic bomb anniversary as Mayor says nuclear deterrence only increases risk",
+    "score": 3,
+    "interlock_score": 42
+  },
+  "SANAE": {
+    "source": "news",
+    "snippet": "Nagasaki marks 81st atomic bomb anniversary as Mayor says nuclear deterrence only increases risk",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "TAKAICHI": {
+    "source": "news",
+    "snippet": "Nagasaki marks 81st atomic bomb anniversary as Mayor says nuclear deterrence only increases risk",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "RAVINDRA": {
+    "source": "news",
+    "snippet": "Jharkhand students protest LIVE updates:Talks between student delegation and State government's concludes",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "PASWAN": {
+    "source": "news",
+    "snippet": "Jharkhand students protest LIVE updates:Talks between student delegation and State government's concludes",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "VIDHAN": {
+    "source": "news",
+    "snippet": "Jharkhand students protest LIVE updates:Talks between student delegation and State government's concludes",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "GHERAO": {
+    "source": "news",
+    "snippet": "Jharkhand students protest LIVE updates:Talks between student delegation and State government's concludes",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "FSDA": {
+    "source": "news",
+    "snippet": "Near-expiry sauces, beverages found at suppliers to Bengaluru\u2019s five-star hotels",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "TIRUCHI": {
+    "source": "news",
+    "snippet": "Plea to speed up Tiruchi Airport runway expansion work gets shriller",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "DURAI": {
+    "source": "news",
+    "snippet": "Plea to speed up Tiruchi Airport runway expansion work gets shriller",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "VAIKO": {
+    "source": "news",
+    "snippet": "Plea to speed up Tiruchi Airport runway expansion work gets shriller",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "VIDARBHA": {
+    "source": "news",
+    "snippet": "Vidarbha\u2019s farm widows who refuse to remarry",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "MATTANCHERRY": {
+    "source": "news",
+    "snippet": "U.S. envoy, Trump\u2019s son-in-law visit Mattancherry Jew Town",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "JEW": {
+    "source": "news",
+    "snippet": "U.S. envoy, Trump\u2019s son-in-law visit Mattancherry Jew Town",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "TOWN": {
+    "source": "news",
+    "snippet": "U.S. envoy, Trump\u2019s son-in-law visit Mattancherry Jew Town",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "GANESH": {
+    "source": "news",
+    "snippet": "GBA bans POP idols ahead of Ganesh Chaturthi",
+    "score": 3,
+    "interlock_score": 27
+  },
+  "CHATURTHI": {
+    "source": "news",
+    "snippet": "GBA bans POP idols ahead of Ganesh Chaturthi",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "SAYSHARIRAM": {
+    "source": "news",
+    "snippet": "D\u2019Souza\u2019s murder was a supari killing over financial dispute, saysHariram Shankar",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "SHANKAR": {
+    "source": "news",
+    "snippet": "D\u2019Souza\u2019s murder was a supari killing over financial dispute, saysHariram Shankar",
+    "score": 3,
+    "interlock_score": 42
+  },
+  "MUDARANGADI": {
+    "source": "news",
+    "snippet": "D\u2019Souza\u2019s murder was a supari killing over financial dispute, saysHariram Shankar",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "RAJU": {
+    "source": "news",
+    "snippet": "D\u2019Souza\u2019s murder was a supari killing over financial dispute, saysHariram Shankar",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "QUIT": {
+    "source": "news",
+    "snippet": "Quit India Movement Day: Participants will forever inspire generations of Indians, says L. Murugan",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "DAY": {
+    "source": "news",
+    "snippet": "Quit India Movement Day: Participants will forever inspire generations of Indians, says L. Murugan",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "MURUGAN": {
+    "source": "news",
+    "snippet": "Quit India Movement Day: Participants will forever inspire generations of Indians, says L. Murugan",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "PAWAN": {
+    "source": "news",
+    "snippet": "Tribal communities are guardians of nature and ancient wisdom, says Pawan Kalyan",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "KALYAN": {
+    "source": "news",
+    "snippet": "Tribal communities are guardians of nature and ancient wisdom, says Pawan Kalyan",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "WAYANAD": {
+    "source": "news",
+    "snippet": "2024 Wayanad landslide: Study reveals the interplay of climate and geology",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "SHEKHAWAT": {
+    "source": "news",
+    "snippet": "BRICS Culture Ministers\u2019 meet adopts Bhopal Declaration to boost cultural cooperation; focuses on creators\u2019 networking",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "RANIPET": {
+    "source": "news",
+    "snippet": "Vishnu idol unearthed in Ranipet",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "JNU": {
+    "source": "news",
+    "snippet": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "JAWAHARLAL": {
+    "source": "news",
+    "snippet": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+    "score": 3,
+    "interlock_score": 35
+  },
+  "DEAN": {
+    "source": "news",
+    "snippet": "JNU cancels Umar Khalid book discussion over 'non-disclosure' of details",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "AJINKYA": {
+    "source": "news",
+    "snippet": "'Can\u2019t go series by series': Rahane demands clarity over Rohit Sharma's WC spot",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "JENSEN": {
+    "source": "news",
+    "snippet": "Nvidia CEO's joke on parenting that created a heated debate over Asian parenting",
+    "score": 3,
+    "interlock_score": 27
+  },
+  "HUANG": {
+    "source": "news",
+    "snippet": "Nvidia CEO's joke on parenting that created a heated debate over Asian parenting",
+    "score": 3,
+    "interlock_score": 31
+  },
+  "COE": {
+    "source": "news",
+    "snippet": "\u2018CoE is not just a rehab centre\u2019: VVS defends facility amid India\u2019s injury crisis",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "VVS": {
+    "source": "news",
+    "snippet": "\u2018CoE is not just a rehab centre\u2019: VVS defends facility amid India\u2019s injury crisis",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "LAXMAN": {
+    "source": "news",
+    "snippet": "\u2018CoE is not just a rehab centre\u2019: VVS defends facility amid India\u2019s injury crisis",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "SBI": {
+    "source": "news",
+    "snippet": "Market recap: Four of top 10 firms add Rs 1.43 lakh crore; SBI bags biggest gains",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "RAIPUR": {
+    "source": "news",
+    "snippet": "\u2018Hum don hain\u2019: Raipur student assaulted at school, video posted online",
+    "score": 3,
+    "interlock_score": 19
+  },
+  "ATMANAND": {
+    "source": "news",
+    "snippet": "\u2018Hum don hain\u2019: Raipur student assaulted at school, video posted online",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "MICHAEL": {
+    "source": "news",
+    "snippet": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
+    "score": 3,
+    "interlock_score": 46
+  },
+  "ZACH": {
+    "source": "news",
+    "snippet": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
+    "score": 3,
+    "interlock_score": 44
+  },
+  "DELAWARE": {
+    "source": "news",
+    "snippet": "US scientists tag sharks to help forecast hurricane intensification",
+    "score": 3,
+    "interlock_score": 48
+  },
+  "ATLANTIC": {
+    "source": "news",
+    "snippet": "US scientists tag sharks to help forecast hurricane intensification",
+    "score": 3,
+    "interlock_score": 49
+  },
+  "DEOBAND": {
+    "source": "news",
+    "snippet": "'Shivling exists beneath': Ganga water offering planned at Deoband's Darul Uloom",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "GOAT": {
+    "source": "news",
+    "snippet": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "JACQUES": {
+    "source": "news",
+    "snippet": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
+    "score": 3,
+    "interlock_score": 33
+  },
+  "TENDULKAR": {
+    "source": "news",
+    "snippet": "Tendulkar gets 'best batter' tag, but Lee names this all-rounder as GOAT",
+    "score": 3,
+    "interlock_score": 37
+  },
+  "EAT": {
+    "source": "news",
+    "snippet": "Stephen and Ayesha Curry reach $100 million milestone through their foundation",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "ASAPHILA": {
+    "source": "news",
+    "snippet": "Latest Arunachal map shows 3 places illegally held by China",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "RAM": {
+    "source": "news",
+    "snippet": "PM must come to House and reply on Ram Mandir donation theft case: Kharge",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "MANDIR": {
+    "source": "news",
+    "snippet": "PM must come to House and reply on Ram Mandir donation theft case: Kharge",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "KHARGE": {
+    "source": "news",
+    "snippet": "PM must come to House and reply on Ram Mandir donation theft case: Kharge",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "SOUTH": {
+    "source": "news",
+    "snippet": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "AFRICA": {
+    "source": "news",
+    "snippet": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
+    "score": 3,
+    "interlock_score": 50
+  },
+  "NAMIBIA": {
+    "source": "news",
+    "snippet": "West Indies suffer major blow, miss direct qualification for 2027 World Cup",
+    "score": 3,
+    "interlock_score": 42
+  },
+  "BULANDSHAHR": {
+    "source": "news",
+    "snippet": "Bulandshahr encounter: Rape-murder accused carrying Rs 50,000 reward killed",
+    "score": 3,
+    "interlock_score": 0
   },
   "NCC": {
     "source": "news",
     "snippet": "Marathon hit! Shubman Gill bats for over an hour at NCC nets",
     "score": 3,
     "interlock_score": 36
+  },
+  "SAI": {
+    "source": "news",
+    "snippet": "Marathon hit! Shubman Gill bats for over an hour at NCC nets",
+    "score": 3,
+    "interlock_score": 26
   },
   "SUDHARSAN": {
     "source": "news",
@@ -2354,35 +2508,17 @@
     "score": 3,
     "interlock_score": 0
   },
+  "CIVIL": {
+    "source": "news",
+    "snippet": "Captain of turbulence-hit Phuket-Delhi flight may have failed dope test",
+    "score": 3,
+    "interlock_score": 50
+  },
   "ANUJ": {
     "source": "news",
     "snippet": "UP BJP MLA alleges daughter duped into marriage with conman who \u2018married 25 women\u2019",
     "score": 3,
     "interlock_score": 0
-  },
-  "MICHAEL": {
-    "source": "news",
-    "snippet": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
-    "score": 3,
-    "interlock_score": 46
-  },
-  "ZACH": {
-    "source": "news",
-    "snippet": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
-    "score": 3,
-    "interlock_score": 44
-  },
-  "REDONDA": {
-    "source": "news",
-    "snippet": "Redonda rebounds: 6,000 rats, goats removed; lizards up 8x, vegetation 20x",
-    "score": 3,
-    "interlock_score": 15
-  },
-  "GEOFFREY": {
-    "source": "news",
-    "snippet": "\u2018Godfather of AI\u2019 on AI models hacking other companies: More cyberattacks coming",
-    "score": 3,
-    "interlock_score": 32
   },
   "NIA": {
     "source": "news",
@@ -2432,12 +2568,6 @@
     "score": 3,
     "interlock_score": 0
   },
-  "EAT": {
-    "source": "news",
-    "snippet": "Stephen and Ayesha Curry reach $100 million milestone through their foundation",
-    "score": 3,
-    "interlock_score": 50
-  },
   "ISRO": {
     "source": "news",
     "snippet": "IN-SPACe moves to privatise operations of Rs 986 cr spaceport",
@@ -2450,21 +2580,15 @@
     "score": 3,
     "interlock_score": 23
   },
-  "SACHIN": {
+  "VIPIN": {
     "source": "news",
     "snippet": "Raja Raghuvanshi\u2019s brothers booked for serving liquor without licence in Indore",
     "score": 3,
-    "interlock_score": 30
+    "interlock_score": 0
   },
   "RAFAEL": {
     "source": "news",
     "snippet": "\u2018I can\u2019t imagine the pain\u2019: Nadal\u2019s emotional tribute to Messi after father\u2019s death",
-    "score": 3,
-    "interlock_score": 49
-  },
-  "IRELAND": {
-    "source": "news",
-    "snippet": "Why Britain's housing market is losing momentum as mortgage rates rise again",
     "score": 3,
     "interlock_score": 49
   },
@@ -2474,19 +2598,19 @@
     "score": 3,
     "interlock_score": 37
   },
-  "GEN": {
+  "NARENDRA": {
     "source": "news",
     "snippet": "\u2018Gen Z is a force that can\u2019t be ignored\u2019: Dharmendra Pradhan days after resignation",
     "score": 3,
-    "interlock_score": 50
+    "interlock_score": 16
   },
-  "WORLD": {
+  "ASHISH": {
     "source": "news",
     "snippet": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
     "score": 3,
-    "interlock_score": 50
+    "interlock_score": 0
   },
-  "ASHISH": {
+  "YADAV": {
     "source": "news",
     "snippet": "Basant Meghwal makes history with silver at World Athletics U20 Championships",
     "score": 3,
@@ -2509,6 +2633,12 @@
     "snippet": "Delhi woman crushed between vehicles; kin alleges Mercedes driver was drunk, speeding",
     "score": 3,
     "interlock_score": 0
+  },
+  "BRAZIL": {
+    "source": "news",
+    "snippet": "Four killed in helicopter crash in Brazil's Rio de Janeiro",
+    "score": 3,
+    "interlock_score": 39
   },
   "RIO": {
     "source": "news",
@@ -2546,6 +2676,12 @@
     "score": 3,
     "interlock_score": 21
   },
+  "UNION": {
+    "source": "news",
+    "snippet": "The Stateless Kings: How Chess preserves an ideal in a fractured world",
+    "score": 3,
+    "interlock_score": 50
+  },
   "ALIREZA": {
     "source": "news",
     "snippet": "The Stateless Kings: How Chess preserves an ideal in a fractured world",
@@ -2570,141 +2706,45 @@
     "score": 3,
     "interlock_score": 40
   },
-  "EAST": {
+  "INDONESIA": {
     "source": "news",
-    "snippet": "India\u2019s markets have strong domestic cushion, but global risks loom: Sebi",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "ZAMBIA": {
-    "source": "news",
-    "snippet": "Pakistan cricketers face ban after playing in \u2018unsanctioned\u2019 Zambia T20 league",
-    "score": 3,
-    "interlock_score": 28
-  },
-  "FARC": {
-    "source": "news",
-    "snippet": "Colombia rocked by car bomb blast a day after new President takes charge",
-    "score": 3,
-    "interlock_score": 16
-  },
-  "PAK": {
-    "source": "news",
-    "snippet": "Wing Commander arrested for spying after being \u2018honey-trapped\u2019 by Pak operatives",
-    "score": 3,
-    "interlock_score": 50
-  },
-  "IAF": {
-    "source": "news",
-    "snippet": "Wing Commander arrested for spying after being \u2018honey-trapped\u2019 by Pak operatives",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "GIANNI": {
-    "source": "news",
-    "snippet": "FIFA hits back at \u2018concerted effort\u2019 to undermine Infantino amid fresh allegations",
-    "score": 3,
-    "interlock_score": 35
-  },
-  "UEFA": {
-    "source": "news",
-    "snippet": "FIFA hits back at \u2018concerted effort\u2019 to undermine Infantino amid fresh allegations",
-    "score": 3,
-    "interlock_score": 30
-  },
-  "VANCE": {
-    "source": "news",
-    "snippet": "Vance calls PM after US Senate passes 100% tariff bill, discusses boosting ties",
+    "snippet": "Indonesia Closes National Park As Wildfire Burns 435 Acres",
     "score": 3,
     "interlock_score": 42
   },
-  "ASAPHILA": {
+  "TENGGER": {
     "source": "news",
-    "snippet": "Latest Arunachal map shows 3 places illegally held by China",
+    "snippet": "Indonesia Closes National Park As Wildfire Burns 435 Acres",
     "score": 3,
     "interlock_score": 0
   },
-  "RAVINDRA": {
+  "SEMERU": {
     "source": "news",
-    "snippet": "Jadeja\u2019s Kuldeep imitation leaves Gambhir in splits - Watch",
+    "snippet": "Indonesia Closes National Park As Wildfire Burns 435 Acres",
     "score": 3,
     "interlock_score": 0
   },
-  "GAUTAM": {
+  "PARK": {
     "source": "news",
-    "snippet": "Jadeja\u2019s Kuldeep imitation leaves Gambhir in splits - Watch",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "COLOMBO": {
-    "source": "news",
-    "snippet": "Jadeja\u2019s Kuldeep imitation leaves Gambhir in splits - Watch",
-    "score": 3,
-    "interlock_score": 34
-  },
-  "DEVDUTT": {
-    "source": "news",
-    "snippet": "Jadeja\u2019s Kuldeep imitation leaves Gambhir in splits - Watch",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "MANAV": {
-    "source": "news",
-    "snippet": "Jadeja\u2019s Kuldeep imitation leaves Gambhir in splits - Watch",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "SUTHAR": {
-    "source": "news",
-    "snippet": "Jadeja\u2019s Kuldeep imitation leaves Gambhir in splits - Watch",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "RISHABH": {
-    "source": "news",
-    "snippet": "Jadeja\u2019s Kuldeep imitation leaves Gambhir in splits - Watch",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "DHRUV": {
-    "source": "news",
-    "snippet": "Jadeja\u2019s Kuldeep imitation leaves Gambhir in splits - Watch",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "JUREL": {
-    "source": "news",
-    "snippet": "Jadeja\u2019s Kuldeep imitation leaves Gambhir in splits - Watch",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "BEIJING": {
-    "source": "news",
-    "snippet": "US rejects China\u2019s attempt to enforce new restrictions at Scarborough Reef",
-    "score": 3,
-    "interlock_score": 33
-  },
-  "INDO": {
-    "source": "news",
-    "snippet": "US rejects China\u2019s attempt to enforce new restrictions at Scarborough Reef",
+    "snippet": "Indonesia Closes National Park As Wildfire Burns 435 Acres",
     "score": 3,
     "interlock_score": 50
   },
-  "PACIFIC": {
+  "GYAN": {
     "source": "news",
-    "snippet": "US rejects China\u2019s attempt to enforce new restrictions at Scarborough Reef",
+    "snippet": "UP BJP MLA Says Daughter Duped Into Marriage With Man Who Had 25 Weddings",
     "score": 3,
-    "interlock_score": 43
+    "interlock_score": 0
   },
-  "PHILIPPINES": {
+  "TIWARI": {
     "source": "news",
-    "snippet": "US rejects China\u2019s attempt to enforce new restrictions at Scarborough Reef",
+    "snippet": "UP BJP MLA Says Daughter Duped Into Marriage With Man Who Had 25 Weddings",
     "score": 3,
-    "interlock_score": 37
+    "interlock_score": 0
   },
   "WHATSAPP": {
     "source": "news",
-    "snippet": "Jharkhand's JSSC 2024 Paper Leak Exclusive: 120 Answers, WhatsApp, A Bombshell CID Report",
+    "snippet": "Jharkhand SSC 2024 Paper Leak Exclusive: 120 Answers, WhatsApp, A Bombshell CID Report",
     "score": 3,
     "interlock_score": 30
   },
@@ -2732,89 +2772,11 @@
     "score": 3,
     "interlock_score": 0
   },
-  "VIRGINIA": {
+  "OMAN": {
     "source": "news",
-    "snippet": "Why US Navy Is Adding More Missile Cells To 19 Virginia-Class Submarines",
-    "score": 3,
-    "interlock_score": 44
-  },
-  "KODAMBAKKAM": {
-    "source": "news",
-    "snippet": "Weather Today Live Updates: Heavy Rain In Parts Of Tamil Nadu, Waterlogging Reported In Some Areas",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "NUNGAMBAKKAM": {
-    "source": "news",
-    "snippet": "Weather Today Live Updates: Heavy Rain In Parts Of Tamil Nadu, Waterlogging Reported In Some Areas",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "VADAPALANI": {
-    "source": "news",
-    "snippet": "Weather Today Live Updates: Heavy Rain In Parts Of Tamil Nadu, Waterlogging Reported In Some Areas",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "HIMANSHI": {
-    "source": "news",
-    "snippet": "Indian-Origin Woman's Partner Arrested 7 Months After Her Murder In Canada",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "KHURANA": {
-    "source": "news",
-    "snippet": "Indian-Origin Woman's Partner Arrested 7 Months After Her Murder In Canada",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "HONEYMOON": {
-    "source": "news",
-    "snippet": "Meghalaya Honeymoon Murder Victim's Brothers Face Police Action For Serving Liquor At Eatery",
-    "score": 3,
-    "interlock_score": 38
-  },
-  "MURDER": {
-    "source": "news",
-    "snippet": "Meghalaya Honeymoon Murder Victim's Brothers Face Police Action For Serving Liquor At Eatery",
-    "score": 3,
-    "interlock_score": 43
-  },
-  "VICTIM": {
-    "source": "news",
-    "snippet": "Meghalaya Honeymoon Murder Victim's Brothers Face Police Action For Serving Liquor At Eatery",
-    "score": 3,
-    "interlock_score": 43
-  },
-  "HAKAN": {
-    "source": "news",
-    "snippet": "Military Pact With Pak, Saudi Arabia Same As NATO's Defence Agreement: Turkey",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "FIDAN": {
-    "source": "news",
-    "snippet": "Military Pact With Pak, Saudi Arabia Same As NATO's Defence Agreement: Turkey",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "TIJUCA": {
-    "source": "news",
-    "snippet": "Pilot, 3 Of A Family Killed In Helicopter Crash In Rio De Janeiro",
-    "score": 3,
-    "interlock_score": 0
-  },
-  "PARK": {
-    "source": "news",
-    "snippet": "Pilot, 3 Of A Family Killed In Helicopter Crash In Rio De Janeiro",
+    "snippet": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait",
     "score": 3,
     "interlock_score": 50
-  },
-  "KELOWNA": {
-    "source": "news",
-    "snippet": "British Columbia Declares State Of Emergency, 20,000 Evacuated Amid Wildfire",
-    "score": 3,
-    "interlock_score": 0
   },
   "PEREZ": {
     "source": "news",
@@ -2845,6 +2807,24 @@
     "snippet": "Trump's ex-lawyer Todd Blanche narrowly confirmed as US attorney general",
     "score": 3,
     "interlock_score": 36
+  },
+  "COLOMBIA": {
+    "source": "news",
+    "snippet": "US offers $1bn to Colombia on new right-wing president's first day of office",
+    "score": 3,
+    "interlock_score": 35
+  },
+  "ABELARDO": {
+    "source": "news",
+    "snippet": "US offers $1bn to Colombia on new right-wing president's first day of office",
+    "score": 3,
+    "interlock_score": 0
+  },
+  "ESPRIELLA": {
+    "source": "news",
+    "snippet": "US offers $1bn to Colombia on new right-wing president's first day of office",
+    "score": 3,
+    "interlock_score": 0
   },
   "SPAIN": {
     "source": "news",
@@ -2888,12 +2868,6 @@
     "score": 3,
     "interlock_score": 43
   },
-  "JAPAN": {
-    "source": "news",
-    "snippet": "Typhoon Dolphin batters Japan's Okinawa before bearing down on China",
-    "score": 3,
-    "interlock_score": 50
-  },
   "OKINAWA": {
     "source": "news",
     "snippet": "Typhoon Dolphin batters Japan's Okinawa before bearing down on China",
@@ -2911,6 +2885,12 @@
     "snippet": "State of emergency declared as fast-moving Canada wildfire doubles in size",
     "score": 3,
     "interlock_score": 50
+  },
+  "COLUMBIA": {
+    "source": "news",
+    "snippet": "State of emergency declared as fast-moving Canada wildfire doubles in size",
+    "score": 3,
+    "interlock_score": 40
   },
   "NBA": {
     "source": "news",
@@ -2942,12 +2922,6 @@
     "score": 3,
     "interlock_score": 40
   },
-  "AUSTRALIA": {
-    "source": "news",
-    "snippet": "Australia is the planet's extinction hotspot, but one animal offers a glimmer of hope",
-    "score": 3,
-    "interlock_score": 47
-  },
   "AUQIB": {
     "source": "news",
     "snippet": "How a schoolteacher's son became Kashmir's first India Test cricketer",
@@ -2972,6 +2946,12 @@
     "score": 3,
     "interlock_score": 0
   },
+  "AMERICA": {
+    "source": "news",
+    "snippet": "What is the significance of India\u2019s first privately built FFSC rocket engine? | Explained",
+    "score": 1.5,
+    "interlock_score": 50
+  },
   "RUSSIA": {
     "source": "news",
     "snippet": "The Stateless Kings: How Chess preserves an ideal in a fractured world",
@@ -2983,17 +2963,5 @@
     "snippet": "Why Britain's housing market is losing momentum as mortgage rates rise again",
     "score": 1.0,
     "interlock_score": 43
-  },
-  "PAKISTAN": {
-    "source": "news",
-    "snippet": "Pakistan cricketers face ban after playing in \u2018unsanctioned\u2019 Zambia T20 league",
-    "score": 1.0,
-    "interlock_score": 39
-  },
-  "AMERICA": {
-    "source": "news",
-    "snippet": "Michael Dell\u2019s son\u2019s startup offers $695 alternative to costly home generators",
-    "score": 0.75,
-    "interlock_score": 50
   }
 }

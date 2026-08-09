@@ -4,149 +4,144 @@
     "cols": 9
   },
   "grid": [
-    "W####SLAP",
-    "SERFS#IMF",
-    "WYE#OLMEC",
-    "SEDIMENTS",
-    "#H#DEV#H#",
-    "VOLODYMYR",
-    "ELISA#ESE",
-    "TED#YENTA",
-    "SSSS####L"
+    "MSGS#AAAS",
+    "ONUS##NAP",
+    "SEAWORTHY",
+    "TAR###E#S",
+    "#KANNADA#",
+    "V#N###ALA",
+    "INTIMATES",
+    "ICE##DEVI",
+    "ICED#ASEA"
   ],
   "numbering": {
     "0,0": 1,
-    "0,5": 2,
-    "0,6": 3,
-    "0,7": 4,
-    "0,8": 5,
-    "1,0": 6,
-    "1,1": 7,
-    "1,2": 8,
-    "1,4": 9,
+    "0,1": 2,
+    "0,2": 3,
+    "0,3": 4,
+    "0,5": 5,
+    "0,6": 6,
+    "0,7": 7,
+    "0,8": 8,
+    "1,0": 9,
     "1,6": 10,
     "2,0": 11,
-    "2,4": 12,
-    "2,5": 13,
-    "3,0": 14,
-    "3,3": 15,
-    "4,3": 16,
-    "5,0": 17,
-    "5,2": 18,
-    "5,6": 19,
-    "5,8": 20,
-    "6,0": 21,
-    "6,6": 22,
-    "7,0": 23,
-    "7,4": 24,
-    "8,0": 25
+    "3,0": 12,
+    "4,1": 13,
+    "4,7": 14,
+    "5,0": 15,
+    "5,6": 16,
+    "5,8": 17,
+    "6,0": 18,
+    "6,1": 19,
+    "6,5": 20,
+    "7,0": 21,
+    "7,5": 22,
+    "8,0": 23,
+    "8,5": 24
   },
   "words": {
     "across": {
-      "2": {
-        "answer": "SLAP",
+      "1": {
+        "answer": "MSGS",
         "length": 4
       },
-      "6": {
-        "answer": "SERFS",
-        "length": 5
+      "5": {
+        "answer": "AAAS",
+        "length": 4
+      },
+      "9": {
+        "answer": "ONUS",
+        "length": 4
       },
       "10": {
-        "answer": "IMF",
+        "answer": "NAP",
         "length": 3
       },
       "11": {
-        "answer": "WYE",
-        "length": 3
-      },
-      "12": {
-        "answer": "OLMEC",
-        "length": 5
-      },
-      "14": {
-        "answer": "SEDIMENTS",
+        "answer": "SEAWORTHY",
         "length": 9
       },
-      "16": {
-        "answer": "DEV",
+      "12": {
+        "answer": "TAR",
         "length": 3
       },
-      "17": {
-        "answer": "VOLODYMYR",
+      "13": {
+        "answer": "KANNADA",
+        "length": 7
+      },
+      "16": {
+        "answer": "ALA",
+        "length": 3
+      },
+      "18": {
+        "answer": "INTIMATES",
         "length": 9
       },
       "21": {
-        "answer": "ELISA",
-        "length": 5
+        "answer": "ICE",
+        "length": 3
       },
       "22": {
-        "answer": "ESE",
-        "length": 3
+        "answer": "DEVI",
+        "length": 4
       },
       "23": {
-        "answer": "TED",
-        "length": 3
+        "answer": "ICED",
+        "length": 4
       },
       "24": {
-        "answer": "YENTA",
-        "length": 5
-      },
-      "25": {
-        "answer": "SSSS",
+        "answer": "ASEA",
         "length": 4
       }
     },
     "down": {
       "1": {
-        "answer": "WSWS",
-        "length": 4
-      },
-      "17": {
-        "answer": "VETS",
-        "length": 4
-      },
-      "7": {
-        "answer": "EYEHOLES",
-        "length": 8
-      },
-      "8": {
-        "answer": "RED",
-        "length": 3
-      },
-      "18": {
-        "answer": "LIDS",
+        "answer": "MOST",
         "length": 4
       },
       "15": {
-        "answer": "IDOS",
+        "answer": "VIII",
         "length": 4
       },
-      "9": {
-        "answer": "SOMEDAY",
-        "length": 7
-      },
-      "13": {
-        "answer": "LEVY",
-        "length": 4
-      },
-      "3": {
-        "answer": "LIMN",
-        "length": 4
+      "2": {
+        "answer": "SNEAK",
+        "length": 5
       },
       "19": {
-        "answer": "MEN",
+        "answer": "NCC",
         "length": 3
       },
-      "4": {
-        "answer": "AMETHYST",
-        "length": 8
+      "3": {
+        "answer": "GUARANTEE",
+        "length": 9
       },
-      "5": {
-        "answer": "PFCS",
-        "length": 4
+      "4": {
+        "answer": "SSW",
+        "length": 3
       },
       "20": {
-        "answer": "REAL",
+        "answer": "ADA",
+        "length": 3
+      },
+      "6": {
+        "answer": "ANTEDATES",
+        "length": 9
+      },
+      "7": {
+        "answer": "AAH",
+        "length": 3
+      },
+      "14": {
+        "answer": "ALEVE",
+        "length": 5
+      },
+      "8": {
+        "answer": "SPYS",
+        "length": 4
+      },
+      "17": {
+        "answer": "ASIA",
         "length": 4
       }
     }

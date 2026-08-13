@@ -1,0 +1,466 @@
+{
+  "id": "2026-08-13-midi",
+  "date": "2026-08-13",
+  "puzzle_type": "midi",
+  "size": {
+    "rows": 9,
+    "cols": 9
+  },
+  "grid": [
+    "ACE#GIMP#",
+    "BOP#MLA#P",
+    "CHITTOR#I",
+    "#ODE##TIN",
+    "BREADLINE",
+    "ATM##ENS#",
+    "B#IMARETS",
+    "U#CID#TET",
+    "#ESTS#SPY"
+  ],
+  "numbering": {
+    "0,0": 1,
+    "0,1": 2,
+    "0,2": 3,
+    "0,4": 4,
+    "0,5": 5,
+    "0,6": 6,
+    "1,0": 7,
+    "1,4": 8,
+    "1,8": 9,
+    "2,0": 10,
+    "2,3": 11,
+    "3,1": 12,
+    "3,6": 13,
+    "3,7": 14,
+    "4,0": 15,
+    "4,5": 16,
+    "5,0": 17,
+    "5,5": 18,
+    "6,2": 19,
+    "6,3": 20,
+    "6,4": 21,
+    "6,8": 22,
+    "7,2": 23,
+    "7,6": 24,
+    "8,1": 25,
+    "8,6": 26
+  },
+  "clues": {
+    "across": {
+      "1": {
+        "answer": "ACE",
+        "clue": "In a certain card game, a high score is achieved.",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "4": {
+        "answer": "GIMP",
+        "clue": "Graphics editing software option",
+        "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "7": {
+        "answer": "BOP",
+        "clue": "Rhythm of music",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "8": {
+        "answer": "MLA",
+        "clue": "Representatives in state level politics.",
+        "length": 3,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Indian politician who has served 50 years in government."
+          },
+          {
+            "angle": "concise",
+            "text": "Indian politician's honorific title after 50 years"
+          },
+          {
+            "angle": "oblique",
+            "text": "Legislator from Karnataka's legislative assembly?"
+          }
+        ],
+        "source_snippet": "Kanna Lakshminarayana completes 50 years in politics; hailed as leader with commitment",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/news/national/andhra-pradesh/kanna-lakshminarayana-completes-50-years-in-politics-hailed-as-leader-with-commitment/article71340900.ece",
+          "mentions": 2,
+          "num_sources": 2,
+          "scraped_at": "2026-08-13T16:31:13.642638+00:00"
+        },
+        "review_recommended": true
+      },
+      "10": {
+        "answer": "CHITTOR",
+        "clue": "Fort in Rajasthan and UNESCO World Heritage Site",
+        "length": 7,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Fort in Rajasthan and UNESCO World Heritage Site"
+          },
+          {
+            "angle": "concise",
+            "text": "Famous Rajasthani fortress complex"
+          },
+          {
+            "angle": "oblique",
+            "text": "Fortress of the Mewar dynasty's pride?"
+          }
+        ],
+        "source_snippet": "Chittor Fort (the literal translation of the Hindi Chittorgarh), also known as Chittod Fort, is one of the largest forts in India. It is a UNESCO World Heritage Site.",
+        "source": "trivia",
+        "context_meta": {
+          "wikipedia_title": "Chittor Fort",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Chittor_Fort",
+          "topic": "geography",
+          "pageviews_3mo": 44025
+        },
+        "review_recommended": true
+      },
+      "12": {
+        "answer": "ODE",
+        "clue": "Old-fashioned poem that expresses deep feeling.",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "13": {
+        "answer": "TIN",
+        "clue": "Sound in cans often used in cooking",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "15": {
+        "answer": "BREADLINE",
+        "clue": "Depression-era sight",
+        "length": 9,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "17": {
+        "answer": "ATM",
+        "clue": "Device where you withdraw cash easily",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "18": {
+        "answer": "ENS",
+        "clue": "Small mark on a map or document",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "19": {
+        "answer": "IMARETS",
+        "clue": "Ottoman public kitchens",
+        "length": 7,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "23": {
+        "answer": "CID",
+        "clue": "Police investigation agency.",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "24": {
+        "answer": "TET",
+        "clue": "Major Asian celebration.",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "25": {
+        "answer": "ESTS",
+        "clue": "Ballpark nos.",
+        "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "26": {
+        "answer": "SPY",
+        "clue": "Informant in a foreign intelligence service",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      }
+    },
+    "down": {
+      "1": {
+        "answer": "ABC",
+        "clue": "News agency from down under.",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "15": {
+        "answer": "BABU",
+        "clue": "What they call clerks in north india.",
+        "length": 4,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Indian honorific title bestowed on Naveen's daughter"
+          },
+          {
+            "angle": "concise",
+            "text": "South Indian title holder in Naveen's family"
+          },
+          {
+            "angle": "oblique",
+            "text": "Family tie that led to a government post?"
+          }
+        ],
+        "source_snippet": "Naveen Babu\u2019s daughter appointed food safety officer",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/news/national/kerala/naveen-babus-daughter-appointed-food-safety-officer/article71341964.ece",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-13T16:31:13.642638+00:00"
+        },
+        "review_recommended": true
+      },
+      "2": {
+        "answer": "COHORT",
+        "clue": "Group that started something together.",
+        "length": 6,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "3": {
+        "answer": "EPIDEMICS",
+        "clue": "Disease spread that's hard to contain.",
+        "length": 9,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "11": {
+        "answer": "TEA",
+        "clue": "Eastern shrub's leaves used to make this beverage",
+        "length": 3,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Eastern shrub's leaves used to make this beverage"
+          },
+          {
+            "angle": "concise",
+            "text": "East Asian native crop in many Indian blends"
+          },
+          {
+            "angle": "oblique",
+            "text": "Stimulant found in some Indian morning routines?"
+          }
+        ],
+        "source_snippet": "Tea is an aromatic beverage prepared by infusion of hot or boiling fresh water with fresh or cured leaves of Camellia sinensis, an evergreen shrub native to East Asia that originated in the borderlands of southwestern China, northeast India and northern Myanmar. Tea has a stimulant effect in humans primarily due to its caffeine content.",
+        "source": "trivia",
+        "context_meta": {
+          "wikipedia_title": "Tea",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Tea",
+          "topic": "culture",
+          "pageviews_3mo": 90701
+        },
+        "review_recommended": true
+      },
+      "20": {
+        "answer": "MIT",
+        "clue": "Massachusetts tech institute with Bengaluru AI lab",
+        "length": 3,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Massachusetts tech institute with Bengaluru AI lab"
+          },
+          {
+            "angle": "concise",
+            "text": "Tech hub's initials after Bengaluru partnership"
+          },
+          {
+            "angle": "oblique",
+            "text": "Academic powerhouse in India's tech hub"
+          }
+        ],
+        "source_snippet": "MIT Bengaluru, IBM launch AI lab to accelerate, democratise new-age skills",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/news/national/karnataka/mit-bengaluru-ibm-launch-ai-lab-to-accelerate-democratise-new-age-skills/article71341986.ece",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-13T16:31:13.642638+00:00"
+        },
+        "review_recommended": true
+      },
+      "4": {
+        "answer": "GMT",
+        "clue": "Global time zone standard, commonly used in business.",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "21": {
+        "answer": "ADS",
+        "clue": "Platform for online promotions",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "5": {
+        "answer": "ILO",
+        "clue": "International organization focused on labor rights",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "16": {
+        "answer": "LER",
+        "clue": "Small suffix in many German names",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "6": {
+        "answer": "MARTINETS",
+        "clue": "Instrument played by bagpipers",
+        "length": 9,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "14": {
+        "answer": "INSTEP",
+        "clue": "Fittingly placed on shoes",
+        "length": 6,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "9": {
+        "answer": "PINE",
+        "clue": "Evergreen tree often used in Christmas decorations",
+        "length": 4,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "22": {
+        "answer": "STY",
+        "clue": "A 3-letter word",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      }
+    }
+  }
+}

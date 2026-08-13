@@ -206,7 +206,11 @@
   }
 
   ['mini', 'midi', 'crossword'].forEach(function (size) {
-    fetch('data/puzzles/latest_' + size + '.json')
+    // Cache-busting query param -- see the matching comment in solve.html's
+    // fetchPuzzle() for why this is needed (GitHub Pages' CDN cache headers
+    // + fetch() honoring them means a visitor's browser can keep serving a
+    // previous day's puzzle file after it's genuinely been overwritten).
+    fetch('data/puzzles/latest_' + size + '.json?v=' + Date.now())
       .then(function (r) { if (!r.ok) throw new Error('no puzzle'); return r.json(); })
       .then(function (puzzle) {
         var human = fmtDate(puzzle.date);

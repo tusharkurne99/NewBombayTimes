@@ -183,7 +183,17 @@ function fmtDate(iso) {
 
 function fetchPuzzle(size) {
   if (PUZZLE_CACHE[size]) return Promise.resolve(PUZZLE_CACHE[size]);
-  return fetch('data/puzzles/latest_' + size + '.json')
+  // Cache-busting query param: GitHub Pages' CDN sends cacheable headers
+  // for static files by default, and fetch() honors that -- without this,
+  // a browser that already loaded today's puzzle once can keep serving it
+  // from cache even after publish.sh has genuinely overwritten the file
+  // with a new day's data (this is exactly what happened in practice: a
+  // hard refresh was needed to see Aug 13's puzzle after Sunday's had
+  // been cached). Date.now() forces a fresh network request every time
+  // rather than trying to guess a "once per day" cutoff against the
+  // visitor's own clock, which is one more thing that could be wrong.
+  // These files are a few KB -- there's no real cost to never caching them.
+  return fetch('data/puzzles/latest_' + size + '.json?v=' + Date.now())
     .then(function (r) {
       if (!r.ok) throw new Error('Puzzle not found for ' + size);
       return r.json();

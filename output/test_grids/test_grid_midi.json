@@ -4,170 +4,163 @@
     "cols": 9
   },
   "grid": [
-    "B###TESLA",
-    "ACNE#APIS",
-    "HAIRSTYLE",
-    "TRAIT#SOS",
-    "###EON###",
-    "NGT#KIOWA",
-    "EPICENTER",
-    "AARP#ACID",
-    "PSEUD###S"
+    "ACE#GIMP#",
+    "BOP#MLA#P",
+    "CHITTOR#I",
+    "#ODE##TIN",
+    "BREADLINE",
+    "ATM##ENS#",
+    "B#IMARETS",
+    "U#CID#TET",
+    "#ESTS#SPY"
   ],
   "numbering": {
     "0,0": 1,
-    "0,4": 2,
-    "0,5": 3,
-    "0,6": 4,
-    "0,7": 5,
-    "0,8": 6,
+    "0,1": 2,
+    "0,2": 3,
+    "0,4": 4,
+    "0,5": 5,
+    "0,6": 6,
     "1,0": 7,
-    "1,1": 8,
-    "1,2": 9,
-    "1,3": 10,
-    "1,5": 11,
-    "2,0": 12,
-    "2,4": 13,
-    "3,0": 14,
-    "3,6": 15,
-    "4,3": 16,
-    "4,5": 17,
-    "5,0": 18,
-    "5,1": 19,
-    "5,2": 20,
-    "5,4": 21,
-    "5,6": 22,
-    "5,7": 23,
-    "5,8": 24,
-    "6,0": 25,
-    "6,3": 26,
-    "7,0": 27,
-    "7,5": 28,
-    "8,0": 29
+    "1,4": 8,
+    "1,8": 9,
+    "2,0": 10,
+    "2,3": 11,
+    "3,1": 12,
+    "3,6": 13,
+    "3,7": 14,
+    "4,0": 15,
+    "4,5": 16,
+    "5,0": 17,
+    "5,5": 18,
+    "6,2": 19,
+    "6,3": 20,
+    "6,4": 21,
+    "6,8": 22,
+    "7,2": 23,
+    "7,6": 24,
+    "8,1": 25,
+    "8,6": 26
   },
   "words": {
     "across": {
-      "2": {
-        "answer": "TESLA",
-        "length": 5
-      },
-      "7": {
-        "answer": "ACNE",
-        "length": 4
-      },
-      "11": {
-        "answer": "APIS",
-        "length": 4
-      },
-      "12": {
-        "answer": "HAIRSTYLE",
-        "length": 9
-      },
-      "14": {
-        "answer": "TRAIT",
-        "length": 5
-      },
-      "15": {
-        "answer": "SOS",
+      "1": {
+        "answer": "ACE",
         "length": 3
       },
-      "16": {
-        "answer": "EON",
+      "4": {
+        "answer": "GIMP",
+        "length": 4
+      },
+      "7": {
+        "answer": "BOP",
+        "length": 3
+      },
+      "8": {
+        "answer": "MLA",
+        "length": 3
+      },
+      "10": {
+        "answer": "CHITTOR",
+        "length": 7
+      },
+      "12": {
+        "answer": "ODE",
+        "length": 3
+      },
+      "13": {
+        "answer": "TIN",
+        "length": 3
+      },
+      "15": {
+        "answer": "BREADLINE",
+        "length": 9
+      },
+      "17": {
+        "answer": "ATM",
         "length": 3
       },
       "18": {
-        "answer": "NGT",
+        "answer": "ENS",
         "length": 3
       },
-      "21": {
-        "answer": "KIOWA",
-        "length": 5
+      "19": {
+        "answer": "IMARETS",
+        "length": 7
+      },
+      "23": {
+        "answer": "CID",
+        "length": 3
+      },
+      "24": {
+        "answer": "TET",
+        "length": 3
       },
       "25": {
-        "answer": "EPICENTER",
-        "length": 9
-      },
-      "27": {
-        "answer": "AARP",
+        "answer": "ESTS",
         "length": 4
       },
-      "28": {
-        "answer": "ACID",
-        "length": 4
-      },
-      "29": {
-        "answer": "PSEUD",
-        "length": 5
+      "26": {
+        "answer": "SPY",
+        "length": 3
       }
     },
     "down": {
       "1": {
-        "answer": "BAHT",
-        "length": 4
-      },
-      "18": {
-        "answer": "NEAP",
-        "length": 4
-      },
-      "8": {
-        "answer": "CAR",
+        "answer": "ABC",
         "length": 3
       },
-      "19": {
-        "answer": "GPAS",
+      "15": {
+        "answer": "BABU",
         "length": 4
       },
-      "9": {
-        "answer": "NIA",
+      "2": {
+        "answer": "COHORT",
+        "length": 6
+      },
+      "3": {
+        "answer": "EPIDEMICS",
+        "length": 9
+      },
+      "11": {
+        "answer": "TEA",
         "length": 3
       },
       "20": {
-        "answer": "TIRE",
-        "length": 4
-      },
-      "10": {
-        "answer": "ERIE",
-        "length": 4
-      },
-      "26": {
-        "answer": "CPU",
+        "answer": "MIT",
         "length": 3
-      },
-      "13": {
-        "answer": "STOKE",
-        "length": 5
-      },
-      "3": {
-        "answer": "EAT",
-        "length": 3
-      },
-      "17": {
-        "answer": "NINA",
-        "length": 4
       },
       "4": {
-        "answer": "SPYS",
-        "length": 4
+        "answer": "GMT",
+        "length": 3
       },
-      "22": {
-        "answer": "OTC",
+      "21": {
+        "answer": "ADS",
         "length": 3
       },
       "5": {
-        "answer": "LILO",
-        "length": 4
+        "answer": "ILO",
+        "length": 3
       },
-      "23": {
-        "answer": "WEI",
+      "16": {
+        "answer": "LER",
         "length": 3
       },
       "6": {
-        "answer": "ASES",
+        "answer": "MARTINETS",
+        "length": 9
+      },
+      "14": {
+        "answer": "INSTEP",
+        "length": 6
+      },
+      "9": {
+        "answer": "PINE",
         "length": 4
       },
-      "24": {
-        "answer": "ARDS",
-        "length": 4
+      "22": {
+        "answer": "STY",
+        "length": 3
       }
     }
   }

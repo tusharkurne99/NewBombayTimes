@@ -1,0 +1,217 @@
+{
+  "id": "2026-08-13-mini",
+  "date": "2026-08-13",
+  "puzzle_type": "mini",
+  "size": {
+    "rows": 5,
+    "cols": 5
+  },
+  "grid": [
+    "##MSG",
+    "##OVA",
+    "RAHUL",
+    "EPA##",
+    "DEN##"
+  ],
+  "numbering": {
+    "0,2": 1,
+    "0,3": 2,
+    "0,4": 3,
+    "1,2": 4,
+    "2,0": 5,
+    "2,1": 6,
+    "3,0": 7,
+    "4,0": 8
+  },
+  "clues": {
+    "across": {
+      "1": {
+        "answer": "MSG",
+        "clue": "Flavor enhancer found in Chinese cuisine",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "4": {
+        "answer": "OVA",
+        "clue": "Female reproductive cells",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "5": {
+        "answer": "RAHUL",
+        "clue": "Gandhi takes asset probe to Supreme Court",
+        "length": 5,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Indian politician who recently filed SC petition"
+          },
+          {
+            "angle": "concise",
+            "text": "Gandhi takes asset probe to Supreme Court"
+          },
+          {
+            "angle": "oblique",
+            "text": "Congress leader in court over asset probe"
+          }
+        ],
+        "source_snippet": "Rahul Gandhi moves SC against \u2018fishing inquiry\u2019 into allegations of disproportionate assets",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/news/national/rahul-gandhi-moves-sc-against-fishing-inquiry-into-allegations-of-disproportionate-assets/article71341687.ece",
+          "mentions": 4,
+          "num_sources": 2,
+          "scraped_at": "2026-08-13T16:31:13.642638+00:00"
+        },
+        "review_recommended": true
+      },
+      "7": {
+        "answer": "EPA",
+        "clue": "Environmental protection agency",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "8": {
+        "answer": "DEN",
+        "clue": "In some circles, a place to retreat is still called that today.",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      }
+    },
+    "down": {
+      "5": {
+        "answer": "RED",
+        "clue": "Color associated with a famous Indian imperial palace.",
+        "length": 3,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Color associated with a famous Indian imperial palace."
+          },
+          {
+            "angle": "concise",
+            "text": "Monument to Mughal power and grandeur"
+          },
+          {
+            "angle": "oblique",
+            "text": "Shah Jahan's colour choice for his Delhi palace?"
+          }
+        ],
+        "source_snippet": "The Red Fort (Lal Qila in Hindi; Hindi pronunciation: [la\u02d0l 'q\u026ala\u02d0]) is a historic Mughal fort located in the Old Delhi area of Delhi, India. Serving as the main residence of the Mughal emperors, it was commissioned by Emperor Shah Jahan on the 12th of May 1639; the fort was constructed following his decision to shift the Mughal capital from Agra to Delhi.",
+        "source": "trivia",
+        "context_meta": {
+          "wikipedia_title": "Red Fort",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Red_Fort",
+          "topic": "geography",
+          "pageviews_3mo": 63224
+        },
+        "review_recommended": true
+      },
+      "6": {
+        "answer": "APE",
+        "clue": "Primate that's clsoely related to US.",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      },
+      "1": {
+        "answer": "MOHAN",
+        "clue": "Famous Indian actor, was a chairman of FTII",
+        "length": 5,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "Karnataka authority's stance on voting rights of centre residents"
+          },
+          {
+            "angle": "concise",
+            "text": "Karnataka police order on rehab centre voters"
+          },
+          {
+            "angle": "oblique",
+            "text": "Karnataka authority's stance on voter eligibility?"
+          }
+        ],
+        "source_snippet": "Rehab centre residents should not be denied voting rights: Karnataka State Police Complaints Authority member",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/news/national/karnataka/rehab-centre-residents-should-not-be-denied-voting-rights-karnataka-state-police-complaints-authority-member/article71340153.ece",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-13T16:31:13.642638+00:00"
+        },
+        "review_recommended": true
+      },
+      "2": {
+        "answer": "SVU",
+        "clue": "An university in South Delhi, India",
+        "length": 3,
+        "topical": true,
+        "clue_options": [
+          {
+            "angle": "direct",
+            "text": "South Delhi University unit acquires new technology"
+          },
+          {
+            "angle": "concise",
+            "text": "Academic unit digitizes ancient texts"
+          },
+          {
+            "angle": "oblique",
+            "text": "Ancient texts get high-tech upgrade at South Campus unit?"
+          }
+        ],
+        "source_snippet": "SVU gets advanced scanner to digitise ancient manuscripts",
+        "source": "news",
+        "context_meta": {
+          "news_outlet": "the_hindu",
+          "article_link": "https://www.thehindu.com/news/national/andhra-pradesh/svu-gets-advanced-scanner-to-digitise-ancient-manuscripts/article71341355.ece",
+          "mentions": 1,
+          "num_sources": 1,
+          "scraped_at": "2026-08-13T16:31:13.642638+00:00"
+        },
+        "review_recommended": true
+      },
+      "3": {
+        "answer": "GAL",
+        "clue": "Feminine given name ending in a vowel sound.",
+        "length": 3,
+        "topical": false,
+        "clue_options": null,
+        "source_snippet": "",
+        "source": null,
+        "context_meta": null,
+        "review_recommended": false
+      }
+    }
+  }
+}

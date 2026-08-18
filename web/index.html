@@ -7,49 +7,65 @@
 <link rel="stylesheet" href="assets/theme.css">
 <style>
   /* ------------------------------ Hero ------------------------------ */
-  /* Asymmetric split (text left, map right) rather than centered -- a
-     real visual asset (see 4.8: "text + gradient blob is not a hero")
-     plus the anti-center-bias guidance both point the same direction
-     once there's actual art to put on the other side. */
-  .hero { background: var(--accent); color: var(--accent-text); padding: 40px 20px 46px; }
-  .hero-inner {
-    max-width: 1040px; margin: 0 auto; display: flex; align-items: center;
-    gap: 40px; text-align: left;
+  /* Full-bleed map background rather than a side panel: the map itself
+     IS the hero's visual now (satisfies 4.8's "hero needs a real visual"
+     even more directly), which also justifies centered content again --
+     the skill's own exception for this is a poster/editorial-style hero
+     where the message and the art are the same composition, which this
+     now genuinely is. */
+  .hero { position: relative; color: var(--accent-text); overflow: hidden; }
+  .hero-bg {
+    position: absolute; inset: 0; z-index: 0;
+    background-image: url('assets/navi-mumbai-map-contrast-zones.jpg');
+    background-size: cover; background-position: center 0%;
+    animation: hero-pan 48s ease-in-out infinite alternate;
   }
-  .hero-text { flex: 1 1 380px; min-width: 0; }
+  /* The map is a tall poster; "cover" fits it by width, so it's already
+     only ever showing a horizontal slice of the full height. Panning
+     background-position vertically slides that slice slowly top-to-bottom
+     and back, so the whole poster is seen over time instead of the
+     background sitting frozen on one crop. */
+  @keyframes hero-pan {
+    0%   { background-position: center 0%; }
+    100% { background-position: center 100%; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero-bg { animation: none; background-position: center 30%; }
+  }
+  .hero-scrim {
+    position: absolute; inset: 0; z-index: 0;
+    background: linear-gradient(180deg, rgba(34,48,140,.62) 0%, rgba(20,17,13,.78) 100%);
+  }
+  .hero-inner {
+    position: relative; z-index: 1;
+    max-width: 760px; margin: 0 auto; text-align: center;
+    padding: 56px 20px 40px;
+  }
+  .hero-location {
+    font-family: var(--font-display); font-weight: 700; font-size: 13px;
+    letter-spacing: 2.5px; text-transform: uppercase; opacity: .9; margin: 0 0 6px;
+  }
+  .hero-location .rule { display: inline-block; width: 32px; height: 1px; background: currentColor; opacity: .5; margin: 0 10px 3px; vertical-align: middle; }
   .hero-eyebrow {
     font-size: 12px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase;
     opacity: .8; margin: 0 0 10px;
   }
   .hero h1 {
-    font-family: var(--font-display); font-size: clamp(28px, 3.6vw, 40px);
+    font-family: var(--font-display); font-size: clamp(28px, 4.4vw, 42px);
     line-height: 1.15; margin: 0 0 12px; text-wrap: balance; font-weight: 700;
   }
   .hero p {
-    font-size: 16px; line-height: 1.55; margin: 0; opacity: .92; max-width: 46ch;
+    font-size: 16px; line-height: 1.55; margin: 0; opacity: .95;
+    max-width: 52ch; margin-inline: auto;
+    text-shadow: 0 1px 4px rgba(0,0,0,.25);
   }
   .hero-date {
     display: inline-block; margin-top: 18px; font-size: 13px; font-weight: 700;
     letter-spacing: .4px; background: rgba(255,255,255,.16); padding: 6px 14px; border-radius: 999px;
   }
-
-  /* Navi Mumbai map -- decorative, one flat asset for both themes (a map
-     render doesn't have a meaningful "dark mode" of its own, same
-     treatment other sites give a fixed illustration/photo). */
-  .hero-map { flex: 1 1 280px; max-width: 320px; text-align: center; }
-  .hero-map img {
-    width: 100%; height: auto; border-radius: 14px; border: 1px solid rgba(255,255,255,.25);
-    box-shadow: 0 18px 40px -16px rgba(0,0,0,.35);
-    -webkit-mask-image: linear-gradient(to bottom, #000 82%, transparent 100%);
-    mask-image: linear-gradient(to bottom, #000 82%, transparent 100%);
-  }
-  .hero-map .credit { font-size: 11px; opacity: .65; margin-top: 8px; }
-
-  @media (max-width: 720px) {
-    .hero-inner { flex-direction: column; text-align: center; }
-    .hero-text { text-align: center; }
-    .hero p { margin-inline: auto; }
-    .hero-map { max-width: 220px; order: -1; }
+  .hero-credit {
+    position: relative; z-index: 1; text-align: center; font-size: 11px;
+    opacity: .75; padding: 0 20px 14px;
   }
 
   /* ------------------------------ Main ------------------------------ */
@@ -128,20 +144,18 @@
 </header>
 
 <section class="hero">
+  <div class="hero-bg" role="img" aria-label="Street map of Navi Mumbai, drawn in the site's own colors"></div>
+  <div class="hero-scrim"></div>
   <div class="hero-inner">
-    <div class="hero-text">
-      <p class="hero-eyebrow">Free to play · no account needed</p>
-      <h1>Three new puzzles, built fresh from today's headlines.</h1>
-      <p>A Mini, a Midi, and a full Crossword, generated daily with an Indian lens
-         and a dash of the wider world. Every clue is reviewed by hand before
-         it's yours to solve.</p>
-      <span class="hero-date" id="hero-date">Loading today's date…</span>
-    </div>
-    <div class="hero-map">
-      <img src="assets/navi-mumbai-map.jpg" alt="Street map of Navi Mumbai, drawn in the site's own colors" width="1600" height="1681" loading="eager">
-      <p class="credit">Navi Mumbai. Map data © OpenStreetMap contributors</p>
-    </div>
+    <p class="hero-location"><span class="rule"></span>Navi Mumbai, India<span class="rule"></span></p>
+    <p class="hero-eyebrow">Free to play · no account needed</p>
+    <h1>Three new puzzles, built fresh from today's headlines.</h1>
+    <p>A Mini, a Midi, and a full Crossword, generated daily with an Indian lens
+       and a dash of the wider world. Every clue is reviewed by hand before
+       it's yours to solve.</p>
+    <span class="hero-date" id="hero-date">Loading today's date…</span>
   </div>
+  <p class="hero-credit">Map data © OpenStreetMap contributors</p>
 </section>
 
 <main id="top">

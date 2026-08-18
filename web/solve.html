@@ -24,6 +24,25 @@
   .toolbar { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 16px; flex-wrap: wrap; border-bottom: 1px solid var(--surface-border); }
   .tool-btn { display: flex; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--surface-border); color: var(--text); padding: 8px 14px; border-radius: 999px; font-size: 13px; font-weight: 700; cursor: pointer; }
   .tool-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .tool-btn:disabled { opacity: .45; cursor: not-allowed; border-color: var(--surface-border); color: var(--text-muted); }
+
+  /* Check/Reveal are dropdowns (Square/Word/Puzzle) rather than 6 separate
+     pills -- keeps the toolbar to 3 items on one line while still giving
+     a newbie the option to check/reveal at whatever granularity they want. */
+  .dropdown { position: relative; }
+  .dropdown-menu {
+    position: absolute; top: calc(100% + 6px); left: 50%; transform: translateX(-50%);
+    background: var(--surface); border: 1px solid var(--surface-border); border-radius: 10px;
+    box-shadow: var(--shadow); padding: 6px; min-width: 160px; z-index: 25;
+    display: none; flex-direction: column; gap: 2px;
+  }
+  .dropdown-menu.open { display: flex; }
+  .dropdown-menu button {
+    background: none; border: none; text-align: left; padding: 8px 10px; border-radius: 6px;
+    font-size: 13px; color: var(--text); cursor: pointer; width: 100%;
+  }
+  .dropdown-menu button:hover { background: var(--surface-2); }
+  .dropdown-menu button:disabled { opacity: .45; cursor: not-allowed; }
 
   .stage { display: flex; gap: 28px; justify-content: center; align-items: flex-start; padding: 8px 16px 60px; max-width: 1000px; margin: 0 auto; flex-wrap: wrap; }
   .board-col { display: flex; flex-direction: column; align-items: center; gap: 14px; }
@@ -34,7 +53,13 @@
   .active-clue .txt { flex: 1; text-align: center; font-size: 15px; }
   .active-clue .num { font-weight: 700; margin-right: 6px; }
 
-  .grid-wrap { background: var(--text); padding: 2px; border-radius: 4px; box-shadow: var(--shadow); }
+  .grid-wrap { background: var(--text); padding: 2px; border-radius: 4px; box-shadow: var(--shadow); position: relative; }
+  .grid-wrap.locked .xgrid { opacity: .45; pointer-events: none; }
+  .grid-wrap.locked::after {
+    content: "Paused"; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-display); font-weight: 700; font-size: 18px; color: var(--surface);
+    text-shadow: 0 1px 3px rgba(0,0,0,.4); letter-spacing: .5px; pointer-events: none;
+  }
   .xgrid { display: grid; gap: 2px; }
   .xcell { position: relative; background: var(--surface); cursor: pointer; display: flex; align-items: center; justify-content: center; user-select: none; }
   .xcell.black { background: var(--text); cursor: default; }
@@ -54,6 +79,24 @@
   @media (max-width: 760px) { .clue-lists { display: none; } }
 
   .load-msg { text-align: center; padding: 60px 20px; color: var(--text-muted); }
+
+  /* The completion/reveal panel is a non-blocking corner toast, not a
+     centered modal -- revealing or finishing a puzzle shouldn't hide the
+     grid behind a dark scrim (there's no reason to block it: closing the
+     panel is meant to let you look at or clear the grid immediately). The
+     username entry overlay keeps the original full-screen blocking
+     behavior (id="name-overlay", untouched) since that one genuinely must
+     be dealt with before solving can start. */
+  #done-overlay { background: transparent; justify-content: flex-end; align-items: flex-end; padding: 20px; pointer-events: none; }
+  #done-overlay .modal { pointer-events: auto; max-width: 300px; padding: 22px 20px; text-align: left; position: relative; }
+  #done-overlay .modal .arch { margin: 0 0 10px; }
+  #done-overlay .modal h2 { font-size: 19px; }
+  #done-overlay .done-time { font-size: 30px; }
+  #done-close-x {
+    position: absolute; top: 10px; right: 10px; background: none; border: none; color: var(--text-muted);
+    cursor: pointer; padding: 4px; display: flex; border-radius: 6px;
+  }
+  #done-close-x:hover { color: var(--text); background: var(--surface-2); }
 </style>
 </head>
 <body>
@@ -89,14 +132,28 @@
   </div>
 
   <div class="toolbar">
-    <button class="tool-btn" id="check-btn">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg>
-      Check
-    </button>
-    <button class="tool-btn" id="reveal-btn">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
-      Reveal
-    </button>
+    <div class="dropdown">
+      <button class="tool-btn" id="check-toggle" aria-haspopup="true" aria-expanded="false">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg>
+        Check
+      </button>
+      <div class="dropdown-menu" id="check-menu">
+        <button id="check-square-btn">Check Square</button>
+        <button id="check-word-btn">Check Word</button>
+        <button id="check-puzzle-btn">Check Puzzle</button>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="tool-btn" id="reveal-toggle" aria-haspopup="true" aria-expanded="false">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+        Reveal
+      </button>
+      <div class="dropdown-menu" id="reveal-menu">
+        <button id="reveal-square-btn">Reveal Square</button>
+        <button id="reveal-word-btn">Reveal Word</button>
+        <button id="reveal-puzzle-btn">Reveal Puzzle</button>
+      </div>
+    </div>
     <button class="tool-btn" id="clear-btn">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M3 6h18M8 6V4h8v2M6 6l1 14h10l1-14"/></svg>
       Clear
@@ -136,10 +193,18 @@
   </div>
 </div>
 
-<!-- Completion modal -->
+<!-- Completion/reveal panel: a non-blocking corner toast, not a centered
+     modal that hides the grid behind it. The X just dismisses it (the
+     grid keeps whatever state it was in -- solved or revealed -- so you
+     can still hit Clear and try again if you want). "Back to Home"
+     actually leaves, since there's no reason to linger on a puzzle you've
+     already finished or revealed. -->
 <div class="overlay hidden" id="done-overlay">
   <div class="modal">
-    <svg class="arch" width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" style="margin:0 auto 14px;">
+    <button id="done-close-x" aria-label="Close">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <svg class="arch" width="28" height="28" viewBox="0 0 24 24" aria-hidden="true">
       <path fill="var(--text)" d="M4 21 V10 C4 5.02 7.58 2 12 2 C16.42 2 20 5.02 20 10 V21 Z"/>
       <path fill="var(--surface)" d="M8 21 V11.5 C8 8.5 9.8 6.5 12 6.5 C14.2 6.5 16 8.5 16 11.5 V21 Z"/>
     </svg>
@@ -147,7 +212,7 @@
     <div class="done-time" id="done-time">0:00</div>
     <div class="done-rank" id="done-rank">Rank — of —</div>
     <div class="mini-lb" id="done-lb"></div>
-    <button class="primary-btn" id="done-close">Back to puzzles</button>
+    <button class="primary-btn" id="done-home">Back to Home</button>
   </div>
 </div>
 
@@ -172,7 +237,13 @@ var state = {
   paused: false,
   running: false,
   username: null,
-  finished: false
+  finished: false,
+  // True once any Reveal action (square/word/puzzle) has been used this
+  // attempt. A completion reached after a reveal doesn't count as a real
+  // solve -- see finishPuzzle()/checkCompletion() -- otherwise revealing
+  // most of the grid then typing the last letter yourself would still
+  // land you on the leaderboard.
+  usedReveal: false
 };
 
 function fmtDate(iso) {
@@ -254,6 +325,7 @@ function loadPuzzle(size) {
     }
     state.dir = 'across';
     state.finished = false;
+    state.usedReveal = false;
 
     document.getElementById('puzzle-title').textContent = TITLES[size];
     document.getElementById('puzzle-date').textContent = fmtDate(puzzle.date);
@@ -353,6 +425,7 @@ function currentSlot() {
 }
 
 function selectCell(r, c, toggle) {
+  if (state.paused) return; // grid-wrap's pointer-events:none already blocks the click, this is belt-and-suspenders
   if (state.puzzle.grid[r][c] === '#') return;
   var cs = state.cellSlot[r + ',' + c];
   if (toggle && r === state.sel.r && c === state.sel.c) {
@@ -467,7 +540,7 @@ function handleArrow(key) {
 
 document.addEventListener('keydown', function (e) {
   if (!document.getElementById('name-overlay').classList.contains('hidden')) return;
-  if (state.finished || !state.puzzle) return;
+  if (state.finished || !state.puzzle || state.paused) return;
   var key = e.key;
   if (/^[a-zA-Z]$/.test(key)) {
     state.values[state.sel.r][state.sel.c] = key.toUpperCase();
@@ -505,6 +578,18 @@ function elapsedMs() {
 }
 function tick() { document.getElementById('timer').textContent = window.NBTLeaderboard.formatTime(elapsedMs()); }
 
+// Locking the grid on pause is deliberate, not just pausing the clock:
+// without this, entries typed while "paused" were silently accepted,
+// which both defeats the point of pausing and would let elapsed time and
+// grid state drift out of sync with each other.
+function setLocked(locked) {
+  document.querySelector('.grid-wrap').classList.toggle('locked', locked);
+  ['check-toggle', 'reveal-toggle', 'clear-btn'].forEach(function (id) {
+    document.getElementById(id).disabled = locked;
+  });
+  if (locked) closeAllDropdowns();
+}
+
 document.getElementById('pause-btn').addEventListener('click', function () {
   if (!state.running || state.finished) return;
   if (!state.paused) {
@@ -514,18 +599,61 @@ document.getElementById('pause-btn').addEventListener('click', function () {
     state.paused = false; state.timerStart = Date.now();
     document.getElementById('pause-icon').style.display = ''; document.getElementById('play-icon').style.display = 'none';
   }
+  setLocked(state.paused);
 });
 
-/* ---------------------------- Check / Reveal --------------------------- */
-document.getElementById('check-btn').addEventListener('click', function () {
+/* ------------------------------ Dropdowns ------------------------------ */
+function closeAllDropdowns() {
+  document.querySelectorAll('.dropdown-menu.open').forEach(function (m) { m.classList.remove('open'); });
+  document.querySelectorAll('.dropdown button[aria-expanded]').forEach(function (b) { b.setAttribute('aria-expanded', 'false'); });
+}
+function wireDropdown(toggleId, menuId) {
+  var toggle = document.getElementById(toggleId), menu = document.getElementById(menuId);
+  toggle.addEventListener('click', function (e) {
+    e.stopPropagation();
+    if (toggle.disabled) return;
+    var willOpen = !menu.classList.contains('open');
+    closeAllDropdowns();
+    if (willOpen) { menu.classList.add('open'); toggle.setAttribute('aria-expanded', 'true'); }
+  });
+  menu.addEventListener('click', function (e) {
+    if (e.target.tagName === 'BUTTON') closeAllDropdowns();
+  });
+}
+wireDropdown('check-toggle', 'check-menu');
+wireDropdown('reveal-toggle', 'reveal-menu');
+document.addEventListener('click', closeAllDropdowns);
+document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeAllDropdowns(); });
+
+/* ---------------------------- Check actions ---------------------------- */
+// Shared by all three Check granularities: mark a set of cells "wrong"
+// (only where filled and incorrect) with a brief flash, same visual
+// language regardless of scope.
+function flashWrong(cells) {
   var solved = state.puzzle.grid;
-  document.querySelectorAll('.xcell').forEach(function (div) {
-    if (div.classList.contains('black')) return;
-    var r = +div.dataset.r, c = +div.dataset.c;
+  cells.forEach(function (rc) {
+    var r = rc[0], c = rc[1];
     var v = state.values[r][c];
-    div.classList.toggle('wrong', !!v && v !== solved[r][c]);
+    var div = document.querySelector('.xcell[data-r="' + r + '"][data-c="' + c + '"]');
+    if (div) div.classList.toggle('wrong', !!v && v !== solved[r][c]);
   });
   setTimeout(function () { document.querySelectorAll('.xcell.wrong').forEach(function (d) { d.classList.remove('wrong'); }); }, 1400);
+}
+function allCells() {
+  var cells = [];
+  var rows = state.puzzle.size.rows, cols = state.puzzle.size.cols;
+  for (var r = 0; r < rows; r++) for (var c = 0; c < cols; c++) if (state.puzzle.grid[r][c] !== '#') cells.push([r, c]);
+  return cells;
+}
+document.getElementById('check-square-btn').addEventListener('click', function () {
+  flashWrong([[state.sel.r, state.sel.c]]);
+});
+document.getElementById('check-word-btn').addEventListener('click', function () {
+  var slot = currentSlot();
+  if (slot) flashWrong(slot.cells);
+});
+document.getElementById('check-puzzle-btn').addEventListener('click', function () {
+  flashWrong(allCells());
 });
 
 document.getElementById('clear-btn').addEventListener('click', function () {
@@ -534,12 +662,25 @@ document.getElementById('clear-btn').addEventListener('click', function () {
   paintGrid();
 });
 
-document.getElementById('reveal-btn').addEventListener('click', function () {
+/* ---------------------------- Reveal actions ---------------------------- */
+// Any reveal marks state.usedReveal, checked by checkCompletion() below --
+// a completion reached with reveal help doesn't count as a real solve.
+function revealCells(cells) {
   var solved = state.puzzle.grid;
-  var rows = state.puzzle.size.rows, cols = state.puzzle.size.cols;
-  for (var r = 0; r < rows; r++) for (var c = 0; c < cols; c++) if (state.puzzle.grid[r][c] !== '#') state.values[r][c] = solved[r][c];
+  cells.forEach(function (rc) { state.values[rc[0]][rc[1]] = solved[rc[0]][rc[1]]; });
+  state.usedReveal = true;
   paintGrid();
-  finishPuzzle(true);
+  checkCompletion();
+}
+document.getElementById('reveal-square-btn').addEventListener('click', function () {
+  revealCells([[state.sel.r, state.sel.c]]);
+});
+document.getElementById('reveal-word-btn').addEventListener('click', function () {
+  var slot = currentSlot();
+  if (slot) revealCells(slot.cells);
+});
+document.getElementById('reveal-puzzle-btn').addEventListener('click', function () {
+  revealCells(allCells());
 });
 
 function checkCompletion() {
@@ -549,7 +690,7 @@ function checkCompletion() {
     if (solved[r][c] === '#') continue;
     if (state.values[r][c] !== solved[r][c]) return;
   }
-  finishPuzzle(false);
+  finishPuzzle(state.usedReveal);
 }
 
 /* --------------------------- Completion modal --------------------------- */
@@ -596,9 +737,11 @@ function finishPuzzle(viaReveal) {
   }
 }
 
-document.getElementById('done-close').addEventListener('click', function () {
+document.getElementById('done-close-x').addEventListener('click', function () {
   document.getElementById('done-overlay').classList.add('hidden');
-  loadPuzzle(state.size);
+});
+document.getElementById('done-home').addEventListener('click', function () {
+  window.location.href = 'index.html';
 });
 
 /* ------------------------------- Wiring ------------------------------- */

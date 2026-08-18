@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>New Bombay Times — Games</title>
+<title>New Bombay Times: Games</title>
 <link rel="stylesheet" href="assets/theme.css">
 <style>
   /* ------------------------------ Hero ------------------------------ */
@@ -47,8 +47,10 @@
     display: flex; align-items: center; justify-content: center; color: var(--text-muted);
   }
   .badge-new {
+    /* Shape Consistency Lock: matches .badge-free's pill treatment
+       instead of an arbitrary 5px that matched nothing else on the page. */
     position: absolute; top: 14px; right: 14px; background: var(--badge-bg); color: var(--badge-text);
-    font-size: 10px; font-weight: 700; letter-spacing: .5px; padding: 4px 8px; border-radius: 5px;
+    font-size: 10px; font-weight: 700; letter-spacing: .5px; padding: 4px 10px; border-radius: 999px;
   }
 
   .grid-icon { display: grid; gap: 2px; width: 78px; height: 78px; margin: 6px auto 16px; }
@@ -84,7 +86,9 @@
 
 <header class="masthead">
   <div class="masthead-left">
-    <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    <!-- No hamburger menu: there's nothing behind it yet (no archive, no
+         about page). A menu button that opens to an empty drawer is worse
+         than no button -- add it back once there's real content for it. -->
     <a class="wordmark" href="index.html">
       <svg class="wordmark-icon" width="26" height="26" viewBox="0 0 24 24" aria-hidden="true">
         <path fill="var(--masthead-text)" d="M4 21 V10 C4 5.02 7.58 2 12 2 C16.42 2 20 5.02 20 10 V21 Z"/>
@@ -94,16 +98,16 @@
       <span class="wordmark-suffix">Games</span>
     </a>
   </div>
-  <button class="cta-pill">How to Play</button>
+  <button class="cta-pill" id="how-to-play-btn">How to Play</button>
 </header>
 
 <section class="hero">
   <div class="hero-inner">
-    <p class="hero-eyebrow">Free · No subscription · No account required</p>
+    <p class="hero-eyebrow">Free to play · no account needed</p>
     <h1>Three new puzzles, built fresh from today's headlines.</h1>
     <p>A Mini, a Midi, and a full Crossword, generated daily with an Indian lens
-       and a dash of the wider world — every clue reviewed by hand before it's
-       yours to solve.</p>
+       and a dash of the wider world. Every clue is reviewed by hand before
+       it's yours to solve.</p>
     <span class="hero-date" id="hero-date">Loading today's date…</span>
   </div>
 </section>
@@ -152,8 +156,8 @@
   </div>
 
   <section class="lb-section">
-    <div class="lb-head"><h2>Today's Fastest — The Mini</h2></div>
-    <p class="lb-sub">Pick any name for the day, no account needed. Solve, and your time joins the board below — land in the top five and things get a little celebratory.</p>
+    <div class="lb-head"><h2>Today's Fastest: The Mini</h2></div>
+    <p class="lb-sub">Pick any name for the day, no account needed. Solve, and your time joins the board below. Land in the top five and things get a little celebratory.</p>
     <div class="lb-card">
       <div id="lb-rows"></div>
       <div class="lb-footer">
@@ -170,8 +174,21 @@
       <path fill="var(--bg)" d="M8 21 V11.5 C8 8.5 9.8 6.5 12 6.5 C14.2 6.5 16 8.5 16 11.5 V21 Z"/>
     </svg>
   </span>
-  <span>New Bombay Times is an independent, non-commercial project built for fun — not affiliated with The New York Times.</span>
+  <span>New Bombay Times is an independent, non-commercial project built for fun. Not affiliated with The New York Times.</span>
 </footer>
+
+<div class="overlay hidden" id="how-to-play-overlay">
+  <div class="modal" style="max-width: 420px; text-align: left;">
+    <button id="how-to-play-close" aria-label="Close" style="position:absolute; top:10px; right:10px; background:none; border:none; color:var(--text-muted); cursor:pointer; padding:4px; border-radius:6px;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <h2>How to play</h2>
+    <p>Pick a puzzle: Mini, Midi, or the full Crossword. Click any clue or grid square to select it, then type letters to fill it in. Arrow keys and Tab move between clues.</p>
+    <p>Pick a name for the day when you start solving. No account needed; it only has to be unique for today.</p>
+    <p>Your timer starts on your first keystroke. Use Check or Reveal (Square, Word, or Puzzle) if you get stuck. Solving without using Reveal puts your time on today's leaderboard.</p>
+    <button class="primary-btn" id="how-to-play-got-it">Got it</button>
+  </div>
+</div>
 
 <script src="assets/leaderboard.js"></script>
 <script>
@@ -231,7 +248,7 @@
     var board = window.NBTLeaderboard.getBoard(puzzleId);
     var rowsEl = document.getElementById('lb-rows');
     if (!board.length) {
-      rowsEl.innerHTML = '<div class="lb-empty">No one has solved today’s Mini yet — be the first.</div>';
+      rowsEl.innerHTML = '<div class="lb-empty">No one has solved today’s Mini yet. Be the first.</div>';
       return;
     }
     rowsEl.innerHTML = '';
@@ -246,6 +263,16 @@
       rowsEl.appendChild(div);
     });
   }
+
+  document.getElementById('how-to-play-btn').addEventListener('click', function () {
+    document.getElementById('how-to-play-overlay').classList.remove('hidden');
+  });
+  document.getElementById('how-to-play-close').addEventListener('click', function () {
+    document.getElementById('how-to-play-overlay').classList.add('hidden');
+  });
+  document.getElementById('how-to-play-got-it').addEventListener('click', function () {
+    document.getElementById('how-to-play-overlay').classList.add('hidden');
+  });
 </script>
 </body>
 </html>

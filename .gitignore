@@ -5,3 +5,11 @@ __pycache__/
 # Large third-party downloads, re-created by setup_evergreen.sh -- not
 # worth tracking in git (multi-MB, no diff value).
 data/raw/
+
+# Skills are now installed globally (~/.agents/skills/, symlinked from
+# ~/.claude/skills/) rather than per-project, so multiple projects can
+# share them -- see ~/.agents/skills/ for the actual content. This
+# project's .claude/skills/ only holds a symlink pointing there, which is
+# an absolute, machine-specific path and would be a broken link for
+# anyone else cloning this repo (including you, on a different machine).
+.claude/skills/

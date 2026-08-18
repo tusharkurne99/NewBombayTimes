@@ -23,6 +23,15 @@
   --masthead-bg: #14110d;
   --masthead-text: #f7f4ee;
   --cell-selected: #ffe08a;
+  /* Text color for the hero, specifically -- NOT --accent-text. The
+     hero's background is a fixed dark map photo + dark scrim regardless
+     of site theme (same masthead-style "nameplate never changes" logic),
+     but --accent-text flips to near-black in dark mode (correct for text
+     sitting ON the accent color elsewhere, which itself gets lighter in
+     dark mode). Using --accent-text here put near-black text on a dark
+     image in dark mode -- illegible. This token is deliberately not
+     redefined in the dark-mode blocks below, same as --masthead-bg/text. */
+  --hero-fg: #f7f4ee;
   --font-display: Georgia, "Times New Roman", "Nyt Cheltenham", serif;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }

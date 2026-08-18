@@ -13,3 +13,9 @@ data/raw/
 # an absolute, machine-specific path and would be a broken link for
 # anyone else cloning this repo (including you, on a different machine).
 .claude/skills/
+
+# maptoposter is a separate cloned tool (its own git repo, its own venv,
+# gigabytes of generated poster PNGs) used once to render the Navi Mumbai
+# map used on the homepage -- web/assets/navi-mumbai-map.jpg is the only
+# output from it that actually belongs in this repo.
+maptoposter/

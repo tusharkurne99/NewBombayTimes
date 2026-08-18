@@ -7,23 +7,49 @@
 <link rel="stylesheet" href="assets/theme.css">
 <style>
   /* ------------------------------ Hero ------------------------------ */
+  /* Asymmetric split (text left, map right) rather than centered -- a
+     real visual asset (see 4.8: "text + gradient blob is not a hero")
+     plus the anti-center-bias guidance both point the same direction
+     once there's actual art to put on the other side. */
   .hero { background: var(--accent); color: var(--accent-text); padding: 40px 20px 46px; }
-  .hero-inner { max-width: 760px; margin: 0 auto; text-align: center; }
+  .hero-inner {
+    max-width: 1040px; margin: 0 auto; display: flex; align-items: center;
+    gap: 40px; text-align: left;
+  }
+  .hero-text { flex: 1 1 380px; min-width: 0; }
   .hero-eyebrow {
     font-size: 12px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase;
     opacity: .8; margin: 0 0 10px;
   }
   .hero h1 {
-    font-family: var(--font-display); font-size: clamp(28px, 4.4vw, 42px);
+    font-family: var(--font-display); font-size: clamp(28px, 3.6vw, 40px);
     line-height: 1.15; margin: 0 0 12px; text-wrap: balance; font-weight: 700;
   }
   .hero p {
-    font-size: 16px; line-height: 1.55; margin: 0; opacity: .92;
-    max-width: 52ch; margin-inline: auto;
+    font-size: 16px; line-height: 1.55; margin: 0; opacity: .92; max-width: 46ch;
   }
   .hero-date {
     display: inline-block; margin-top: 18px; font-size: 13px; font-weight: 700;
     letter-spacing: .4px; background: rgba(255,255,255,.16); padding: 6px 14px; border-radius: 999px;
+  }
+
+  /* Navi Mumbai map -- decorative, one flat asset for both themes (a map
+     render doesn't have a meaningful "dark mode" of its own, same
+     treatment other sites give a fixed illustration/photo). */
+  .hero-map { flex: 1 1 280px; max-width: 320px; text-align: center; }
+  .hero-map img {
+    width: 100%; height: auto; border-radius: 14px; border: 1px solid rgba(255,255,255,.25);
+    box-shadow: 0 18px 40px -16px rgba(0,0,0,.35);
+    -webkit-mask-image: linear-gradient(to bottom, #000 82%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 82%, transparent 100%);
+  }
+  .hero-map .credit { font-size: 11px; opacity: .65; margin-top: 8px; }
+
+  @media (max-width: 720px) {
+    .hero-inner { flex-direction: column; text-align: center; }
+    .hero-text { text-align: center; }
+    .hero p { margin-inline: auto; }
+    .hero-map { max-width: 220px; order: -1; }
   }
 
   /* ------------------------------ Main ------------------------------ */
@@ -103,12 +129,18 @@
 
 <section class="hero">
   <div class="hero-inner">
-    <p class="hero-eyebrow">Free to play · no account needed</p>
-    <h1>Three new puzzles, built fresh from today's headlines.</h1>
-    <p>A Mini, a Midi, and a full Crossword, generated daily with an Indian lens
-       and a dash of the wider world. Every clue is reviewed by hand before
-       it's yours to solve.</p>
-    <span class="hero-date" id="hero-date">Loading today's date…</span>
+    <div class="hero-text">
+      <p class="hero-eyebrow">Free to play · no account needed</p>
+      <h1>Three new puzzles, built fresh from today's headlines.</h1>
+      <p>A Mini, a Midi, and a full Crossword, generated daily with an Indian lens
+         and a dash of the wider world. Every clue is reviewed by hand before
+         it's yours to solve.</p>
+      <span class="hero-date" id="hero-date">Loading today's date…</span>
+    </div>
+    <div class="hero-map">
+      <img src="assets/navi-mumbai-map.jpg" alt="Street map of Navi Mumbai, drawn in the site's own colors" width="1600" height="1681" loading="eager">
+      <p class="credit">Navi Mumbai. Map data © OpenStreetMap contributors</p>
+    </div>
   </div>
 </section>
 

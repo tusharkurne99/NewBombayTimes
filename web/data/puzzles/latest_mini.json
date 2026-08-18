@@ -1,70 +1,69 @@
 {
-  "id": "2026-08-13-mini",
-  "date": "2026-08-13",
+  "id": "2026-08-18-mini",
+  "date": "2026-08-18",
   "puzzle_type": "mini",
   "size": {
     "rows": 5,
     "cols": 5
   },
   "grid": [
-    "##MSG",
-    "##OVA",
-    "RAHUL",
-    "EPA##",
-    "DEN##"
+    "##BBC",
+    "#BEAR",
+    "RALLY",
+    "ABLE#",
+    "YAY##"
   ],
   "numbering": {
     "0,2": 1,
     "0,3": 2,
     "0,4": 3,
-    "1,2": 4,
+    "1,1": 4,
     "2,0": 5,
-    "2,1": 6,
-    "3,0": 7,
-    "4,0": 8
+    "3,0": 6,
+    "4,0": 7
   },
   "clues": {
     "across": {
       "1": {
-        "clue": "Flavor enhancer found in Chinese cuisine",
+        "clue": "International news broadcaster frequently watched online",
         "length": 3
       },
       "4": {
-        "clue": "Female reproductive cells",
-        "length": 3
+        "clue": "Furry forest dweller",
+        "length": 4
       },
       "5": {
-        "clue": "Gandhi takes asset probe to Supreme Court",
+        "clue": "Event that brings people together.",
         "length": 5
       },
-      "7": {
-        "clue": "Environmental protection agency",
-        "length": 3
+      "6": {
+        "clue": "Skill or talent that can be developed at any age",
+        "length": 4
       },
-      "8": {
-        "clue": "In some circles, a place to retreat is still called that today.",
+      "7": {
+        "clue": "Excited crowd's collective shout of joy",
         "length": 3
       }
     },
     "down": {
       "5": {
-        "clue": "Color associated with a famous Indian imperial palace.",
+        "clue": "Famous Bengali film-maker",
         "length": 3
       },
-      "6": {
-        "clue": "Primate that's clsoely related to US.",
-        "length": 3
+      "4": {
+        "clue": "Hindi title of respect for older men.",
+        "length": 4
       },
       "1": {
-        "clue": "Famous Indian actor, was a chairman of FTII",
+        "clue": "Where you might strain against tight jeans.",
         "length": 5
       },
       "2": {
-        "clue": "An university in South Delhi, India",
-        "length": 3
+        "clue": "Actor who played batman.",
+        "length": 4
       },
       "3": {
-        "clue": "Feminine given name ending in a vowel sound.",
+        "clue": "Frustrated response from a person in a crowded space.",
         "length": 3
       }
     }

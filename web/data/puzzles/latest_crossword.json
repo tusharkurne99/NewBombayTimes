@@ -1,375 +1,373 @@
 {
-  "id": "2026-08-13-crossword",
-  "date": "2026-08-13",
+  "id": "2026-08-18-crossword",
+  "date": "2026-08-18",
   "puzzle_type": "crossword",
   "size": {
     "rows": 15,
     "cols": 15
   },
   "grid": [
-    "GAG#SUMITH#SMUG",
-    "APACE#S#U#X#ATP",
-    "FELON#EARPIECES",
-    "FRANTIC#QUSRA##",
-    "###C#R#NUT#ADDS",
-    "##WERE##OTO#AEW",
-    "AWARE#FRI#LAMIA",
-    "BESTDRESSEDLIST",
-    "YAHOO#SSE#IMAMS",
-    "SRI#SAT##LEAS##",
-    "SYNC#NOB#V#N###",
-    "##GUSTO#CITADEL",
-    "DATELINES#ACUTE",
-    "EDO#Y#E#I#PSEUD",
-    "SONS#ODISHA#LIE"
+    "WEST##SALUTES#",
+    "##H#I#BET#TEXT#",
+    "ALIGNMENT#ECHOS",
+    "BERET#YEAH#HARP",
+    "CORNEA#CRO#NUKE",
+    "#P#ERR#A#UFOS#L",
+    "TAO#EMF#ASI#TAU",
+    "ORR#SCATTER#ERN",
+    "IDA#THO#PTS#DMK",
+    "L#NASA#M#OTC#O#",
+    "ECGS#IBO#PHOTIC",
+    "THUG#ROTC#AWARD",
+    "SATAN#LICENSEES",
+    "#SARI#AFC#D#L##",
+    "#ENDLESS##ASIA"
   ],
   "numbering": {
     "0,0": 1,
-    "0,1": 2,
-    "0,2": 3,
-    "0,4": 4,
-    "0,6": 5,
-    "0,8": 6,
-    "0,11": 7,
-    "0,12": 8,
-    "0,13": 9,
-    "0,14": 10,
-    "1,0": 11,
-    "1,3": 12,
-    "1,10": 13,
-    "1,12": 14,
-    "2,0": 15,
-    "2,6": 16,
-    "2,9": 17,
-    "2,11": 18,
-    "3,0": 19,
-    "3,5": 20,
-    "3,8": 21,
-    "4,7": 22,
-    "4,11": 23,
-    "4,13": 24,
-    "4,14": 25,
-    "5,2": 26,
-    "5,4": 27,
-    "5,8": 28,
-    "5,10": 29,
-    "5,12": 30,
-    "6,0": 31,
-    "6,1": 32,
-    "6,6": 33,
-    "6,7": 34,
-    "6,10": 35,
-    "6,11": 36,
-    "7,0": 37,
+    "0,2": 2,
+    "0,7": 3,
+    "0,8": 4,
+    "0,10": 5,
+    "0,11": 6,
+    "0,12": 7,
+    "0,13": 8,
+    "1,4": 9,
+    "1,6": 10,
+    "1,10": 11,
+    "2,0": 12,
+    "2,1": 13,
+    "2,3": 14,
+    "2,10": 15,
+    "2,14": 16,
+    "3,0": 17,
+    "3,6": 18,
+    "3,9": 19,
+    "3,11": 20,
+    "4,0": 21,
+    "4,5": 22,
+    "4,7": 23,
+    "4,11": 24,
+    "5,3": 25,
+    "5,9": 26,
+    "5,10": 27,
+    "6,0": 28,
+    "6,2": 29,
+    "6,4": 30,
+    "6,6": 31,
+    "6,8": 32,
+    "6,12": 33,
+    "6,13": 34,
+    "7,0": 35,
+    "7,4": 36,
+    "7,12": 37,
     "8,0": 38,
-    "8,6": 39,
-    "8,10": 40,
-    "9,0": 41,
-    "9,4": 42,
-    "9,5": 43,
-    "9,9": 44,
-    "10,0": 45,
-    "10,3": 46,
-    "10,5": 47,
-    "11,2": 48,
-    "11,4": 49,
-    "11,8": 50,
-    "11,10": 51,
-    "11,12": 52,
-    "11,13": 53,
-    "11,14": 54,
-    "12,0": 55,
-    "12,1": 56,
-    "12,10": 57,
-    "13,0": 58,
-    "13,10": 59,
-    "14,0": 60,
-    "14,5": 61,
-    "14,12": 62
+    "8,4": 39,
+    "8,8": 40,
+    "8,12": 41,
+    "9,2": 42,
+    "9,3": 43,
+    "9,7": 44,
+    "9,9": 45,
+    "9,11": 46,
+    "10,0": 47,
+    "10,1": 48,
+    "10,5": 49,
+    "10,6": 50,
+    "10,9": 51,
+    "10,12": 52,
+    "10,14": 53,
+    "11,0": 54,
+    "11,5": 55,
+    "11,8": 56,
+    "11,10": 57,
+    "12,0": 58,
+    "12,4": 59,
+    "12,6": 60,
+    "13,1": 61,
+    "13,6": 62,
+    "14,1": 63,
+    "14,11": 64
   },
   "clues": {
     "across": {
       "1": {
-        "clue": "Sound of laughter at a wedding.",
-        "length": 3
-      },
-      "4": {
-        "clue": "Common indian male name.",
-        "length": 6
-      },
-      "7": {
-        "clue": "Sneaky importation of goods.",
+        "clue": "Middle East region affected by recent conflict",
         "length": 4
-      },
-      "11": {
-        "clue": "Racing ahead of others in a contest",
-        "length": 5
-      },
-      "14": {
-        "clue": "Energetic molecule found in every cell.",
-        "length": 3
-      },
-      "15": {
-        "clue": "Person who commits a crime often in prison",
-        "length": 5
-      },
-      "16": {
-        "clue": "Small protrusions at the edges of something.",
-        "length": 9
-      },
-      "19": {
-        "clue": "Wildly excited or anxious",
-        "length": 7
-      },
-      "21": {
-        "clue": "Israeli settlers surround homes in this West Bank village",
-        "length": 5
-      },
-      "22": {
-        "clue": "Small, edible kernel often used in baking.",
-        "length": 3
-      },
-      "23": {
-        "clue": "What's left over from an empty wallet?",
-        "length": 4
-      },
-      "26": {
-        "clue": "Something you might have been in before",
-        "length": 4
-      },
-      "28": {
-        "clue": "Ear-related prefix",
-        "length": 3
-      },
-      "30": {
-        "clue": "WWE competitor: Abbr.",
-        "length": 3
-      },
-      "31": {
-        "clue": "Sign of fatigue or concern.",
-        "length": 5
-      },
-      "33": {
-        "clue": "Sat. predecessor",
-        "length": 3
-      },
-      "35": {
-        "clue": "Greek mythological figure associated with death.",
-        "length": 5
-      },
-      "37": {
-        "clue": "Popular list of fashion experts.",
-        "length": 15
-      },
-      "38": {
-        "clue": "Exclamation used by some popular tech platforms recently.",
-        "length": 5
-      },
-      "39": {
-        "clue": "Direction on a map or compass",
-        "length": 3
-      },
-      "40": {
-        "clue": "Muslim clerics",
-        "length": 5
-      },
-      "41": {
-        "clue": "Island nation's title, for short?",
-        "length": 3
-      },
-      "42": {
-        "clue": "Form of exam taken by US students.",
-        "length": 3
-      },
-      "44": {
-        "clue": "Grassy meadow",
-        "length": 4
-      },
-      "45": {
-        "clue": "A 4-letter word",
-        "length": 4
-      },
-      "47": {
-        "clue": "British slang word for a person of wealth, high social status",
-        "length": 3
-      },
-      "48": {
-        "clue": "Italian for passionate enthusiasm",
-        "length": 5
-      },
-      "50": {
-        "clue": "Old city centers",
-        "length": 7
-      },
-      "55": {
-        "clue": "Newspaper sections that often feature news of this sort",
-        "length": 9
-      },
-      "57": {
-        "clue": "Type of an angle (adorable)",
-        "length": 5
-      },
-      "58": {
-        "clue": "Feudal Japanese state, for short",
-        "length": 3
-      },
-      "59": {
-        "clue": "Phony intellectual",
-        "length": 5
-      },
-      "60": {
-        "clue": "Mumford & ___",
-        "length": 4
-      },
-      "61": {
-        "clue": "Eastern state: claims on the very first rasgulla.",
-        "length": 6
-      },
-      "62": {
-        "clue": "Telling something that isn't true.",
-        "length": 3
-      }
-    },
-    "down": {
-      "1": {
-        "clue": "Flaw in one's performance or manner",
-        "length": 4
-      },
-      "31": {
-        "clue": "Something you shouldn't stare into.",
-        "length": 5
-      },
-      "55": {
-        "clue": "Some, in French",
-        "length": 3
-      },
-      "2": {
-        "clue": "copycat.",
-        "length": 4
-      },
-      "32": {
-        "clue": "Afternoon's effect on someone in a crowded place",
-        "length": 5
-      },
-      "56": {
-        "clue": "In Indian classical music, a short melodic phrase.",
-        "length": 3
       },
       "3": {
-        "clue": "Formal celebration in many Indian cultures",
-        "length": 4
+        "clue": "Greeted formally with raised hands or arms.",
+        "length": 7
       },
-      "26": {
-        "clue": "First US president",
-        "length": 10
+      "10": {
+        "clue": "In a contest, this is what you're aiming for.",
+        "length": 3
+      },
+      "11": {
+        "clue": "What people write in emails",
+        "length": 4
       },
       "12": {
-        "clue": "Orchestral piece",
-        "length": 8
+        "clue": "A way to bring two things into line",
+        "length": 9
       },
-      "46": {
-        "clue": "Sound that signals an actor's line",
-        "length": 3
-      },
-      "4": {
-        "clue": "Result of an action taken in haste.",
-        "length": 4
-      },
-      "27": {
-        "clue": "French wine label feature.",
+      "15": {
+        "clue": "Fading sounds from a past event.",
         "length": 5
-      },
-      "49": {
-        "clue": "Witty remark from an old friend.",
-        "length": 3
-      },
-      "20": {
-        "clue": "Flame of anger, often simmering below",
-        "length": 3
-      },
-      "43": {
-        "clue": "Opposition to something or someone you may encounter",
-        "length": 4
-      },
-      "5": {
-        "clue": "Microsecond measurement device",
-        "length": 4
-      },
-      "33": {
-        "clue": "Decorative arrangement of flowers or leaves often seen in Indian architecture.",
-        "length": 9
-      },
-      "34": {
-        "clue": "Modi's party line?",
-        "length": 3
-      },
-      "6": {
-        "clue": "Gem of the ancient Persian Empire's treasury.",
-        "length": 9
-      },
-      "50": {
-        "clue": "Canadian intelligence agency that monitors cyber threats.",
-        "length": 4
       },
       "17": {
-        "clue": "Golf stroke",
-        "length": 4
-      },
-      "44": {
-        "clue": "Roman numeral for 56.",
-        "length": 3
-      },
-      "13": {
-        "clue": "Greek letters before omicrons.",
-        "length": 3
-      },
-      "29": {
-        "clue": "Outdated vehicle seen on collector car shows.",
+        "clue": "French military headgear often associated with artists.",
         "length": 5
       },
-      "51": {
-        "clue": "Peruvian hatmaker's specialty",
-        "length": 4
-      },
       "18": {
-        "clue": "Period in history?",
-        "length": 3
-      },
-      "36": {
-        "clue": "Periodical publications for planning and record-keeping.",
-        "length": 8
-      },
-      "8": {
-        "clue": "Edamame alternative often served as a snack in India.",
-        "length": 10
-      },
-      "52": {
-        "clue": "Fights between two people in a public place",
+        "clue": "Expression of enthusiasm in Hindi.",
         "length": 4
       },
-      "9": {
-        "clue": "Tribe that gave state of Utah its name.",
+      "20": {
+        "clue": "Person who accompanied Trump on Turkey trip incident",
+        "length": 4
+      },
+      "21": {
+        "clue": "Eye structure component.",
+        "length": 6
+      },
+      "23": {
+        "clue": "Small farming practice in France and elsewhere.",
         "length": 3
       },
       "24": {
-        "clue": "Philosophical stance that attributes intelligence to nature.",
-        "length": 5
-      },
-      "53": {
-        "clue": "French decorative accessory found in many homes.",
+        "clue": "Device that could have been used to destroy Hiroshima.",
         "length": 4
-      },
-      "10": {
-        "clue": "Device for finding your way around unfamiliar roads",
-        "length": 3
       },
       "25": {
-        "clue": "Soundly scolds an unruly child",
-        "length": 5
+        "clue": "Where mistakes are made in writing or speaking.",
+        "length": 3
+      },
+      "26": {
+        "clue": "Sightings in the sky of unknown origin",
+        "length": 4
+      },
+      "28": {
+        "clue": "Ancient Chinese philosophy's central concept",
+        "length": 3
+      },
+      "30": {
+        "clue": "Field where scientists measure electrical forces",
+        "length": 3
+      },
+      "32": {
+        "clue": "Mehtab Bagh site protected by Indian heritage agency",
+        "length": 3
+      },
+      "33": {
+        "clue": "Ancient Greek lettering system",
+        "length": 3
+      },
+      "35": {
+        "clue": "Bengaluru highway in controversy recently",
+        "length": 3
+      },
+      "36": {
+        "clue": "Dispersal that's hard to ignore",
+        "length": 7
+      },
+      "37": {
+        "clue": "Germanic term for \"peace",
+        "length": 3
+      },
+      "38": {
+        "clue": "French artist's first name",
+        "length": 3
+      },
+      "39": {
+        "clue": "Short form of 'thank you",
+        "length": 3
+      },
+      "40": {
+        "clue": "Score on tests taken by students in school.",
+        "length": 3
+      },
+      "41": {
+        "clue": "Tamil Nadu leader's office location changed recently",
+        "length": 3
+      },
+      "42": {
+        "clue": "US space agency responsible for moon landings and more.",
+        "length": 4
+      },
+      "45": {
+        "clue": "Stock exchange listing",
+        "length": 3
+      },
+      "47": {
+        "clue": "Indian credit report detail.",
+        "length": 4
+      },
+      "49": {
+        "clue": "Irish term for a young dog",
+        "length": 3
+      },
+      "51": {
+        "clue": "Flower of a certain season is often found in bouquets.",
+        "length": 6
       },
       "54": {
-        "clue": "Opening paragraph of a major news story",
+        "clue": "Fearsome Indian highway escort",
         "length": 4
+      },
+      "55": {
+        "clue": "Military academy preparatory program",
+        "length": 4
+      },
+      "57": {
+        "clue": "Indian sports honor bypassing certain candidates this year",
+        "length": 5
+      },
+      "58": {
+        "clue": "Demon of Christianity, according to legend.",
+        "length": 5
+      },
+      "60": {
+        "clue": "People who own an establishment's rights.",
+        "length": 9
+      },
+      "61": {
+        "clue": "Item often worn by Indian women in a long piece of fabric.",
+        "length": 4
+      },
+      "62": {
+        "clue": "Conference comprising teams that Micah Parsons named",
+        "length": 3
+      },
+      "63": {
+        "clue": "Describes something that's always on hand.",
+        "length": 7
+      },
+      "64": {
+        "clue": "US diplomat's destination in recent visit news",
+        "length": 4
+      }
+    },
+    "down": {
+      "12": {
+        "clue": "Initial letter of a popular alphabet sequence",
+        "length": 3
+      },
+      "28": {
+        "clue": "Facilities for a quick wash?",
+        "length": 7
+      },
+      "13": {
+        "clue": "Big cat native to Africa and Asia.",
+        "length": 7
+      },
+      "48": {
+        "clue": "What's left to pursue after losing your train?",
+        "length": 5
+      },
+      "2": {
+        "clue": "Indian classical music piece often performed at weddings.",
+        "length": 5
+      },
+      "29": {
+        "clue": "Primate of Indonesian rainforests",
+        "length": 9
+      },
+      "14": {
+        "clue": "Where DNA is found",
+        "length": 4
+      },
+      "43": {
+        "clue": "In Norse mythology's realm of the gods.",
+        "length": 6
+      },
+      "9": {
+        "clue": "What people do in their free time?",
+        "length": 9
+      },
+      "59": {
+        "clue": "Result of a thorough search or inquiry",
+        "length": 3
+      },
+      "22": {
+        "clue": "Furniture for lounging on weekends.",
+        "length": 8
+      },
+      "10": {
+        "clue": "Shortened form of a popular girl's name",
+        "length": 3
+      },
+      "31": {
+        "clue": "United Nations agency for food and agriculture.",
+        "length": 3
+      },
+      "50": {
+        "clue": "Indian footwear option, often worn for formal events.",
+        "length": 5
+      },
+      "3": {
+        "clue": "French fur trader's father.",
+        "length": 6
+      },
+      "44": {
+        "clue": "Common theme in literature and art",
+        "length": 6
+      },
+      "4": {
+        "clue": "Oily fragrance found in rosewater",
+        "length": 5
+      },
+      "32": {
+        "clue": "Energy source for cells and muscles",
+        "length": 3
+      },
+      "56": {
+        "clue": "Roman numeral for 3",
+        "length": 3
+      },
+      "19": {
+        "clue": "Where many roofs are shared in Indian homes.",
+        "length": 8
+      },
+      "5": {
+        "clue": "Small Native American tribe or unit of land.",
+        "length": 3
+      },
+      "27": {
+        "clue": "Personal experience in its original form",
+        "length": 9
+      },
+      "6": {
+        "clue": "Device of modern tech industry",
+        "length": 6
+      },
+      "46": {
+        "clue": "Farm animals that produce milk and fertilizer.",
+        "length": 4
+      },
+      "7": {
+        "clue": "After a long, tiring shift at work.",
+        "length": 9
+      },
+      "52": {
+        "clue": "Weavers' unit",
+        "length": 5
+      },
+      "8": {
+        "clue": "Bird that delivers babies in rural Europe and America",
+        "length": 5
+      },
+      "34": {
+        "clue": "French dresser often found in estates.",
+        "length": 7
+      },
+      "16": {
+        "clue": "Exploring cave systems beneath the earth.",
+        "length": 7
+      },
+      "53": {
+        "clue": "Defender of the Indian armed forces since 1949.",
+        "length": 3
       }
     }
   }

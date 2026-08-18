@@ -1,168 +1,154 @@
 {
-  "id": "2026-08-13-midi",
-  "date": "2026-08-13",
+  "id": "2026-08-18-midi",
+  "date": "2026-08-18",
   "puzzle_type": "midi",
   "size": {
     "rows": 9,
     "cols": 9
   },
   "grid": [
-    "ACE#GIMP#",
-    "BOP#MLA#P",
-    "CHITTOR#I",
-    "#ODE##TIN",
-    "BREADLINE",
-    "ATM##ENS#",
-    "B#IMARETS",
-    "U#CID#TET",
-    "#ESTS#SPY"
+    "CODA#IFFY",
+    "#MER##ACE",
+    "METALLICS",
+    "EGO#L#R##",
+    "MANDAIYUR",
+    "##A#N#TSA",
+    "ASTRONAUT",
+    "LEE##OLA#",
+    "EAST#VELU"
   ],
   "numbering": {
     "0,0": 1,
     "0,1": 2,
     "0,2": 3,
-    "0,4": 4,
+    "0,3": 4,
     "0,5": 5,
     "0,6": 6,
-    "1,0": 7,
-    "1,4": 8,
-    "1,8": 9,
-    "2,0": 10,
-    "2,3": 11,
-    "3,1": 12,
-    "3,6": 13,
-    "3,7": 14,
-    "4,0": 15,
-    "4,5": 16,
-    "5,0": 17,
-    "5,5": 18,
-    "6,2": 19,
-    "6,3": 20,
-    "6,4": 21,
-    "6,8": 22,
-    "7,2": 23,
-    "7,6": 24,
-    "8,1": 25,
-    "8,6": 26
+    "0,7": 7,
+    "0,8": 8,
+    "1,1": 9,
+    "1,6": 10,
+    "2,0": 11,
+    "2,4": 12,
+    "3,0": 13,
+    "4,0": 14,
+    "4,7": 15,
+    "4,8": 16,
+    "5,6": 17,
+    "6,0": 18,
+    "6,1": 19,
+    "6,5": 20,
+    "7,0": 21,
+    "7,5": 22,
+    "8,0": 23,
+    "8,5": 24
   },
   "clues": {
     "across": {
       "1": {
-        "clue": "In a certain card game, a high score is achieved.",
-        "length": 3
-      },
-      "4": {
-        "clue": "Graphics editing software option",
+        "clue": "Song's tail end",
         "length": 4
       },
-      "7": {
-        "clue": "Rhythm of music",
-        "length": 3
+      "5": {
+        "clue": "Word associated with uncertainty or doubt in formal situations.",
+        "length": 4
       },
-      "8": {
-        "clue": "Representatives in state level politics.",
+      "9": {
+        "clue": "Sea, in Saint-Tropez",
         "length": 3
       },
       "10": {
-        "clue": "Fort in Rajasthan and UNESCO World Heritage Site",
-        "length": 7
-      },
-      "12": {
-        "clue": "Old-fashioned poem that expresses deep feeling.",
+        "clue": "Symbol of excellence in many sports.",
         "length": 3
+      },
+      "11": {
+        "clue": "Material for coins and bars, often seen in banks.",
+        "length": 9
       },
       "13": {
-        "clue": "Sound in cans often used in cooking",
+        "clue": "Self-centeredness that shows in one's appearance.",
         "length": 3
       },
-      "15": {
-        "clue": "Depression-era sight",
+      "14": {
+        "clue": "Tamil Nadu politician proposes new station in this town",
         "length": 9
       },
       "17": {
-        "clue": "Device where you withdraw cash easily",
+        "clue": "Screening device for US airports.",
         "length": 3
       },
       "18": {
-        "clue": "Small mark on a map or document",
+        "clue": "Space traveler in a space suit",
+        "length": 9
+      },
+      "21": {
+        "clue": "Angle of a tree's side",
         "length": 3
       },
-      "19": {
-        "clue": "Ottoman public kitchens",
-        "length": 7
+      "22": {
+        "clue": "Indian music site that's always on beat",
+        "length": 3
       },
       "23": {
-        "clue": "Police investigation agency.",
-        "length": 3
-      },
-      "24": {
-        "clue": "Major Asian celebration.",
-        "length": 3
-      },
-      "25": {
-        "clue": "Ballpark nos.",
+        "clue": "Roadside beautification drive area in Tiruchi Corporation's initiative",
         "length": 4
       },
-      "26": {
-        "clue": "Informant in a foreign intelligence service",
-        "length": 3
+      "24": {
+        "clue": "CM's office moves to accommodate staff",
+        "length": 4
       }
     },
     "down": {
-      "1": {
-        "clue": "News agency from down under.",
+      "11": {
+        "clue": "Small abbreviation used in business and education",
         "length": 3
       },
-      "15": {
-        "clue": "What they call clerks in north india.",
-        "length": 4
+      "18": {
+        "clue": "Small unit of fermented drink, often served in mugs.",
+        "length": 3
       },
       "2": {
-        "clue": "Group that started something together.",
-        "length": 6
+        "clue": "Symbol of ancient Greek wisdom at the end of a mythic story",
+        "length": 5
+      },
+      "19": {
+        "clue": "Where ocean waves meet sandy shores.",
+        "length": 3
       },
       "3": {
-        "clue": "Disease spread that's hard to contain.",
+        "clue": "Device that explodes unexpectedly often",
         "length": 9
       },
-      "11": {
-        "clue": "Eastern shrub's leaves used to make this beverage",
+      "4": {
+        "clue": "Ancient Zoroastrian ritual offering.",
         "length": 3
+      },
+      "12": {
+        "clue": "Colorado town known for its scenic canyons and historic mining sites",
+        "length": 5
       },
       "20": {
-        "clue": "Massachusetts tech institute with Bengaluru AI lab",
-        "length": 3
-      },
-      "4": {
-        "clue": "Global time zone standard, commonly used in business.",
-        "length": 3
-      },
-      "21": {
-        "clue": "Platform for online promotions",
-        "length": 3
-      },
-      "5": {
-        "clue": "International organization focused on labor rights",
-        "length": 3
-      },
-      "16": {
-        "clue": "Small suffix in many German names",
+        "clue": "Shortest winter month in the Northern Hemisphere",
         "length": 3
       },
       "6": {
-        "clue": "Instrument played by bagpipers",
+        "clue": "Whimsical tales in literature and film.",
         "length": 9
       },
-      "14": {
-        "clue": "Fittingly placed on shoes",
-        "length": 6
+      "7": {
+        "clue": "Regulatory body for American broadcasting",
+        "length": 3
       },
-      "9": {
-        "clue": "Evergreen tree often used in Christmas decorations",
-        "length": 4
+      "15": {
+        "clue": "Common occurrence in everyday life",
+        "length": 5
       },
-      "22": {
-        "clue": "A 3-letter word",
+      "8": {
+        "clue": "In some Indian languages, a definitive affirmation is expressed through a single syllable.",
+        "length": 3
+      },
+      "16": {
+        "clue": "Small mammal often found in cluttered homes.",
         "length": 3
       }
     }

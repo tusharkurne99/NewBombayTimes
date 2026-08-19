@@ -1,0 +1,35 @@
+// Firestore security rules for the shared leaderboard.
+// Paste this into: Firebase console -> Firestore Database -> Rules tab
+// -> replace everything -> Publish.
+//
+// Context: there are no user accounts on this site (deliberately -- see
+// project_log_week1.md), so there's no auth to check. These rules are the
+// ONLY server-side validation this app has (per vibesec-skill's "never
+// trust client-side validation alone" -- a browser console can call
+// Firestore directly, bypassing leaderboard.js entirely, so the rules
+// have to hold on their own). Anyone can read (needed for the leaderboard
+// to display) and create an entry (needed to submit a time), but the
+// shape of what they can write is constrained, and nothing can be edited
+// or deleted once written.
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /leaderboard_entries/{entryId} {
+      allow read: if true;
+
+      allow create: if request.resource.data.keys().hasOnly(['puzzleId', 'name', 'ms', 'at'])
+                    && request.resource.data.puzzleId is string
+                    && request.resource.data.puzzleId.size() > 0
+                    && request.resource.data.puzzleId.size() < 40
+                    && request.resource.data.name is string
+                    && request.resource.data.name.size() > 0
+                    && request.resource.data.name.size() <= 24
+                    && request.resource.data.ms is int
+                    && request.resource.data.ms > 0
+                    && request.resource.data.ms < 3600000; // under 1 hour -- sanity bound, not a real limit
+
+      allow update, delete: if false; // times are write-once; nothing is ever edited or removed via the app
+    }
+  }
+}

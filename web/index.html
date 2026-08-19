@@ -236,7 +236,7 @@
   </div>
 </div>
 
-<script src="assets/leaderboard.js"></script>
+<script type="module" src="assets/leaderboard.js"></script>
 <script>
   // ---- decorative grid icons (same authentic patterns as the design
   // pitch -- Mini's is the project's actual original 5x5 black-square
@@ -291,8 +291,11 @@
   });
 
   function renderLeaderboard(puzzleId) {
-    var board = window.NBTLeaderboard.getBoard(puzzleId);
     var rowsEl = document.getElementById('lb-rows');
+    // getBoard() is a Promise now (Firestore is a network read, not
+    // synchronous localStorage) -- everything downstream that used the
+    // board just moved inside this .then().
+    window.NBTLeaderboard.getBoard(puzzleId).then(function (board) {
     if (!board.length) {
       rowsEl.innerHTML = '<div class="lb-empty">No one has solved today’s Mini yet. Be the first.</div>';
       return;
@@ -308,6 +311,7 @@
         '<span class="lb-time">' + window.NBTLeaderboard.formatTime(row.ms) + '</span>';
       rowsEl.appendChild(div);
     });
+    }); // end getBoard().then()
   }
 
   document.getElementById('how-to-play-btn').addEventListener('click', function () {

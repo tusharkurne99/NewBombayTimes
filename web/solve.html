@@ -218,7 +218,7 @@
 
 <canvas id="confetti-canvas"></canvas>
 
-<script src="assets/leaderboard.js"></script>
+<script type="module" src="assets/leaderboard.js"></script>
 <script src="assets/confetti.js"></script>
 <script>
 var TITLES = { mini: 'The Mini', midi: 'The Midi', crossword: 'The Crossword' };
@@ -576,7 +576,20 @@ function elapsedMs() {
   if (!state.running || state.paused) return state.elapsedBeforePause;
   return state.elapsedBeforePause + (Date.now() - state.timerStart);
 }
-function tick() { document.getElementById('timer').textContent = window.NBTLeaderboard.formatTime(elapsedMs()); }
+// Local, not window.NBTLeaderboard.formatTime() -- this is a pure
+// function with no reason to depend on the leaderboard module, and it
+// used to: leaderboard.js became a `type="module"` script (deferred,
+// and it has to fetch the Firebase SDK from a CDN before it can even
+// run) while this file is a plain classic script that runs immediately.
+// tick() fires every 250ms starting the moment someone types their first
+// letter -- if the module hadn't finished loading yet, this threw and
+// silently broke the timer display itself, not just the leaderboard.
+function formatTime(ms) {
+  var s = Math.floor(ms / 1000);
+  var m = Math.floor(s / 60); s = s % 60;
+  return m + ':' + (s < 10 ? '0' : '') + s;
+}
+function tick() { document.getElementById('timer').textContent = formatTime(elapsedMs()); }
 
 // Locking the grid on pause is deliberate, not just pausing the clock:
 // without this, entries typed while "paused" were silently accepted,
@@ -694,47 +707,72 @@ function checkCompletion() {
 }
 
 /* --------------------------- Completion modal --------------------------- */
+// The "you solved it" confirmation is the core feedback and must show
+// unconditionally, the instant the puzzle is done -- the leaderboard is
+// a secondary, network-dependent enhancement layered on top, and a
+// failure or slowness in it must never be able to block or hide the
+// primary confirmation. (This was a real bug: leaderboard.js is a
+// type="module" script that has to fetch the Firebase SDK from a CDN
+// before it can run, while this file is a classic script that runs
+// immediately -- solving fast enough, or the module failing to load at
+// all, meant window.NBTLeaderboard.submitTime() threw before the modal
+// was ever shown, silently.)
 function finishPuzzle(viaReveal) {
   if (state.finished) return;
   state.finished = true;
   clearInterval(timerInterval);
   var ms = elapsedMs();
-  var timeStr = window.NBTLeaderboard.formatTime(ms);
+  var timeStr = formatTime(ms);
   var puzzleId = state.puzzle.id;
   var name = state.username || 'anon-solver';
 
-  var rank, board;
-  if (!viaReveal) {
-    rank = window.NBTLeaderboard.submitTime(puzzleId, name, ms);
-    board = window.NBTLeaderboard.getBoard(puzzleId);
-  } else {
-    board = window.NBTLeaderboard.getBoard(puzzleId);
-    rank = board.length + 1;
-  }
-
   document.getElementById('done-heading').textContent = viaReveal ? 'Puzzle revealed' : 'Solved! 🎉';
   document.getElementById('done-time').textContent = timeStr;
-  document.getElementById('done-rank').textContent =
-    viaReveal ? 'Not counted toward today’s leaderboard' : ('Rank ' + rank + ' of ' + board.length + ' today');
-
-  var lb = document.getElementById('done-lb');
-  lb.innerHTML = '';
-  board.slice(0, 5).forEach(function (row, i) {
-    var div = document.createElement('div');
-    var isMe = !viaReveal && row.name === name && row.ms === ms && (i + 1) === rank;
-    div.className = 'mini-lb-row r' + (i + 1) + (isMe ? ' me' : '');
-    div.innerHTML = '<span class="rk">' + (i + 1) + '</span><span>' + row.name + '</span><span class="tm">' + window.NBTLeaderboard.formatTime(row.ms) + '</span>';
-    lb.appendChild(div);
-  });
-
+  document.getElementById('done-rank').textContent = viaReveal
+    ? 'Not counted toward today’s leaderboard'
+    : 'Checking today’s leaderboard…';
+  document.getElementById('done-lb').innerHTML = '';
   document.getElementById('done-overlay').classList.remove('hidden');
 
-  if (!viaReveal && rank <= 5) {
-    setTimeout(function () {
+  function renderBoard(rank, board) {
+    document.getElementById('done-rank').textContent =
+      viaReveal ? 'Not counted toward today’s leaderboard' : ('Rank ' + rank + ' of ' + board.length + ' today');
+    var lb = document.getElementById('done-lb');
+    lb.innerHTML = '';
+    board.slice(0, 5).forEach(function (row, i) {
+      var div = document.createElement('div');
+      var isMe = !viaReveal && row.name === name && row.ms === ms && (i + 1) === rank;
+      div.className = 'mini-lb-row r' + (i + 1) + (isMe ? ' me' : '');
+      div.innerHTML = '<span class="rk">' + (i + 1) + '</span><span>' + row.name + '</span><span class="tm">' + formatTime(row.ms) + '</span>';
+      lb.appendChild(div);
+    });
+    if (!viaReveal && rank <= 5) {
       window.NBTConfetti.burst(window.innerWidth * 0.3, window.innerHeight * 0.35);
       window.NBTConfetti.burst(window.innerWidth * 0.7, window.innerHeight * 0.35);
-    }, 200);
+    }
   }
+
+  // window.NBTLeaderboard might not exist yet (module still loading) --
+  // check explicitly rather than letting the call throw. Not an error
+  // state worth alarming over: it resolves itself once the module loads,
+  // this just guards the one call that might race it.
+  if (!window.NBTLeaderboard) {
+    document.getElementById('done-rank').textContent = 'Leaderboard unavailable right now.';
+    return;
+  }
+
+  var boardPromise = viaReveal
+    ? window.NBTLeaderboard.getBoard(puzzleId).then(function (board) { return { rank: board.length + 1, board: board }; })
+    : window.NBTLeaderboard.submitTime(puzzleId, name, ms).then(function (rank) {
+        return window.NBTLeaderboard.getBoard(puzzleId).then(function (board) { return { rank: rank, board: board }; });
+      });
+
+  boardPromise.then(function (result) {
+    renderBoard(result.rank, result.board);
+  }).catch(function (err) {
+    console.error('[leaderboard] could not load/submit:', err);
+    document.getElementById('done-rank').textContent = 'Leaderboard unavailable right now.';
+  });
 }
 
 document.getElementById('done-close-x').addEventListener('click', function () {

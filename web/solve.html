@@ -61,6 +61,11 @@
     text-shadow: 0 1px 3px rgba(0,0,0,.4); letter-spacing: .5px; pointer-events: none;
   }
   .xgrid { display: grid; gap: 2px; }
+  #mobile-input {
+    position: absolute; opacity: 0; border: 0; padding: 0; margin: 0;
+    /* font-size 16px+ stops iOS Safari auto-zooming the page on focus */
+    font-size: 16px; caret-color: transparent; pointer-events: none;
+  }
   .xcell { position: relative; background: var(--surface); cursor: pointer; display: flex; align-items: center; justify-content: center; user-select: none; }
   .xcell.black { background: var(--text); cursor: default; }
   .xcell .num { position: absolute; top: 1px; left: 2px; font-size: calc(var(--cell) * 0.24); font-weight: 700; color: var(--text-muted); line-height: 1; }
@@ -170,7 +175,18 @@
         <div class="txt"><span class="num" id="active-num">1-Across</span><span id="active-text">Loading…</span></div>
         <button id="next-clue" aria-label="Next clue"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 6l6 6-6 6"/></svg></button>
       </div>
-      <div class="grid-wrap"><div class="xgrid" id="grid"></div></div>
+      <div class="grid-wrap">
+        <div class="xgrid" id="grid"></div>
+        <!-- Invisible, focusable input -- the standard way to get the
+             device's OWN keyboard to pop up on tap, same trick a search
+             box uses. No custom on-screen keyboard is built; this input
+             is just what the OS keyboard actually types into, positioned
+             over the selected cell (see positionMobileInput()) so iOS
+             doesn't jump-scroll the page when it opens. -->
+        <input id="mobile-input" type="text" inputmode="text" maxlength="1"
+               autocomplete="off" autocorrect="off" autocapitalize="characters" spellcheck="false"
+               aria-hidden="true" tabindex="-1">
+      </div>
     </div>
     <div class="clue-lists">
       <div class="clue-col"><h3>Across</h3><ol id="list-across"></ol></div>
@@ -442,6 +458,27 @@ function selectCell(r, c, toggle) {
   }
   state.sel = { r: r, c: c };
   paintGrid(); updateActiveClue(); startTimerIfNeeded();
+  focusMobileInput();
+}
+
+// Positions the hidden input exactly over the selected cell (so iOS
+// doesn't jump-scroll the page to bring a focused input into view --
+// it's already where the action is) and focuses it, which is what
+// actually triggers the device's own keyboard. Has to be called
+// synchronously from a real click/tap handler -- browsers (iOS Safari
+// especially) refuse to open the keyboard for a focus() call that isn't
+// directly inside a user-gesture event handler.
+function focusMobileInput() {
+  var input = document.getElementById('mobile-input');
+  var cellEl = document.querySelector('.xcell.selected');
+  if (cellEl) {
+    input.style.left = cellEl.offsetLeft + 'px';
+    input.style.top = cellEl.offsetTop + 'px';
+    input.style.width = cellEl.offsetWidth + 'px';
+    input.style.height = cellEl.offsetHeight + 'px';
+  }
+  input.value = '';
+  input.focus();
 }
 
 function clueFor(dir, number) { return state.puzzle.clues[dir][String(number)]; }
@@ -543,21 +580,62 @@ function handleArrow(key) {
   if (nr >= 0 && nr < rows && nc >= 0 && nc < cols && grid[nr][nc] !== '#') { state.sel = { r: nr, c: nc }; paintGrid(); updateActiveClue(); }
 }
 
+// Shared by both entry paths (physical keyboard's keydown below, and the
+// mobile-input's 'input' event further down) so a letter/backspace does
+// exactly the same thing regardless of which keyboard produced it.
+function fillCurrentCell(letter) {
+  state.values[state.sel.r][state.sel.c] = letter;
+  paintGrid(); startTimerIfNeeded(); moveToNextCellInSlot(); checkCompletion();
+}
+function backspaceCurrentCell() {
+  if (state.values[state.sel.r][state.sel.c]) { state.values[state.sel.r][state.sel.c] = ''; paintGrid(); }
+  else { moveToPrevCellInSlot(); state.values[state.sel.r][state.sel.c] = ''; paintGrid(); }
+}
+
 document.addEventListener('keydown', function (e) {
   if (!document.getElementById('name-overlay').classList.contains('hidden')) return;
   if (state.finished || !state.puzzle || state.paused) return;
   var key = e.key;
+  // Letters/backspace are skipped here when the hidden mobile-input has
+  // focus -- it's a real <input>, so typing into it (physical keyboard
+  // OR the device's on-screen one) also fires a native 'input' event,
+  // handled below. Without this guard, a physical keyboard would double-
+  // process every letter once a cell had been tapped (mobile-input
+  // focused) and then typed on directly (e.g. testing on a laptop with a
+  // touchscreen, or just clicking a cell then typing).
+  var viaMobileInput = e.target === document.getElementById('mobile-input');
   if (/^[a-zA-Z]$/.test(key)) {
-    state.values[state.sel.r][state.sel.c] = key.toUpperCase();
-    paintGrid(); startTimerIfNeeded(); moveToNextCellInSlot(); checkCompletion();
+    if (!viaMobileInput) fillCurrentCell(key.toUpperCase());
     e.preventDefault();
   } else if (key === 'Backspace') {
-    if (state.values[state.sel.r][state.sel.c]) { state.values[state.sel.r][state.sel.c] = ''; paintGrid(); }
-    else { moveToPrevCellInSlot(); state.values[state.sel.r][state.sel.c] = ''; paintGrid(); }
+    if (!viaMobileInput) backspaceCurrentCell();
     e.preventDefault();
   } else if (key.indexOf('Arrow') === 0) { handleArrow(key); e.preventDefault(); }
   else if (key === 'Tab') { jumpToAdjacentSlot(e.shiftKey ? -1 : 1); e.preventDefault(); }
   else if (key === ' ') { selectCell(state.sel.r, state.sel.c, true); e.preventDefault(); }
+});
+
+// What actually receives characters from a mobile on-screen keyboard.
+// Deliberately NOT reading e.key/keydown for this -- many mobile
+// keyboards (Android's predictive/Gboard-style ones especially) don't
+// send usable keydown events at all (key comes through as "Unidentified"
+// / keyCode 229, a long-standing, well-known IME quirk). The 'input'
+// event and its value are the only reliable source of what was actually
+// typed on those keyboards.
+document.getElementById('mobile-input').addEventListener('input', function (e) {
+  if (!document.getElementById('name-overlay').classList.contains('hidden')) return;
+  if (state.finished || !state.puzzle || state.paused) return;
+
+  if (e.inputType && e.inputType.indexOf('delete') === 0) {
+    backspaceCurrentCell();
+  } else {
+    // Take the last character typed rather than assuming exactly one --
+    // covers autocomplete/predictive-text insertions that could land
+    // more than one character in a single input event despite maxlength.
+    var letter = this.value.slice(-1);
+    if (/^[a-zA-Z]$/.test(letter)) fillCurrentCell(letter.toUpperCase());
+  }
+  this.value = '';
 });
 
 document.getElementById('prev-clue').addEventListener('click', function () { jumpToAdjacentSlot(-1); });

@@ -218,7 +218,12 @@
 
 <canvas id="confetti-canvas"></canvas>
 
-<script type="module" src="assets/leaderboard.js"></script>
+<!-- ?v= is a manually-bumped cache-buster -- bump it any time
+     leaderboard.js changes. See the matching comment in index.html for
+     why: a stale cached copy from before the Firestore rewrite kept
+     running after the file changed on disk, breaking the new
+     .then()-based caller code with "not a function". -->
+<script type="module" src="assets/leaderboard.js?v=2026-08-19-1"></script>
 <script src="assets/confetti.js"></script>
 <script>
 var TITLES = { mini: 'The Mini', midi: 'The Midi', crossword: 'The Crossword' };

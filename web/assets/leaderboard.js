@@ -39,45 +39,46 @@ function formatTime(ms) {
   return m + ":" + (s < 10 ? "0" : "") + s;
 }
 
-// Returns a Promise<Array<{name, ms}>>, sorted fastest-first.
+// Returns a Promise<Array<{name, ms}>>, sorted fastest-first. Deliberately
+// does NOT catch its own errors -- an earlier version did, returning []
+// on any failure, which made "the query itself is broken" indistinguishable
+// from "genuinely nobody has solved this yet." That's a real difference:
+// one is a config problem to fix, the other is expected on a fresh board.
+// Callers (solve.html, index.html) are the ones who decide how to show a
+// failure, via .catch() -- see finishPuzzle()'s "Leaderboard unavailable
+// right now" for the pattern.
 //
 // Note: this query (equality on puzzleId + orderBy ms) needs a Firestore
 // composite index. The FIRST time this runs against a fresh project,
-// Firestore will reject it with an error containing a direct "create
-// this index" link -- click it once, wait ~a minute, and it works from
-// then on. This is normal Firestore setup, not a bug.
+// Firestore rejects it with an error containing a direct "create this
+// index" link -- click it once, wait ~a minute, and it works from then
+// on. This is normal Firestore setup, not a bug -- but it WILL surface
+// as a rejected promise now instead of silently, which is the point.
 async function getBoard(puzzleId) {
-  try {
-    const q = query(
-      collection(db, ENTRIES),
-      where("puzzleId", "==", puzzleId),
-      orderBy("ms", "asc"),
-      limit(BOARD_LIMIT)
-    );
-    const snap = await getDocs(q);
-    return snap.docs.map((d) => ({ id: d.id, name: d.data().name, ms: d.data().ms }));
-  } catch (e) {
-    console.error("[leaderboard] getBoard failed:", e);
-    return [];
-  }
+  const q = query(
+    collection(db, ENTRIES),
+    where("puzzleId", "==", puzzleId),
+    orderBy("ms", "asc"),
+    limit(BOARD_LIMIT)
+  );
+  const snap = await getDocs(q);
+  return snap.docs.map((d) => ({ id: d.id, name: d.data().name, ms: d.data().ms }));
 }
 
-// Writes a new entry, then returns a Promise<1-based rank>.
+// Writes a new entry, then returns a Promise<1-based rank>. Also does not
+// swallow errors -- a write or read failure here should surface as a
+// rejected promise, not silently report "rank 1" or "rank 0" as if it
+// had actually succeeded.
 async function submitTime(puzzleId, name, ms) {
-  try {
-    const docRef = await addDoc(collection(db, ENTRIES), {
-      puzzleId,
-      name: String(name).slice(0, 24),
-      ms,
-      at: serverTimestamp(),
-    });
-    const board = await getBoard(puzzleId);
-    const idx = board.findIndex((row) => row.id === docRef.id);
-    return idx === -1 ? board.length : idx + 1;
-  } catch (e) {
-    console.error("[leaderboard] submitTime failed:", e);
-    return 1; // fail open on rank display -- the entry may or may not have saved; don't block the completion UI over it
-  }
+  const docRef = await addDoc(collection(db, ENTRIES), {
+    puzzleId,
+    name: String(name).slice(0, 24),
+    ms,
+    at: serverTimestamp(),
+  });
+  const board = await getBoard(puzzleId);
+  const idx = board.findIndex((row) => row.id === docRef.id);
+  return idx === -1 ? board.length : idx + 1;
 }
 
 window.NBTLeaderboard = { getBoard, submitTime, formatTime };

@@ -236,7 +236,15 @@
   </div>
 </div>
 
-<script type="module" src="assets/leaderboard.js"></script>
+<!-- ?v= is a manually-bumped cache-buster -- bump it any time
+     leaderboard.js changes. Unlike the puzzle JSON (fetched via JS, so
+     Date.now() could be appended dynamically), this is a static <script
+     src>, so there's no automatic way to force a fresh copy -- this bit
+     us for real: a stale cached leaderboard.js (from before the
+     Firestore rewrite) kept running after the file had changed, and its
+     old synchronous submitTime() broke the new .then()-based caller
+     code with "not a function". -->
+<script type="module" src="assets/leaderboard.js?v=2026-08-19-1"></script>
 <script>
   // ---- decorative grid icons (same authentic patterns as the design
   // pitch -- Mini's is the project's actual original 5x5 black-square
@@ -294,24 +302,32 @@
     var rowsEl = document.getElementById('lb-rows');
     // getBoard() is a Promise now (Firestore is a network read, not
     // synchronous localStorage) -- everything downstream that used the
-    // board just moved inside this .then().
+    // board just moved inside this .then(). The .catch() matters: an
+    // earlier version of getBoard() swallowed its own errors and
+    // resolved with [] either way, which made a genuinely broken query
+    // (e.g. a missing Firestore index) look identical to "nobody has
+    // solved yet" -- two very different situations that need different
+    // messages.
     window.NBTLeaderboard.getBoard(puzzleId).then(function (board) {
-    if (!board.length) {
-      rowsEl.innerHTML = '<div class="lb-empty">No one has solved today’s Mini yet. Be the first.</div>';
-      return;
-    }
-    rowsEl.innerHTML = '';
-    board.slice(0, 5).forEach(function (row, i) {
-      var div = document.createElement('div');
-      div.className = 'lb-row';
-      div.dataset.rank = i + 1;
-      div.innerHTML =
-        '<span class="lb-rank">' + (i + 1) + '</span>' +
-        '<span class="lb-name">' + row.name + '</span>' +
-        '<span class="lb-time">' + window.NBTLeaderboard.formatTime(row.ms) + '</span>';
-      rowsEl.appendChild(div);
+      if (!board.length) {
+        rowsEl.innerHTML = '<div class="lb-empty">No one has solved today’s Mini yet. Be the first.</div>';
+        return;
+      }
+      rowsEl.innerHTML = '';
+      board.slice(0, 5).forEach(function (row, i) {
+        var div = document.createElement('div');
+        div.className = 'lb-row';
+        div.dataset.rank = i + 1;
+        div.innerHTML =
+          '<span class="lb-rank">' + (i + 1) + '</span>' +
+          '<span class="lb-name">' + row.name + '</span>' +
+          '<span class="lb-time">' + window.NBTLeaderboard.formatTime(row.ms) + '</span>';
+        rowsEl.appendChild(div);
+      });
+    }).catch(function (err) {
+      console.error('[leaderboard] could not load:', err);
+      rowsEl.innerHTML = '<div class="lb-empty">Leaderboard unavailable right now.</div>';
     });
-    }); // end getBoard().then()
   }
 
   document.getElementById('how-to-play-btn').addEventListener('click', function () {
